@@ -1,7 +1,7 @@
 # CRDialogue
 An exploration of the dialogue from Critical Role
 
-### Does Liam play the saddest bois? A word sentiment analysis of cast dialoge
+### Does Liam play the saddest bois? A word sentiment analysis of cast dialogue
 
 Liam has a reputation for playing sad characters, but is this deserved? Does his dialogue contain more sad words than the rest of the cast?
 
