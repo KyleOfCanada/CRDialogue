@@ -2,6 +2,7 @@ library(tidyverse)
 library(tidytext)
 library(textdata)
 library(here)
+library(knitr)
 
 #### load tidy data ####
 
@@ -56,7 +57,7 @@ posNeg <- datBing %>%
               names_from = sentiment,
               values_from = n) %>% 
   mutate(ratio = positive / negative) %>% 
-  arrange(ratio)
+  arrange(desc(ratio))
 
 datAfinn <- dat %>% 
   filter(mainCast) %>% 
@@ -103,6 +104,15 @@ ggsave(here('plots', 'positiveNegativePlot.png'),
        width = 8.5,
        height = 5)
 
+posNeg %>% 
+  mutate(name = str_to_title(name)) %>% 
+  select(Name = name,
+         Negative = negative,
+         Positive = positive,
+         Ratio = ratio) %>% 
+  kable(format = 'pipe',
+        digits = 2)
+
 #### joy vs  sadness ####
 
 joySad <- datNRC %>% 
@@ -134,7 +144,7 @@ plotJoySad <- joySad %>%
   scale_y_continuous(expand = expansion(mult = c(0, .1))) +
   labs(x = NULL,
        y = 'Joy to Sadness Word Ratio',
-       title = 'Joyfull versus Sadness Sentiment') +
+       title = 'Joyful versus Sadness Sentiment') +
   theme(axis.text.y = element_blank(),
         axis.text.x = element_text(colour = 'white'),
         axis.title = element_text(colour = 'white'),
@@ -149,3 +159,12 @@ ggsave(here('plots', 'joySadPlot.png'),
        plot = plotJoySad,
        width = 8.5,
        height = 5)
+
+joySad %>% 
+  mutate(name = str_to_title(name)) %>% 
+  select(Name = name,
+         Joy = joy,
+         Sadness = sadness,
+         Ratio = ratio) %>% 
+  kable(format = 'pipe',
+        digits = 2)
