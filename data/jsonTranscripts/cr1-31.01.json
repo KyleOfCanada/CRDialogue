@@ -1,0 +1,5842 @@
+{
+  "metadata": {
+    "campaign": "1",
+    "episode": "31.01",
+    "title": "Gunpowder Plot, pt. 2",
+    "html_file": "html/cr1-31.01.html"
+  },
+  "lines": [
+    {
+      "name": "MARISHA",
+      "ts": {
+        "h": 0,
+        "m": "0",
+        "s": 0
+      },
+      "text": "And I cast my Skywrite spell-- ew, I just spit-- and I use the smoke in the distance and as it's rising up into the sky, start drawing out the de Rolo family crest in the smoke. "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "0",
+        "s": 16
+      },
+      "text": "Okay. You begin to take the plume of smoke and filter into the dark rain clouds and you make the smoke go to a thicker, thicker black and take the next few moments to begin sculpting in the air until eventually we have a very well-defined de Rolo crest now staring down at the entire city of Whitestone. "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 0,
+        "m": "0",
+        "s": 34
+      },
+      "text": "Oh! Something's happening! Something's happening in the sky! "
+    },
+    {
+      "name": "MARISHA",
+      "ts": {
+        "h": 0,
+        "m": "0",
+        "s": 37
+      },
+      "text": "That's me. "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 0,
+        "m": "0",
+        "s": 38
+      },
+      "text": "Something-- I must flee! (laughter) "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "0",
+        "s": 46
+      },
+      "text": "All right. Investigation checks from both of you. "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "0",
+        "s": 53
+      },
+      "text": "Okay. "
+    },
+    {
+      "name": "TRAVIS",
+      "ts": {
+        "h": 0,
+        "m": "0",
+        "s": 55
+      },
+      "text": "Did I find anything on Smash-Face? "
+    },
+    {
+      "name": "LIAM",
+      "ts": {
+        "h": 0,
+        "m": "0",
+        "s": 57
+      },
+      "text": "(sighs) That's what you rolled the last time. "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "0",
+        "s": 59
+      },
+      "text": "I know! "
+    },
+    {
+      "name": "TALIESIN",
+      "ts": {
+        "h": 0,
+        "m": "1",
+        "s": 0
+      },
+      "text": "16. "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "1",
+        "s": 1
+      },
+      "text": "I've got to put this one away for a while. "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "1",
+        "s": 3
+      },
+      "text": "What did you roll? "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "1",
+        "s": 4
+      },
+      "text": "I rolled a nine. "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "1",
+        "s": 6
+      },
+      "text": "Okay. The two of you take a while upstairs looking about the rooms. You manage to acquire from just some of the local bits of cabinets and dust, you gather about 230 gold pieces. "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "1",
+        "s": 20
+      },
+      "text": "230? "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "1",
+        "s": 22
+      },
+      "text": "There is a nice jewelry box that seems to contain most of the jewels and gems that this individual likes. "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "1",
+        "s": 31
+      },
+      "text": "I'm going to take the whole jewelry box and sort through it later. "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "1",
+        "s": 33
+      },
+      "text": "Okay. So say a box of Tylieri's jewelry would be what you've marked down. "
+    },
+    {
+      "name": "TALIESIN",
+      "ts": {
+        "h": 0,
+        "m": "1",
+        "s": 42
+      },
+      "text": "That won't be confusing at all. "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "1",
+        "s": 43
+      },
+      "text": "There you go. You do notice, however, that's all you're able to find for the most part, other than some few bits of clothing and outfit. The master bedroom has no bed. "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "1",
+        "s": 51
+      },
+      "text": "Does he sleep in a coffin? "
+    },
+    {
+      "name": "TALIESIN",
+      "ts": {
+        "h": 0,
+        "m": "1",
+        "s": 54
+      },
+      "text": "We're going to finish searching downstairs and then find the entrance to the-- "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "1",
+        "s": 58
+      },
+      "text": "Okay. "
+    },
+    {
+      "name": "LIAM",
+      "ts": {
+        "h": 0,
+        "m": "1",
+        "s": 59
+      },
+      "text": "I'd like to wind my way up there, as well. "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "2",
+        "s": 2
+      },
+      "text": "Okay, as you make your way up there you notice them stepping out. "
+    },
+    {
+      "name": "LIAM",
+      "ts": {
+        "h": 0,
+        "m": "2",
+        "s": 5
+      },
+      "text": "Yeah. I'm still curious. I want to go have a look as well. "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "2",
+        "s": 8
+      },
+      "text": "Go for it. Investigation. "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "2",
+        "s": 9
+      },
+      "text": "That's better, thank you. "
+    },
+    {
+      "name": "LIAM",
+      "ts": {
+        "h": 0,
+        "m": "2",
+        "s": 11
+      },
+      "text": "16. "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "2",
+        "s": 13
+      },
+      "text": "16? You look through the room. Most everything of interest has already been picked clean. This room also doesn't seem to see much use other than the clothing that's in there. This room is used for dressing and presentational purposes but other than that, as a bedroom, it's pretty useless. As you guys go downstairs, we'll say for the sake of brevity you take a little bit of time to start looking through. You know you're a little pressed for time because you can feel the energy in the town begin to rise and you start hearing noises. You keeping an eye out? "
+    },
+    {
+      "name": "MARISHA",
+      "ts": {
+        "h": 0,
+        "m": "2",
+        "s": 41
+      },
+      "text": "Yeah. "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "2",
+        "s": 42
+      },
+      "text": "The people that rush into the rooms are now rushing back out, some of them wearing leather tunics and small bits of armor, their weapons gathered, and they're forming small bands. "
+    },
+    {
+      "name": "MARISHA",
+      "ts": {
+        "h": 0,
+        "m": "2",
+        "s": 49
+      },
+      "text": "I come over the speakers once again, the ear pieces. \"I think it's time to go. Whenever you \"guys are ready, I want to light this bitch up.\" "
+    },
+    {
+      "name": "TRAVIS",
+      "ts": {
+        "h": 0,
+        "m": "2",
+        "s": 57
+      },
+      "text": "We need to check all the rooms that go downstairs first. "
+    },
+    {
+      "name": "MARISHA",
+      "ts": {
+        "h": 0,
+        "m": "2",
+        "s": 59
+      },
+      "text": "All right, quick. "
+    },
+    {
+      "name": "TRAVIS",
+      "ts": {
+        "h": 0,
+        "m": "3",
+        "s": 0
+      },
+      "text": "\"Got an empty house.\" I run out to the door to the left. To the uncovered areas. "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "3",
+        "s": 5
+      },
+      "text": "It leads into what looks like a small study or some sort of an office room. A big blue rug, a desk with a chair, some papers strewn about. "
+    },
+    {
+      "name": "TRAVIS",
+      "ts": {
+        "h": 0,
+        "m": "3",
+        "s": 22
+      },
+      "text": "Can I grab the rug and yank it? "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "3",
+        "s": 24
+      },
+      "text": "Yeah, pull the rug off, reveals a hatch. "
+    },
+    {
+      "name": "TRAVIS",
+      "ts": {
+        "h": 0,
+        "m": "3",
+        "s": 27
+      },
+      "text": "(excited shouting) I found a hatch! "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "3",
+        "s": 29
+      },
+      "text": "(cries out in pain) No need to yell! "
+    },
+    {
+      "name": "TRAVIS",
+      "ts": {
+        "h": 0,
+        "m": "3",
+        "s": 32
+      },
+      "text": "Oh sorry. (quieter) I found a hatch. "
+    },
+    {
+      "name": "TALIESIN",
+      "ts": {
+        "h": 0,
+        "m": "3",
+        "s": 34
+      },
+      "text": "Quick, I just want to do a quick round of the downstairs room before going to the hatch. "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "3",
+        "s": 38
+      },
+      "text": "And then beyond that, you find a room that's pretty bland, with a staircase that leads down into what was once servants' quarters that has been converted into a torture room. "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "3",
+        "s": 57
+      },
+      "text": "Oh, lovely. "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "3",
+        "s": 58
+      },
+      "text": "It's a little nicer in its presentation and tools than the duergar torture room that you encountered in the Underdark, but this looks to be like Tylieri had a definite interest in entertaining unwanted guests. "
+    },
+    {
+      "name": "TALIESIN",
+      "ts": {
+        "h": 0,
+        "m": "4",
+        "s": 14
+      },
+      "text": "Okay. "
+    },
+    {
+      "name": "TRAVIS",
+      "ts": {
+        "h": 0,
+        "m": "4",
+        "s": 16
+      },
+      "text": "Vax or Vex, will you come check this hatch for boobies? (laughter) "
+    },
+    {
+      "name": "LIAM",
+      "ts": {
+        "h": 0,
+        "m": "4",
+        "s": 22
+      },
+      "text": "I jog on down. "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "4",
+        "s": 24
+      },
+      "text": "All right, make a perception check. "
+    },
+    {
+      "name": "LIAM",
+      "ts": {
+        "h": 0,
+        "m": "4",
+        "s": 26
+      },
+      "text": "Yeah. That's a 23. "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "4",
+        "s": 30
+      },
+      "text": "Yeah, it does not appear to be trapped. "
+    },
+    {
+      "name": "TRAVIS",
+      "ts": {
+        "h": 0,
+        "m": "4",
+        "s": 32
+      },
+      "text": "No boobies. "
+    },
+    {
+      "name": "LIAM",
+      "ts": {
+        "h": 0,
+        "m": "4",
+        "s": 33
+      },
+      "text": "Okay. You want to open that, big guy? "
+    },
+    {
+      "name": "TRAVIS",
+      "ts": {
+        "h": 0,
+        "m": "4",
+        "s": 35
+      },
+      "text": "Yeah! (growls) "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "4",
+        "s": 37
+      },
+      "text": "(vroom) The hatch comes up. There is no ladder; it's just a ten-foot drop down into a basement. "
+    },
+    {
+      "name": "TRAVIS",
+      "ts": {
+        "h": 0,
+        "m": "4",
+        "s": 45
+      },
+      "text": "Okay, I jump. "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "4",
+        "s": 47
+      },
+      "text": "It's very musty. However, you do see in the far corner there is a pad of fresh earth set up, and there is a dark box. "
+    },
+    {
+      "name": "TRAVIS",
+      "ts": {
+        "h": 0,
+        "m": "4",
+        "s": 57
+      },
+      "text": "Um. "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "4",
+        "s": 59
+      },
+      "text": "About eight feet long. "
+    },
+    {
+      "name": "LIAM",
+      "ts": {
+        "h": 0,
+        "m": "5",
+        "s": 0
+      },
+      "text": "With the Flametongue dagger out for light. "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "5",
+        "s": 4
+      },
+      "text": "Okay. The room lights up a little bit and you can see across the way there is a not super-detailed, but a fairly well-crafted coffin on the opposite side of the room. "
+    },
+    {
+      "name": "TRAVIS",
+      "ts": {
+        "h": 0,
+        "m": "5",
+        "s": 12
+      },
+      "text": "Ooh! I bet there's treasure in there! "
+    },
+    {
+      "name": "LIAM",
+      "ts": {
+        "h": 0,
+        "m": "5",
+        "s": 16
+      },
+      "text": "You might be right. Yeah, let's go have a look. "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "5",
+        "s": 19
+      },
+      "text": "Is there treasure? Did you find treasure? "
+    },
+    {
+      "name": "LIAM",
+      "ts": {
+        "h": 0,
+        "m": "5",
+        "s": 21
+      },
+      "text": "That's a 20. "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "5",
+        "s": 27
+      },
+      "text": "Okay. The coffin does not appear to be trapped? "
+    },
+    {
+      "name": "TRAVIS",
+      "ts": {
+        "h": 0,
+        "m": "5",
+        "s": 32
+      },
+      "text": "Can I open it? "
+    },
+    {
+      "name": "MARISHA",
+      "ts": {
+        "h": 0,
+        "m": "5",
+        "s": 34
+      },
+      "text": "He said that with a question mark. "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "5",
+        "s": 35
+      },
+      "text": "It's always fun to do that. "
+    },
+    {
+      "name": "TRAVIS",
+      "ts": {
+        "h": 0,
+        "m": "5",
+        "s": 37
+      },
+      "text": "Well, should I just smash it? "
+    },
+    {
+      "name": "LIAM",
+      "ts": {
+        "h": 0,
+        "m": "5",
+        "s": 41
+      },
+      "text": "I really feel like this could be-- "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "5",
+        "s": 43
+      },
+      "text": "Smash it! "
+    },
+    {
+      "name": "TRAVIS",
+      "ts": {
+        "h": 0,
+        "m": "5",
+        "s": 45
+      },
+      "text": "Three, two. Grog smashes. "
+    },
+    {
+      "name": "LIAM",
+      "ts": {
+        "h": 0,
+        "m": "5",
+        "s": 50
+      },
+      "text": "Little bit. Or try to. "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "5",
+        "s": 53
+      },
+      "text": "Okay. (boof) The lid flies off and then slams on the ground. A smell hits you that's just like musty old mildewed earth. The inside of the coffin is, it's lined with like a fine purplish velvet material, the smell quickly fades. It looks like there are some small baubles in there, keepsakes. There is what looks to be a cape or a cloak that is laid across the bottom of this for comfort. "
+    },
+    {
+      "name": "LIAM",
+      "ts": {
+        "h": 0,
+        "m": "6",
+        "s": 24
+      },
+      "text": "Roll it up. Put it into my satchel. I'm going to take a dagger out and I want to cut all the way up through that purple velvet. Just see, just in case. "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "6",
+        "s": 32
+      },
+      "text": "Rummage through underneath. It appears to be the back of the box. "
+    },
+    {
+      "name": "TALIESIN",
+      "ts": {
+        "h": 0,
+        "m": "6",
+        "s": 39
+      },
+      "text": "I'm going to check his desk upstairs for anything interesting. "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "6",
+        "s": 41
+      },
+      "text": "Okay. Want to make an investigation check? "
+    },
+    {
+      "name": "TALIESIN",
+      "ts": {
+        "h": 0,
+        "m": "6",
+        "s": 45
+      },
+      "text": "Natural 20. "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "6",
+        "s": 47
+      },
+      "text": "So when it comes to, you know, enchanting a teleportation circle permanently somewhere or for traps or things-- not actual objects but actually enchanting anything made of stonework. It's easier to enchant, and that's why the whitestone of this area is sought after and a good trade element. So there's notes about that. But the stone trade has been halted, all stone has continued to be mined, but it's not being transported. "
+    },
+    {
+      "name": "TRAVIS",
+      "ts": {
+        "h": 0,
+        "m": "8",
+        "s": 3
+      },
+      "text": "Is the desk made out of the stone? "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "8",
+        "s": 6
+      },
+      "text": "No, there's just notes about it. So all the whitestone that is being mined is not being exported. It's being kept here, somewhere. "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "8",
+        "s": 14
+      },
+      "text": "They're making something big. "
+    },
+    {
+      "name": "TALIESIN",
+      "ts": {
+        "h": 0,
+        "m": "8",
+        "s": 15
+      },
+      "text": "They're making something big. "
+    },
+    {
+      "name": "LIAM",
+      "ts": {
+        "h": 0,
+        "m": "8",
+        "s": 17
+      },
+      "text": "I think we need to get out of here. "
+    },
+    {
+      "name": "TRAVIS",
+      "ts": {
+        "h": 0,
+        "m": "8",
+        "s": 19
+      },
+      "text": "I was going to ask, are you good with the coffin? "
+    },
+    {
+      "name": "LIAM",
+      "ts": {
+        "h": 0,
+        "m": "8",
+        "s": 21
+      },
+      "text": "Yeah. "
+    },
+    {
+      "name": "TRAVIS",
+      "ts": {
+        "h": 0,
+        "m": "8",
+        "s": 24
+      },
+      "text": "Okay. I smash the shit out of it, in an effort to see what's underneath. "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "8",
+        "s": 27
+      },
+      "text": "It got scattered by druid Sunbeam and destroyed, and the coffin is left in ruins. You do-- even you, Grog-- absorb the fact that when a vampire goes to mist form, you get the feeling that this is the home it needs to come to, to try and survive. "
+    },
+    {
+      "name": "TRAVIS",
+      "ts": {
+        "h": 0,
+        "m": "9",
+        "s": 1
+      },
+      "text": "Not anymore. "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "9",
+        "s": 3
+      },
+      "text": "Not anymore. Not that one. "
+    },
+    {
+      "name": "MARISHA",
+      "ts": {
+        "h": 0,
+        "m": "9",
+        "s": 4
+      },
+      "text": "Do I see anyone coming? "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "9",
+        "s": 7
+      },
+      "text": "Oh. You see another zombie giant coming up the way. You can see people attacking it, it's just thrashing them about, but this one seems less bothered by the group and is now moving towards a specific area, moving towards the fiery plume in the distance. They're all gathering in that direction. "
+    },
+    {
+      "name": "MARISHA",
+      "ts": {
+        "h": 0,
+        "m": "9",
+        "s": 22
+      },
+      "text": "But no one seems to be rushing towards this house? "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "9",
+        "s": 24
+      },
+      "text": "Not at the moment, no. "
+    },
+    {
+      "name": "TRAVIS",
+      "ts": {
+        "h": 0,
+        "m": "9",
+        "s": 25
+      },
+      "text": "This one's not on fire. Yet. "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "9",
+        "s": 27
+      },
+      "text": "All right, you all gather, you can hear the rainstorm itself is coming down in sheets. What do you want to do? "
+    },
+    {
+      "name": "TRAVIS",
+      "ts": {
+        "h": 0,
+        "m": "9",
+        "s": 35
+      },
+      "text": "Light this candle! "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "9",
+        "s": 36
+      },
+      "text": "Should we light this on fire, too? "
+    },
+    {
+      "name": "TALIESIN",
+      "ts": {
+        "h": 0,
+        "m": "9",
+        "s": 38
+      },
+      "text": "Burn it to the ground. "
+    },
+    {
+      "name": "MARISHA",
+      "ts": {
+        "h": 0,
+        "m": "9",
+        "s": 40
+      },
+      "text": "\"Everyone out.\" And I start casting a Flaming Sphere. "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "9",
+        "s": 44
+      },
+      "text": "Okay. "
+    },
+    {
+      "name": "TRAVIS",
+      "ts": {
+        "h": 0,
+        "m": "9",
+        "s": 45
+      },
+      "text": "We're out by now. "
+    },
+    {
+      "name": "MARISHA",
+      "ts": {
+        "h": 0,
+        "m": "9",
+        "s": 46
+      },
+      "text": "Everyone out. "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "9",
+        "s": 48
+      },
+      "text": "You guys all step out into the rain (whooshes) pouring down. What bits of guard blood that have been pressed against you washes off. "
+    },
+    {
+      "name": "TRAVIS",
+      "ts": {
+        "h": 0,
+        "m": "9",
+        "s": 53
+      },
+      "text": "Aw. "
+    },
+    {
+      "name": "MARISHA",
+      "ts": {
+        "h": 0,
+        "m": "9",
+        "s": 55
+      },
+      "text": "I peek in this foyer. And just (boof), right in the middle, and take a minute to move it all around. "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "10",
+        "s": 3
+      },
+      "text": "A Flaming Sphere begins to corkscrew around this room, up over the banister, up to the upper area, and like an artist, you paint this entire room with flame until the entire interior of this main foyer is just an inferno. You can hear the flames licking and the light is very bright. You end up backing up and you can see people, unarmored folk in nearby homes that are pressed up against their windows watching this happen and whispering to each other. The children, those that are kept guarded and are not part of this rebellion, they are watching this with smiles. "
+    },
+    {
+      "name": "MARISHA",
+      "ts": {
+        "h": 0,
+        "m": "10",
+        "s": 33
+      },
+      "text": "Let's go. "
+    },
+    {
+      "name": "TALIESIN",
+      "ts": {
+        "h": 0,
+        "m": "10",
+        "s": 38
+      },
+      "text": "Head back to the curiosity shop. "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "10",
+        "s": 40
+      },
+      "text": "Yeah, sneaky, stealthing. "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "10",
+        "s": 42
+      },
+      "text": "Okay. As you guys run off into the alley behind-- "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "10",
+        "s": 44
+      },
+      "text": "Pass Without a Trace I cast on all of us. "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "10",
+        "s": 46
+      },
+      "text": "Okay. How many more spells do you have at that level? Because you used it several times today. "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "10",
+        "s": 51
+      },
+      "text": "That's a 1st-level. 2nd-level, but I'm fine. "
+    },
+    {
+      "name": "TALIESIN",
+      "ts": {
+        "h": 0,
+        "m": "10",
+        "s": 55
+      },
+      "text": "Back to the alcove, then? "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "11",
+        "s": 6
+      },
+      "text": "A quick break, I know I always say that, I'm not going to say five minutes, but. "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 0,
+        "m": "11",
+        "s": 8
+      },
+      "text": "This one's a real quick break. "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "11",
+        "s": 10
+      },
+      "text": "We'll take it real quick because we want to try and get through as much of the story before we get to Critmas. "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "11",
+        "s": 13
+      },
+      "text": "Critmas! "
+    },
+    {
+      "name": "LIAM",
+      "ts": {
+        "h": 0,
+        "m": "11",
+        "s": 14
+      },
+      "text": "Critmas! Crimmas. "
+    },
+    {
+      "name": "TALIESIN",
+      "ts": {
+        "h": 0,
+        "m": "11",
+        "s": 15
+      },
+      "text": "Oh dear god. "
+    },
+    {
+      "name": "TRAVIS",
+      "ts": {
+        "h": 0,
+        "m": "11",
+        "s": 16
+      },
+      "text": "It's going to be a thing. "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "11",
+        "s": 17
+      },
+      "text": "Which is going to, which is going to take some time tonight. Be back here in a few minutes guys, we'll see you in a sec. "
+    },
+    {
+      "name": "TRAVIS",
+      "ts": {
+        "h": 0,
+        "m": "11",
+        "s": 19
+      },
+      "text": "Pizza! [break] "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "25",
+        "s": 30
+      },
+      "text": "Welcome back. So. Jumping back into the chaos, the party has scattered back into the rainstorm. I would like everyone to make a stealth check. "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "25",
+        "s": 42
+      },
+      "text": "Oh, right. Plus ten for everybody. "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "25",
+        "s": 43
+      },
+      "text": "Plus ten. "
+    },
+    {
+      "name": "LIAM",
+      "ts": {
+        "h": 0,
+        "m": "25",
+        "s": 45
+      },
+      "text": "I did all right. "
+    },
+    {
+      "name": "TALIESIN",
+      "ts": {
+        "h": 0,
+        "m": "25",
+        "s": 48
+      },
+      "text": "I rolled my disadvantage. "
+    },
+    {
+      "name": "TRAVIS",
+      "ts": {
+        "h": 0,
+        "m": "25",
+        "s": 52
+      },
+      "text": "Does it matter on a one? "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "25",
+        "s": 54
+      },
+      "text": "All right. "
+    },
+    {
+      "name": "TRAVIS",
+      "ts": {
+        "h": 0,
+        "m": "25",
+        "s": 57
+      },
+      "text": "Ten? "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "25",
+        "s": 59
+      },
+      "text": "Total ten? "
+    },
+    {
+      "name": "TRAVIS",
+      "ts": {
+        "h": 0,
+        "m": "26",
+        "s": 0
+      },
+      "text": "Total ten. 11. "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "26",
+        "s": 2
+      },
+      "text": "11, technically. "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "26",
+        "s": 4
+      },
+      "text": "Okay. "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "26",
+        "s": 5
+      },
+      "text": "29. "
+    },
+    {
+      "name": "LIAM",
+      "ts": {
+        "h": 0,
+        "m": "26",
+        "s": 7
+      },
+      "text": "43. "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 0,
+        "m": "26",
+        "s": 8
+      },
+      "text": "I'm not there. "
+    },
+    {
+      "name": "TRAVIS",
+      "ts": {
+        "h": 0,
+        "m": "26",
+        "s": 10
+      },
+      "text": "43? "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "26",
+        "s": 12
+      },
+      "text": "Well, you're making your own stealth, though. You're invisible, so just roll twice. "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 0,
+        "m": "26",
+        "s": 18
+      },
+      "text": "Natural 20. "
+    },
+    {
+      "name": "MARISHA",
+      "ts": {
+        "h": 0,
+        "m": "26",
+        "s": 19
+      },
+      "text": "28. "
+    },
+    {
+      "name": "TALIESIN",
+      "ts": {
+        "h": 0,
+        "m": "26",
+        "s": 20
+      },
+      "text": "30. "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "26",
+        "s": 22
+      },
+      "text": "Okay. So making up for the bounding chaos that is Grog throughout the city, you manage to still make your way largely as a group stealthed to-- are you heading to the alcove, you said? "
+    },
+    {
+      "name": "TALIESIN",
+      "ts": {
+        "h": 0,
+        "m": "26",
+        "s": 34
+      },
+      "text": "That's where we had our little crash-base set up, right? "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "26",
+        "s": 38
+      },
+      "text": "Occasionally, darting past the streets, you see militant occupants of Whitestone: armored, rushing through, shouting orders to each other, some coming back wounded and helping their friends back. The midday rebellion has definitely started, and you get the sense that the initial surprise has been effective, but the longer this runs, the longer this wears on, the more and more of a body count this will be. "
+    },
+    {
+      "name": "TRAVIS",
+      "ts": {
+        "h": 0,
+        "m": "27",
+        "s": 28
+      },
+      "text": "Seeing the chaos, can I get the Dust of Tracelessness and start trying to sprinkle it behind us? "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "27",
+        "s": 34
+      },
+      "text": "Yeah. "
+    },
+    {
+      "name": "MARISHA",
+      "ts": {
+        "h": 0,
+        "m": "27",
+        "s": 35
+      },
+      "text": "Guys, we should do something. "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "27",
+        "s": 37
+      },
+      "text": "I know, we really should. "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 0,
+        "m": "27",
+        "s": 39
+      },
+      "text": "Am I with these guys yet? "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "27",
+        "s": 40
+      },
+      "text": "You have not, but you all meet up back at the alcove, communicating over your earpieces. You make your way to the front of the building. The doors are closed and locked. "
+    },
+    {
+      "name": "LIAM",
+      "ts": {
+        "h": 0,
+        "m": "27",
+        "s": 50
+      },
+      "text": "The alcove? "
+    },
+    {
+      "name": "TRAVIS",
+      "ts": {
+        "h": 0,
+        "m": "27",
+        "s": 53
+      },
+      "text": "Closed and locked? "
+    },
+    {
+      "name": "LIAM",
+      "ts": {
+        "h": 0,
+        "m": "27",
+        "s": 55
+      },
+      "text": "I'll see about that. I'm going to check the door. "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "27",
+        "s": 59
+      },
+      "text": "Go for it. "
+    },
+    {
+      "name": "LIAM",
+      "ts": {
+        "h": 0,
+        "m": "28",
+        "s": 0
+      },
+      "text": "That is ten. 23. "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "28",
+        "s": 5
+      },
+      "text": "Okay. Seems to be a fairly simple lock. "
+    },
+    {
+      "name": "LIAM",
+      "ts": {
+        "h": 0,
+        "m": "28",
+        "s": 7
+      },
+      "text": "All right. "
+    },
+    {
+      "name": "TRAVIS",
+      "ts": {
+        "h": 0,
+        "m": "28",
+        "s": 9
+      },
+      "text": "Look for an ambush around. Can we look around? "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "28",
+        "s": 10
+      },
+      "text": "Yeah, perceive it? "
+    },
+    {
+      "name": "TRAVIS",
+      "ts": {
+        "h": 0,
+        "m": "28",
+        "s": 12
+      },
+      "text": "Rooftops? Sides of the building? "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "28",
+        "s": 13
+      },
+      "text": "Make a perception check, guys. "
+    },
+    {
+      "name": "MARISHA",
+      "ts": {
+        "h": 0,
+        "m": "28",
+        "s": 15
+      },
+      "text": "All of us? "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 0,
+        "m": "28",
+        "s": 16
+      },
+      "text": "Me too? "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "28",
+        "s": 19
+      },
+      "text": "Not you, you haven't gotten there yet. "
+    },
+    {
+      "name": "LIAM",
+      "ts": {
+        "h": 0,
+        "m": "28",
+        "s": 21
+      },
+      "text": "20. "
+    },
+    {
+      "name": "TRAVIS",
+      "ts": {
+        "h": 0,
+        "m": "28",
+        "s": 23
+      },
+      "text": "I actually rolled a 17. "
+    },
+    {
+      "name": "MARISHA",
+      "ts": {
+        "h": 0,
+        "m": "28",
+        "s": 24
+      },
+      "text": "12. "
+    },
+    {
+      "name": "TALIESIN",
+      "ts": {
+        "h": 0,
+        "m": "28",
+        "s": 25
+      },
+      "text": "24. "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "28",
+        "s": 26
+      },
+      "text": "26. "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "28",
+        "s": 27
+      },
+      "text": "Okay. Looking about, there doesn't appear to be any set ambush or anybody else here. You do hear the soft sound of pacing footsteps in the interior. "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "28",
+        "s": 39
+      },
+      "text": "Should we knock on the door? "
+    },
+    {
+      "name": "TRAVIS",
+      "ts": {
+        "h": 0,
+        "m": "28",
+        "s": 43
+      },
+      "text": "Canvass the building. "
+    },
+    {
+      "name": "LIAM",
+      "ts": {
+        "h": 0,
+        "m": "28",
+        "s": 45
+      },
+      "text": "I can get in there and see who that is. I can go in, yeah. "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "28",
+        "s": 51
+      },
+      "text": "They're right on the inside. "
+    },
+    {
+      "name": "LIAM",
+      "ts": {
+        "h": 0,
+        "m": "28",
+        "s": 53
+      },
+      "text": "I thought it was upstairs, or you said right on the other side of the door? "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "28",
+        "s": 56
+      },
+      "text": "Right on the other side of the door. "
+    },
+    {
+      "name": "MARISHA",
+      "ts": {
+        "h": 0,
+        "m": "28",
+        "s": 58
+      },
+      "text": "Oh, for crying out loud. I push past them I just go, Jordana! Jordana, it's us! "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "29",
+        "s": 5
+      },
+      "text": "Okay, there's a pause and a voice goes, \"Who's us?\" "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "29",
+        "s": 10
+      },
+      "text": "Oh. Crazy grandma! "
+    },
+    {
+      "name": "MARISHA",
+      "ts": {
+        "h": 0,
+        "m": "29",
+        "s": 12
+      },
+      "text": "And Vox Machina. (quietly) Does she know we're called that? "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "29",
+        "s": 16
+      },
+      "text": "No. I don't know. (louder) Crazy grandma was staying with you. Crazy peasants. "
+    },
+    {
+      "name": "MARISHA",
+      "ts": {
+        "h": 0,
+        "m": "29",
+        "s": 20
+      },
+      "text": "Allies. "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "29",
+        "s": 21
+      },
+      "text": "Make a persuasion check. "
+    },
+    {
+      "name": "MARISHA",
+      "ts": {
+        "h": 0,
+        "m": "29",
+        "s": 23
+      },
+      "text": "Son of a-- nine? "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "29",
+        "s": 28
+      },
+      "text": "Can I help? "
+    },
+    {
+      "name": "LAURA, MARISHA",
+      "ts": {
+        "h": 0,
+        "m": "29",
+        "s": 29
+      },
+      "text": "Crazy grandma! "
+    },
+    {
+      "name": "MARISHA",
+      "ts": {
+        "h": 0,
+        "m": "29",
+        "s": 31
+      },
+      "text": "Crazy grandma can help! "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "29",
+        "s": 33
+      },
+      "text": "I'll say since you're backing her failure up, go ahead and make it with disadvantage. "
+    },
+    {
+      "name": "MARISHA",
+      "ts": {
+        "h": 0,
+        "m": "29",
+        "s": 37
+      },
+      "text": "Hey, you don't have to call it-- that sounds so sad when you say it like that. "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "29",
+        "s": 41
+      },
+      "text": "18. "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "29",
+        "s": 45
+      },
+      "text": "18. There's a pause. \"Crazy grandma? Come in.\" You hear the sound of a locking sound and the door opens up ever-so-slightly. A very, very dimly lit interior, there's a small lantern, a hooded lantern across the room. Other than that, you see the shadow of Jordana as she ushers you all in out of the rain. "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "30",
+        "s": 5
+      },
+      "text": "So, hey guess what? It's started. "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "30",
+        "s": 8
+      },
+      "text": "\"Yeah, apparently.\" She closes the door behind you, looks out the window that has the curtains closed and goes, \"Okay. So. It's underway. It's not safe to be here right now.\" "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "30",
+        "s": 22
+      },
+      "text": "No. "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "30",
+        "s": 24
+      },
+      "text": "\"Did anyone see you come in?\" "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "30",
+        "s": 26
+      },
+      "text": "No, no. "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "30",
+        "s": 27
+      },
+      "text": "\"Good. Who are you?\" "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "30",
+        "s": 32
+      },
+      "text": "\"Oh. Well.\" How about Seeming? This whole time, have we looked like crazy peasants during the battle? "
+    },
+    {
+      "name": "MATT, TRAVIS",
+      "ts": {
+        "h": 0,
+        "m": "30",
+        "s": 41
+      },
+      "text": "No. "
+    },
+    {
+      "name": "TRAVIS",
+      "ts": {
+        "h": 0,
+        "m": "30",
+        "s": 42
+      },
+      "text": "We dropped it. "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "30",
+        "s": 43
+      },
+      "text": "We dropped it? "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "30",
+        "s": 44
+      },
+      "text": "You dropped Seeming before all of this. "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "30",
+        "s": 45
+      },
+      "text": "Okay, just making sure Trinket wasn't a donkey that killed the-- "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "30",
+        "s": 47
+      },
+      "text": "No. "
+    },
+    {
+      "name": "TALIESIN",
+      "ts": {
+        "h": 0,
+        "m": "30",
+        "s": 48
+      },
+      "text": "That would've been intense and awesome. "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "30",
+        "s": 50
+      },
+      "text": "That would've been amazing. Donkey eating a vampire head? Aw, man. "
+    },
+    {
+      "name": "LIAM",
+      "ts": {
+        "h": 0,
+        "m": "30",
+        "s": 52
+      },
+      "text": "This is hard to believe, but this is crazy grandma. "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "30",
+        "s": 57
+      },
+      "text": "\"I'm crazy grandma.\" I do a crazy eye thing just to show her. "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 0,
+        "m": "31",
+        "s": 2
+      },
+      "text": "Am I there, Matt? "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "31",
+        "s": 5
+      },
+      "text": "You've just now gotten to that point, you see the door closing as you get there. "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 0,
+        "m": "31",
+        "s": 9
+      },
+      "text": "Hello. Hi. How'd it go? "
+    },
+    {
+      "name": "MARISHA",
+      "ts": {
+        "h": 0,
+        "m": "31",
+        "s": 13
+      },
+      "text": "Good work, by the way! That was awesome! I mean, I saw the fire, I don't know what you did. "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "31",
+        "s": 18
+      },
+      "text": "So it went well? "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 0,
+        "m": "31",
+        "s": 21
+      },
+      "text": "I set fire to the place, some shit went down, dinosaurs were harmed, but I know you got the smoke signal and used that to attack. "
+    },
+    {
+      "name": "MARISHA",
+      "ts": {
+        "h": 0,
+        "m": "31",
+        "s": 29
+      },
+      "text": "The de Rolos have dinosaurs? "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 0,
+        "m": "31",
+        "s": 31
+      },
+      "text": "No, it was me. It's all good, though. I caused a ruckus, that's all I was supposed to do. "
+    },
+    {
+      "name": "TRAVIS",
+      "ts": {
+        "h": 0,
+        "m": "31",
+        "s": 35
+      },
+      "text": "That's it, yeah. "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "31",
+        "s": 37
+      },
+      "text": "\"What is going on?\" "
+    },
+    {
+      "name": "TRAVIS",
+      "ts": {
+        "h": 0,
+        "m": "31",
+        "s": 38
+      },
+      "text": "Right. "
+    },
+    {
+      "name": "TALIESIN",
+      "ts": {
+        "h": 0,
+        "m": "31",
+        "s": 39
+      },
+      "text": "We may have just started a revolution. "
+    },
+    {
+      "name": "MARISHA",
+      "ts": {
+        "h": 0,
+        "m": "31",
+        "s": 43
+      },
+      "text": "Does he look familiar to you? "
+    },
+    {
+      "name": "LIAM",
+      "ts": {
+        "h": 0,
+        "m": "31",
+        "s": 46
+      },
+      "text": "You don't recognize us, it's not safe to walk these streets for outsiders, so we were using a little bit of trickery. This is us. We're the same people you were dealing with before. "
+    },
+    {
+      "name": "TRAVIS",
+      "ts": {
+        "h": 0,
+        "m": "31",
+        "s": 58
+      },
+      "text": "Vox Machina. "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "32",
+        "s": 0
+      },
+      "text": "We just need to rest. "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "32",
+        "s": 2
+      },
+      "text": "\"Okay. You can rest here, but how long?\" "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "32",
+        "s": 7
+      },
+      "text": "Until we're healed, and then we'll go. "
+    },
+    {
+      "name": "LIAM",
+      "ts": {
+        "h": 0,
+        "m": "32",
+        "s": 9
+      },
+      "text": "Overnight. "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "32",
+        "s": 11
+      },
+      "text": "\"All right.\" "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "32",
+        "s": 13
+      },
+      "text": "I feel like we should get word out to somebody, though, because-- "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 0,
+        "m": "32",
+        "s": 16
+      },
+      "text": "To what? To hold the revolution? "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "32",
+        "s": 18
+      },
+      "text": "I feel like everybody's going to die before we even get to the castle! "
+    },
+    {
+      "name": "MARISHA",
+      "ts": {
+        "h": 0,
+        "m": "32",
+        "s": 21
+      },
+      "text": "That's the thing. I don't know if this is the time to rest. "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "32",
+        "s": 24
+      },
+      "text": "But we don't have any spells. "
+    },
+    {
+      "name": "MARISHA",
+      "ts": {
+        "h": 0,
+        "m": "32",
+        "s": 26
+      },
+      "text": "I'm okay. We can maybe make do. "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "32",
+        "s": 31
+      },
+      "text": "I can't make do. "
+    },
+    {
+      "name": "TRAVIS",
+      "ts": {
+        "h": 0,
+        "m": "32",
+        "s": 34
+      },
+      "text": "You might be cool, but we're fucked. "
+    },
+    {
+      "name": "TALIESIN",
+      "ts": {
+        "h": 0,
+        "m": "32",
+        "s": 38
+      },
+      "text": "How about we stay here until 4:00, 5:00 in the morning-- "
+    },
+    {
+      "name": "MARISHA",
+      "ts": {
+        "h": 0,
+        "m": "32",
+        "s": 43
+      },
+      "text": "What time is it now? "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "32",
+        "s": 45
+      },
+      "text": "Right now, I'd say you're close to three in the afternoon. "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "32",
+        "s": 49
+      },
+      "text": "How do we tell the people to like hold off? "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 0,
+        "m": "32",
+        "s": 53
+      },
+      "text": "We need to briefly quell the rebellion? "
+    },
+    {
+      "name": "MARISHA",
+      "ts": {
+        "h": 0,
+        "m": "32",
+        "s": 55
+      },
+      "text": "We started something. We can't stop it now. "
+    },
+    {
+      "name": "TALIESIN",
+      "ts": {
+        "h": 0,
+        "m": "32",
+        "s": 58
+      },
+      "text": "We're going to be indoors. It doesn't matter what time we go to attack the castle. "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 0,
+        "m": "33",
+        "s": 5
+      },
+      "text": "Let's spread word. We can spread word. Let's find a few-- "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "33",
+        "s": 10
+      },
+      "text": "Can we send off a message? "
+    },
+    {
+      "name": "MARISHA",
+      "ts": {
+        "h": 0,
+        "m": "33",
+        "s": 13
+      },
+      "text": "We sparked a hope in people. We now have innocent peasants, people who are not fighters-- "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 0,
+        "m": "33",
+        "s": 23
+      },
+      "text": "Can you Skywrite something like \"attack tomorrow\" or \"hold\"? "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "33",
+        "s": 28
+      },
+      "text": "What if we all take off in separate directions and we tell all the peasants we find that are fighting the time that we're going to attack? "
+    },
+    {
+      "name": "TRAVIS",
+      "ts": {
+        "h": 0,
+        "m": "33",
+        "s": 35
+      },
+      "text": "Aren't there a bunch of zombie stone giants walking around? "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "33",
+        "s": 39
+      },
+      "text": "Well yeah, we'll have to be sneaky about it, but we'll spread the rumors around. I look at Jordana. Joanna? "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "33",
+        "s": 45
+      },
+      "text": "Jordana. "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "33",
+        "s": 47
+      },
+      "text": "Jordana. And I say, can you get word out to people? "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "33",
+        "s": 53
+      },
+      "text": "\"To a few, maybe. I don't want to go outside right now.\" "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "34",
+        "s": 1
+      },
+      "text": "I don't blame you, dear. "
+    },
+    {
+      "name": "TALIESIN",
+      "ts": {
+        "h": 0,
+        "m": "34",
+        "s": 3
+      },
+      "text": "Let's let her stay. I say we just rest up and we attack tonight. "
+    },
+    {
+      "name": "TRAVIS",
+      "ts": {
+        "h": 0,
+        "m": "34",
+        "s": 9
+      },
+      "text": "Tonight? "
+    },
+    {
+      "name": "MARISHA",
+      "ts": {
+        "h": 0,
+        "m": "34",
+        "s": 11
+      },
+      "text": "What if there isn't a town to defend tonight? "
+    },
+    {
+      "name": "TRAVIS",
+      "ts": {
+        "h": 0,
+        "m": "34",
+        "s": 14
+      },
+      "text": "Aren't they stronger then? "
+    },
+    {
+      "name": "TALIESIN",
+      "ts": {
+        "h": 0,
+        "m": "34",
+        "s": 17
+      },
+      "text": "It's going to be indoors, anyway. "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 0,
+        "m": "34",
+        "s": 21
+      },
+      "text": "First of all, it's raining outside. It's daytime. There's no vampires out there right now, right? They don't like water, do they? "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "34",
+        "s": 27
+      },
+      "text": "No, they don't like running water, in fact they hate running water! I didn't think about that. "
+    },
+    {
+      "name": "MARISHA",
+      "ts": {
+        "h": 0,
+        "m": "34",
+        "s": 32
+      },
+      "text": "It's a lot of running water, though. I think they're all right with rain. "
+    },
+    {
+      "name": "TRAVIS",
+      "ts": {
+        "h": 0,
+        "m": "34",
+        "s": 35
+      },
+      "text": "right? "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 0,
+        "m": "34",
+        "s": 37
+      },
+      "text": "I'm sure they don't like it. In any case, the only thing that our rebels are rebelling against right now are six zombie giants, one of whom I'm pretty sure they killed already. Did I see them? "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "34",
+        "s": 51
+      },
+      "text": "Best you could see, that group was doing pretty well and was hacking it down. Lost a few of their number in the process. "
+    },
+    {
+      "name": "MARISHA",
+      "ts": {
+        "h": 0,
+        "m": "34",
+        "s": 57
+      },
+      "text": "Did we ever get a count of how many zombie giants there were? "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 0,
+        "m": "34",
+        "s": 59
+      },
+      "text": "There were six. "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "35",
+        "s": 0
+      },
+      "text": "There were six that you saw while you were doing your overall flight. "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "35",
+        "s": 3
+      },
+      "text": "What, so we go out and fight zombie giants? "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 0,
+        "m": "35",
+        "s": 4
+      },
+      "text": "No, but maybe we could-- "
+    },
+    {
+      "name": "MARISHA",
+      "ts": {
+        "h": 0,
+        "m": "35",
+        "s": 7
+      },
+      "text": "Why not? We are the most capable people in this town right now. "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "35",
+        "s": 14
+      },
+      "text": "Well. We could go fight zombie giants and then tell everybody to wait. "
+    },
+    {
+      "name": "TRAVIS",
+      "ts": {
+        "h": 0,
+        "m": "35",
+        "s": 19
+      },
+      "text": "Nah, it's going to fuck us. We've got to rest. "
+    },
+    {
+      "name": "MARISHA",
+      "ts": {
+        "h": 0,
+        "m": "35",
+        "s": 23
+      },
+      "text": "What do you guys say? "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 0,
+        "m": "35",
+        "s": 32
+      },
+      "text": "I admire this fire in your eyes, but it's so stupid. "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "35",
+        "s": 36
+      },
+      "text": "What if we run out and tell people to stop fucking fighting and wait until tomorrow? "
+    },
+    {
+      "name": "LIAM",
+      "ts": {
+        "h": 0,
+        "m": "35",
+        "s": 39
+      },
+      "text": "They won't. The giants are going to keep smashing them. "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 0,
+        "m": "35",
+        "s": 44
+      },
+      "text": "What time did he say it was? "
+    },
+    {
+      "name": "TALIESIN",
+      "ts": {
+        "h": 0,
+        "m": "35",
+        "s": 46
+      },
+      "text": "It's about three. We could just do a round of the front courtyard and see what's going on. "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "35",
+        "s": 51
+      },
+      "text": "Fuck! Fine. "
+    },
+    {
+      "name": "TALIESIN",
+      "ts": {
+        "h": 0,
+        "m": "35",
+        "s": 53
+      },
+      "text": "Try and sleep through the night. "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "35",
+        "s": 55
+      },
+      "text": "All right. We fight until we absolutely can't fight anymore. "
+    },
+    {
+      "name": "TRAVIS",
+      "ts": {
+        "h": 0,
+        "m": "35",
+        "s": 58
+      },
+      "text": "What about the people who absolutely need a short rest at the minimum stay. "
+    },
+    {
+      "name": "LIAM",
+      "ts": {
+        "h": 0,
+        "m": "36",
+        "s": 1
+      },
+      "text": "We stay for an hour. "
+    },
+    {
+      "name": "TALIESIN",
+      "ts": {
+        "h": 0,
+        "m": "36",
+        "s": 2
+      },
+      "text": "We're short-resting right now. "
+    },
+    {
+      "name": "LIAM",
+      "ts": {
+        "h": 0,
+        "m": "36",
+        "s": 4
+      },
+      "text": "Rest for an hour. "
+    },
+    {
+      "name": "MARISHA",
+      "ts": {
+        "h": 0,
+        "m": "36",
+        "s": 6
+      },
+      "text": "This is going to go on for a while, but the longer we wait indoors, the more people are going to die, and if we're killing people to try and save the masses-- which is how I'm justifying this whole thing, by the way-- I feel like we can't leave the masses to their own devices. "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 0,
+        "m": "36",
+        "s": 23
+      },
+      "text": "Wait a second, what about that, what about that cleric, the religious man that you've talked to. Could he get a message out to everybody? What's his name? "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "36",
+        "s": 32
+      },
+      "text": "At this point, though, it's chaos. "
+    },
+    {
+      "name": "TRAVIS",
+      "ts": {
+        "h": 0,
+        "m": "36",
+        "s": 34
+      },
+      "text": "Yeah. "
+    },
+    {
+      "name": "MARISHA",
+      "ts": {
+        "h": 0,
+        "m": "36",
+        "s": 35
+      },
+      "text": "We literally lit the fire and we can't stop it now. "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 0,
+        "m": "36",
+        "s": 39
+      },
+      "text": "Archibald? Is that his name? "
+    },
+    {
+      "name": "TRAVIS",
+      "ts": {
+        "h": 0,
+        "m": "36",
+        "s": 40
+      },
+      "text": "Yeah, they're standing up for themselves. "
+    },
+    {
+      "name": "TALIESIN",
+      "ts": {
+        "h": 0,
+        "m": "36",
+        "s": 41
+      },
+      "text": "We also, somebody-- there's the point that somebody is informing on us. "
+    },
+    {
+      "name": "MARISHA",
+      "ts": {
+        "h": 0,
+        "m": "36",
+        "s": 47
+      },
+      "text": "Someone "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 0,
+        "m": "36",
+        "s": 49
+      },
+      "text": "What are you talking about, why? "
+    },
+    {
+      "name": "TALIESIN",
+      "ts": {
+        "h": 0,
+        "m": "36",
+        "s": 50
+      },
+      "text": "They were ready for us. They knew we were coming. "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 0,
+        "m": "36",
+        "s": 51
+      },
+      "text": "Of course they knew we were coming, we killed one of their-- "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "36",
+        "s": 53
+      },
+      "text": "They said there was an informant. They said that there was an informant when we were there. "
+    },
+    {
+      "name": "TRAVIS",
+      "ts": {
+        "h": 0,
+        "m": "36",
+        "s": 56
+      },
+      "text": "Who did? "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "36",
+        "s": 57
+      },
+      "text": "That guard. He said our contacts were right. Our informant was correct. Somebody is informing on us. It could be you. "
+    },
+    {
+      "name": "LIAM",
+      "ts": {
+        "h": 0,
+        "m": "37",
+        "s": 5
+      },
+      "text": "I insight-check this woman. "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "37",
+        "s": 7
+      },
+      "text": "Go ahead and roll insight. "
+    },
+    {
+      "name": "LIAM",
+      "ts": {
+        "h": 0,
+        "m": "37",
+        "s": 9
+      },
+      "text": "14. "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "37",
+        "s": 13
+      },
+      "text": "Can I say it? Because I just said, \"It could be you.\" Can I do the same thing? "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "37",
+        "s": 16
+      },
+      "text": "Sure, go ahead. "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "37",
+        "s": 18
+      },
+      "text": "All right. That's terrible. Okay. So. "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 0,
+        "m": "37",
+        "s": 24
+      },
+      "text": "What do you want to know? "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "37",
+        "s": 25
+      },
+      "text": "Best that you can tell, she just looks genuinely scared and is uncomfortable with your presence right now but is letting it happen. She's still getting over the fact that you guys look entirely different than when you first talked to her about staying here. "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "37",
+        "s": 37
+      },
+      "text": "Well, short rest and then we head out? We do some attacks and-- "
+    },
+    {
+      "name": "LIAM",
+      "ts": {
+        "h": 0,
+        "m": "37",
+        "s": 41
+      },
+      "text": "I've never fought a zombie giant before. "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "37",
+        "s": 43
+      },
+      "text": "No, but everybody else is doing it. Those peasants are doing it. "
+    },
+    {
+      "name": "LIAM",
+      "ts": {
+        "h": 0,
+        "m": "37",
+        "s": 46
+      },
+      "text": "That's what I'm saying. Let's see what we're up against. Let's take a breather and let's go pick one off. "
+    },
+    {
+      "name": "MARISHA",
+      "ts": {
+        "h": 0,
+        "m": "37",
+        "s": 52
+      },
+      "text": "Jordana, do you have any books here on zombie giants? "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "37",
+        "s": 58
+      },
+      "text": "\"For the most part, necromancy is not studied in this town. At least, we never had to \"deal with it until recently, and we haven't had the opportunity to really study since.\" "
+    },
+    {
+      "name": "MARISHA",
+      "ts": {
+        "h": 0,
+        "m": "38",
+        "s": 15
+      },
+      "text": "Well, I mean, zombie combined with giants. We've fought zombies and we've fought giants, so I'm assuming it with a vague-- "
+    },
+    {
+      "name": "TRAVIS",
+      "ts": {
+        "h": 0,
+        "m": "38",
+        "s": 25
+      },
+      "text": "What? "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "38",
+        "s": 28
+      },
+      "text": "We keep our distance. "
+    },
+    {
+      "name": "TALIESIN",
+      "ts": {
+        "h": 0,
+        "m": "38",
+        "s": 29
+      },
+      "text": "How long does it take to recharge Hex, by the way? "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "38",
+        "s": 32
+      },
+      "text": "You need a long rest. "
+    },
+    {
+      "name": "TRAVIS",
+      "ts": {
+        "h": 0,
+        "m": "38",
+        "s": 34
+      },
+      "text": "How many Sunbeam hadoukens do you have left, Keyleth? "
+    },
+    {
+      "name": "MARISHA",
+      "ts": {
+        "h": 0,
+        "m": "38",
+        "s": 37
+      },
+      "text": "How many hadoukens? As in Sunbeams? I'm done on Sunbeams. "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 0,
+        "m": "38",
+        "s": 42
+      },
+      "text": "We need to rest. "
+    },
+    {
+      "name": "TRAVIS",
+      "ts": {
+        "h": 0,
+        "m": "38",
+        "s": 43
+      },
+      "text": "If we get a short rest, how many do you get? "
+    },
+    {
+      "name": "MARISHA",
+      "ts": {
+        "h": 0,
+        "m": "38",
+        "s": 45
+      },
+      "text": "I'm done. None. "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "38",
+        "s": 46
+      },
+      "text": "We need a long rest to get spells. "
+    },
+    {
+      "name": "MARISHA",
+      "ts": {
+        "h": 0,
+        "m": "38",
+        "s": 47
+      },
+      "text": "However, if I short rest, I actually haven't burnt any of my animal forms here recently and I can water elemental up, which would also permanently kill them. So I have other defenses that could still take down vampires if we encounter another one. I'm more concerned about these giants right now. "
+    },
+    {
+      "name": "TRAVIS",
+      "ts": {
+        "h": 0,
+        "m": "39",
+        "s": 6
+      },
+      "text": "That's what I'm talking about. They're vampires. "
+    },
+    {
+      "name": "MARISHA",
+      "ts": {
+        "h": 0,
+        "m": "39",
+        "s": 7
+      },
+      "text": "No, they're zombies. They're undead. "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "39",
+        "s": 10
+      },
+      "text": "They're zombies. "
+    },
+    {
+      "name": "LIAM",
+      "ts": {
+        "h": 0,
+        "m": "39",
+        "s": 11
+      },
+      "text": "They're undead. "
+    },
+    {
+      "name": "TRAVIS",
+      "ts": {
+        "h": 0,
+        "m": "39",
+        "s": 12
+      },
+      "text": "Those are two different things, huh? "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "39",
+        "s": 13
+      },
+      "text": "They are two very different things. "
+    },
+    {
+      "name": "TRAVIS",
+      "ts": {
+        "h": 0,
+        "m": "39",
+        "s": 15
+      },
+      "text": "(laughter) "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "39",
+        "s": 18
+      },
+      "text": "All right. So what's the plan? "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "39",
+        "s": 22
+      },
+      "text": "We short rest and get back out. "
+    },
+    {
+      "name": "LIAM",
+      "ts": {
+        "h": 0,
+        "m": "39",
+        "s": 24
+      },
+      "text": "We take a short rest and then exterminate. "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 0,
+        "m": "39",
+        "s": 27
+      },
+      "text": "Wait, join the rebellion or ride around town telling everyone, \"quell?\" "
+    },
+    {
+      "name": "MARISHA",
+      "ts": {
+        "h": 0,
+        "m": "39",
+        "s": 32
+      },
+      "text": "These giants are killing people left and right; we watched them crush people on our way here. "
+    },
+    {
+      "name": "TALIESIN",
+      "ts": {
+        "h": 0,
+        "m": "39",
+        "s": 39
+      },
+      "text": "We tell them that they take cover during the night. "
+    },
+    {
+      "name": "TRAVIS",
+      "ts": {
+        "h": 0,
+        "m": "39",
+        "s": 42
+      },
+      "text": "I'm going to roll four hit dice. "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "39",
+        "s": 44
+      },
+      "text": "Yeah, you guys go ahead, use your hit dice to heal up while you're taking your short rest for those who've taken damage. "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "39",
+        "s": 48
+      },
+      "text": "Oh, Trinket. Can you heal Trinket? "
+    },
+    {
+      "name": "MARISHA",
+      "ts": {
+        "h": 0,
+        "m": "39",
+        "s": 51
+      },
+      "text": "I can. "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "39",
+        "s": 52
+      },
+      "text": "Heal him so much. Does Trinket get... oh, he does get hit dice. "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "39",
+        "s": 59
+      },
+      "text": "Trinket technically does not. Trinket requires-- "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "40",
+        "s": 5
+      },
+      "text": "It says he does. It's written down. "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "40",
+        "s": 8
+      },
+      "text": "Hit dice? "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "40",
+        "s": 9
+      },
+      "text": "Yeah. "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "40",
+        "s": 9
+      },
+      "text": "Okay. "
+    },
+    {
+      "name": "TALIESIN",
+      "ts": {
+        "h": 0,
+        "m": "40",
+        "s": 10
+      },
+      "text": "Also, another strange question: what creates initiative? Initiative is your dexterity modifier? "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "40",
+        "s": 18
+      },
+      "text": "Correct. "
+    },
+    {
+      "name": "TALIESIN",
+      "ts": {
+        "h": 0,
+        "m": "40",
+        "s": 19
+      },
+      "text": "Plus two. "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "40",
+        "s": 22
+      },
+      "text": "Correct. "
+    },
+    {
+      "name": "TALIESIN",
+      "ts": {
+        "h": 0,
+        "m": "40",
+        "s": 23
+      },
+      "text": "I'm also currently wearing a Headband of Initiative, which I'd forgotten about. "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "40",
+        "s": 26
+      },
+      "text": "Which...? "
+    },
+    {
+      "name": "TALIESIN",
+      "ts": {
+        "h": 0,
+        "m": "40",
+        "s": 27
+      },
+      "text": "Gives me plus two to my initiative. "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "40",
+        "s": 29
+      },
+      "text": "Correct. "
+    },
+    {
+      "name": "TALIESIN",
+      "ts": {
+        "h": 0,
+        "m": "40",
+        "s": 29
+      },
+      "text": "Oh, dear god almighty. Okay. Thank you. "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "40",
+        "s": 31
+      },
+      "text": "Percy, Percy, Percy. "
+    },
+    {
+      "name": "TALIESIN",
+      "ts": {
+        "h": 0,
+        "m": "40",
+        "s": 34
+      },
+      "text": "I don't mean to be doing this. "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "40",
+        "s": 37
+      },
+      "text": "No, it's great. Just glad you didn't take the Alertness feat. Then things would have gotten stupid. "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "40",
+        "s": 43
+      },
+      "text": "Are you healing Trinket? "
+    },
+    {
+      "name": "MARISHA",
+      "ts": {
+        "h": 0,
+        "m": "40",
+        "s": 45
+      },
+      "text": "How much more does he need? "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "40",
+        "s": 46
+      },
+      "text": "He's at 36. He needs 24 more. "
+    },
+    {
+      "name": "TALIESIN",
+      "ts": {
+        "h": 0,
+        "m": "40",
+        "s": 51
+      },
+      "text": "Actually, I'm going to be using the Hat of Disguise just because it's probably safe. Does anybody want a Headband of Initiative? "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "40",
+        "s": 58
+      },
+      "text": "Yeah. Do you not need it? "
+    },
+    {
+      "name": "TALIESIN",
+      "ts": {
+        "h": 0,
+        "m": "41",
+        "s": 2
+      },
+      "text": "I can't wear two things on my head. "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "41",
+        "s": 5
+      },
+      "text": "I don't have anything on my head. "
+    },
+    {
+      "name": "TALIESIN",
+      "ts": {
+        "h": 0,
+        "m": "41",
+        "s": 7
+      },
+      "text": "So you've got plus two to your initiative, and I'm losing plus two to my initiative. It's called a Headband of Initiative. "
+    },
+    {
+      "name": "MARISHA",
+      "ts": {
+        "h": 0,
+        "m": "41",
+        "s": 14
+      },
+      "text": "You already have an eight to your initiative. "
+    },
+    {
+      "name": "LIAM",
+      "ts": {
+        "h": 0,
+        "m": "41",
+        "s": 16
+      },
+      "text": "It's very mystical. "
+    },
+    {
+      "name": "TRAVIS",
+      "ts": {
+        "h": 0,
+        "m": "41",
+        "s": 17
+      },
+      "text": "How much time do we have before the sun that is being blocked by the rainclouds goes down? "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "41",
+        "s": 23
+      },
+      "text": "Well, you guys are taking a short rest, about 30 minutes to an hour, so you have about two and a half, three hours before it goes down entirely. "
+    },
+    {
+      "name": "TALIESIN",
+      "ts": {
+        "h": 0,
+        "m": "41",
+        "s": 30
+      },
+      "text": "That should give us enough time to do a quick tour. We already know their walking route, and I'm sure that the people are putting up a fight. "
+    },
+    {
+      "name": "MARISHA",
+      "ts": {
+        "h": 0,
+        "m": "41",
+        "s": 36
+      },
+      "text": "I'm going to give him a level two Cure Wounds. "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "41",
+        "s": 38
+      },
+      "text": "Okay. "
+    },
+    {
+      "name": "MARISHA",
+      "ts": {
+        "h": 0,
+        "m": "41",
+        "s": 38
+      },
+      "text": "So do 2d8 plus ten. "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "41",
+        "s": 40
+      },
+      "text": "Me? "
+    },
+    {
+      "name": "MARISHA",
+      "ts": {
+        "h": 0,
+        "m": "41",
+        "s": 41
+      },
+      "text": "Sure. Me or you. Whoever feels more comfortable. "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "41",
+        "s": 44
+      },
+      "text": "I'll do it. It was good. "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "41",
+        "s": 46
+      },
+      "text": "During this rest, if you wanted to spend some time with that cape-- "
+    },
+    {
+      "name": "LIAM",
+      "ts": {
+        "h": 0,
+        "m": "41",
+        "s": 52
+      },
+      "text": "I do. I'm going to sniff it and shake it out. "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "41",
+        "s": 58
+      },
+      "text": "For the most part, it doesn't appear to be enchanted. "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 0,
+        "m": "42",
+        "s": 1
+      },
+      "text": "No, I can sing a Song of Rest for all of us. "
+    },
+    {
+      "name": "MARISHA, LAURA",
+      "ts": {
+        "h": 0,
+        "m": "42",
+        "s": 5
+      },
+      "text": "Oh, yeah. Do that. "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 0,
+        "m": "42",
+        "s": 7
+      },
+      "text": "It gives us all 1d6. That's pretty weak. "
+    },
+    {
+      "name": "MARISHA",
+      "ts": {
+        "h": 0,
+        "m": "42",
+        "s": 10
+      },
+      "text": "No, but that's... "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "42",
+        "s": 12
+      },
+      "text": "No, it's fine. He's got extra hit points; don't worry about it. "
+    },
+    {
+      "name": "MARISHA",
+      "ts": {
+        "h": 0,
+        "m": "42",
+        "s": 15
+      },
+      "text": "Well, Song of Rest just happens, right? Do you get that for free? You might as well, if you don't burn anything. "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 0,
+        "m": "42",
+        "s": 22
+      },
+      "text": "Health! Not just anybody. Health! You know you need someone. "
+    },
+    {
+      "name": "ALL",
+      "ts": {
+        "h": 0,
+        "m": "42",
+        "s": 33
+      },
+      "text": "(sings) Health! "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "42",
+        "s": 35
+      },
+      "text": "All right, so you guys have rested up. Through the rest, you occasionally hear voices run by, yelling. As you guys get toward the end of your rest, you hear the (stomping) large heavy footfalls heading nearby. (groaning, crash) A loud, heavy impact, and you hear some short cheers outside. "
+    },
+    {
+      "name": "TRAVIS",
+      "ts": {
+        "h": 0,
+        "m": "43",
+        "s": 7
+      },
+      "text": "Yes! "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "43",
+        "s": 8
+      },
+      "text": "Yay! "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 0,
+        "m": "43",
+        "s": 9
+      },
+      "text": "Oh, he died. That's two down. Splash two. "
+    },
+    {
+      "name": "TRAVIS",
+      "ts": {
+        "h": 0,
+        "m": "43",
+        "s": 11
+      },
+      "text": "Right out front, we hear it? "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "43",
+        "s": 17
+      },
+      "text": "Out front, a little ways off. Not immediately. "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 0,
+        "m": "43",
+        "s": 21
+      },
+      "text": "Do we have horses? We don't have any horses, do we? "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "43",
+        "s": 23
+      },
+      "text": "No. "
+    },
+    {
+      "name": "LIAM",
+      "ts": {
+        "h": 0,
+        "m": "43",
+        "s": 24
+      },
+      "text": "They died. "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "43",
+        "s": 25
+      },
+      "text": "Yeah, they got eaten by harpies. "
+    },
+    {
+      "name": "TRAVIS",
+      "ts": {
+        "h": 0,
+        "m": "43",
+        "s": 26
+      },
+      "text": "Should we go outside and see how they're doing? "
+    },
+    {
+      "name": "TALIESIN",
+      "ts": {
+        "h": 0,
+        "m": "43",
+        "s": 28
+      },
+      "text": "Yeah, let's check it out. "
+    },
+    {
+      "name": "TRAVIS",
+      "ts": {
+        "h": 0,
+        "m": "43",
+        "s": 30
+      },
+      "text": "We go out front. "
+    },
+    {
+      "name": "LIAM",
+      "ts": {
+        "h": 0,
+        "m": "43",
+        "s": 31
+      },
+      "text": "Time to kill some giant undead. "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "43",
+        "s": 33
+      },
+      "text": "Okay. Jordana lets you guys out, locks behind her. "
+    },
+    {
+      "name": "MARISHA",
+      "ts": {
+        "h": 0,
+        "m": "43",
+        "s": 35
+      },
+      "text": "Do we want to split up? "
+    },
+    {
+      "name": "TALIESIN",
+      "ts": {
+        "h": 0,
+        "m": "43",
+        "s": 36
+      },
+      "text": "No, let's keep together. "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "43",
+        "s": 38
+      },
+      "text": "Actually, before we go, I ask, do you have any holy symbols at all in here? "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "43",
+        "s": 41
+      },
+      "text": "\"I'm sorry, no.\" "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "43",
+        "s": 42
+      },
+      "text": "Nothing? "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "43",
+        "s": 43
+      },
+      "text": "\"No. All those were kept in either of the two temples here.\" "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "43",
+        "s": 49
+      },
+      "text": "Do you have anything magic that could help me? "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "43",
+        "s": 51
+      },
+      "text": "\"I already gave you everything of magic that I had here.\" "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "43",
+        "s": 53
+      },
+      "text": "Oh, right. I forgot we took it. "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "43",
+        "s": 55
+      },
+      "text": "\"Sorry.\" "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "43",
+        "s": 56
+      },
+      "text": "Shit. All right, thank you. "
+    },
+    {
+      "name": "TRAVIS",
+      "ts": {
+        "h": 0,
+        "m": "43",
+        "s": 58
+      },
+      "text": "Once we're outside, how far away is that giant that was felled? "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "44",
+        "s": 0
+      },
+      "text": "You hear in the distance, (thunder crack) bolt of lightning coming down from the storm, and as it echoes, everyone shakes for a second, look at each other, (cheers) give a cheer of victory. They all hop off the body of the zombie giant and begin darting further in towards the center of the city. "
+    },
+    {
+      "name": "MARISHA",
+      "ts": {
+        "h": 0,
+        "m": "44",
+        "s": 40
+      },
+      "text": "I look up. Is my de Rolo symbol still in the sky? "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "44",
+        "s": 43
+      },
+      "text": "It's there. It's dissipating slowly, but it's still there. It's moved a little bit off-axis with the storm. "
+    },
+    {
+      "name": "TRAVIS",
+      "ts": {
+        "h": 0,
+        "m": "44",
+        "s": 49
+      },
+      "text": "So that's it for the big houses, right? Just the castle. "
+    },
+    {
+      "name": "TALIESIN",
+      "ts": {
+        "h": 0,
+        "m": "44",
+        "s": 54
+      },
+      "text": "Just the castle. "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 0,
+        "m": "44",
+        "s": 55
+      },
+      "text": "Except we haven't killed the members of one of the houses. By the way, my Song of Rest is a d8. "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "44",
+        "s": 59
+      },
+      "text": "Awesome. "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 0,
+        "m": "45",
+        "s": 0
+      },
+      "text": "But we haven't killed the last one. Now, the one that you guys killed. What's his name again, Tylieri? "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "45",
+        "s": 6
+      },
+      "text": "Tylieri. "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 0,
+        "m": "45",
+        "s": 7
+      },
+      "text": "He was a vampire. "
+    },
+    {
+      "name": "ALL",
+      "ts": {
+        "h": 0,
+        "m": "45",
+        "s": 8
+      },
+      "text": "Yes. "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 0,
+        "m": "45",
+        "s": 9
+      },
+      "text": "Because Sylas killed him. Right? "
+    },
+    {
+      "name": "TALIESIN",
+      "ts": {
+        "h": 0,
+        "m": "45",
+        "s": 15
+      },
+      "text": "Yes. "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 0,
+        "m": "45",
+        "s": 17
+      },
+      "text": "And then made him a vampire. "
+    },
+    {
+      "name": "TALIESIN",
+      "ts": {
+        "h": 0,
+        "m": "45",
+        "s": 19
+      },
+      "text": "One would assume. "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 0,
+        "m": "45",
+        "s": 20
+      },
+      "text": "Didn't he hang him on the Sun Tree? "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "45",
+        "s": 22
+      },
+      "text": "What? No. What? What are you talking about? "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 0,
+        "m": "45",
+        "s": 25
+      },
+      "text": "I don't know. Didn't that guy that we meet... "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "45",
+        "s": 28
+      },
+      "text": "Tylieri was the master of the driver Desmond, who beat him and subjugated him to various forms of torture and abuse before Lord Briarwood took Desmond and, to try and show extension of faith, revealed to Desmond Tylieri hanging from the Sun Tree. That was true. "
+    },
+    {
+      "name": "TRAVIS",
+      "ts": {
+        "h": 0,
+        "m": "45",
+        "s": 58
+      },
+      "text": "Wow. "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 0,
+        "m": "46",
+        "s": 0
+      },
+      "text": "And then he became a vampire. Is that where they're spawning? "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "46",
+        "s": 4
+      },
+      "text": "No. Maybe he was already a vampire and he hung him from the tree just to show-- "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 0,
+        "m": "46",
+        "s": 10
+      },
+      "text": "That doesn't seem right. "
+    },
+    {
+      "name": "TALIESIN",
+      "ts": {
+        "h": 0,
+        "m": "46",
+        "s": 13
+      },
+      "text": "Let's head to the Sun Tree, why don't we? "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "46",
+        "s": 16
+      },
+      "text": "Let's head that direction. "
+    },
+    {
+      "name": "TRAVIS",
+      "ts": {
+        "h": 0,
+        "m": "46",
+        "s": 18
+      },
+      "text": "Let's go. "
+    },
+    {
+      "name": "MARISHA",
+      "ts": {
+        "h": 0,
+        "m": "46",
+        "s": 20
+      },
+      "text": "Something to us about how when people die in this town. The guy you talked to at the bar? "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 0,
+        "m": "46",
+        "s": 25
+      },
+      "text": "Yes, we talked to a guy at the bar. What about him? "
+    },
+    {
+      "name": "MARISHA",
+      "ts": {
+        "h": 0,
+        "m": "46",
+        "s": 29
+      },
+      "text": "He said when people die here they don't die. "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 0,
+        "m": "46",
+        "s": 32
+      },
+      "text": "Well, yes, we know that, yes. "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "46",
+        "s": 34
+      },
+      "text": "They come back. "
+    },
+    {
+      "name": "LIAM",
+      "ts": {
+        "h": 0,
+        "m": "46",
+        "s": 35
+      },
+      "text": "They could be-- yes, that could apply, too. "
+    },
+    {
+      "name": "MARISHA",
+      "ts": {
+        "h": 0,
+        "m": "46",
+        "s": 38
+      },
+      "text": "I think this whole damn town-- I think the whole land is cursed. Is what I think. "
+    },
+    {
+      "name": "TRAVIS",
+      "ts": {
+        "h": 0,
+        "m": "46",
+        "s": 44
+      },
+      "text": "I think that's-- "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "46",
+        "s": 45
+      },
+      "text": "Probably pretty fair. "
+    },
+    {
+      "name": "TRAVIS",
+      "ts": {
+        "h": 0,
+        "m": "46",
+        "s": 46
+      },
+      "text": "Should we go to the tree? "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "46",
+        "s": 48
+      },
+      "text": "Sure. "
+    },
+    {
+      "name": "MARISHA",
+      "ts": {
+        "h": 0,
+        "m": "46",
+        "s": 49
+      },
+      "text": "Why? "
+    },
+    {
+      "name": "TALIESIN",
+      "ts": {
+        "h": 0,
+        "m": "46",
+        "s": 51
+      },
+      "text": "Just to see-- "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "46",
+        "s": 53
+      },
+      "text": "We'll make our way through the town and look for giants as we make our way to the tree. "
+    },
+    {
+      "name": "MARISHA",
+      "ts": {
+        "h": 0,
+        "m": "46",
+        "s": 56
+      },
+      "text": "Let's look for giants. Let's go giant-hunting. "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "46",
+        "s": 58
+      },
+      "text": "Okay. All right, so from the Alcove, you guys head in a southwestern motion, keeping off the main paths best you can. The main chaos seems to have died down a little bit in this area of the town. You come across another body of a zombie giant, surrounded by what looks like eight bodies of civilians of the town. "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "47",
+        "s": 21
+      },
+      "text": "Are they all dead, or are they injured? "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "47",
+        "s": 23
+      },
+      "text": "The Sun Tree, at a glance-- roll a perception check. "
+    },
+    {
+      "name": "MARISHA",
+      "ts": {
+        "h": 0,
+        "m": "48",
+        "s": 5
+      },
+      "text": "All of us? "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "48",
+        "s": 6
+      },
+      "text": "Yes. "
+    },
+    {
+      "name": "TALIESIN",
+      "ts": {
+        "h": 0,
+        "m": "48",
+        "s": 7
+      },
+      "text": "One. There's a tree! "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 0,
+        "m": "48",
+        "s": 12
+      },
+      "text": "Four. "
+    },
+    {
+      "name": "MARISHA",
+      "ts": {
+        "h": 0,
+        "m": "48",
+        "s": 13
+      },
+      "text": "I rolled a 19, so 29? "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "48",
+        "s": 15
+      },
+      "text": "Okay. "
+    },
+    {
+      "name": "LIAM",
+      "ts": {
+        "h": 0,
+        "m": "48",
+        "s": 16
+      },
+      "text": "23. "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "48",
+        "s": 17
+      },
+      "text": "If my passive perception's higher than my roll-- "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "48",
+        "s": 19
+      },
+      "text": "Active perception and passive perception-- passive is more something to keep track when you're not actively perceiving. So. Grog? "
+    },
+    {
+      "name": "TRAVIS",
+      "ts": {
+        "h": 0,
+        "m": "48",
+        "s": 26
+      },
+      "text": "Seven. "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "48",
+        "s": 27
+      },
+      "text": "Okay. Keyleth, you pick this out in the rain, and it's hard to see, but from this angle, you see what looks to be eight ropes, currently, just dangling free from the Sun Tree. "
+    },
+    {
+      "name": "TALIESIN",
+      "ts": {
+        "h": 0,
+        "m": "48",
+        "s": 41
+      },
+      "text": "Damn it. "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "48",
+        "s": 43
+      },
+      "text": "Shit. "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 0,
+        "m": "48",
+        "s": 44
+      },
+      "text": "The tree is the spawning spot. "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "48",
+        "s": 46
+      },
+      "text": "Really? "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 0,
+        "m": "48",
+        "s": 48
+      },
+      "text": "Or maybe one of them. "
+    },
+    {
+      "name": "TRAVIS",
+      "ts": {
+        "h": 0,
+        "m": "48",
+        "s": 50
+      },
+      "text": "Or maybe they cut them down. "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 0,
+        "m": "48",
+        "s": 52
+      },
+      "text": "We've got to cut down this tree. "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "48",
+        "s": 55
+      },
+      "text": "Does it look like the ropes have been cut? "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "48",
+        "s": 58
+      },
+      "text": "You can go closer to inspect it if you want. "
+    },
+    {
+      "name": "MARISHA",
+      "ts": {
+        "h": 0,
+        "m": "49",
+        "s": 0
+      },
+      "text": "Yeah. "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "49",
+        "s": 1
+      },
+      "text": "You're hearing in the distance the (roars) the battle's still raging about 65, 70 feet from you. You get up behind the tree and you take the ropes and inspect it. All the ropes are very finely cut. "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "49",
+        "s": 11
+      },
+      "text": "Oh. They were cut. They cut them down. "
+    },
+    {
+      "name": "TRAVIS",
+      "ts": {
+        "h": 0,
+        "m": "49",
+        "s": 14
+      },
+      "text": "They cut their dead down. "
+    },
+    {
+      "name": "MARISHA",
+      "ts": {
+        "h": 0,
+        "m": "49",
+        "s": 15
+      },
+      "text": "Okay, so the nooses are gone. "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "49",
+        "s": 17
+      },
+      "text": "This close, you can see there are loops of rope all over the tree: some very old and weathered and aged, some of them are torn, some of them are cut, but the fresh ones that are the longest currently and that are placed closest to where the bodies were originally there are all very cleanly cut. "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "49",
+        "s": 37
+      },
+      "text": "Can we spin around and look and see if there's anything around that looks like-- or look at tracking and see if it looks like somebody cut them down or if they fell on their own? "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "49",
+        "s": 45
+      },
+      "text": "You glance around real fast and you can see to the south there is still the battle raging between the zombie giant and the crew of individuals, but you look back where you guys were from, and you see a large series of shapes stepping through the rain, coming from the direction you guys were. "
+    },
+    {
+      "name": "LIAM",
+      "ts": {
+        "h": 0,
+        "m": "50",
+        "s": 3
+      },
+      "text": "I think they cut them down just like Tylieri. I think that this is where they hang them to ripen, and then when they're ready they pluck them off the tree and set them on their way. "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "50",
+        "s": 11
+      },
+      "text": "As you're having this conversation, you, keeping your eyes forward as he's saying this in your ear, you can see, as the light of the town is slowly beginning to vanish into a sunset-- "
+    },
+    {
+      "name": "MARISHA",
+      "ts": {
+        "h": 0,
+        "m": "50",
+        "s": 23
+      },
+      "text": "Is it still raining? "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "50",
+        "s": 24
+      },
+      "text": "It is still raining. You see ahead of you, coming from the central roadway into the square of the town, what you can only surmise to be anywhere from 30 to 50 armored skeletal entities that are pouring from the north. "
+    },
+    {
+      "name": "MARISHA",
+      "ts": {
+        "h": 0,
+        "m": "50",
+        "s": 42
+      },
+      "text": "Okay. I climb the Sun Tree. "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 0,
+        "m": "50",
+        "s": 44
+      },
+      "text": "Wait, what? We've got to get out of here! "
+    },
+    {
+      "name": "MARISHA",
+      "ts": {
+        "h": 0,
+        "m": "50",
+        "s": 46
+      },
+      "text": "I'm climbing the Sun Tree. "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "50",
+        "s": 47
+      },
+      "text": "Climbing the Sun Tree. All right. You guys see Keyleth scurry up the Sun Tree. "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 0,
+        "m": "50",
+        "s": 51
+      },
+      "text": "I blow my Horn of Fog to create a smokescreen. I don't know what the fuck she's doing. "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "50",
+        "s": 57
+      },
+      "text": "Okay. (foghorn sound) The slow horn-blow comes out, and this fog begins to fill the area between this marching skeletal army and the Sun Tree where you guys currently are. Looking over your shoulder, you can see the zombie giant finishes smashing the last individual in that crew, picks it up and jams it into its jagged giant teeth. "
+    },
+    {
+      "name": "MARISHA",
+      "ts": {
+        "h": 0,
+        "m": "51",
+        "s": 18
+      },
+      "text": "So there's a big army coming down, filtering down a street. "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "51",
+        "s": 20
+      },
+      "text": "Down the street towards you. "
+    },
+    {
+      "name": "MARISHA",
+      "ts": {
+        "h": 0,
+        "m": "51",
+        "s": 21
+      },
+      "text": "How far away? "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "51",
+        "s": 23
+      },
+      "text": "You can't tell now. There's just fog along the way. "
+    },
+    {
+      "name": "MARISHA",
+      "ts": {
+        "h": 0,
+        "m": "51",
+        "s": 24
+      },
+      "text": "I can't tell how far away they are right now? "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "51",
+        "s": 26
+      },
+      "text": "No, you can't see them. "
+    },
+    {
+      "name": "MARISHA",
+      "ts": {
+        "h": 0,
+        "m": "51",
+        "s": 27
+      },
+      "text": "I can't see them? "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "51",
+        "s": 29
+      },
+      "text": "No, because Scanlan just created a whole bunch of fog between the two of you. The moment you saw, they may be about a hundred or so feet from you. "
+    },
+    {
+      "name": "LIAM",
+      "ts": {
+        "h": 0,
+        "m": "51",
+        "s": 37
+      },
+      "text": "Keyleth, tell us what you're thinking, because the rest of us are taking this time to go. "
+    },
+    {
+      "name": "TRAVIS",
+      "ts": {
+        "h": 0,
+        "m": "51",
+        "s": 41
+      },
+      "text": "You engage, they'll follow, we go, we fight another day, we sleep in the rafters and wait until daybreak. "
+    },
+    {
+      "name": "LIAM",
+      "ts": {
+        "h": 0,
+        "m": "51",
+        "s": 46
+      },
+      "text": "Who are you? "
+    },
+    {
+      "name": "MARISHA",
+      "ts": {
+        "h": 0,
+        "m": "51",
+        "s": 48
+      },
+      "text": "I might be able to do something. "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "51",
+        "s": 53
+      },
+      "text": "What is it? Say it! "
+    },
+    {
+      "name": "MARISHA",
+      "ts": {
+        "h": 0,
+        "m": "51",
+        "s": 55
+      },
+      "text": "I can do a big ice storm or do something to take all these fuckers out at once. "
+    },
+    {
+      "name": "TRAVIS",
+      "ts": {
+        "h": 0,
+        "m": "52",
+        "s": 1
+      },
+      "text": "All 30 to 50 of them? Kill them all? "
+    },
+    {
+      "name": "MARISHA",
+      "ts": {
+        "h": 0,
+        "m": "52",
+        "s": 4
+      },
+      "text": "It's a big range. "
+    },
+    {
+      "name": "LIAM",
+      "ts": {
+        "h": 0,
+        "m": "52",
+        "s": 6
+      },
+      "text": "No. Keyleth, we've got to go. "
+    },
+    {
+      "name": "TALIESIN",
+      "ts": {
+        "h": 0,
+        "m": "52",
+        "s": 8
+      },
+      "text": "I say we let her hit them, and we run. "
+    },
+    {
+      "name": "MARISHA",
+      "ts": {
+        "h": 0,
+        "m": "52",
+        "s": 15
+      },
+      "text": "Scanlan, can you drop the fog just a bit? "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 0,
+        "m": "52",
+        "s": 20
+      },
+      "text": "Nope, not by magic. "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "52",
+        "s": 21
+      },
+      "text": "He can't control it. "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "52",
+        "s": 22
+      },
+      "text": "It's on the ground. You can probably see above it. Fog is low. "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "52",
+        "s": 27
+      },
+      "text": "Well, the fog this creates is a magical fog that obscures an entire area. If you climbed to the very top of the tree, you might be able to get a little bit of a visual. "
+    },
+    {
+      "name": "MARISHA",
+      "ts": {
+        "h": 0,
+        "m": "52",
+        "s": 35
+      },
+      "text": "All right, I'm going to climb as high as I can. "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "52",
+        "s": 38
+      },
+      "text": "Okay, make an athletics check. "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "52",
+        "s": 40
+      },
+      "text": "I'm going to climb up after her. "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 0,
+        "m": "52",
+        "s": 42
+      },
+      "text": "Oh my god. "
+    },
+    {
+      "name": "MARISHA",
+      "ts": {
+        "h": 0,
+        "m": "52",
+        "s": 43
+      },
+      "text": "11. Acrobatics or athletics? "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "52",
+        "s": 49
+      },
+      "text": "Athletics. "
+    },
+    {
+      "name": "MARISHA",
+      "ts": {
+        "h": 0,
+        "m": "52",
+        "s": 51
+      },
+      "text": "Oh, that's better. 15. "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "52",
+        "s": 53
+      },
+      "text": "15. Okay. You make your way up to the very precarious top of the branches. You can feel the brittleness of it as the tree itself, its life force is withered over time and some of it cracks and some of the actual bark of the tree twists off in your grip as you get to the very top. You can look just over the bank of fog that Scanlan has created and you can see beyond that. The number of undead from this angle, what was initially like 30 probably pushes closer to about a hundred. "
+    },
+    {
+      "name": "MARISHA",
+      "ts": {
+        "h": 0,
+        "m": "53",
+        "s": 20
+      },
+      "text": "Okay. And they're like a hundred feet away? "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "53",
+        "s": 24
+      },
+      "text": "Starting about a hundred feet away, slowly marching towards you. "
+    },
+    {
+      "name": "MARISHA",
+      "ts": {
+        "h": 0,
+        "m": "53",
+        "s": 27
+      },
+      "text": "Right where they are, I'm going to start a little ahead of where they originate, I'm going to start making an ice storm. I'm pushing all the way back to where-- just right down these fuckers. "
+    },
+    {
+      "name": "LIAM",
+      "ts": {
+        "h": 0,
+        "m": "53",
+        "s": 40
+      },
+      "text": "I'm also just trying to stay underneath her as best I can. "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "53",
+        "s": 43
+      },
+      "text": "Stop looking up her skirt, brother. "
+    },
+    {
+      "name": "LIAM",
+      "ts": {
+        "h": 0,
+        "m": "53",
+        "s": 46
+      },
+      "text": "Is she in a skirt? "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 0,
+        "m": "53",
+        "s": 48
+      },
+      "text": "She's been wearing a dress this whole time? "
+    },
+    {
+      "name": "LIAM",
+      "ts": {
+        "h": 0,
+        "m": "53",
+        "s": 50
+      },
+      "text": "I thought she was covered in leaves. "
+    },
+    {
+      "name": "TALIESIN",
+      "ts": {
+        "h": 0,
+        "m": "53",
+        "s": 52
+      },
+      "text": "Stop looking up her fig leaf. "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "53",
+        "s": 55
+      },
+      "text": "All right. What's the damage on that? Is it 2d8 bludgeoning and 2d8-- "
+    },
+    {
+      "name": "MARISHA",
+      "ts": {
+        "h": 0,
+        "m": "54",
+        "s": 0
+      },
+      "text": "They take 2d8 bludgeoning damage and 4d6 cold damage. "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "54",
+        "s": 4
+      },
+      "text": "Okay, go ahead and roll for both. And it's a save for half, right? "
+    },
+    {
+      "name": "TALIESIN",
+      "ts": {
+        "h": 0,
+        "m": "54",
+        "s": 9
+      },
+      "text": "Inspiration? "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 0,
+        "m": "54",
+        "s": 10
+      },
+      "text": "Oh. Well. I didn't do it. "
+    },
+    {
+      "name": "MARISHA",
+      "ts": {
+        "h": 0,
+        "m": "54",
+        "s": 13
+      },
+      "text": "2d8 bludgeoning, that's seven bludgeoning... 4d6. Not great at all. Four, five, six, seven, eight. "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "54",
+        "s": 29
+      },
+      "text": "Total of eight. Eight plus... what was the other one? "
+    },
+    {
+      "name": "MARISHA",
+      "ts": {
+        "h": 0,
+        "m": "54",
+        "s": 34
+      },
+      "text": "Seven. "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "54",
+        "s": 35
+      },
+      "text": "Seven, okay. "
+    },
+    {
+      "name": "MARISHA",
+      "ts": {
+        "h": 0,
+        "m": "54",
+        "s": 37
+      },
+      "text": "And it's difficult terrain. "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "54",
+        "s": 38
+      },
+      "text": "Okay. So the first area. Suddenly you see some of the clouds above you begin to funnel downward, and a few bolts of electricity (crackle) through it. As the funnel hits, it grows dark, and then all of a sudden this cold wind begins to swirl around it. And with that, the cloud almost seems to tear open within itself and a sheet of jagged ice and sleet begins to pour downward into the center of this undead horde. As it does, you can see probably a good 25, 30 of these are just blown apart, bone shards scattered around and you can see bits of rusted metal weapons and armor thrown left and right. The ice then coalesces over the floor of this area and some of the skeletons just slip, but they keep marching forward. It definitely took a chunk, but as it continues pushing forward-- "
+    },
+    {
+      "name": "MARISHA",
+      "ts": {
+        "h": 0,
+        "m": "55",
+        "s": 32
+      },
+      "text": "Now we can run. "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "55",
+        "s": 36
+      },
+      "text": "Good job. I grab the back of her shirt and yank her towards me. "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "55",
+        "s": 41
+      },
+      "text": "As you get to the bottom of the tree, the zombie giant has taken notice of the sudden flashing of light and the movement in the tree and is bounding towards the tree after you guys. "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "55",
+        "s": 57
+      },
+      "text": "Are we running? "
+    },
+    {
+      "name": "TRAVIS",
+      "ts": {
+        "h": 0,
+        "m": "55",
+        "s": 59
+      },
+      "text": "Are we going to the Alcove or going to the treeline? "
+    },
+    {
+      "name": "TALIESIN",
+      "ts": {
+        "h": 0,
+        "m": "56",
+        "s": 1
+      },
+      "text": "I say we go to the treeline, and I say that you take a couple shots as we're heading-- "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "56",
+        "s": 5
+      },
+      "text": "I'm definitely doing that, yes. I'm going to shoot at the giant as we're running. Hunter's Mark him. "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "56",
+        "s": 11
+      },
+      "text": "Okay, you Hunter's Mark, turning around, looking at the giant. "
+    },
+    {
+      "name": "MARISHA",
+      "ts": {
+        "h": 0,
+        "m": "56",
+        "s": 13
+      },
+      "text": "As she says that, I'm going to go ahead and start casting my Call Lightning spell. "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "56",
+        "s": 17
+      },
+      "text": "Okay. So you land and you cast Call Lightning. The fog that you created, Scanlan? "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 0,
+        "m": "56",
+        "s": 22
+      },
+      "text": "Yes. "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "56",
+        "s": 23
+      },
+      "text": "Has formed up. You start seeing shapes; these terrifying skeletal faces begin to appear through the fog as the rest of the army begins to push through. The clouds coalescing above Keyleth as you get your Call Lightning ready, you marking the zombie giant, you guys begin bolting out of the way. Trinket comes running up behind you, Vex, and picks you up onto his back, and you guys begin rushing off toward the treeline-- to the west or the east? "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "56",
+        "s": 46
+      },
+      "text": "Can I shoot him? "
+    },
+    {
+      "name": "MARISHA",
+      "ts": {
+        "h": 0,
+        "m": "56",
+        "s": 47
+      },
+      "text": "Yeah, as I turn around, I Call Lightning on the giant. "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "56",
+        "s": 49
+      },
+      "text": "Okay. Go ahead and roll damage on that. "
+    },
+    {
+      "name": "MARISHA",
+      "ts": {
+        "h": 0,
+        "m": "56",
+        "s": 52
+      },
+      "text": "And it's cloudy, so I get how much more? "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "56",
+        "s": 56
+      },
+      "text": "I don't know, how much do you get more on that? Call Lightning would be... "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 0,
+        "m": "57",
+        "s": 0
+      },
+      "text": "While you decide, which way are we going, Percy? West or east? "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "57",
+        "s": 3
+      },
+      "text": "3d10. It does an additional d10. It does 4d10. "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "57",
+        "s": 8
+      },
+      "text": "And I'm going to shoot him through my Longbow of the Sky Sentinel as we're going away, too. "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "57",
+        "s": 12
+      },
+      "text": "Okay. "
+    },
+    {
+      "name": "TALIESIN",
+      "ts": {
+        "h": 0,
+        "m": "57",
+        "s": 13
+      },
+      "text": "So the passage to the castle I'm aware of is to the west, and then the one that Stonefell mentioned is to the east? "
+    },
+    {
+      "name": "TRAVIS",
+      "ts": {
+        "h": 0,
+        "m": "57",
+        "s": 24
+      },
+      "text": "Do we go to the treeline by the castle? "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "57",
+        "s": 25
+      },
+      "text": "No, the one Stonefell mentioned was the same. "
+    },
+    {
+      "name": "TALIESIN",
+      "ts": {
+        "h": 0,
+        "m": "57",
+        "s": 27
+      },
+      "text": "Was the same? "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "57",
+        "s": 28
+      },
+      "text": "It wasn't Stonefell, it was Vouk. "
+    },
+    {
+      "name": "TALIESIN",
+      "ts": {
+        "h": 0,
+        "m": "57",
+        "s": 30
+      },
+      "text": "Yeah, thank you. "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "57",
+        "s": 31
+      },
+      "text": "But yeah. He was referring to the same one. "
+    },
+    {
+      "name": "TALIESIN",
+      "ts": {
+        "h": 0,
+        "m": "57",
+        "s": 33
+      },
+      "text": "Treeline to the west so that we can attack first thing. "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "57",
+        "s": 34
+      },
+      "text": "22. Twice. "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "57",
+        "s": 37
+      },
+      "text": "22 hits. "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "57",
+        "s": 38
+      },
+      "text": "And then three on the last one. "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "57",
+        "s": 40
+      },
+      "text": "Okay, yeah. "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "57",
+        "s": 41
+      },
+      "text": "Well, it's technically 14 on the last one. "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "57",
+        "s": 43
+      },
+      "text": "For him? Still hits. "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "57",
+        "s": 46
+      },
+      "text": "Oh, sweet! "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "57",
+        "s": 47
+      },
+      "text": "It's a big target. Big target, lot of hit points. "
+    },
+    {
+      "name": "MARISHA",
+      "ts": {
+        "h": 0,
+        "m": "57",
+        "s": 50
+      },
+      "text": "And as she's brewing up her bow, I'm behind her and just bring down the bolt for 32 damage. "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "57",
+        "s": 56
+      },
+      "text": "Damn. (lightning sound) You can see the bolt strikes the front of the zombie giant right as it starts swinging after you guys. The bolt hits its shoulder and blasts a chunk of its shoulder blade off. You see bone shards fire behind, and there's a giant piece of its torso now missing where the bolt hit. (groans) Stumbles back onto its back foot and catches itself, almost toppling over. "
+    },
+    {
+      "name": "MARISHA",
+      "ts": {
+        "h": 0,
+        "m": "58",
+        "s": 15
+      },
+      "text": "Just start backing up. \"Vex?\" "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "58",
+        "s": 17
+      },
+      "text": "It starts lumbering forward again as Vex releases her arrow, which splits into three. "
+    },
+    {
+      "name": "MARISHA",
+      "ts": {
+        "h": 0,
+        "m": "58",
+        "s": 22
+      },
+      "text": "Vex? "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "58",
+        "s": 23
+      },
+      "text": "54 points of damage. "
+    },
+    {
+      "name": "MARISHA",
+      "ts": {
+        "h": 0,
+        "m": "58",
+        "s": 25
+      },
+      "text": "Kill it! "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "58",
+        "s": 26
+      },
+      "text": "Nice! (impact sounds) All the arrows blasting into its body, you can see they sink in and burst on the inside. There's a little, a dull glow as this burst of electrical energy hits from underneath its sickly zombified flesh. At which point, there's a slight delay before it (explosion sound) bubbles forth and a bit of its internal liquid just spews out like a boil. You can see it's definitely taking damage, and it keeps pushing forward. Yeah, it's still moving towards you guys. "
+    },
+    {
+      "name": "LIAM",
+      "ts": {
+        "h": 0,
+        "m": "58",
+        "s": 58
+      },
+      "text": "How far away is it? "
+    },
+    {
+      "name": "TALIESIN",
+      "ts": {
+        "h": 0,
+        "m": "58",
+        "s": 59
+      },
+      "text": "For gods' sakes! "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "59",
+        "s": 0
+      },
+      "text": "It's about ten feet from you guys right now. "
+    },
+    {
+      "name": "TALIESIN",
+      "ts": {
+        "h": 0,
+        "m": "59",
+        "s": 2
+      },
+      "text": "I pull out Bad News. I'm shooting it with Bad News, and I'm going for an aimed shot to the legs. "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "59",
+        "s": 12
+      },
+      "text": "Okay. The moment it would take for you to stop and pull out Bad News, by the way, the moment you guys are turning around to attack it, it has gotten within range to hit, so this is all happening simultaneously, so it's going to get two strikes as you guys get your attacks, as well. "
+    },
+    {
+      "name": "MARISHA",
+      "ts": {
+        "h": 0,
+        "m": "59",
+        "s": 25
+      },
+      "text": "What are you doing? "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "59",
+        "s": 27
+      },
+      "text": "So. Go ahead and roll your attack. "
+    },
+    {
+      "name": "LIAM",
+      "ts": {
+        "h": 0,
+        "m": "59",
+        "s": 29
+      },
+      "text": "I did. "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "59",
+        "s": 29
+      },
+      "text": "What did you get? "
+    },
+    {
+      "name": "LIAM",
+      "ts": {
+        "h": 0,
+        "m": "59",
+        "s": 30
+      },
+      "text": "27 and an 18. "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "59",
+        "s": 31
+      },
+      "text": "Both hit. "
+    },
+    {
+      "name": "TALIESIN",
+      "ts": {
+        "h": 0,
+        "m": "59",
+        "s": 32
+      },
+      "text": "I got 28. "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "59",
+        "s": 34
+      },
+      "text": "Okay. And against Percy, that is a 17 and a 20. "
+    },
+    {
+      "name": "TALIESIN",
+      "ts": {
+        "h": 0,
+        "m": "59",
+        "s": 41
+      },
+      "text": "17 misses. The 20 hits. "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "59",
+        "s": 44
+      },
+      "text": "Okay. You take 16 points of bludgeoning damage as its fist comes down and (whack) slams into your side just as Bad News fires off and your daggers go (dagger sounds) towards it. "
+    },
+    {
+      "name": "LIAM",
+      "ts": {
+        "h": 1,
+        "m": "0",
+        "s": 0
+      },
+      "text": "Keen Dagger, Flametongue, combined 20 hit points. "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 1,
+        "m": "0",
+        "s": 2
+      },
+      "text": "Okay. Good to know. "
+    },
+    {
+      "name": "MARISHA",
+      "ts": {
+        "h": 1,
+        "m": "0",
+        "s": 5
+      },
+      "text": "And as soon as I'm able, I'm backing up and bringing down another lightning bolt. "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 1,
+        "m": "0",
+        "s": 9
+      },
+      "text": "Well, I've got another attack. That was just one attack that I did. "
+    },
+    {
+      "name": "MARISHA",
+      "ts": {
+        "h": 1,
+        "m": "0",
+        "s": 11
+      },
+      "text": "Oh yeah. "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 1,
+        "m": "0",
+        "s": 13
+      },
+      "text": "You need your spells. We need to hide. We need to run. "
+    },
+    {
+      "name": "MARISHA",
+      "ts": {
+        "h": 1,
+        "m": "0",
+        "s": 16
+      },
+      "text": "I can keep doing it. I'm not blowing spells on it. "
+    },
+    {
+      "name": "TALIESIN",
+      "ts": {
+        "h": 1,
+        "m": "0",
+        "s": 21
+      },
+      "text": "22 points of damage, plus he's knocked prone. "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 1,
+        "m": "0",
+        "s": 25
+      },
+      "text": "Okay. Easy enough. Through the daggers-- "
+    },
+    {
+      "name": "TALIESIN",
+      "ts": {
+        "h": 1,
+        "m": "0",
+        "s": 28
+      },
+      "text": "Oh, he can make a con saving throw, though. "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 1,
+        "m": "0",
+        "s": 30
+      },
+      "text": "It doesn't matter. It still manages to keep its zombie form, though it seems like every single hit you're taking chunks off its body, but it continues to push through the damage until eventually it swings at you with the hit, Bad News goes off as it blasts through the center of its torso and takes out the back of its spine. It can't keep its physical form together, and as its body lunges forward, you throw both of your daggers, which go (thoonk thoonk) into each of its eyes. It falls forward. The torso seems to roll on impact and come after you like a slow-moving boulder for a few feet, but since you're all moving forward, you manage to outrun it, just barely keeping out of the way. The legs walk on their own for two more steps before it just falls forward into the mud, relieving all its intestines into the rain-soaked ground. "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 1,
+        "m": "1",
+        "s": 14
+      },
+      "text": "Let's get out of here! "
+    },
+    {
+      "name": "MARISHA",
+      "ts": {
+        "h": 1,
+        "m": "1",
+        "s": 15
+      },
+      "text": "Go, go, go. Run! "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 1,
+        "m": "1",
+        "s": 16
+      },
+      "text": "Pass Without a Trace! "
+    },
+    {
+      "name": "TRAVIS",
+      "ts": {
+        "h": 1,
+        "m": "1",
+        "s": 18
+      },
+      "text": "Aggressive flower girl. "
+    },
+    {
+      "name": "MARISHA",
+      "ts": {
+        "h": 1,
+        "m": "1",
+        "s": 20
+      },
+      "text": "Do I see any other-- as we're running through-- "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 1,
+        "m": "1",
+        "s": 23
+      },
+      "text": "Just run, Keyleth! "
+    },
+    {
+      "name": "LIAM",
+      "ts": {
+        "h": 1,
+        "m": "1",
+        "s": 24
+      },
+      "text": "I grab Keyleth by the arm and I just pull and run. "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 1,
+        "m": "1",
+        "s": 26
+      },
+      "text": "You guys go running back and as you're looking over your shoulder you can see the skeletal army swarming the center of the square and pouring into the streets. It seems that the Briarwoods had their own reserve anti-riot campaign at the ready. "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 1,
+        "m": "1",
+        "s": 42
+      },
+      "text": "Oh, are they going to take out everybody? "
+    },
+    {
+      "name": "MARISHA",
+      "ts": {
+        "h": 1,
+        "m": "1",
+        "s": 44
+      },
+      "text": "We can't go, we can't go! "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 1,
+        "m": "1",
+        "s": 46
+      },
+      "text": "We have to go. We have nothing left. "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 1,
+        "m": "1",
+        "s": 53
+      },
+      "text": "We'll be returning next week on that note. "
+    },
+    {
+      "name": "TRAVIS",
+      "ts": {
+        "h": 1,
+        "m": "1",
+        "s": 58
+      },
+      "text": "(laughs) You son of a bitch, I love it. "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 1,
+        "m": "2",
+        "s": 2
+      },
+      "text": "All right, so we're going to take a little break here while we set up for Critmas. Quick one, very quick, we'll be back here in just a few minutes, for those who want to hang in and watch how ridiculously amazing this community is. "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 1,
+        "m": "2",
+        "s": 15
+      },
+      "text": "Oh my gosh. There's like, there's a lot. "
+    },
+    {
+      "name": "MARISHA",
+      "ts": {
+        "h": 1,
+        "m": "2",
+        "s": 17
+      },
+      "text": "Yeah, you guys are crazy. "
+    },
+    {
+      "name": "LIAM",
+      "ts": {
+        "h": 1,
+        "m": "2",
+        "s": 19
+      },
+      "text": "Buckle up! "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 1,
+        "m": "2",
+        "s": 21
+      },
+      "text": "All right, quick break. See you in a second. "
+    }
+  ]
+}

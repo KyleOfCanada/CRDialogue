@@ -1,0 +1,8227 @@
+{
+  "metadata": {
+    "campaign": "1",
+    "episode": "74.01",
+    "title": "Critical Role's Critmas!",
+    "html_file": "html/cr1-74.01.html"
+  },
+  "lines": [
+    {
+      "name": "BRIAN",
+      "ts": {
+        "h": 0,
+        "m": "0",
+        "s": 54
+      },
+      "text": "Sometimes-- are we really just going? (laughter) "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 0,
+        "m": "1",
+        "s": 25
+      },
+      "text": "Marisha caught in flagrante delicto! "
+    },
+    {
+      "name": "BRIAN",
+      "ts": {
+        "h": 0,
+        "m": "1",
+        "s": 28
+      },
+      "text": "She's going after the presents underneath the tree. "
+    },
+    {
+      "name": "MARISHA",
+      "ts": {
+        "h": 0,
+        "m": "1",
+        "s": 33
+      },
+      "text": "Keep Christmas going! "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "1",
+        "s": 35
+      },
+      "text": "Critmas! Say it right. "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 0,
+        "m": "1",
+        "s": 38
+      },
+      "text": "Praise be to Jesus Crit. "
+    },
+    {
+      "name": "BRIAN",
+      "ts": {
+        "h": 0,
+        "m": "1",
+        "s": 40
+      },
+      "text": "Guys. How is everybody doing? "
+    },
+    {
+      "name": "LAURA, MATT",
+      "ts": {
+        "h": 0,
+        "m": "1",
+        "s": 45
+      },
+      "text": "Good, how are you? "
+    },
+    {
+      "name": "BRIAN",
+      "ts": {
+        "h": 0,
+        "m": "1",
+        "s": 47
+      },
+      "text": "Wonderful. Merry Critmas, everyone. "
+    },
+    {
+      "name": "SAM, LAURA",
+      "ts": {
+        "h": 0,
+        "m": "1",
+        "s": 49
+      },
+      "text": "It's the holiday season. "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 0,
+        "m": "1",
+        "s": 52
+      },
+      "text": "We've got gifts. We've got the spirit of Christmas. There's a light snowfall. When we were driving up, did you guys see that? "
+    },
+    {
+      "name": "TALIESIN",
+      "ts": {
+        "h": 0,
+        "m": "2",
+        "s": 0
+      },
+      "text": "That was ash, something was on fire. "
+    },
+    {
+      "name": "BRIAN",
+      "ts": {
+        "h": 0,
+        "m": "2",
+        "s": 3
+      },
+      "text": "Yeah, so the Warner Brothers tower was being drizzled with snow. "
+    },
+    {
+      "name": "TRAVIS",
+      "ts": {
+        "h": 0,
+        "m": "2",
+        "s": 7
+      },
+      "text": "Drizzled? "
+    },
+    {
+      "name": "BRIAN",
+      "ts": {
+        "h": 0,
+        "m": "2",
+        "s": 14
+      },
+      "text": "Is the music too loud, Denise? "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 0,
+        "m": "2",
+        "s": 15
+      },
+      "text": "Yes. "
+    },
+    {
+      "name": "DENISE",
+      "ts": {
+        "h": 0,
+        "m": "2",
+        "s": 16
+      },
+      "text": "No. "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 0,
+        "m": "2",
+        "s": 19
+      },
+      "text": "(laughter) "
+    },
+    {
+      "name": "BRIAN",
+      "ts": {
+        "h": 0,
+        "m": "2",
+        "s": 24
+      },
+      "text": "When she has spoken, she has spoken. It's over after that. Tonight, we're going to do Critmas on the show. There's not going to be a Critical Role on Thursday the 22nd. Instead, we're going to open our Critmas presents and hang out, just have fun, and towards the end of the episode, we're going to play our What Does Critical Role Mean To You? videos that you guys have sent in, so stick around for that. Yes, very excited! Before we get going, I didn't have time to send in a video, because I missed the deadline. Instead, I'm going to read my Critmas letter to you. "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "3",
+        "s": 10
+      },
+      "text": "Oh no. "
+    },
+    {
+      "name": "LIAM",
+      "ts": {
+        "h": 0,
+        "m": "3",
+        "s": 11
+      },
+      "text": "Batten down the hatches! "
+    },
+    {
+      "name": "BRIAN",
+      "ts": {
+        "h": 0,
+        "m": "3",
+        "s": 13
+      },
+      "text": "What do you mean, Oh no? "
+    },
+    {
+      "name": "MARISHA",
+      "ts": {
+        "h": 0,
+        "m": "3",
+        "s": 16
+      },
+      "text": "Hang on, wait. Can I repour my glass of wine that spilled at the very top of the episode? "
+    },
+    {
+      "name": "BRIAN",
+      "ts": {
+        "h": 0,
+        "m": "3",
+        "s": 20
+      },
+      "text": "You absolutely can. Matt? How was your week? "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "3",
+        "s": 24
+      },
+      "text": "My week was crazy. I'm looking forward-- "
+    },
+    {
+      "name": "BRIAN",
+      "ts": {
+        "h": 0,
+        "m": "3",
+        "s": 32
+      },
+      "text": "I'm looking forward. "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "3",
+        "s": 34
+      },
+      "text": "Yeah. Hi. "
+    },
+    {
+      "name": "BRIAN",
+      "ts": {
+        "h": 0,
+        "m": "3",
+        "s": 44
+      },
+      "text": "Did you see Marisha pop into his frame for a second, then pop back out? (laughter) "
+    },
+    {
+      "name": "LIAM",
+      "ts": {
+        "h": 0,
+        "m": "3",
+        "s": 49
+      },
+      "text": "Marisha, if you've finished up in there, you can also dust in the dining room, and the bathrooms need to be cleaned as well. "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 0,
+        "m": "3",
+        "s": 56
+      },
+      "text": "Is that a knock at the door? "
+    },
+    {
+      "name": "TRAVIS",
+      "ts": {
+        "h": 0,
+        "m": "3",
+        "s": 59
+      },
+      "text": "Uncle-- "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 0,
+        "m": "4",
+        "s": 0
+      },
+      "text": "--David Bowie? I don't know. "
+    },
+    {
+      "name": "TALIESIN",
+      "ts": {
+        "h": 0,
+        "m": "4",
+        "s": 2
+      },
+      "text": "Nice, but too soon. "
+    },
+    {
+      "name": "MARISHA",
+      "ts": {
+        "h": 0,
+        "m": "4",
+        "s": 5
+      },
+      "text": "Are you trying to save this episode? It's too early to save this episode. "
+    },
+    {
+      "name": "BRIAN",
+      "ts": {
+        "h": 0,
+        "m": "4",
+        "s": 11
+      },
+      "text": "We could totally start over, but the shittiness of this fits the last five episodes so well. "
+    },
+    {
+      "name": "TALIESIN",
+      "ts": {
+        "h": 0,
+        "m": "4",
+        "s": 19
+      },
+      "text": "We're on brand right now. "
+    },
+    {
+      "name": "BRIAN",
+      "ts": {
+        "h": 0,
+        "m": "4",
+        "s": 24
+      },
+      "text": "Like I said, I wasn't able to send in a video, because I missed the deadline, but I did write you guys a Critmas letter that I'm going to read to get us started. "
+    },
+    {
+      "name": "TALIESIN",
+      "ts": {
+        "h": 0,
+        "m": "4",
+        "s": 31
+      },
+      "text": "Is it in screenplay format? "
+    },
+    {
+      "name": "BRIAN",
+      "ts": {
+        "h": 0,
+        "m": "4",
+        "s": 33
+      },
+      "text": "It is not. "
+    },
+    {
+      "name": "TALIESIN",
+      "ts": {
+        "h": 0,
+        "m": "4",
+        "s": 34
+      },
+      "text": "Damn. "
+    },
+    {
+      "name": "BRIAN",
+      "ts": {
+        "h": 0,
+        "m": "5",
+        "s": 12
+      },
+      "text": "\"Matt, Marisha--\" These aren't in any particular order, I promise. "
+    },
+    {
+      "name": "TRAVIS",
+      "ts": {
+        "h": 0,
+        "m": "5",
+        "s": 16
+      },
+      "text": "You better say my name next. "
+    },
+    {
+      "name": "BRIAN",
+      "ts": {
+        "h": 0,
+        "m": "5",
+        "s": 18
+      },
+      "text": "No, I mean, there's only eight of them.\" "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "6",
+        "s": 10
+      },
+      "text": "Did we really send a courier? "
+    },
+    {
+      "name": "TRAVIS",
+      "ts": {
+        "h": 0,
+        "m": "6",
+        "s": 12
+      },
+      "text": "Laura! "
+    },
+    {
+      "name": "BRIAN",
+      "ts": {
+        "h": 0,
+        "m": "6",
+        "s": 13
+      },
+      "text": "There, among the stray cats and drifters, I finally gathered the strength to read that note. I held it close to the barrel fire I had just cooked my dinner over, and I opened the note. The first thing I noticed was it was quite short. The second thing I noticed about this note offering me the job was that it wasn't even handwritten. But that night, my life would change, for the note read, very simply, \"Hardwick passed. You're up. Travis.\" (laughter) "
+    },
+    {
+      "name": "TALIESIN",
+      "ts": {
+        "h": 0,
+        "m": "7",
+        "s": 2
+      },
+      "text": "So true. "
+    },
+    {
+      "name": "TRAVIS",
+      "ts": {
+        "h": 0,
+        "m": "7",
+        "s": 3
+      },
+      "text": "Listen, I have illegible writing. "
+    },
+    {
+      "name": "BRIAN",
+      "ts": {
+        "h": 0,
+        "m": "7",
+        "s": 6
+      },
+      "text": "But thank you, guys. Years from now, when I'm living off the money I make at conventions in Paraguay and robbing the elderly, I'll be grateful. I'll always remember where I got my start. My first gig. That gig was the gig I do after my contract here is up. Please contact my reps for hosting opportunities after the 31st of-- we'll just say later. But thank you, Critical Role, for the opportunity to ask you guys questions about yourselves.\" (cheering and laughter) "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 0,
+        "m": "7",
+        "s": 41
+      },
+      "text": "It's what the Critmas spirit is all about. "
+    },
+    {
+      "name": "BRIAN",
+      "ts": {
+        "h": 0,
+        "m": "7",
+        "s": 44
+      },
+      "text": "Cheers, guys. "
+    },
+    {
+      "name": "TALIESIN",
+      "ts": {
+        "h": 0,
+        "m": "7",
+        "s": 45
+      },
+      "text": "Next, our musical guests, the Stray Cats. I'm excited that you happen to know them. "
+    },
+    {
+      "name": "BRIAN",
+      "ts": {
+        "h": 0,
+        "m": "7",
+        "s": 50
+      },
+      "text": "Taliesin, big fan of the Stray Cats. Okay, let's begin. "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 0,
+        "m": "7",
+        "s": 55
+      },
+      "text": "What are we doing? "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "7",
+        "s": 57
+      },
+      "text": "Is this where we start opening things? What are we doing? "
+    },
+    {
+      "name": "BRIAN",
+      "ts": {
+        "h": 0,
+        "m": "8",
+        "s": 1
+      },
+      "text": "Let's open things. Oh, we're going to play the intro? "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "8",
+        "s": 4
+      },
+      "text": "Yeah, roll the opening for the opening. "
+    },
+    {
+      "name": "BRIAN",
+      "ts": {
+        "h": 0,
+        "m": "8",
+        "s": 6
+      },
+      "text": "(laughter) "
+    },
+    {
+      "name": "TRAVIS",
+      "ts": {
+        "h": 0,
+        "m": "8",
+        "s": 11
+      },
+      "text": "Is there ever a wrong clip of Sam? "
+    },
+    {
+      "name": "TALIESIN",
+      "ts": {
+        "h": 0,
+        "m": "8",
+        "s": 13
+      },
+      "text": "Is there ever a right one? "
+    },
+    {
+      "name": "BRIAN",
+      "ts": {
+        "h": 0,
+        "m": "8",
+        "s": 15
+      },
+      "text": "How does this work? You grab them, and we talk about who sent them out? "
+    },
+    {
+      "name": "TALIESIN",
+      "ts": {
+        "h": 0,
+        "m": "8",
+        "s": 21
+      },
+      "text": "Usually, we talk amongst ourselves. "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "8",
+        "s": 25
+      },
+      "text": "I want Marisha to put some nail wraps on me. "
+    },
+    {
+      "name": "MARISHA",
+      "ts": {
+        "h": 0,
+        "m": "8",
+        "s": 28
+      },
+      "text": "We just figured we could have a classic Critmas powwow. "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 0,
+        "m": "8",
+        "s": 32
+      },
+      "text": "Maybe we should go around the room while we're opening and just say one thing we're grateful about. "
+    },
+    {
+      "name": "TRAVIS",
+      "ts": {
+        "h": 0,
+        "m": "8",
+        "s": 37
+      },
+      "text": "God, I'm going to barf all over you. Do not make us do this shit. "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 0,
+        "m": "8",
+        "s": 41
+      },
+      "text": "How about we say one thing that we like about Brian? "
+    },
+    {
+      "name": "TRAVIS",
+      "ts": {
+        "h": 0,
+        "m": "8",
+        "s": 44
+      },
+      "text": "That's even harder. "
+    },
+    {
+      "name": "BRIAN",
+      "ts": {
+        "h": 0,
+        "m": "8",
+        "s": 47
+      },
+      "text": "At least you won't have to worry about taking up too much time. "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 0,
+        "m": "8",
+        "s": 52
+      },
+      "text": "You want to go first, Travis? "
+    },
+    {
+      "name": "MARISHA",
+      "ts": {
+        "h": 0,
+        "m": "8",
+        "s": 54
+      },
+      "text": "(laughter) "
+    },
+    {
+      "name": "BRIAN",
+      "ts": {
+        "h": 0,
+        "m": "9",
+        "s": 1
+      },
+      "text": "All right, let's begin. I'm ready. "
+    },
+    {
+      "name": "MARISHA",
+      "ts": {
+        "h": 0,
+        "m": "9",
+        "s": 5
+      },
+      "text": "I, for one, appreciate that Travis's letter got to you before the restraining order did. "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "9",
+        "s": 12
+      },
+      "text": "That's true. You were able to head that one off at the pass. "
+    },
+    {
+      "name": "MARISHA",
+      "ts": {
+        "h": 0,
+        "m": "9",
+        "s": 16
+      },
+      "text": "A little bit of backpedalling on our part. "
+    },
+    {
+      "name": "BRIAN",
+      "ts": {
+        "h": 0,
+        "m": "9",
+        "s": 19
+      },
+      "text": "The courier's name? Was fucking Glenn. "
+    },
+    {
+      "name": "TRAVIS",
+      "ts": {
+        "h": 0,
+        "m": "9",
+        "s": 27
+      },
+      "text": "Yeah. "
+    },
+    {
+      "name": "MATT, LAURA",
+      "ts": {
+        "h": 0,
+        "m": "9",
+        "s": 28
+      },
+      "text": "God damn it, Glenn. "
+    },
+    {
+      "name": "BRIAN",
+      "ts": {
+        "h": 0,
+        "m": "9",
+        "s": 37
+      },
+      "text": "For anyone who has not seen the show, they're like-- "
+    },
+    {
+      "name": "MARISHA",
+      "ts": {
+        "h": 0,
+        "m": "9",
+        "s": 40
+      },
+      "text": "The fuck? "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "9",
+        "s": 43
+      },
+      "text": "What I like about you, Brian, is that the first time you came-- well, I guess it wasn't the first time. The first time you came to set after you got this job? You made us all Old Fashioneds during Critical Role. "
+    },
+    {
+      "name": "BRIAN",
+      "ts": {
+        "h": 0,
+        "m": "9",
+        "s": 56
+      },
+      "text": "I did. "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "9",
+        "s": 57
+      },
+      "text": "You make a mean Old Fashioned, and I wish that kept going. "
+    },
+    {
+      "name": "BRIAN",
+      "ts": {
+        "h": 0,
+        "m": "10",
+        "s": 0
+      },
+      "text": "I'm here every Thursday. I could keep doing it. The only problem is they're quite tasty and then by half-time, maybe, everybody could be a little drippy. We'll just limit to four hours? You could do two. Do one at the break. That's a good enough amount of time. "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "10",
+        "s": 20
+      },
+      "text": "Don't look at me! I'm not allowed to drink during any of the games. "
+    },
+    {
+      "name": "BRIAN",
+      "ts": {
+        "h": 0,
+        "m": "10",
+        "s": 22
+      },
+      "text": "You drink, what is that? Tang? "
+    },
+    {
+      "name": "MARISHA",
+      "ts": {
+        "h": 0,
+        "m": "10",
+        "s": 25
+      },
+      "text": "No one else puts that on him. "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "10",
+        "s": 29
+      },
+      "text": "No. I have way too much to concentrate on every time we do an episode. I can't drink. "
+    },
+    {
+      "name": "MARISHA",
+      "ts": {
+        "h": 0,
+        "m": "10",
+        "s": 34
+      },
+      "text": "Still a self-imposed rule. "
+    },
+    {
+      "name": "BRIAN",
+      "ts": {
+        "h": 0,
+        "m": "10",
+        "s": 35
+      },
+      "text": "Ladies and gentlemen, french horns are back. "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "10",
+        "s": 37
+      },
+      "text": "(cheering) "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 0,
+        "m": "10",
+        "s": 51
+      },
+      "text": "Please don't turn them off. Oh, okay. "
+    },
+    {
+      "name": "TRAVIS",
+      "ts": {
+        "h": 0,
+        "m": "10",
+        "s": 53
+      },
+      "text": "That's not french horns. "
+    },
+    {
+      "name": "LIAM",
+      "ts": {
+        "h": 0,
+        "m": "10",
+        "s": 54
+      },
+      "text": "I'm thankful for the day that you showed me a video from the wedding of me when I barely knew you, walking by, and me scowling or grimacing at you. You see this? Here, I'm going to walk by and watch what you do. "
+    },
+    {
+      "name": "MARISHA",
+      "ts": {
+        "h": 0,
+        "m": "11",
+        "s": 10
+      },
+      "text": "Did you do that? "
+    },
+    {
+      "name": "LIAM",
+      "ts": {
+        "h": 0,
+        "m": "11",
+        "s": 12
+      },
+      "text": "I don't remember it. "
+    },
+    {
+      "name": "BRIAN",
+      "ts": {
+        "h": 0,
+        "m": "11",
+        "s": 14
+      },
+      "text": "Yeah, I walked by, and he was like-- "
+    },
+    {
+      "name": "LIAM",
+      "ts": {
+        "h": 0,
+        "m": "11",
+        "s": 17
+      },
+      "text": "That was probably a reaction to your skinny pants and my admiration/envy. "
+    },
+    {
+      "name": "BRIAN",
+      "ts": {
+        "h": 0,
+        "m": "11",
+        "s": 21
+      },
+      "text": "They were skinny back then, too. I was like a size zero. Yeah. "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "11",
+        "s": 28
+      },
+      "text": "(laughter) "
+    },
+    {
+      "name": "TALIESIN",
+      "ts": {
+        "h": 0,
+        "m": "11",
+        "s": 31
+      },
+      "text": "This is why we don't let him drink. "
+    },
+    {
+      "name": "BRIAN",
+      "ts": {
+        "h": 0,
+        "m": "11",
+        "s": 32
+      },
+      "text": "I make the shitty jokes on this show! "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "11",
+        "s": 35
+      },
+      "text": "Sorry. "
+    },
+    {
+      "name": "BRIAN",
+      "ts": {
+        "h": 0,
+        "m": "11",
+        "s": 37
+      },
+      "text": "I make the jokes that people hate. "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 0,
+        "m": "11",
+        "s": 38
+      },
+      "text": "I admire the fact that you've overcome your handicap, which we all know is that he's smooth down there. It's like a Ken doll. There's no genitalia. It's just shiny and plastic. It's just, there's nothing. Just nothing there. But you've somehow overcome that and had a relatively normal life. "
+    },
+    {
+      "name": "BRIAN",
+      "ts": {
+        "h": 0,
+        "m": "12",
+        "s": 8
+      },
+      "text": "Nothing I can say. Right now, I can see tweets, I can see Tumblr, I can see Reddit, I can see people showing up at my house, so I'm just going to say thank you, Sam. "
+    },
+    {
+      "name": "TALIESIN",
+      "ts": {
+        "h": 0,
+        "m": "12",
+        "s": 18
+      },
+      "text": "I can see fan art, weirdly. "
+    },
+    {
+      "name": "BRIAN",
+      "ts": {
+        "h": 0,
+        "m": "12",
+        "s": 20
+      },
+      "text": "I can see fan art. I'm just going to say thank you. "
+    },
+    {
+      "name": "TRAVIS",
+      "ts": {
+        "h": 0,
+        "m": "12",
+        "s": 22
+      },
+      "text": "I am thankful for your ability to wear the top button of your collared shirt closed, whether you're wearing a tie or not. "
+    },
+    {
+      "name": "BRIAN",
+      "ts": {
+        "h": 0,
+        "m": "12",
+        "s": 35
+      },
+      "text": "Thank you. I do not know how to tie a tie, however. "
+    },
+    {
+      "name": "TRAVIS",
+      "ts": {
+        "h": 0,
+        "m": "12",
+        "s": 39
+      },
+      "text": "Is that a clip-on? "
+    },
+    {
+      "name": "TALIESIN",
+      "ts": {
+        "h": 0,
+        "m": "12",
+        "s": 41
+      },
+      "text": "That's a clip-on. "
+    },
+    {
+      "name": "BRIAN",
+      "ts": {
+        "h": 0,
+        "m": "12",
+        "s": 42
+      },
+      "text": "Denise had to tie my tie tonight. "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "12",
+        "s": 46
+      },
+      "text": "She did a good job. I mean, it's a little-- "
+    },
+    {
+      "name": "BRIAN",
+      "ts": {
+        "h": 0,
+        "m": "12",
+        "s": 49
+      },
+      "text": "I crawled in here, and I said, \"Denise, I'm so sorry for how I've treated you.\" And she said, \"I'm so sorry, remind me who you are, again?\" (laughter) "
+    },
+    {
+      "name": "MARISHA",
+      "ts": {
+        "h": 0,
+        "m": "13",
+        "s": 0
+      },
+      "text": "Do you have a key card? "
+    },
+    {
+      "name": "BRIAN",
+      "ts": {
+        "h": 0,
+        "m": "13",
+        "s": 6
+      },
+      "text": "Nope. Someone tagged me in a Reddit thing today, and they were like, \"I love how shady Brian is.\" (laughter) "
+    },
+    {
+      "name": "TALIESIN",
+      "ts": {
+        "h": 0,
+        "m": "13",
+        "s": 15
+      },
+      "text": "That was my compliment! "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "13",
+        "s": 18
+      },
+      "text": "Please tell me that's on your business card: \"Brian Wayne Foster. Shady.\" "
+    },
+    {
+      "name": "TALIESIN",
+      "ts": {
+        "h": 0,
+        "m": "13",
+        "s": 22
+      },
+      "text": "It's more of a, \"Meet me out back.\" That's all it says. \"Meet me out back.\" "
+    },
+    {
+      "name": "BRIAN",
+      "ts": {
+        "h": 0,
+        "m": "13",
+        "s": 27
+      },
+      "text": "Yeah, I could totally give those out to girls at bars. \"Meet me out back.\" Nobody's going to think anything of it. "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "13",
+        "s": 34
+      },
+      "text": "You definitely shouldn't do that. You shouldn't be hitting on girls at bars. "
+    },
+    {
+      "name": "TRAVIS",
+      "ts": {
+        "h": 0,
+        "m": "13",
+        "s": 36
+      },
+      "text": "It's on his LinkedIn profile. "
+    },
+    {
+      "name": "BRIAN",
+      "ts": {
+        "h": 0,
+        "m": "13",
+        "s": 40
+      },
+      "text": "People are always coming out to my car. "
+    },
+    {
+      "name": "TALIESIN",
+      "ts": {
+        "h": 0,
+        "m": "13",
+        "s": 44
+      },
+      "text": "It says, \"Meet me out back.\" And on the other side of the card, it says, \"Steak house.\" Meet me at the out back, steak house. It's great. It's a terrible joke. I feel bad for making it. "
+    },
+    {
+      "name": "BRIAN",
+      "ts": {
+        "h": 0,
+        "m": "13",
+        "s": 56
+      },
+      "text": "So five days until Christmas, and then ten days until New Years, from tonight. "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 0,
+        "m": "14",
+        "s": 2
+      },
+      "text": "Yeah, from tonight! Because it's the 20th. "
+    },
+    {
+      "name": "BRIAN",
+      "ts": {
+        "h": 0,
+        "m": "14",
+        "s": 4
+      },
+      "text": "Christmas from tonight. Tuesday, December 20th-- "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 0,
+        "m": "14",
+        "s": 7
+      },
+      "text": "Is right now. "
+    },
+    {
+      "name": "BRIAN",
+      "ts": {
+        "h": 0,
+        "m": "14",
+        "s": 9
+      },
+      "text": "The night of our lord, Tuesday. "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 0,
+        "m": "14",
+        "s": 12
+      },
+      "text": "We've had the Thordak fight. "
+    },
+    {
+      "name": "LIAM",
+      "ts": {
+        "h": 0,
+        "m": "14",
+        "s": 14
+      },
+      "text": "We just rolled all our new characters yesterday. "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 0,
+        "m": "14",
+        "s": 17
+      },
+      "text": "It was a crazy night. "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "14",
+        "s": 19
+      },
+      "text": "It didn't go at all how I expected. "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 0,
+        "m": "14",
+        "s": 22
+      },
+      "text": "In a way, though, it was fitting. It was a fitting end. "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "14",
+        "s": 27
+      },
+      "text": "I thought so, too. "
+    },
+    {
+      "name": "TALIESIN",
+      "ts": {
+        "h": 0,
+        "m": "14",
+        "s": 28
+      },
+      "text": "The Scanlan/Grog love interest thing, I was not prepared for that. It was really-- "
+    },
+    {
+      "name": "BRIAN",
+      "ts": {
+        "h": 0,
+        "m": "14",
+        "s": 35
+      },
+      "text": "Okay, here's my top three moments from the Thordak episode: Taliesin rolled very well. "
+    },
+    {
+      "name": "TALIESIN",
+      "ts": {
+        "h": 0,
+        "m": "14",
+        "s": 41
+      },
+      "text": "I did. "
+    },
+    {
+      "name": "BRIAN",
+      "ts": {
+        "h": 0,
+        "m": "14",
+        "s": 42
+      },
+      "text": "These were the things that surprised me: Taliesin rolled very well. Sam knows a lot more Melissa Etheridge songs that we all thought. "
+    },
+    {
+      "name": "TALIESIN",
+      "ts": {
+        "h": 0,
+        "m": "14",
+        "s": 50
+      },
+      "text": "And we thought he knew a lot! "
+    },
+    {
+      "name": "BRIAN",
+      "ts": {
+        "h": 0,
+        "m": "14",
+        "s": 52
+      },
+      "text": "(laughter) "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 0,
+        "m": "15",
+        "s": 7
+      },
+      "text": "Did not see that coming. "
+    },
+    {
+      "name": "TRAVIS, BRIAN",
+      "ts": {
+        "h": 0,
+        "m": "15",
+        "s": 8
+      },
+      "text": "Thanks, Keyleth. "
+    },
+    {
+      "name": "LIAM",
+      "ts": {
+        "h": 0,
+        "m": "15",
+        "s": 11
+      },
+      "text": "That's not the internet I know. "
+    },
+    {
+      "name": "TALIESIN",
+      "ts": {
+        "h": 0,
+        "m": "15",
+        "s": 13
+      },
+      "text": "Not today. Not here. "
+    },
+    {
+      "name": "MARISHA",
+      "ts": {
+        "h": 0,
+        "m": "15",
+        "s": 15
+      },
+      "text": "I'm hoping for some of that to change in 2017. Bright new future. "
+    },
+    {
+      "name": "BRIAN",
+      "ts": {
+        "h": 0,
+        "m": "15",
+        "s": 21
+      },
+      "text": "He's back. Hey, last week on the show, a week ago-- "
+    },
+    {
+      "name": "TRAVIS",
+      "ts": {
+        "h": 0,
+        "m": "15",
+        "s": 34
+      },
+      "text": "You got to fill me in, because I don't watch this shit. "
+    },
+    {
+      "name": "BRIAN",
+      "ts": {
+        "h": 0,
+        "m": "15",
+        "s": 35
+      },
+      "text": "I wouldn't either. Don't like the host. A week ago tonight, Will Friedle was on the show. "
+    },
+    {
+      "name": "LAURA, TALIESIN",
+      "ts": {
+        "h": 0,
+        "m": "15",
+        "s": 40
+      },
+      "text": "Yeah. "
+    },
+    {
+      "name": "BRIAN",
+      "ts": {
+        "h": 0,
+        "m": "15",
+        "s": 41
+      },
+      "text": "He threw some shade down about your Cowboys, and my Cowboys, and Laura's Cowboys, and my uncle Bill's Cowboys. "
+    },
+    {
+      "name": "TRAVIS",
+      "ts": {
+        "h": 0,
+        "m": "15",
+        "s": 47
+      },
+      "text": "Yeah, I heard. "
+    },
+    {
+      "name": "BRIAN",
+      "ts": {
+        "h": 0,
+        "m": "15",
+        "s": 48
+      },
+      "text": "Yeah, he's a Deflatriots fan. "
+    },
+    {
+      "name": "TRAVIS",
+      "ts": {
+        "h": 0,
+        "m": "15",
+        "s": 50
+      },
+      "text": "No, I know, it's okay, He lives really close to us. I visited him that night. "
+    },
+    {
+      "name": "BRIAN",
+      "ts": {
+        "h": 0,
+        "m": "15",
+        "s": 52
+      },
+      "text": "This is now your time, this is your-- Equal time, right? "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "15",
+        "s": 56
+      },
+      "text": "Is this bear pelt?! "
+    },
+    {
+      "name": "BRIAN",
+      "ts": {
+        "h": 0,
+        "m": "15",
+        "s": 57
+      },
+      "text": "Sorry, Trinket. "
+    },
+    {
+      "name": "TRAVIS",
+      "ts": {
+        "h": 0,
+        "m": "15",
+        "s": 58
+      },
+      "text": "Yeah. I stood in front of his dark bedroom, breathing heavily, and then put my hand over his now-wife's mouth, and said, \"Shh, it's time for a conversion therapy session. You will love the Cowboys.\" And he said, \"No, I don't want to, I don't want to love winners, Tom Brady is the best.\" I-- is nobody else following what I'm-- "
+    },
+    {
+      "name": "TALIESIN",
+      "ts": {
+        "h": 0,
+        "m": "16",
+        "s": 19
+      },
+      "text": "No, I'm so delighted, we're all on board, keep going. "
+    },
+    {
+      "name": "LIAM",
+      "ts": {
+        "h": 0,
+        "m": "16",
+        "s": 23
+      },
+      "text": "We're talking about the Old West, right? "
+    },
+    {
+      "name": "TRAVIS",
+      "ts": {
+        "h": 0,
+        "m": "16",
+        "s": 25
+      },
+      "text": "Yeah. "
+    },
+    {
+      "name": "MARISHA",
+      "ts": {
+        "h": 0,
+        "m": "16",
+        "s": 25
+      },
+      "text": "I thought we were talking about Mike Pence. "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "16",
+        "s": 27
+      },
+      "text": "I thought we were talking about Knock Knock. "
+    },
+    {
+      "name": "TRAVIS",
+      "ts": {
+        "h": 0,
+        "m": "16",
+        "s": 29
+      },
+      "text": "Yes. Yeah, that's it. "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "16",
+        "s": 32
+      },
+      "text": "Let's open presents. "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "16",
+        "s": 33
+      },
+      "text": "Let's. Please. Open presents. Please. "
+    },
+    {
+      "name": "MARISHA",
+      "ts": {
+        "h": 0,
+        "m": "16",
+        "s": 39
+      },
+      "text": "Yeah, let's open presents. "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 0,
+        "m": "16",
+        "s": 41
+      },
+      "text": "How are we going to do this? Someone go and get them. "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "16",
+        "s": 43
+      },
+      "text": "I got some on the end. "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 0,
+        "m": "16",
+        "s": 44
+      },
+      "text": "I hear a jingle of hooves on the roof. "
+    },
+    {
+      "name": "BRIAN",
+      "ts": {
+        "h": 0,
+        "m": "16",
+        "s": 48
+      },
+      "text": "Oh my goodness, it's the FBI. "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "16",
+        "s": 50
+      },
+      "text": "Where's the presents? "
+    },
+    {
+      "name": "TALIESIN",
+      "ts": {
+        "h": 0,
+        "m": "16",
+        "s": 59
+      },
+      "text": "Trying to make it festive. "
+    },
+    {
+      "name": "BRIAN",
+      "ts": {
+        "h": 0,
+        "m": "17",
+        "s": 1
+      },
+      "text": "Bag those two, for sure. "
+    },
+    {
+      "name": "TRAVIS",
+      "ts": {
+        "h": 0,
+        "m": "17",
+        "s": 3
+      },
+      "text": "Just bring anything. "
+    },
+    {
+      "name": "TALIESIN",
+      "ts": {
+        "h": 0,
+        "m": "17",
+        "s": 6
+      },
+      "text": "Somebody was cooking meth this year. "
+    },
+    {
+      "name": "BRIAN",
+      "ts": {
+        "h": 0,
+        "m": "17",
+        "s": 8
+      },
+      "text": "Sam is sponsoring this episode of Talks Machina. "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 0,
+        "m": "17",
+        "s": 16
+      },
+      "text": "I'm sponsoring this episode? "
+    },
+    {
+      "name": "BRIAN",
+      "ts": {
+        "h": 0,
+        "m": "17",
+        "s": 18
+      },
+      "text": "Who decided to sponsor our December 20th episode of Talks Machina? "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 0,
+        "m": "17",
+        "s": 22
+      },
+      "text": "I have no idea. This is your show. I'm actually-- I'm still stunned that we pay you for this. "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "17",
+        "s": 29
+      },
+      "text": "This is for Critical Role. "
+    },
+    {
+      "name": "BRIAN",
+      "ts": {
+        "h": 0,
+        "m": "17",
+        "s": 32
+      },
+      "text": "That's interesting to learn myself. I was not aware of it. "
+    },
+    {
+      "name": "LIAM",
+      "ts": {
+        "h": 0,
+        "m": "17",
+        "s": 35
+      },
+      "text": "I have a present for the group from Scott McLean. "
+    },
+    {
+      "name": "MARISHA",
+      "ts": {
+        "h": 0,
+        "m": "17",
+        "s": 38
+      },
+      "text": "Scott McLean. "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 0,
+        "m": "17",
+        "s": 41
+      },
+      "text": "(paper rustling) "
+    },
+    {
+      "name": "BRIAN",
+      "ts": {
+        "h": 0,
+        "m": "17",
+        "s": 48
+      },
+      "text": "Let's trash this place. "
+    },
+    {
+      "name": "MARISHA",
+      "ts": {
+        "h": 0,
+        "m": "17",
+        "s": 50
+      },
+      "text": "Yeah! "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "17",
+        "s": 54
+      },
+      "text": "This is just-- What is it? "
+    },
+    {
+      "name": "LIAM",
+      "ts": {
+        "h": 0,
+        "m": "17",
+        "s": 56
+      },
+      "text": "I don't know yet. "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "17",
+        "s": 59
+      },
+      "text": "It's a circle. "
+    },
+    {
+      "name": "LIAM",
+      "ts": {
+        "h": 0,
+        "m": "18",
+        "s": 0
+      },
+      "text": "It's a dragon! "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "18",
+        "s": 1
+      },
+      "text": "Whoa! "
+    },
+    {
+      "name": "LIAM",
+      "ts": {
+        "h": 0,
+        "m": "18",
+        "s": 7
+      },
+      "text": "There's a Bigby's Hand. "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "18",
+        "s": 9
+      },
+      "text": "Bigby's Hand, they are all made out of paper. "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 0,
+        "m": "18",
+        "s": 11
+      },
+      "text": "But it's not paper mache? "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "18",
+        "s": 12
+      },
+      "text": "No, it's straight-up paper. "
+    },
+    {
+      "name": "TRAVIS",
+      "ts": {
+        "h": 0,
+        "m": "18",
+        "s": 15
+      },
+      "text": "How did that not get crushed? "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "18",
+        "s": 21
+      },
+      "text": "That's really fucking nuts. "
+    },
+    {
+      "name": "LIAM",
+      "ts": {
+        "h": 0,
+        "m": "18",
+        "s": 24
+      },
+      "text": "Those are beautiful. "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "18",
+        "s": 26
+      },
+      "text": "Those are awesome. "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 0,
+        "m": "18",
+        "s": 27
+      },
+      "text": "Those are great, thank you. "
+    },
+    {
+      "name": "LIAM",
+      "ts": {
+        "h": 0,
+        "m": "18",
+        "s": 28
+      },
+      "text": "Scott McLean. "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "18",
+        "s": 33
+      },
+      "text": "I've got something from... There's no name! "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 0,
+        "m": "18",
+        "s": 41
+      },
+      "text": "Just open it. We need to keep going. "
+    },
+    {
+      "name": "LIAM",
+      "ts": {
+        "h": 0,
+        "m": "18",
+        "s": 45
+      },
+      "text": "Maybe there's a note inside. "
+    },
+    {
+      "name": "BRIAN",
+      "ts": {
+        "h": 0,
+        "m": "18",
+        "s": 46
+      },
+      "text": "Someone get a close-up on Taliesin, Denise. "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "18",
+        "s": 51
+      },
+      "text": "Travis. Me. Liam. Marisha. And Sam. "
+    },
+    {
+      "name": "LIAM",
+      "ts": {
+        "h": 0,
+        "m": "18",
+        "s": 59
+      },
+      "text": "And there's a little note. "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "19",
+        "s": 1
+      },
+      "text": "And Matt, and the rest of the cast. Sorry, Taliesin. "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 0,
+        "m": "19",
+        "s": 4
+      },
+      "text": "The rest of the cast is just Taliesin. "
+    },
+    {
+      "name": "TALIESIN",
+      "ts": {
+        "h": 0,
+        "m": "19",
+        "s": 6
+      },
+      "text": "Matt and me. "
+    },
+    {
+      "name": "LIAM",
+      "ts": {
+        "h": 0,
+        "m": "19",
+        "s": 9
+      },
+      "text": "These are from James Hoelscher, or tazman5296 in chat on Twitter. "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "19",
+        "s": 16
+      },
+      "text": "How did you know? "
+    },
+    {
+      "name": "LIAM",
+      "ts": {
+        "h": 0,
+        "m": "19",
+        "s": 18
+      },
+      "text": "Oh, he sent my boots of haste? "
+    },
+    {
+      "name": "MARISHA",
+      "ts": {
+        "h": 0,
+        "m": "19",
+        "s": 21
+      },
+      "text": "Yeah, he sent that ivy circlet that I used to have. "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "19",
+        "s": 25
+      },
+      "text": "Oh, the arrows! "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "19",
+        "s": 27
+      },
+      "text": "His brother and him also made donations to the Prescott chapter of Big Brothers Big Sisters. "
+    },
+    {
+      "name": "BRIAN",
+      "ts": {
+        "h": 0,
+        "m": "19",
+        "s": 30
+      },
+      "text": "Oh, that's great. That?s really cool. "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 0,
+        "m": "19",
+        "s": 33
+      },
+      "text": "What have we got? What is this stuff? Tiny things. "
+    },
+    {
+      "name": "TRAVIS",
+      "ts": {
+        "h": 0,
+        "m": "19",
+        "s": 37
+      },
+      "text": "He says he's sent stuff before. "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "19",
+        "s": 42
+      },
+      "text": "That is awesome. "
+    },
+    {
+      "name": "LIAM",
+      "ts": {
+        "h": 0,
+        "m": "19",
+        "s": 44
+      },
+      "text": "Thank you. "
+    },
+    {
+      "name": "MARISHA",
+      "ts": {
+        "h": 0,
+        "m": "19",
+        "s": 46
+      },
+      "text": "Oh yeah, it's like the spiritual successor to Three Wolf Moon. "
+    },
+    {
+      "name": "BRIAN",
+      "ts": {
+        "h": 0,
+        "m": "19",
+        "s": 50
+      },
+      "text": "Oh my God, that's glorious. "
+    },
+    {
+      "name": "LIAM",
+      "ts": {
+        "h": 0,
+        "m": "19",
+        "s": 53
+      },
+      "text": "We are going camping in these shirts. "
+    },
+    {
+      "name": "MARISHA",
+      "ts": {
+        "h": 0,
+        "m": "19",
+        "s": 55
+      },
+      "text": "We are so going camping. "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "19",
+        "s": 58
+      },
+      "text": "That's a tough-looking bear. "
+    },
+    {
+      "name": "LIAM",
+      "ts": {
+        "h": 0,
+        "m": "20",
+        "s": 0
+      },
+      "text": "Is the bear wearing a torc? "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "20",
+        "s": 6
+      },
+      "text": "He is, it's like if he got awakened. "
+    },
+    {
+      "name": "TRAVIS",
+      "ts": {
+        "h": 0,
+        "m": "20",
+        "s": 9
+      },
+      "text": "I'm pretty sure all my shirts could kick your shirts' ass. "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 0,
+        "m": "20",
+        "s": 12
+      },
+      "text": "(high-pitched whistle) I got reeds for my shawm. "
+    },
+    {
+      "name": "BRIAN",
+      "ts": {
+        "h": 0,
+        "m": "20",
+        "s": 19
+      },
+      "text": "It's a flute the size of Scanlan's penis. "
+    },
+    {
+      "name": "LIAM",
+      "ts": {
+        "h": 0,
+        "m": "20",
+        "s": 22
+      },
+      "text": "It's the wrong shape. "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "20",
+        "s": 23
+      },
+      "text": "Thank you, James! Sorry about that. "
+    },
+    {
+      "name": "TRAVIS",
+      "ts": {
+        "h": 0,
+        "m": "20",
+        "s": 29
+      },
+      "text": "If you pass out, I hope you'll still be blowing it. "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "20",
+        "s": 32
+      },
+      "text": "All right. "
+    },
+    {
+      "name": "TRAVIS, LAURA, MATT",
+      "ts": {
+        "h": 0,
+        "m": "20",
+        "s": 34
+      },
+      "text": "Thank you, James. "
+    },
+    {
+      "name": "BRIAN",
+      "ts": {
+        "h": 0,
+        "m": "20",
+        "s": 38
+      },
+      "text": "We'll cut that out. "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 0,
+        "m": "20",
+        "s": 40
+      },
+      "text": "This is going to be heavily edited. The final file is just going to be six minutes long. "
+    },
+    {
+      "name": "BRIAN",
+      "ts": {
+        "h": 0,
+        "m": "20",
+        "s": 44
+      },
+      "text": "It's going to be everybody going, \"Hey guys, cut.\" "
+    },
+    {
+      "name": "LIAM",
+      "ts": {
+        "h": 0,
+        "m": "20",
+        "s": 46
+      },
+      "text": "More shirts from Rebecca Sidenburger. "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "20",
+        "s": 51
+      },
+      "text": "She's Ryuti76 in the chat. "
+    },
+    {
+      "name": "BRIAN",
+      "ts": {
+        "h": 0,
+        "m": "20",
+        "s": 55
+      },
+      "text": "Is what? Say it again, please? "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "20",
+        "s": 57
+      },
+      "text": "Ryuti76 in chat. "
+    },
+    {
+      "name": "LIAM",
+      "ts": {
+        "h": 0,
+        "m": "20",
+        "s": 59
+      },
+      "text": "(singing) I'm the one holding the shirts so I get to find the right size. They're shirts made-- "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "21",
+        "s": 7
+      },
+      "text": "Oh, because she made them! "
+    },
+    {
+      "name": "LIAM",
+      "ts": {
+        "h": 0,
+        "m": "21",
+        "s": 9
+      },
+      "text": "Yeah. She designed them, it's the D&D symbol with our names. "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "21",
+        "s": 14
+      },
+      "text": "This is so cool! "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "21",
+        "s": 16
+      },
+      "text": "That's really cool! "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 0,
+        "m": "21",
+        "s": 19
+      },
+      "text": "How many shirts are there? "
+    },
+    {
+      "name": "LIAM",
+      "ts": {
+        "h": 0,
+        "m": "21",
+        "s": 20
+      },
+      "text": "A lot. "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "21",
+        "s": 21
+      },
+      "text": "She did her thesis on Critical Role. "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 0,
+        "m": "21",
+        "s": 23
+      },
+      "text": "Wait, what? Was this a high school thesis or a college thesis? "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "21",
+        "s": 27
+      },
+      "text": "No, she graduated with a BFA in graphic design, dude. "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 0,
+        "m": "21",
+        "s": 30
+      },
+      "text": "She did her thesis on us? "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "21",
+        "s": 32
+      },
+      "text": "Yeah! "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 0,
+        "m": "21",
+        "s": 33
+      },
+      "text": "She got a C+. "
+    },
+    {
+      "name": "TALIESIN",
+      "ts": {
+        "h": 0,
+        "m": "21",
+        "s": 35
+      },
+      "text": "She passed. It was a pass/fail class. "
+    },
+    {
+      "name": "LIAM",
+      "ts": {
+        "h": 0,
+        "m": "21",
+        "s": 38
+      },
+      "text": "Gang, gang, gang. The smallest sizes are mediums so the ladies will be getting the mediums. "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "21",
+        "s": 43
+      },
+      "text": "Thank you. "
+    },
+    {
+      "name": "LIAM",
+      "ts": {
+        "h": 0,
+        "m": "21",
+        "s": 45
+      },
+      "text": "You also take the one for Ash. "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "21",
+        "s": 47
+      },
+      "text": "She says she's sorry if they aren't the appropriate sizes. She wanted them to be a surprise so she had to guess. "
+    },
+    {
+      "name": "BRIAN",
+      "ts": {
+        "h": 0,
+        "m": "21",
+        "s": 52
+      },
+      "text": "What's a BFA? I have a BFF. "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "21",
+        "s": 56
+      },
+      "text": "Is it me? Is it me? "
+    },
+    {
+      "name": "TALIESIN",
+      "ts": {
+        "h": 0,
+        "m": "21",
+        "s": 58
+      },
+      "text": "Can we let them know that we got their letter? Can I say it? This is a lovely letter from tazman5296. Dude, thank you so much. Thank you so much for the Big Brothers Big Sisters. "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "22",
+        "s": 16
+      },
+      "text": "That is so sweet! Thank you, Rebecca. "
+    },
+    {
+      "name": "LIAM",
+      "ts": {
+        "h": 0,
+        "m": "22",
+        "s": 19
+      },
+      "text": "I think we're shy one unless I missed one in the box. "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 0,
+        "m": "22",
+        "s": 22
+      },
+      "text": "I've got to get one, got to have one. "
+    },
+    {
+      "name": "LIAM",
+      "ts": {
+        "h": 0,
+        "m": "22",
+        "s": 25
+      },
+      "text": "Let me see. "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "22",
+        "s": 26
+      },
+      "text": "These are a good size. "
+    },
+    {
+      "name": "TALIESIN",
+      "ts": {
+        "h": 0,
+        "m": "22",
+        "s": 30
+      },
+      "text": "Everyone knows she'll cut them up. "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "22",
+        "s": 32
+      },
+      "text": "Thank you! "
+    },
+    {
+      "name": "BRIAN",
+      "ts": {
+        "h": 0,
+        "m": "22",
+        "s": 35
+      },
+      "text": "No. No. Denise! She tricked me! "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "22",
+        "s": 40
+      },
+      "text": "What? "
+    },
+    {
+      "name": "BRIAN",
+      "ts": {
+        "h": 0,
+        "m": "22",
+        "s": 41
+      },
+      "text": "Nothing, it's fine. Travis saw it. "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "22",
+        "s": 45
+      },
+      "text": "Oh wow, look at all these things over here! What is this? "
+    },
+    {
+      "name": "TRAVIS",
+      "ts": {
+        "h": 0,
+        "m": "22",
+        "s": 52
+      },
+      "text": "Go, fire it up! "
+    },
+    {
+      "name": "TALIESIN",
+      "ts": {
+        "h": 0,
+        "m": "22",
+        "s": 53
+      },
+      "text": "Oh, wow. "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 0,
+        "m": "22",
+        "s": 54
+      },
+      "text": "This is from a Critter named AmniClerk @Stories_nDreams. It's an embossed Critical Role-y card that she made. It says, \"May the happiness of family, the joys of friendship, and the warmth of love surround you this season. Also, fuck you, Brian.\" That's weird. "
+    },
+    {
+      "name": "BRIAN",
+      "ts": {
+        "h": 0,
+        "m": "23",
+        "s": 13
+      },
+      "text": "Oh my god. "
+    },
+    {
+      "name": "LIAM",
+      "ts": {
+        "h": 0,
+        "m": "23",
+        "s": 15
+      },
+      "text": "That's so strange. "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 0,
+        "m": "23",
+        "s": 17
+      },
+      "text": "\"For all the love and support you've given myself and the rest of the Critter legion, thank you, Happy Winter's Crest and beyond.\" And inside are-- "
+    },
+    {
+      "name": "TALIESIN",
+      "ts": {
+        "h": 0,
+        "m": "23",
+        "s": 27
+      },
+      "text": "Whoa, oh my god. "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 0,
+        "m": "23",
+        "s": 29
+      },
+      "text": "Oh wait, they light up. They might be ornaments. "
+    },
+    {
+      "name": "TALIESIN",
+      "ts": {
+        "h": 0,
+        "m": "23",
+        "s": 33
+      },
+      "text": "Oh my god, they're so pretty. "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 0,
+        "m": "23",
+        "s": 35
+      },
+      "text": "Liam. Taliesin. "
+    },
+    {
+      "name": "TALIESIN",
+      "ts": {
+        "h": 0,
+        "m": "23",
+        "s": 44
+      },
+      "text": "Aw! I got a blue one. "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "23",
+        "s": 46
+      },
+      "text": "They're little ornaments! Oh my god! "
+    },
+    {
+      "name": "BRIAN",
+      "ts": {
+        "h": 0,
+        "m": "23",
+        "s": 48
+      },
+      "text": "Let's put them on the tree! "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "23",
+        "s": 49
+      },
+      "text": "I'm going to put Ashley's on the tree. "
+    },
+    {
+      "name": "BRIAN",
+      "ts": {
+        "h": 0,
+        "m": "23",
+        "s": 50
+      },
+      "text": "Put Ashley's on the tree. "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 0,
+        "m": "23",
+        "s": 52
+      },
+      "text": "Are they ornaments? "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "23",
+        "s": 53
+      },
+      "text": "They're ornaments. "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 0,
+        "m": "23",
+        "s": 54
+      },
+      "text": "It's an ornament, okay, good. I'm going to put this on my tree, tonight. "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "24",
+        "s": 1
+      },
+      "text": "Oh my gosh. "
+    },
+    {
+      "name": "LIAM",
+      "ts": {
+        "h": 0,
+        "m": "24",
+        "s": 2
+      },
+      "text": "Aw, thank you. "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "24",
+        "s": 4
+      },
+      "text": "Thank you! "
+    },
+    {
+      "name": "TALIESIN",
+      "ts": {
+        "h": 0,
+        "m": "24",
+        "s": 5
+      },
+      "text": "Oh look, it has a little Percy. What great penmanship. Sorry, that was my immediate thought. "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "24",
+        "s": 12
+      },
+      "text": "Oh my gosh! Hold on, hold on. "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 0,
+        "m": "24",
+        "s": 14
+      },
+      "text": "Also, I think there's some gifts here for the crew. They're like blue screens of death. "
+    },
+    {
+      "name": "TALIESIN",
+      "ts": {
+        "h": 0,
+        "m": "24",
+        "s": 18
+      },
+      "text": "Wow! "
+    },
+    {
+      "name": "BRIAN, TALIESIN",
+      "ts": {
+        "h": 0,
+        "m": "24",
+        "s": 19
+      },
+      "text": "Oh my god. "
+    },
+    {
+      "name": "TALIESIN",
+      "ts": {
+        "h": 0,
+        "m": "24",
+        "s": 21
+      },
+      "text": "Oh my god. That is so cool. "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "24",
+        "s": 23
+      },
+      "text": "That is amazing. "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 0,
+        "m": "24",
+        "s": 25
+      },
+      "text": "It says \"Twitch has returned error, the universe broke. Please reboot.\" And it says #WeKnow. "
+    },
+    {
+      "name": "BRIAN",
+      "ts": {
+        "h": 0,
+        "m": "24",
+        "s": 33
+      },
+      "text": "Yeah, Taliesin has his hand out. "
+    },
+    {
+      "name": "TALIESIN",
+      "ts": {
+        "h": 0,
+        "m": "24",
+        "s": 38
+      },
+      "text": "I have my hand out. I know, it's gone. "
+    },
+    {
+      "name": "MARISHA",
+      "ts": {
+        "h": 0,
+        "m": "24",
+        "s": 40
+      },
+      "text": "We know! Oh my god it says #WeKnow. "
+    },
+    {
+      "name": "TALIESIN",
+      "ts": {
+        "h": 0,
+        "m": "24",
+        "s": 43
+      },
+      "text": "#WeKnow! Oh, that's so good. Clever! That's amazing! "
+    },
+    {
+      "name": "BRIAN",
+      "ts": {
+        "h": 0,
+        "m": "24",
+        "s": 54
+      },
+      "text": "Is that underwear, Liam? "
+    },
+    {
+      "name": "MARISHA",
+      "ts": {
+        "h": 0,
+        "m": "24",
+        "s": 56
+      },
+      "text": "Thanks for keeping us streaming. "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 0,
+        "m": "25",
+        "s": 0
+      },
+      "text": "Where do we put crew gifts, guys? "
+    },
+    {
+      "name": "BRIAN",
+      "ts": {
+        "h": 0,
+        "m": "25",
+        "s": 2
+      },
+      "text": "I'll take them. "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "25",
+        "s": 4
+      },
+      "text": "Can I just open these chocolates, though? "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 0,
+        "m": "25",
+        "s": 7
+      },
+      "text": "Yeah, keep going. I want to eat some! "
+    },
+    {
+      "name": "TRAVIS",
+      "ts": {
+        "h": 0,
+        "m": "25",
+        "s": 9
+      },
+      "text": "It's like carnival music. "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "25",
+        "s": 11
+      },
+      "text": "I know, this music is really messed up right now. "
+    },
+    {
+      "name": "BRIAN",
+      "ts": {
+        "h": 0,
+        "m": "25",
+        "s": 14
+      },
+      "text": "This is a fan-favorite music. I'll have you know the French horns are the biggest thing to happen to this show since Sam was on. "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "25",
+        "s": 20
+      },
+      "text": "Oh my god! I wanted to open the chocolates-- I thought they were for all of us, but it's just to me. "
+    },
+    {
+      "name": "TALIESIN",
+      "ts": {
+        "h": 0,
+        "m": "25",
+        "s": 25
+      },
+      "text": "Wow, you're going to have to show us that letter to make sure that's true. "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "25",
+        "s": 29
+      },
+      "text": "\"Dear Laura. Last year, when Matt read that I like the dark chocolate truffles with Baileys filling, yours and Marisha's eyes indicated your interest. Therefore I address this box to you to share with the entire cast and crew.\" (laughter) "
+    },
+    {
+      "name": "MARISHA",
+      "ts": {
+        "h": 0,
+        "m": "25",
+        "s": 44
+      },
+      "text": "Did you hear her disappointment that she had to share it with me? "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "25",
+        "s": 48
+      },
+      "text": "\"I tried to donate to each person's individual charity over the course of the year.\" That's wonderful. "
+    },
+    {
+      "name": "LIAM",
+      "ts": {
+        "h": 0,
+        "m": "25",
+        "s": 55
+      },
+      "text": "She's a greedy bastard. "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "25",
+        "s": 58
+      },
+      "text": "I don't know why, but he is. "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "26",
+        "s": 4
+      },
+      "text": "Awesome! "
+    },
+    {
+      "name": "TALIESIN",
+      "ts": {
+        "h": 0,
+        "m": "26",
+        "s": 6
+      },
+      "text": "Does that mean he gets to cut us open when one of us finally dies? "
+    },
+    {
+      "name": "BRIAN",
+      "ts": {
+        "h": 0,
+        "m": "26",
+        "s": 8
+      },
+      "text": "It's weird that he saw that in your eyes, because all I see is darkness. "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "26",
+        "s": 11
+      },
+      "text": "Thanks, Paul Nelson! "
+    },
+    {
+      "name": "LIAM",
+      "ts": {
+        "h": 0,
+        "m": "26",
+        "s": 14
+      },
+      "text": "\"Dear Critical Role, as an avid viewer of the show, and an occasional viewer of Matt and Marisha's Critmas periscopes, I seem to remember Marisha mentioning her love of leggings. My wife is a LuLaRoe consultant, her shop can be found on Facebook, and offered to send in a few pairs of leggings for the ladies.\" You can keep doing that, I don't mind, but massage if you're going to do it. These are six-- No, my ears, man. Six sets of leggings. Pick one. "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "26",
+        "s": 44
+      },
+      "text": "They're soft, Marisha! "
+    },
+    {
+      "name": "MARISHA",
+      "ts": {
+        "h": 0,
+        "m": "26",
+        "s": 45
+      },
+      "text": "Are they comfy? "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "26",
+        "s": 47
+      },
+      "text": "Ooh, I want these ones! "
+    },
+    {
+      "name": "LIAM",
+      "ts": {
+        "h": 0,
+        "m": "26",
+        "s": 48
+      },
+      "text": "Remember that two are for Ashley. "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 0,
+        "m": "26",
+        "s": 51
+      },
+      "text": "Wait, there's six, and two of them are for Ashley? "
+    },
+    {
+      "name": "MARISHA",
+      "ts": {
+        "h": 0,
+        "m": "26",
+        "s": 54
+      },
+      "text": "She's not here, right? "
+    },
+    {
+      "name": "LIAM",
+      "ts": {
+        "h": 0,
+        "m": "26",
+        "s": 55
+      },
+      "text": "That's true. That is true. "
+    },
+    {
+      "name": "TALIESIN",
+      "ts": {
+        "h": 0,
+        "m": "26",
+        "s": 56
+      },
+      "text": "She's probably watching, though. Not right now, because it's not live. "
+    },
+    {
+      "name": "LIAM",
+      "ts": {
+        "h": 0,
+        "m": "27",
+        "s": 2
+      },
+      "text": "What's good for Ashley? Ashley, which one's good for you? "
+    },
+    {
+      "name": "BRIAN",
+      "ts": {
+        "h": 0,
+        "m": "27",
+        "s": 5
+      },
+      "text": "You could ask her boyfriend! "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "27",
+        "s": 6
+      },
+      "text": "I feel like these are good for Ashley. "
+    },
+    {
+      "name": "TALIESIN",
+      "ts": {
+        "h": 0,
+        "m": "27",
+        "s": 8
+      },
+      "text": "I feel like those are actually good for Ashley "
+    },
+    {
+      "name": "BRIAN",
+      "ts": {
+        "h": 0,
+        "m": "27",
+        "s": 10
+      },
+      "text": "Those are good, also any of the other ones. "
+    },
+    {
+      "name": "TALIESIN",
+      "ts": {
+        "h": 0,
+        "m": "27",
+        "s": 12
+      },
+      "text": "The corduroy patches. "
+    },
+    {
+      "name": "BRIAN",
+      "ts": {
+        "h": 0,
+        "m": "27",
+        "s": 14
+      },
+      "text": "She would take anything. "
+    },
+    {
+      "name": "MARISHA",
+      "ts": {
+        "h": 0,
+        "m": "27",
+        "s": 17
+      },
+      "text": "This is from Kane Velante, and she says, avid member of our show and all of the artistic masterpieces that people-- I don't want to read the whole letter because of time, but they basically gave new minis to Grog and-- "
+    },
+    {
+      "name": "LIAM",
+      "ts": {
+        "h": 0,
+        "m": "27",
+        "s": 44
+      },
+      "text": "Yeah, these are good too! Look at that. It looks just like you! "
+    },
+    {
+      "name": "TRAVIS",
+      "ts": {
+        "h": 0,
+        "m": "27",
+        "s": 50
+      },
+      "text": "Wow! "
+    },
+    {
+      "name": "LIAM",
+      "ts": {
+        "h": 0,
+        "m": "27",
+        "s": 52
+      },
+      "text": "It's got wings, motherfucker! Thank you! "
+    },
+    {
+      "name": "TALIESIN",
+      "ts": {
+        "h": 0,
+        "m": "28",
+        "s": 0
+      },
+      "text": "That's true, I've been waiting for a \"and then I fly away.\" We haven't had a \"and then I fly away.\" "
+    },
+    {
+      "name": "LIAM",
+      "ts": {
+        "h": 0,
+        "m": "28",
+        "s": 10
+      },
+      "text": "Guys, can we see him? This is legit. "
+    },
+    {
+      "name": "TRAVIS",
+      "ts": {
+        "h": 0,
+        "m": "28",
+        "s": 15
+      },
+      "text": "It's pretty good, yeah, it's pretty great. "
+    },
+    {
+      "name": "BRIAN",
+      "ts": {
+        "h": 0,
+        "m": "28",
+        "s": 17
+      },
+      "text": "Hey, I have something here! Yeah, it's from my probation officer. No, I'm just kidding. Oh, it says \"Liam.\" Liam, there's a note for you. "
+    },
+    {
+      "name": "LIAM",
+      "ts": {
+        "h": 0,
+        "m": "28",
+        "s": 31
+      },
+      "text": "Is it from my second family in Nevada? "
+    },
+    {
+      "name": "BRIAN",
+      "ts": {
+        "h": 0,
+        "m": "28",
+        "s": 34
+      },
+      "text": "Hold on, let me skim through this. It says-- oh, you left your lights on outside. "
+    },
+    {
+      "name": "LIAM",
+      "ts": {
+        "h": 0,
+        "m": "28",
+        "s": 39
+      },
+      "text": "Oh, thanks. "
+    },
+    {
+      "name": "BRIAN",
+      "ts": {
+        "h": 0,
+        "m": "28",
+        "s": 41
+      },
+      "text": "Oh, I know, I'm going to give this to Liam. "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 0,
+        "m": "28",
+        "s": 45
+      },
+      "text": "It is for Liam. "
+    },
+    {
+      "name": "BRIAN",
+      "ts": {
+        "h": 0,
+        "m": "28",
+        "s": 47
+      },
+      "text": "Yep, hold on, it's rubber-banded. \"Don't go drinking with hobbits.\" "
+    },
+    {
+      "name": "LIAM",
+      "ts": {
+        "h": 0,
+        "m": "28",
+        "s": 53
+      },
+      "text": "No promises. "
+    },
+    {
+      "name": "BRIAN",
+      "ts": {
+        "h": 0,
+        "m": "28",
+        "s": 54
+      },
+      "text": "With lyrics by people whose names I can't pronounce. And they sent this rubber band for Marisha. "
+    },
+    {
+      "name": "MARISHA",
+      "ts": {
+        "h": 0,
+        "m": "29",
+        "s": 0
+      },
+      "text": "Oh thanks, dude! "
+    },
+    {
+      "name": "BRIAN",
+      "ts": {
+        "h": 0,
+        "m": "29",
+        "s": 2
+      },
+      "text": "They sent this for-- is that the audiobooks? Is that what it is, CDs? Hold on, please accept these items as a token of my-- "
+    },
+    {
+      "name": "LIAM",
+      "ts": {
+        "h": 0,
+        "m": "29",
+        "s": 10
+      },
+      "text": "\"Stunning dramatized BBC production of Tolkien's classic is presented in 13 hours on 13 compact discs. Starring Ian Holm, and featuring a cast of 25 performers, specially composed music and sound effects, in this beautifully packaged box said to be the perfect gift for every Tolkien fan.\" That's me! "
+    },
+    {
+      "name": "BRIAN",
+      "ts": {
+        "h": 0,
+        "m": "29",
+        "s": 26
+      },
+      "text": "elenoirproudfoot, thank you so much. "
+    },
+    {
+      "name": "MARISHA",
+      "ts": {
+        "h": 0,
+        "m": "29",
+        "s": 31
+      },
+      "text": "Bailey's truffle. That's what I want. "
+    },
+    {
+      "name": "LIAM",
+      "ts": {
+        "h": 0,
+        "m": "29",
+        "s": 34
+      },
+      "text": "That looks so cool, thank you! Can I see the letter? "
+    },
+    {
+      "name": "BRIAN",
+      "ts": {
+        "h": 0,
+        "m": "29",
+        "s": 37
+      },
+      "text": "Yes, that's for you. I was just going to hand that to you. "
+    },
+    {
+      "name": "TRAVIS",
+      "ts": {
+        "h": 0,
+        "m": "29",
+        "s": 39
+      },
+      "text": "I got one! "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 0,
+        "m": "29",
+        "s": 40
+      },
+      "text": "Oh, Travis has one! "
+    },
+    {
+      "name": "TRAVIS",
+      "ts": {
+        "h": 0,
+        "m": "29",
+        "s": 42
+      },
+      "text": "\"There isn't enough space to convey my thoughts, I am a novice Critter right now with hopes that I'll speed up to speed soon. Please accept this small token of appreciation with the warmest, awesome members of Critical Role. Warm regards, Aaron.\" It is a DVD copy of Critters. "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 0,
+        "m": "29",
+        "s": 55
+      },
+      "text": "Oh, the classic movie. "
+    },
+    {
+      "name": "TRAVIS",
+      "ts": {
+        "h": 0,
+        "m": "30",
+        "s": 1
+      },
+      "text": "I actually did creature noises, and-- nah, I'm going to shut up. "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 0,
+        "m": "30",
+        "s": 6
+      },
+      "text": "You were ten. "
+    },
+    {
+      "name": "TRAVIS",
+      "ts": {
+        "h": 0,
+        "m": "30",
+        "s": 8
+      },
+      "text": "I know. I'm a liar and a thief. "
+    },
+    {
+      "name": "TALIESIN",
+      "ts": {
+        "h": 0,
+        "m": "30",
+        "s": 11
+      },
+      "text": "Wow! I think my mom may have worked on one of those, too. Of course she did. "
+    },
+    {
+      "name": "TRAVIS",
+      "ts": {
+        "h": 0,
+        "m": "30",
+        "s": 19
+      },
+      "text": "Critters 3? Yeah. "
+    },
+    {
+      "name": "TALIESIN",
+      "ts": {
+        "h": 0,
+        "m": "30",
+        "s": 20
+      },
+      "text": "Yeah, it sounds like something my mom would do. I'll double-check. "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "30",
+        "s": 22
+      },
+      "text": "Who's opening next? "
+    },
+    {
+      "name": "TALIESIN",
+      "ts": {
+        "h": 0,
+        "m": "30",
+        "s": 23
+      },
+      "text": "Work. Work harder! They sent Percy an in-game letter, which is really spectacular, from a citizen of Whitestone who was a tinkerer of his own. I'll put some quotes up later. He said that he sent-- this is a prototype of something they've been working on, and this is the only one they'll making of this scale. "
+    },
+    {
+      "name": "TRAVIS",
+      "ts": {
+        "h": 0,
+        "m": "31",
+        "s": 7
+      },
+      "text": "What the heck? "
+    },
+    {
+      "name": "TALIESIN",
+      "ts": {
+        "h": 0,
+        "m": "31",
+        "s": 8
+      },
+      "text": "But they sent a prototype of something. "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 0,
+        "m": "31",
+        "s": 12
+      },
+      "text": "It's a gun. "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "31",
+        "s": 13
+      },
+      "text": "Oh my-- (exclamations of awe) "
+    },
+    {
+      "name": "TALIESIN",
+      "ts": {
+        "h": 0,
+        "m": "31",
+        "s": 23
+      },
+      "text": "And it has a scope. "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 0,
+        "m": "31",
+        "s": 29
+      },
+      "text": "Does it spin? "
+    },
+    {
+      "name": "TALIESIN",
+      "ts": {
+        "h": 0,
+        "m": "31",
+        "s": 31
+      },
+      "text": "Let's find out if it-- no, it's designed to look like it spins but actually-- oh my god! "
+    },
+    {
+      "name": "MARISHA",
+      "ts": {
+        "h": 0,
+        "m": "31",
+        "s": 43
+      },
+      "text": "That's been engraved. "
+    },
+    {
+      "name": "TALIESIN",
+      "ts": {
+        "h": 0,
+        "m": "31",
+        "s": 46
+      },
+      "text": "Yeah, in fact, that would work really well-- "
+    },
+    {
+      "name": "TRAVIS",
+      "ts": {
+        "h": 0,
+        "m": "31",
+        "s": 49
+      },
+      "text": "TSA won't have a problem with that at all. "
+    },
+    {
+      "name": "TALIESIN",
+      "ts": {
+        "h": 0,
+        "m": "31",
+        "s": 51
+      },
+      "text": "No, TSA, they won't be like last time! This will not be like last time. "
+    },
+    {
+      "name": "BRIAN",
+      "ts": {
+        "h": 0,
+        "m": "31",
+        "s": 55
+      },
+      "text": "And here's the deal, too. Also, so we're aware going forward because I got this note handed to me from one of the producers. \"Any gifts opened on the set can be chosen as set pieces by the host.\" So what it says here is starting with Taliesin's gun and then any of the gifts afterwards. It's a very long explanation. Article two, paragraph three. Laura, find a good home for that tonight on the set. "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "32",
+        "s": 23
+      },
+      "text": "You got it. You got it, BFF. Whatever you need. "
+    },
+    {
+      "name": "TALIESIN",
+      "ts": {
+        "h": 0,
+        "m": "32",
+        "s": 27
+      },
+      "text": "Oh, it needs a little leather strap, too. I want to do some stuff to it. "
+    },
+    {
+      "name": "TRAVIS",
+      "ts": {
+        "h": 0,
+        "m": "32",
+        "s": 29
+      },
+      "text": "(singing) A little leather strap is what it needs! "
+    },
+    {
+      "name": "MARISHA",
+      "ts": {
+        "h": 0,
+        "m": "32",
+        "s": 32
+      },
+      "text": "This is from Melanie Gurran and she sent us seaglass that she has collected from the shores of Washington that is apparently lucky, and if we-- Taliesin. She said that they're lucky stones so that if we put them in our dice bag, maybe it would bring us good luck. "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "32",
+        "s": 56
+      },
+      "text": "I like it even though she put Raishan on the freaking packaging! "
+    },
+    {
+      "name": "MARISHA",
+      "ts": {
+        "h": 0,
+        "m": "33",
+        "s": 0
+      },
+      "text": "Oh, Laura part two, because she knows. "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "33",
+        "s": 4
+      },
+      "text": "(gasps) Really? Oh, she does know! Never mind, she's the best. "
+    },
+    {
+      "name": "MARISHA",
+      "ts": {
+        "h": 0,
+        "m": "33",
+        "s": 7
+      },
+      "text": "And this is for Ashley-- "
+    },
+    {
+      "name": "TALIESIN",
+      "ts": {
+        "h": 0,
+        "m": "33",
+        "s": 10
+      },
+      "text": "What piece of music is this? "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 0,
+        "m": "33",
+        "s": 12
+      },
+      "text": "Oh, thank you! What did we get? "
+    },
+    {
+      "name": "BRIAN",
+      "ts": {
+        "h": 0,
+        "m": "33",
+        "s": 14
+      },
+      "text": "That's playing right now, Liam. No, I mean, Taliesin? "
+    },
+    {
+      "name": "TALIESIN",
+      "ts": {
+        "h": 0,
+        "m": "33",
+        "s": 17
+      },
+      "text": "No, there's sheet music on the back of the card. "
+    },
+    {
+      "name": "TRAVIS",
+      "ts": {
+        "h": 0,
+        "m": "33",
+        "s": 23
+      },
+      "text": "I read music. My tune actually goes (imitates guitar riff) "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "33",
+        "s": 28
+      },
+      "text": "That was nice, baby. "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 0,
+        "m": "33",
+        "s": 31
+      },
+      "text": "That was from Splash. "
+    },
+    {
+      "name": "TRAVIS",
+      "ts": {
+        "h": 0,
+        "m": "33",
+        "s": 32
+      },
+      "text": "Yeah, you can see it right there. That's my sheet music. You follow along in three-quarter-eighteenth's time in a D-minor major chord. "
+    },
+    {
+      "name": "TALIESIN",
+      "ts": {
+        "h": 0,
+        "m": "33",
+        "s": 41
+      },
+      "text": "I'm so excited by it. "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 0,
+        "m": "33",
+        "s": 44
+      },
+      "text": "And this one, which I think Liam needs to read. "
+    },
+    {
+      "name": "LIAM",
+      "ts": {
+        "h": 0,
+        "m": "34",
+        "s": 13
+      },
+      "text": "Lieber Matt Mercer und die gesamte Critical Role crew. Ich hei\u00dfe Daniel-- That means \"I am Daniel.\" Bin dreiundzwanzig. Komme aus Deutschland. Oh, he's from Germany. Und sehe eure Serie regelm\u00e4\u00dfig. I'm saying a lot of this wrong, but I'm saying a lot of it right! Leider nicht-- Oh, you lost me. Die Serie ist gro\u00dfartig. Sie hat-- I'll just read it to myself. "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 0,
+        "m": "34",
+        "s": 43
+      },
+      "text": "And it goes on like that! "
+    },
+    {
+      "name": "TALIESIN",
+      "ts": {
+        "h": 0,
+        "m": "34",
+        "s": 45
+      },
+      "text": "I can hear the sound of one subscription being lost in the Twitch channel going (ping). "
+    },
+    {
+      "name": "LIAM",
+      "ts": {
+        "h": 0,
+        "m": "34",
+        "s": 52
+      },
+      "text": "something. "
+    },
+    {
+      "name": "TALIESIN",
+      "ts": {
+        "h": 0,
+        "m": "34",
+        "s": 57
+      },
+      "text": "I followed some of that! "
+    },
+    {
+      "name": "LIAM",
+      "ts": {
+        "h": 0,
+        "m": "35",
+        "s": 0
+      },
+      "text": "Es gibt Critical Role. Matt, ganz im Ernst. "
+    },
+    {
+      "name": "TRAVIS",
+      "ts": {
+        "h": 0,
+        "m": "35",
+        "s": 4
+      },
+      "text": "Und Grog is the best. "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "35",
+        "s": 6
+      },
+      "text": "I see my name. "
+    },
+    {
+      "name": "LIAM",
+      "ts": {
+        "h": 0,
+        "m": "35",
+        "s": 8
+      },
+      "text": "Besonders Laura Bailey. Yeah, this says everyone is good except Laura Bailey. Sorry. "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "35",
+        "s": 14
+      },
+      "text": "Stop reading this letter. "
+    },
+    {
+      "name": "LIAM",
+      "ts": {
+        "h": 0,
+        "m": "35",
+        "s": 17
+      },
+      "text": "You can't read it! I took three years of high school German, goddamn it! "
+    },
+    {
+      "name": "MARISHA",
+      "ts": {
+        "h": 0,
+        "m": "35",
+        "s": 22
+      },
+      "text": "That so qualifies you to be reading that. "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 0,
+        "m": "35",
+        "s": 26
+      },
+      "text": "(cheering) "
+    },
+    {
+      "name": "TRAVIS",
+      "ts": {
+        "h": 0,
+        "m": "35",
+        "s": 31
+      },
+      "text": "UNICEF donation! "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "35",
+        "s": 33
+      },
+      "text": "This is for Liam. This is for-- it's ink and a feather. What do you think, is this Matt? "
+    },
+    {
+      "name": "TRAVIS",
+      "ts": {
+        "h": 0,
+        "m": "36",
+        "s": 2
+      },
+      "text": "Oh, it's packets of tea! "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "36",
+        "s": 6
+      },
+      "text": "There's Scanlan. There's Marisha. So it is for Matt! "
+    },
+    {
+      "name": "LIAM",
+      "ts": {
+        "h": 0,
+        "m": "36",
+        "s": 15
+      },
+      "text": "I was close. It wasn't except for Laura, it's "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "36",
+        "s": 20
+      },
+      "text": "Oh, it's all in English, too! "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 0,
+        "m": "36",
+        "s": 22
+      },
+      "text": "No oolong?! "
+    },
+    {
+      "name": "TRAVIS",
+      "ts": {
+        "h": 0,
+        "m": "36",
+        "s": 25
+      },
+      "text": "Oh shit! Somebody didn't do their homework! "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "36",
+        "s": 29
+      },
+      "text": "Wait, there is a ton in here! Maybe you got oolong in that. Thank you so-- oh, wait, they sent another thing. What is this? This is pretty. Oh, it's a long letter. She's from Boston. "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 0,
+        "m": "36",
+        "s": 49
+      },
+      "text": "TALIESIN (German accent): This is how we say goodbye in Boston, Dr. Jones. "
+    },
+    {
+      "name": "TRAVIS",
+      "ts": {
+        "h": 0,
+        "m": "36",
+        "s": 54
+      },
+      "text": "I love the Last Crusade reference. "
+    },
+    {
+      "name": "TALIESIN",
+      "ts": {
+        "h": 0,
+        "m": "36",
+        "s": 57
+      },
+      "text": "Yeah, thank you. "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "36",
+        "s": 58
+      },
+      "text": "What is this? "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 0,
+        "m": "37",
+        "s": 0
+      },
+      "text": "Fine art photography of some sort. "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "37",
+        "s": 3
+      },
+      "text": "Look, Percy. "
+    },
+    {
+      "name": "TALIESIN",
+      "ts": {
+        "h": 0,
+        "m": "37",
+        "s": 7
+      },
+      "text": "That's so cool! "
+    },
+    {
+      "name": "LIAM",
+      "ts": {
+        "h": 0,
+        "m": "37",
+        "s": 9
+      },
+      "text": "Hey, Daniel, your English is very good. "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "37",
+        "s": 11
+      },
+      "text": "Can you see that? It's a really cool photograph. Its got feathers and a braid there, that there. "
+    },
+    {
+      "name": "TRAVIS",
+      "ts": {
+        "h": 0,
+        "m": "37",
+        "s": 20
+      },
+      "text": "Paige Weggle sent me a packet of mayo! "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 0,
+        "m": "37",
+        "s": 26
+      },
+      "text": "Oh that's funny, a packet of mayo! "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "37",
+        "s": 28
+      },
+      "text": "(laughter) We haven't opened it yet! You have to open the mayo. "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "37",
+        "s": 32
+      },
+      "text": "Oh, don't! "
+    },
+    {
+      "name": "BRIAN",
+      "ts": {
+        "h": 0,
+        "m": "37",
+        "s": 34
+      },
+      "text": "They sent mayonnaise? "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "37",
+        "s": 36
+      },
+      "text": "They sent you mayonnaise. "
+    },
+    {
+      "name": "TRAVIS",
+      "ts": {
+        "h": 0,
+        "m": "37",
+        "s": 42
+      },
+      "text": "(laughter) "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "37",
+        "s": 52
+      },
+      "text": "I have a really cool letter here from Thomas Dunwoody, who writes about how we helped him through his deployment and missing his friends and family, the show helped him get through that and he looks forward to hopefully meeting us at a Denver Comic Con sometime. As soon as he can find the list of everyone's favorite charities he promises to pledge $50 to each of them. Thank you. "
+    },
+    {
+      "name": "BRIAN",
+      "ts": {
+        "h": 0,
+        "m": "38",
+        "s": 14
+      },
+      "text": "Where can they find that list, Matt? "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "38",
+        "s": 16
+      },
+      "text": "If you do a search for the Critter's guide to Critmas on the Geek and Sundry website or do a Google search for Critter's guide to Critmas. You can find all our charities on there to support for this season. That is awesome! Thank you so much. "
+    },
+    {
+      "name": "LIAM",
+      "ts": {
+        "h": 0,
+        "m": "38",
+        "s": 27
+      },
+      "text": "This is the rulebook, as I gather, but look at this game board. Look at that! "
+    },
+    {
+      "name": "TRAVIS",
+      "ts": {
+        "h": 0,
+        "m": "38",
+        "s": 48
+      },
+      "text": "Are you serious? That's really great! "
+    },
+    {
+      "name": "LIAM",
+      "ts": {
+        "h": 0,
+        "m": "38",
+        "s": 52
+      },
+      "text": "I'm going to, if no one objects, I'm going to bring it home and look at it with my son. "
+    },
+    {
+      "name": "ALL",
+      "ts": {
+        "h": 0,
+        "m": "38",
+        "s": 56
+      },
+      "text": "Yeah! "
+    },
+    {
+      "name": "LIAM",
+      "ts": {
+        "h": 0,
+        "m": "38",
+        "s": 57
+      },
+      "text": "It's super cool! It's getting wrinkled! I'm going to roll it. "
+    },
+    {
+      "name": "BRIAN",
+      "ts": {
+        "h": 0,
+        "m": "39",
+        "s": 10
+      },
+      "text": "How cool is that? Little context, there is a family tradition in Cullin's family that goes back to 850 C.E. in Germany where the engaged couple would be given one of these by everyone in the town. "
+    },
+    {
+      "name": "MARISHA",
+      "ts": {
+        "h": 0,
+        "m": "39",
+        "s": 38
+      },
+      "text": "I love how he hands it to me because he knows. "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "39",
+        "s": 41
+      },
+      "text": "Yep. "
+    },
+    {
+      "name": "MARISHA",
+      "ts": {
+        "h": 0,
+        "m": "39",
+        "s": 45
+      },
+      "text": "I like this tradition. Why? "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "39",
+        "s": 47
+      },
+      "text": "This is a good tradition. "
+    },
+    {
+      "name": "BRIAN",
+      "ts": {
+        "h": 0,
+        "m": "39",
+        "s": 49
+      },
+      "text": "This is a really cool letter. I'll let you guys read this. "
+    },
+    {
+      "name": "LIAM",
+      "ts": {
+        "h": 0,
+        "m": "39",
+        "s": 56
+      },
+      "text": "This is how we settle arguments. "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "39",
+        "s": 59
+      },
+      "text": "Yeah, exactly! That's why I handed it to her. "
+    },
+    {
+      "name": "MARISHA",
+      "ts": {
+        "h": 0,
+        "m": "40",
+        "s": 0
+      },
+      "text": "This is what we call marriage counseling. "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "40",
+        "s": 5
+      },
+      "text": "You win. I'm sorry. I like how you're still German for no reason. "
+    },
+    {
+      "name": "MARISHA",
+      "ts": {
+        "h": 0,
+        "m": "40",
+        "s": 10
+      },
+      "text": "That's amazing, thank you! Whoever-- oh, a Norse colony in Germania. "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "40",
+        "s": 24
+      },
+      "text": "But they originated in Germany, so you were right. "
+    },
+    {
+      "name": "TALIESIN",
+      "ts": {
+        "h": 0,
+        "m": "40",
+        "s": 27
+      },
+      "text": "I like the notion that a bunch of Norse got to Germany and said, \"Yeah, we're done.\" "
+    },
+    {
+      "name": "MARISHA",
+      "ts": {
+        "h": 0,
+        "m": "40",
+        "s": 30
+      },
+      "text": "Yeah, this is how we settle things now. "
+    },
+    {
+      "name": "TALIESIN",
+      "ts": {
+        "h": 0,
+        "m": "40",
+        "s": 32
+      },
+      "text": "It's cold enough now. We're done. "
+    },
+    {
+      "name": "MARISHA",
+      "ts": {
+        "h": 0,
+        "m": "40",
+        "s": 42
+      },
+      "text": "This is for you, Matt. This is from Josh Miller or @JMiller1 on Twitter. We read your letter, Josh. It's amazing, and hopefully we do run into you, maybe in the near future. He said that this is for you, specifically. "
+    },
+    {
+      "name": "TRAVIS",
+      "ts": {
+        "h": 0,
+        "m": "41",
+        "s": 7
+      },
+      "text": "What is it? "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "41",
+        "s": 9
+      },
+      "text": "I already see pentagrams, so I can hope it's to finally summon my patron. Oh, your guys' favorite! Hourglasses! "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 0,
+        "m": "41",
+        "s": 22
+      },
+      "text": "Yes! I love them! "
+    },
+    {
+      "name": "TRAVIS",
+      "ts": {
+        "h": 0,
+        "m": "41",
+        "s": 25
+      },
+      "text": "That one is for shopping. "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "41",
+        "s": 28
+      },
+      "text": "(laughs) That's so cool! Oh, it looks like it's a dark brown sand, too. It's got dragon heads pointing upwards. It's soul sand, from Minecraft. "
+    },
+    {
+      "name": "TALIESIN",
+      "ts": {
+        "h": 0,
+        "m": "41",
+        "s": 41
+      },
+      "text": "This is nuts. "
+    },
+    {
+      "name": "LIAM",
+      "ts": {
+        "h": 0,
+        "m": "41",
+        "s": 43
+      },
+      "text": "I'm so glad we all survived that dragon fight. "
+    },
+    {
+      "name": "TALIESIN",
+      "ts": {
+        "h": 0,
+        "m": "41",
+        "s": 46
+      },
+      "text": "Yeah, that could have gone really poorly. "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 0,
+        "m": "41",
+        "s": 48
+      },
+      "text": "Well, except for Kima and Scanlan. "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "41",
+        "s": 58
+      },
+      "text": "Thank you so much. I appreciate that. "
+    },
+    {
+      "name": "TALIESIN",
+      "ts": {
+        "h": 0,
+        "m": "42",
+        "s": 1
+      },
+      "text": "There's another one, man. "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "42",
+        "s": 3
+      },
+      "text": "There's another one? "
+    },
+    {
+      "name": "TALIESIN",
+      "ts": {
+        "h": 0,
+        "m": "42",
+        "s": 4
+      },
+      "text": "I would say look at the letter first. "
+    },
+    {
+      "name": "MARISHA",
+      "ts": {
+        "h": 0,
+        "m": "42",
+        "s": 12
+      },
+      "text": "Oh shit! This is a donation from Sarah Sutton to Mark Sutton. Wait, hang on. "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 0,
+        "m": "42",
+        "s": 22
+      },
+      "text": "Mark Sutton Ministries. They help out Haitian residents. "
+    },
+    {
+      "name": "MARISHA",
+      "ts": {
+        "h": 0,
+        "m": "42",
+        "s": 26
+      },
+      "text": "Yay, Sarah! You're awesome, Sarah! "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 0,
+        "m": "42",
+        "s": 40
+      },
+      "text": "Nice letter from high schooler Nicholas McGuire whose stumbled onto our show clicking a link off of a HotPepperGaming episode. It takes all kinds. "
+    },
+    {
+      "name": "TALIESIN",
+      "ts": {
+        "h": 0,
+        "m": "42",
+        "s": 52
+      },
+      "text": "We apologize that it was not porn. It was the only link on the internet that wasn't. "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 0,
+        "m": "42",
+        "s": 57
+      },
+      "text": "\"The subject critters are rumored to-- blooming onions!\" What? \"The subject critters are rumored to be vulnerable to blooming onions--\" I don't understand the sentence structure. \"Shiraz and generally drive to and from work in the pouches of chaotic evil kangaroos. Dr. Oz.\" What is this? Ooh, it's a bunch of minis! Ooh, they're all kinds of different cool stuff. Ooh, these are all creepers! "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "43",
+        "s": 38
+      },
+      "text": "Ooh, that looks like Zahra. "
+    },
+    {
+      "name": "LIAM",
+      "ts": {
+        "h": 0,
+        "m": "43",
+        "s": 42
+      },
+      "text": "No, they go to Matt first. "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "43",
+        "s": 44
+      },
+      "text": "Oh no, it's like a ghoul Zahra. It's zombie Zahra. "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "43",
+        "s": 48
+      },
+      "text": "I actually have a really amazing letter here from Jade Rose from the UK, who is currently in New York City for the last few days of the holiday. Really, this sweet letter I've read most of it, I'm going to read the rest later on. Thank you so much. It's really sweet. Thank you for it. "
+    },
+    {
+      "name": "TRAVIS",
+      "ts": {
+        "h": 0,
+        "m": "44",
+        "s": 7
+      },
+      "text": "Thanks for all you do, teaching the kids! "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "44",
+        "s": 55
+      },
+      "text": "I want to put him on the tree, too! "
+    },
+    {
+      "name": "BRIAN",
+      "ts": {
+        "h": 0,
+        "m": "45",
+        "s": 0
+      },
+      "text": "Hey, guys. Monica Monmon-- "
+    },
+    {
+      "name": "LIAM",
+      "ts": {
+        "h": 0,
+        "m": "45",
+        "s": 5
+      },
+      "text": "Also known as @madqueenmomo. She's one of our prolific artists. "
+    },
+    {
+      "name": "BRIAN",
+      "ts": {
+        "h": 0,
+        "m": "45",
+        "s": 9
+      },
+      "text": "@madqueenmomo was what I was going to say next. \"Wanted to give you all a big thank you for constantly inspiring artists everywhere weekly.\" The artists are the inspiring ones, these guys aren't. I'm just kidding. \"Doing my final semester of art school. Every week you inspire so many critters I felt like it was time to give back. In this box you will find a studio pouch dice bag filled with sharpies, markers, and sketching pencils for everyone. I've also included a tiny sketchbook.\" "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "45",
+        "s": 40
+      },
+      "text": "That's so cool. "
+    },
+    {
+      "name": "TALIESIN",
+      "ts": {
+        "h": 0,
+        "m": "45",
+        "s": 42
+      },
+      "text": "Oh my god! "
+    },
+    {
+      "name": "LIAM",
+      "ts": {
+        "h": 0,
+        "m": "45",
+        "s": 44
+      },
+      "text": "They're so cute! "
+    },
+    {
+      "name": "BRIAN",
+      "ts": {
+        "h": 0,
+        "m": "45",
+        "s": 51
+      },
+      "text": "Wow. "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "45",
+        "s": 58
+      },
+      "text": "Oh my god! "
+    },
+    {
+      "name": "MARISHA",
+      "ts": {
+        "h": 0,
+        "m": "46",
+        "s": 2
+      },
+      "text": "Keyleth! "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "46",
+        "s": 7
+      },
+      "text": "What are the things inside? "
+    },
+    {
+      "name": "LIAM",
+      "ts": {
+        "h": 0,
+        "m": "46",
+        "s": 13
+      },
+      "text": "What's inside are sketchbooks. Monica, thank you so much. "
+    },
+    {
+      "name": "TRAVIS",
+      "ts": {
+        "h": 0,
+        "m": "46",
+        "s": 19
+      },
+      "text": "(noises of delight) "
+    },
+    {
+      "name": "BRIAN",
+      "ts": {
+        "h": 0,
+        "m": "46",
+        "s": 26
+      },
+      "text": "They all have sketchbooks in them. "
+    },
+    {
+      "name": "LIAM",
+      "ts": {
+        "h": 0,
+        "m": "46",
+        "s": 32
+      },
+      "text": "Oh, wow! "
+    },
+    {
+      "name": "TRAVIS",
+      "ts": {
+        "h": 0,
+        "m": "46",
+        "s": 34
+      },
+      "text": "This is so amazing! I'm so happy right now. "
+    },
+    {
+      "name": "MARISHA",
+      "ts": {
+        "h": 0,
+        "m": "46",
+        "s": 41
+      },
+      "text": "Look! She did short-haired Keyleth. "
+    },
+    {
+      "name": "LIAM",
+      "ts": {
+        "h": 0,
+        "m": "46",
+        "s": 46
+      },
+      "text": "What a fun gift! "
+    },
+    {
+      "name": "TALIESIN",
+      "ts": {
+        "h": 0,
+        "m": "46",
+        "s": 52
+      },
+      "text": "This is definitely going to be a con bag. "
+    },
+    {
+      "name": "MARISHA",
+      "ts": {
+        "h": 0,
+        "m": "46",
+        "s": 56
+      },
+      "text": "This is going to be my new journal. "
+    },
+    {
+      "name": "TRAVIS",
+      "ts": {
+        "h": 0,
+        "m": "46",
+        "s": 58
+      },
+      "text": "Look at all that anime. "
+    },
+    {
+      "name": "TALIESIN",
+      "ts": {
+        "h": 0,
+        "m": "47",
+        "s": 1
+      },
+      "text": "They're really cute. "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "47",
+        "s": 3
+      },
+      "text": "They're the cutest! "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "47",
+        "s": 4
+      },
+      "text": "I have a letter here Taliesin gave me earlier. Whoa! "
+    },
+    {
+      "name": "TALIESIN",
+      "ts": {
+        "h": 0,
+        "m": "47",
+        "s": 17
+      },
+      "text": "Take a quick look at that. "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "47",
+        "s": 21
+      },
+      "text": "TL; DR. \"Dear Matt: Congratulations on your engagement and another successful year on Critical Role. Please accept this gift as a patronage for your outstanding work on the show and your gracious love towards the community. Much love, Shepherd. Enclosed in this box you will not only find a generous donation to First Book--? by the way, Shepherd donated 250 dollars to First Book in our name. Thank you so much. \"But a sea ghost skeletonized mechanical watch.\" What? "
+    },
+    {
+      "name": "TALIESIN",
+      "ts": {
+        "h": 0,
+        "m": "47",
+        "s": 51
+      },
+      "text": "Open the box. "
+    },
+    {
+      "name": "BRIAN",
+      "ts": {
+        "h": 0,
+        "m": "47",
+        "s": 52
+      },
+      "text": "Open the box! "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "47",
+        "s": 57
+      },
+      "text": "What?! Are you kidding me? "
+    },
+    {
+      "name": "TRAVIS",
+      "ts": {
+        "h": 0,
+        "m": "48",
+        "s": 5
+      },
+      "text": "Enjoy your box. "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "48",
+        "s": 9
+      },
+      "text": "Look at that shit! "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 0,
+        "m": "48",
+        "s": 11
+      },
+      "text": "That's an Invicta watch. "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "48",
+        "s": 15
+      },
+      "text": "That's amazing! "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "48",
+        "s": 17
+      },
+      "text": "Yeah, that's a nice watch. "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "48",
+        "s": 21
+      },
+      "text": "Holy shit. "
+    },
+    {
+      "name": "TRAVIS",
+      "ts": {
+        "h": 0,
+        "m": "48",
+        "s": 23
+      },
+      "text": "Who gets to wear it first? "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "48",
+        "s": 27
+      },
+      "text": "No! Me only. That is so amazing. That goes on my arm right now. "
+    },
+    {
+      "name": "LIAM",
+      "ts": {
+        "h": 0,
+        "m": "48",
+        "s": 31
+      },
+      "text": "It's a shame that those bracelets are grafted into your flesh. "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 0,
+        "m": "48",
+        "s": 36
+      },
+      "text": "Pass it around, let's see it. "
+    },
+    {
+      "name": "TALIESIN",
+      "ts": {
+        "h": 0,
+        "m": "48",
+        "s": 41
+      },
+      "text": "Wow, that's very nice. "
+    },
+    {
+      "name": "LIAM",
+      "ts": {
+        "h": 0,
+        "m": "48",
+        "s": 46
+      },
+      "text": "I have a story written about the mother of the twins from Paige. Paige, I'm going to read it after the show but I've got it. Thank you. "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "48",
+        "s": 58
+      },
+      "text": "I've got a wonderful little note from Alison Trace. She knitted a little superior healing potion. She said it's for Percy, but she said it could go to anybody who needs it. "
+    },
+    {
+      "name": "TRAVIS",
+      "ts": {
+        "h": 0,
+        "m": "49",
+        "s": 13
+      },
+      "text": "Cool. "
+    },
+    {
+      "name": "BRIAN",
+      "ts": {
+        "h": 0,
+        "m": "49",
+        "s": 14
+      },
+      "text": "That's not what she said. "
+    },
+    {
+      "name": "TALIESIN",
+      "ts": {
+        "h": 0,
+        "m": "49",
+        "s": 20
+      },
+      "text": "What's inside? "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "49",
+        "s": 24
+      },
+      "text": "It's teeth. "
+    },
+    {
+      "name": "TALIESIN",
+      "ts": {
+        "h": 0,
+        "m": "49",
+        "s": 25
+      },
+      "text": "I hope it's teeth because it can then go to my teeth collection. "
+    },
+    {
+      "name": "TRAVIS",
+      "ts": {
+        "h": 0,
+        "m": "49",
+        "s": 28
+      },
+      "text": "Taliesin, god. "
+    },
+    {
+      "name": "TALIESIN",
+      "ts": {
+        "h": 0,
+        "m": "49",
+        "s": 30
+      },
+      "text": "What, man? "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "49",
+        "s": 32
+      },
+      "text": "You do have a teeth collection, don't you? "
+    },
+    {
+      "name": "TALIESIN",
+      "ts": {
+        "h": 0,
+        "m": "49",
+        "s": 36
+      },
+      "text": "I have it powdered. I put it in your drink every week. Slowly I am getting inside of you. "
+    },
+    {
+      "name": "LIAM",
+      "ts": {
+        "h": 0,
+        "m": "49",
+        "s": 43
+      },
+      "text": "Gross! "
+    },
+    {
+      "name": "TALIESIN",
+      "ts": {
+        "h": 0,
+        "m": "49",
+        "s": 46
+      },
+      "text": "Make eye contact or go slow. No. You ruined me. "
+    },
+    {
+      "name": "BRIAN",
+      "ts": {
+        "h": 0,
+        "m": "49",
+        "s": 53
+      },
+      "text": "Cut the feed, Denise. "
+    },
+    {
+      "name": "TALIESIN",
+      "ts": {
+        "h": 0,
+        "m": "49",
+        "s": 55
+      },
+      "text": "We've got a red d4. I've lost it in my jam-jams. "
+    },
+    {
+      "name": "MARISHA",
+      "ts": {
+        "h": 0,
+        "m": "50",
+        "s": 2
+      },
+      "text": "Jani Malkki, @realcamel on Twitter, sent us chocolate from Finland. "
+    },
+    {
+      "name": "BRIAN",
+      "ts": {
+        "h": 0,
+        "m": "50",
+        "s": 13
+      },
+      "text": "Finland chocolate? "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 0,
+        "m": "50",
+        "s": 15
+      },
+      "text": "Finland chocolate. That's the best Scandinavian country for chocolate. "
+    },
+    {
+      "name": "TALIESIN",
+      "ts": {
+        "h": 0,
+        "m": "50",
+        "s": 24
+      },
+      "text": "It's a superior healing potion, so what's in a superior healing potion? 8d4. Eight red d4s. "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "50",
+        "s": 41
+      },
+      "text": "That?s pretty cute. "
+    },
+    {
+      "name": "TALIESIN",
+      "ts": {
+        "h": 0,
+        "m": "50",
+        "s": 43
+      },
+      "text": "That's clever. That's really clever. You can actually have a superior healing potion ready to go in a bag. "
+    },
+    {
+      "name": "TRAVIS",
+      "ts": {
+        "h": 0,
+        "m": "50",
+        "s": 51
+      },
+      "text": "I don't get it. "
+    },
+    {
+      "name": "TALIESIN",
+      "ts": {
+        "h": 0,
+        "m": "50",
+        "s": 53
+      },
+      "text": "It's because you've never been healed in your life. "
+    },
+    {
+      "name": "MARISHA",
+      "ts": {
+        "h": 0,
+        "m": "50",
+        "s": 57
+      },
+      "text": "It's never been an issue. It must be nice-- "
+    },
+    {
+      "name": "TRAVIS",
+      "ts": {
+        "h": 0,
+        "m": "51",
+        "s": 1
+      },
+      "text": "(singing) It must be nice, it must be nice-- "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 0,
+        "m": "51",
+        "s": 6
+      },
+      "text": "(singing) --to have 700 hit points. "
+    },
+    {
+      "name": "LIAM",
+      "ts": {
+        "h": 0,
+        "m": "51",
+        "s": 11
+      },
+      "text": "She gave me the turkey feather for my hat and sent you the raven feather because you play the raven paladin. So here is your prize for keeping me and my daughter entertained for the last year. A raven feather.\" Thank you. "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "52",
+        "s": 21
+      },
+      "text": "I just read the letter from Jani Malkki over in Finland. Thank you so much. This is really sweet. "
+    },
+    {
+      "name": "MARISHA",
+      "ts": {
+        "h": 0,
+        "m": "52",
+        "s": 27
+      },
+      "text": "It's another short story from @Tiamat_ZX on Twitter, who I love. Thank you so much. I will read it when I get home. "
+    },
+    {
+      "name": "BRIAN",
+      "ts": {
+        "h": 0,
+        "m": "52",
+        "s": 48
+      },
+      "text": "It's weird that Max laughs at all that stuff when he knows how professional I am. This is from a guy named Matt Miller-- Matthew Miller. He made a donation to the Children's Theater of Charlotte. It's a really good letter. I've been reading it for the past 43 minutes. He sent this, which is a box-- "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 0,
+        "m": "53",
+        "s": 12
+      },
+      "text": "Box Machina. "
+    },
+    {
+      "name": "BRIAN",
+      "ts": {
+        "h": 0,
+        "m": "53",
+        "s": 15
+      },
+      "text": "I can't tell, but it's handwritten, and I just learned how to read from Grog. Beautiful dice set in a beautiful box. "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "54",
+        "s": 0
+      },
+      "text": "There's three chocolates left. "
+    },
+    {
+      "name": "TRAVIS",
+      "ts": {
+        "h": 0,
+        "m": "54",
+        "s": 3
+      },
+      "text": "Which ones? "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 0,
+        "m": "54",
+        "s": 8
+      },
+      "text": "This feels heavy. There might be a second row. "
+    },
+    {
+      "name": "BRIAN",
+      "ts": {
+        "h": 0,
+        "m": "54",
+        "s": 10
+      },
+      "text": "There's eight of us. The chocolate did not make it to Matt and I. "
+    },
+    {
+      "name": "MARISHA",
+      "ts": {
+        "h": 0,
+        "m": "54",
+        "s": 14
+      },
+      "text": "This is little needlepointed Scanlan shit. "
+    },
+    {
+      "name": "BRIAN",
+      "ts": {
+        "h": 0,
+        "m": "54",
+        "s": 24
+      },
+      "text": "We got free shit. "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 0,
+        "m": "54",
+        "s": 25
+      },
+      "text": "Stay creative and awesome! "
+    },
+    {
+      "name": "TALIESIN",
+      "ts": {
+        "h": 0,
+        "m": "54",
+        "s": 27
+      },
+      "text": "Blue poop, take a shot. Everybody at home, it's time to take a shot. "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 0,
+        "m": "54",
+        "s": 31
+      },
+      "text": "Love Neeska @ladyneeska. Thank you for more poop. This might be the best poop I've ever gotten. "
+    },
+    {
+      "name": "TALIESIN",
+      "ts": {
+        "h": 0,
+        "m": "54",
+        "s": 41
+      },
+      "text": "That's a really solid poop. "
+    },
+    {
+      "name": "BRIAN",
+      "ts": {
+        "h": 0,
+        "m": "54",
+        "s": 45
+      },
+      "text": "How many do you get, Sam? "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 0,
+        "m": "54",
+        "s": 47
+      },
+      "text": "I've gotten a dozen or so, but this poop might be the the best poop I've ever gotten. "
+    },
+    {
+      "name": "BRIAN",
+      "ts": {
+        "h": 0,
+        "m": "54",
+        "s": 57
+      },
+      "text": "Are you going to sleep with that poop tonight, Sam? "
+    },
+    {
+      "name": "TALIESIN, BRIAN",
+      "ts": {
+        "h": 0,
+        "m": "55",
+        "s": 1
+      },
+      "text": "You should sleep with that poop on your chest. "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 0,
+        "m": "55",
+        "s": 6
+      },
+      "text": "I will. I'm going to Cleveland steamer myself with this tonight. "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "55",
+        "s": 11
+      },
+      "text": "Okay, so this dice set is actually Reya's first dice set they ever had. "
+    },
+    {
+      "name": "BRIAN",
+      "ts": {
+        "h": 0,
+        "m": "55",
+        "s": 19
+      },
+      "text": "That's pretty awesome. "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "55",
+        "s": 21
+      },
+      "text": "That's really sweet. Thank you so much. I love this. "
+    },
+    {
+      "name": "TRAVIS",
+      "ts": {
+        "h": 0,
+        "m": "55",
+        "s": 30
+      },
+      "text": "Who's next? "
+    },
+    {
+      "name": "MARISHA",
+      "ts": {
+        "h": 0,
+        "m": "55",
+        "s": 33
+      },
+      "text": "For Ashley. "
+    },
+    {
+      "name": "BRIAN",
+      "ts": {
+        "h": 0,
+        "m": "55",
+        "s": 34
+      },
+      "text": "Great. It's going in the bag. "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 0,
+        "m": "55",
+        "s": 36
+      },
+      "text": "Guys, so far, good episode of Talks Machina or best episode of Talks Machina? "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "55",
+        "s": 42
+      },
+      "text": "You're on it, Sam, so obviously-- "
+    },
+    {
+      "name": "TALIESIN",
+      "ts": {
+        "h": 0,
+        "m": "55",
+        "s": 46
+      },
+      "text": "Too easy. "
+    },
+    {
+      "name": "MARISHA",
+      "ts": {
+        "h": 0,
+        "m": "55",
+        "s": 48
+      },
+      "text": "This is from Judith, a.k.a. @judrakJ at Twitter from the Netherlands. Travis. Sam. "
+    },
+    {
+      "name": "BRIAN",
+      "ts": {
+        "h": 0,
+        "m": "56",
+        "s": 0
+      },
+      "text": "That's north of here. "
+    },
+    {
+      "name": "MARISHA",
+      "ts": {
+        "h": 0,
+        "m": "56",
+        "s": 3
+      },
+      "text": "Hi. Do you know the feeling of writing your secret crush notes? Of course you do. Well, this is kind of the feeling I have writing this letter to you guys, so please forgive me if this letter is incoherent, a little awkward, and/or maybe a little coy.\" "
+    },
+    {
+      "name": "TRAVIS",
+      "ts": {
+        "h": 0,
+        "m": "56",
+        "s": 19
+      },
+      "text": "Yours is way longer than mine. "
+    },
+    {
+      "name": "MARISHA",
+      "ts": {
+        "h": 0,
+        "m": "56",
+        "s": 20
+      },
+      "text": "Yeah, I'm not going to read the whole thing, but I thought the beginning was cute. "
+    },
+    {
+      "name": "BRIAN",
+      "ts": {
+        "h": 0,
+        "m": "56",
+        "s": 24
+      },
+      "text": "That's awesome. "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 0,
+        "m": "56",
+        "s": 26
+      },
+      "text": "Mine just says, \"You're handsomer than Travis.\" "
+    },
+    {
+      "name": "TRAVIS",
+      "ts": {
+        "h": 0,
+        "m": "56",
+        "s": 28
+      },
+      "text": "Really? Mine says, \"I lied to Sam.\" (laughter) "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 0,
+        "m": "56",
+        "s": 39
+      },
+      "text": "Merry Critmas. "
+    },
+    {
+      "name": "BRIAN",
+      "ts": {
+        "h": 0,
+        "m": "56",
+        "s": 43
+      },
+      "text": "I am so happy. Oh, nice shot! "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "56",
+        "s": 51
+      },
+      "text": "Amanda, your Kima cosplay is amazing. "
+    },
+    {
+      "name": "TALIESIN",
+      "ts": {
+        "h": 0,
+        "m": "56",
+        "s": 54
+      },
+      "text": "Yeah. "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 0,
+        "m": "56",
+        "s": 56
+      },
+      "text": "There's so many undone letters. Look at all these letters! "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 0,
+        "m": "57",
+        "s": 0
+      },
+      "text": "(speaking) Is it a good sign that the crew all has nooses around their necks? Is that okay? "
+    },
+    {
+      "name": "TALIESIN",
+      "ts": {
+        "h": 0,
+        "m": "57",
+        "s": 9
+      },
+      "text": "Appropriate for this time of year. "
+    },
+    {
+      "name": "MARISHA",
+      "ts": {
+        "h": 0,
+        "m": "57",
+        "s": 10
+      },
+      "text": "Someone donated to the Nature Conservancy, and I got a turtle. I don't know who this is from. Oh, jeez. They got this bookmark for you, Sam. "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 0,
+        "m": "57",
+        "s": 28
+      },
+      "text": "Oh! That's a turtle bookmark. I read a lot of books to my kids. Not to me. "
+    },
+    {
+      "name": "TRAVIS",
+      "ts": {
+        "h": 0,
+        "m": "57",
+        "s": 35
+      },
+      "text": "If you read books to yourself, I would watch that. "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 0,
+        "m": "57",
+        "s": 40
+      },
+      "text": "I just read Rat Queens, finally. "
+    },
+    {
+      "name": "TALIESIN",
+      "ts": {
+        "h": 0,
+        "m": "57",
+        "s": 43
+      },
+      "text": "Oh, hey, that's good! It's so good! There's more coming now. "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "57",
+        "s": 49
+      },
+      "text": "Thank you, @dutchcritter. Your Gilmore-themed leather bag based off of your paladin's LARP tabard is awesome! And I like your little note at the back here. I think it's very true, so thank you so much. That's really sweet. "
+    },
+    {
+      "name": "MARISHA",
+      "ts": {
+        "h": 0,
+        "m": "58",
+        "s": 4
+      },
+      "text": "I don't know who this is. They just signed it \"L\". So whoever anonymously donated, you're awesome and thank you, L. "
+    },
+    {
+      "name": "TALIESIN",
+      "ts": {
+        "h": 0,
+        "m": "58",
+        "s": 12
+      },
+      "text": "Brought to you by the letter L. "
+    },
+    {
+      "name": "LIAM, LAURA, MARISHA, MATT",
+      "ts": {
+        "h": 0,
+        "m": "58",
+        "s": 14
+      },
+      "text": "Thanks, L! "
+    },
+    {
+      "name": "BRIAN",
+      "ts": {
+        "h": 0,
+        "m": "58",
+        "s": 18
+      },
+      "text": "Oh, there's another engagement present! \"Matt and Marisha, hi! You might remember us from Critmas last year. We sent you the Tolkien-style wood-burned map.\" "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "58",
+        "s": 26
+      },
+      "text": "Yes! Which I still have in my office. "
+    },
+    {
+      "name": "BRIAN",
+      "ts": {
+        "h": 0,
+        "m": "58",
+        "s": 28
+      },
+      "text": "\"We wanted to send something else to say 'Congratulations on your engagement.' We know you guys love Avatar. So this is--\" and then she tells me what it is, but I want you to open it. "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "58",
+        "s": 41
+      },
+      "text": "Here, Marisha, you open it. "
+    },
+    {
+      "name": "MARISHA",
+      "ts": {
+        "h": 0,
+        "m": "58",
+        "s": 43
+      },
+      "text": "Okay! "
+    },
+    {
+      "name": "BRIAN",
+      "ts": {
+        "h": 0,
+        "m": "58",
+        "s": 45
+      },
+      "text": "It's from Steve and Megan Katronio. "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "58",
+        "s": 48
+      },
+      "text": "Steve and Megan! Thank you! "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 0,
+        "m": "58",
+        "s": 52
+      },
+      "text": "It is time for you to choose. It is time for you to choose good.\" "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "59",
+        "s": 4
+      },
+      "text": "Iroh. Uncle Iroh. "
+    },
+    {
+      "name": "MARISHA",
+      "ts": {
+        "h": 0,
+        "m": "59",
+        "s": 6
+      },
+      "text": "Uncle Iroh! It's an Avatar map! "
+    },
+    {
+      "name": "BRIAN",
+      "ts": {
+        "h": 0,
+        "m": "59",
+        "s": 11
+      },
+      "text": "Yeah, she says, \"This is the map from The Last Airbender. The show, not the movie, obviously.\" That's awesome. "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 0,
+        "m": "59",
+        "s": 20
+      },
+      "text": "That's so cool! "
+    },
+    {
+      "name": "MARISHA",
+      "ts": {
+        "h": 0,
+        "m": "59",
+        "s": 22
+      },
+      "text": "And it's an Iroh quote. Iroh's the best. "
+    },
+    {
+      "name": "TRAVIS",
+      "ts": {
+        "h": 0,
+        "m": "59",
+        "s": 29
+      },
+      "text": "Who wants to unwrap minis? "
+    },
+    {
+      "name": "TALIESIN",
+      "ts": {
+        "h": 0,
+        "m": "59",
+        "s": 32
+      },
+      "text": "I'll unwrap minis. "
+    },
+    {
+      "name": "TRAVIS",
+      "ts": {
+        "h": 0,
+        "m": "59",
+        "s": 33
+      },
+      "text": "This is from Michael W. Crabtree says, \"Hi, Critical Role cast. I want to thank you for the amazing journey. I used these a lot during my teens dabbed with Pathfinder, blah blah blah,\" Oh, man. \"Vex's death felt real. Being a twin myself, I recognised the distance willing to go to protect my sister. I'd like to thank Matt for making DM Tips and DMs Guild classes. Since watching, I pick up DM's books and now I'm currently running three six-to-eight-person 5e campaigns!\" "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 0,
+        "m": "59",
+        "s": 56
+      },
+      "text": "Three campaigns? "
+    },
+    {
+      "name": "TRAVIS",
+      "ts": {
+        "h": 0,
+        "m": "59",
+        "s": 58
+      },
+      "text": "Three. He says, \"The blood hunter lycan order have been a joy to play.\" "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 1,
+        "m": "0",
+        "s": 1
+      },
+      "text": "Nice! "
+    },
+    {
+      "name": "TALIESIN",
+      "ts": {
+        "h": 1,
+        "m": "0",
+        "s": 2
+      },
+      "text": "What? "
+    },
+    {
+      "name": "TRAVIS",
+      "ts": {
+        "h": 1,
+        "m": "0",
+        "s": 3
+      },
+      "text": "Wow, that's a lot of terms that I don't even understand. \"Critical Role has inspired me to channel my originality and thank you for letting me play with my seven-year-old daughter. It's okay to make believe, embrace who you are, enjoy the experience. Bring family together. I look forward to showing my daughter that dad is just as silly as she is. Michael W. Crabtree A.K.A-- How do you pronounce that? "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 1,
+        "m": "0",
+        "s": 22
+      },
+      "text": "Zanyondelcet! "
+    },
+    {
+      "name": "TRAVIS",
+      "ts": {
+        "h": 1,
+        "m": "0",
+        "s": 24
+      },
+      "text": "And he included these incredible-- "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 1,
+        "m": "0",
+        "s": 27
+      },
+      "text": "These minis are amazing! "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 1,
+        "m": "0",
+        "s": 28
+      },
+      "text": "Retail box action? "
+    },
+    {
+      "name": "BRIAN",
+      "ts": {
+        "h": 1,
+        "m": "0",
+        "s": 31
+      },
+      "text": "Wow! That's no joke. "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 1,
+        "m": "0",
+        "s": 34
+      },
+      "text": "Liam, look at that. "
+    },
+    {
+      "name": "TRAVIS",
+      "ts": {
+        "h": 1,
+        "m": "0",
+        "s": 36
+      },
+      "text": "He said, \"I have also included a more paladin-ish rogue Vax for you, if you'd like to use it in a home game.\" "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 1,
+        "m": "0",
+        "s": 45
+      },
+      "text": "Show it to the camera! "
+    },
+    {
+      "name": "TRAVIS",
+      "ts": {
+        "h": 1,
+        "m": "0",
+        "s": 46
+      },
+      "text": "\"Liam, your embracing of the Raven Queen was by far my favorite part in your game.\" "
+    },
+    {
+      "name": "LIAM",
+      "ts": {
+        "h": 1,
+        "m": "0",
+        "s": 50
+      },
+      "text": "Wow! Look at how firm his buttocks are! Wow! "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 1,
+        "m": "0",
+        "s": 57
+      },
+      "text": "Finally! True accurate to the game! "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 1,
+        "m": "0",
+        "s": 59
+      },
+      "text": "Good focus pulling, by the way. "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 1,
+        "m": "1",
+        "s": 1
+      },
+      "text": "Cool! I like to think that he's got Whisper and the dragon sword. "
+    },
+    {
+      "name": "LIAM",
+      "ts": {
+        "h": 1,
+        "m": "1",
+        "s": 8
+      },
+      "text": "Who should box these? "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 1,
+        "m": "1",
+        "s": 11
+      },
+      "text": "These should go back in the box so they don't get damaged. "
+    },
+    {
+      "name": "TRAVIS",
+      "ts": {
+        "h": 1,
+        "m": "1",
+        "s": 14
+      },
+      "text": "I'll take them. I'll put them on the shelf. "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 1,
+        "m": "1",
+        "s": 20
+      },
+      "text": "I have a present here from Rob? It just says \"From Rob.\" Thank you, Rob! "
+    },
+    {
+      "name": "TRAVIS",
+      "ts": {
+        "h": 1,
+        "m": "1",
+        "s": 24
+      },
+      "text": "Hey, my name's Rob! "
+    },
+    {
+      "name": "BRIAN",
+      "ts": {
+        "h": 1,
+        "m": "1",
+        "s": 26
+      },
+      "text": "Could've been from Glenn. "
+    },
+    {
+      "name": "MARISHA",
+      "ts": {
+        "h": 1,
+        "m": "1",
+        "s": 28
+      },
+      "text": "Awesome presents in the mail! "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 1,
+        "m": "1",
+        "s": 30
+      },
+      "text": "I think this may have been from one of the letters we read earlier. It is a dungeon furniture pack. "
+    },
+    {
+      "name": "ALL",
+      "ts": {
+        "h": 1,
+        "m": "1",
+        "s": 37
+      },
+      "text": "Whoa! "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 1,
+        "m": "1",
+        "s": 38
+      },
+      "text": "It's a bunch of cool mini furniture bits and pieces. "
+    },
+    {
+      "name": "BRIAN",
+      "ts": {
+        "h": 1,
+        "m": "1",
+        "s": 41
+      },
+      "text": "Matt, here are some things for the dungeon to add to the atmosphere and make the players go, 'What's that?' 'You don't know. Do you want to examine it?' Have fun.\" "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 1,
+        "m": "2",
+        "s": 0
+      },
+      "text": "Oh, that's so cool! "
+    },
+    {
+      "name": "MARISHA",
+      "ts": {
+        "h": 1,
+        "m": "2",
+        "s": 2
+      },
+      "text": "He's bringing a new life to VHS cases. "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 1,
+        "m": "2",
+        "s": 6
+      },
+      "text": "I've got a lot of stuff from Valerie Thompson. She wrote, number one, a manuscript that she said Taliesin should read first, because you love to read. She made a bunch of bear paw stickers for me! And then she made a dragonscale pendant for each person because she's a dragonborn in her campaign. She's got a red one for Grog and a black one for Vax and a gold one for me and a brass one for Scanlan and a green for Keyleth, and the blue is for Percy-- yeah, it's a pendant! You got a platinum one, Matthew. And Ashley got a white one. "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 1,
+        "m": "2",
+        "s": 52
+      },
+      "text": "That's so cool! "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 1,
+        "m": "2",
+        "s": 54
+      },
+      "text": "They're pretty! "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 1,
+        "m": "2",
+        "s": 55
+      },
+      "text": "You're very olfactory today. "
+    },
+    {
+      "name": "TRAVIS",
+      "ts": {
+        "h": 1,
+        "m": "2",
+        "s": 57
+      },
+      "text": "I feel like you could eat this. "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 1,
+        "m": "2",
+        "s": 59
+      },
+      "text": "They're clay pendants. She made them! "
+    },
+    {
+      "name": "TRAVIS",
+      "ts": {
+        "h": 1,
+        "m": "3",
+        "s": 1
+      },
+      "text": "I'm pretty sure it's like taffy. "
+    },
+    {
+      "name": "BRIAN",
+      "ts": {
+        "h": 1,
+        "m": "3",
+        "s": 4
+      },
+      "text": "No, don't eat it! "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 1,
+        "m": "3",
+        "s": 5
+      },
+      "text": "We can make them into chokers! "
+    },
+    {
+      "name": "TRAVIS",
+      "ts": {
+        "h": 1,
+        "m": "3",
+        "s": 8
+      },
+      "text": "(gobbling sounds) I'm a turkey! "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 1,
+        "m": "3",
+        "s": 12
+      },
+      "text": "Really? She spent all this time on this, and you're going to make it into a turkey wattle? "
+    },
+    {
+      "name": "TALIESIN",
+      "ts": {
+        "h": 1,
+        "m": "3",
+        "s": 21
+      },
+      "text": "That's a very funny turkey wattle. "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 1,
+        "m": "3",
+        "s": 55
+      },
+      "text": "It's got a little pin with hearts on it! "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 1,
+        "m": "4",
+        "s": 2
+      },
+      "text": "Brian Wiggly Foster? Is that a vacuum-sealed pack? "
+    },
+    {
+      "name": "BRIAN",
+      "ts": {
+        "h": 1,
+        "m": "4",
+        "s": 7
+      },
+      "text": "This is enough food to survive on Mars for two years. "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 1,
+        "m": "4",
+        "s": 13
+      },
+      "text": "Mark Watney! "
+    },
+    {
+      "name": "BRIAN",
+      "ts": {
+        "h": 1,
+        "m": "4",
+        "s": 16
+      },
+      "text": "Guys, there's a note here that says: \"Here is a labor of love. Laura used to do quilts, and probably could've done better, but it was made with all the best interest and it was the first time piecing shapes. The squares were printed by Matt Abernathy, and the design is by Kenneth Wriggles.\" "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 1,
+        "m": "4",
+        "s": 47
+      },
+      "text": "This is a huge deal! "
+    },
+    {
+      "name": "BRIAN",
+      "ts": {
+        "h": 1,
+        "m": "4",
+        "s": 49
+      },
+      "text": "I can't read the last sentence until Denise brings me a scissors or a knife so I can open this-- oh, wait! Sorry, Denise! Sorry, Denise. I have to put Ashley down. All right girls, and Liam. Here it comes. "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 1,
+        "m": "5",
+        "s": 9
+      },
+      "text": "Is this empty? "
+    },
+    {
+      "name": "BRIAN",
+      "ts": {
+        "h": 1,
+        "m": "5",
+        "s": 14
+      },
+      "text": "Spread it out! "
+    },
+    {
+      "name": "TALIESIN",
+      "ts": {
+        "h": 1,
+        "m": "5",
+        "s": 16
+      },
+      "text": "Whoa! "
+    },
+    {
+      "name": "BRIAN",
+      "ts": {
+        "h": 1,
+        "m": "5",
+        "s": 19
+      },
+      "text": "\"The star represents the star of the Cowboys. Sorry for not putting the line and the paws for Trinket. We love you all.\" "
+    },
+    {
+      "name": "TALIESIN",
+      "ts": {
+        "h": 1,
+        "m": "5",
+        "s": 27
+      },
+      "text": "I like how the Cowboys get representation, but Trinket does not. "
+    },
+    {
+      "name": "BRIAN",
+      "ts": {
+        "h": 1,
+        "m": "5",
+        "s": 30
+      },
+      "text": "Look at this list of people, you guys. "
+    },
+    {
+      "name": "MARISHA",
+      "ts": {
+        "h": 1,
+        "m": "5",
+        "s": 33
+      },
+      "text": "It's a you and Grog quilt! "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 1,
+        "m": "5",
+        "s": 35
+      },
+      "text": "Guys, look at this list of people that contributed to this. "
+    },
+    {
+      "name": "TALIESIN",
+      "ts": {
+        "h": 1,
+        "m": "5",
+        "s": 38
+      },
+      "text": "Oh my-- holy cow! "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 1,
+        "m": "5",
+        "s": 40
+      },
+      "text": "This is a real deal! "
+    },
+    {
+      "name": "MARISHA",
+      "ts": {
+        "h": 1,
+        "m": "5",
+        "s": 42
+      },
+      "text": "These are the same people who did the one for us, too? "
+    },
+    {
+      "name": "BRIAN",
+      "ts": {
+        "h": 1,
+        "m": "5",
+        "s": 44
+      },
+      "text": "This is the amount of people that worked on this quilt. "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 1,
+        "m": "5",
+        "s": 52
+      },
+      "text": "Who is it for? Who gets to have it? Because it looks like a whole lot of me and Grog. "
+    },
+    {
+      "name": "TALIESIN",
+      "ts": {
+        "h": 1,
+        "m": "5",
+        "s": 58
+      },
+      "text": "It's you and Grog. "
+    },
+    {
+      "name": "LIAM",
+      "ts": {
+        "h": 1,
+        "m": "6",
+        "s": 0
+      },
+      "text": "I'm there because I'm her brother. "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 1,
+        "m": "6",
+        "s": 3
+      },
+      "text": "Baby, it's ours! Our quilt! "
+    },
+    {
+      "name": "BRIAN",
+      "ts": {
+        "h": 1,
+        "m": "6",
+        "s": 6
+      },
+      "text": "It's you and Travis's, because it's got the Cowboys and the thing for Trinket. "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 1,
+        "m": "6",
+        "s": 9
+      },
+      "text": "I know where this is going! This is going in the guest bedroom so that your guests can sleep on your pictures of you every time they visit. "
+    },
+    {
+      "name": "TRAVIS",
+      "ts": {
+        "h": 1,
+        "m": "6",
+        "s": 25
+      },
+      "text": "Oh, Craven Edge! Guys, we can still go get Craven Edge, I'm just saying. "
+    },
+    {
+      "name": "MARISHA",
+      "ts": {
+        "h": 1,
+        "m": "6",
+        "s": 32
+      },
+      "text": "I know where he is. "
+    },
+    {
+      "name": "BRIAN",
+      "ts": {
+        "h": 1,
+        "m": "6",
+        "s": 35
+      },
+      "text": "Put that in the guest room so I can sleep on it when I pass out drunk at your guys' house. "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 1,
+        "m": "6",
+        "s": 39
+      },
+      "text": "This is going to be my TV-watching comfy throw. "
+    },
+    {
+      "name": "TALIESIN",
+      "ts": {
+        "h": 1,
+        "m": "6",
+        "s": 41
+      },
+      "text": "You want to wake up and just have Grog's face right there. "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 1,
+        "m": "6",
+        "s": 46
+      },
+      "text": "I often do. "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 1,
+        "m": "6",
+        "s": 47
+      },
+      "text": "This is so amazing! "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 1,
+        "m": "6",
+        "s": 50
+      },
+      "text": "It must've taken hours! Days! "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 1,
+        "m": "6",
+        "s": 54
+      },
+      "text": "This would've taken so long. "
+    },
+    {
+      "name": "TALIESIN",
+      "ts": {
+        "h": 1,
+        "m": "6",
+        "s": 56
+      },
+      "text": "That's a lot of work. "
+    },
+    {
+      "name": "TRAVIS",
+      "ts": {
+        "h": 1,
+        "m": "6",
+        "s": 57
+      },
+      "text": "Really, really awesome. "
+    },
+    {
+      "name": "TALIESIN",
+      "ts": {
+        "h": 1,
+        "m": "6",
+        "s": 59
+      },
+      "text": "I live with a quilter. That's a lot of work. "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 1,
+        "m": "7",
+        "s": 1
+      },
+      "text": "I mean, look at these! These are the teeniest little stitches I've ever seen! "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 1,
+        "m": "7",
+        "s": 6
+      },
+      "text": "He doesn't want to admit it, but Travis is actually crying right now. "
+    },
+    {
+      "name": "BRIAN",
+      "ts": {
+        "h": 1,
+        "m": "7",
+        "s": 11
+      },
+      "text": "Real human boy tears, too. Not those old, wooden ones. "
+    },
+    {
+      "name": "TRAVIS",
+      "ts": {
+        "h": 1,
+        "m": "7",
+        "s": 17
+      },
+      "text": "No, I ain't crying. Wow! Look at the list of names! "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 1,
+        "m": "7",
+        "s": 22
+      },
+      "text": "Read all of them. "
+    },
+    {
+      "name": "TRAVIS",
+      "ts": {
+        "h": 1,
+        "m": "7",
+        "s": 24
+      },
+      "text": "(screams) "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 1,
+        "m": "7",
+        "s": 37
+      },
+      "text": "This was technically part of Critmas. "
+    },
+    {
+      "name": "BRIAN",
+      "ts": {
+        "h": 1,
+        "m": "7",
+        "s": 40
+      },
+      "text": "What we asked people to do, we said ask for a donation in Scanlan's name. "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 1,
+        "m": "7",
+        "s": 44
+      },
+      "text": "They suggest I donate $55, $69, or $85, and in the spirit of Critmas, I'll consider that. They really want this! "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 1,
+        "m": "7",
+        "s": 59
+      },
+      "text": "Oh my god, did you get stamps? "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 1,
+        "m": "8",
+        "s": 1
+      },
+      "text": "They're not usable stamps. They're just stickers. "
+    },
+    {
+      "name": "TALIESIN",
+      "ts": {
+        "h": 1,
+        "m": "8",
+        "s": 5
+      },
+      "text": "Hey! They knew. "
+    },
+    {
+      "name": "BRIAN",
+      "ts": {
+        "h": 1,
+        "m": "8",
+        "s": 7
+      },
+      "text": "So you have to give a donation "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 1,
+        "m": "8",
+        "s": 10
+      },
+      "text": "Nope! \"No postage necessary if mailed in the United States.\" "
+    },
+    {
+      "name": "TALIESIN",
+      "ts": {
+        "h": 1,
+        "m": "8",
+        "s": 16
+      },
+      "text": "You have to leave the United States. "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 1,
+        "m": "8",
+        "s": 20
+      },
+      "text": "That is fantastic. "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 1,
+        "m": "8",
+        "s": 21
+      },
+      "text": "(laughter) "
+    },
+    {
+      "name": "BRIAN",
+      "ts": {
+        "h": 1,
+        "m": "8",
+        "s": 26
+      },
+      "text": "Someone misunderstood \"make a donation in Scanlan's name\" for \""
+    },
+    {
+      "name": "TALIESIN",
+      "ts": {
+        "h": 1,
+        "m": "8",
+        "s": 32
+      },
+      "text": "That's weirdly genius. "
+    },
+    {
+      "name": "BRIAN",
+      "ts": {
+        "h": 1,
+        "m": "8",
+        "s": 34
+      },
+      "text": "I love it. Send more requests for Sam to give other people money. "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 1,
+        "m": "8",
+        "s": 39
+      },
+      "text": "I will donate, and I'll tweet about it. "
+    },
+    {
+      "name": "LIAM",
+      "ts": {
+        "h": 1,
+        "m": "8",
+        "s": 42
+      },
+      "text": "Jasmine Riegel in Germany, I read your long-- "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 1,
+        "m": "8",
+        "s": 44
+      },
+      "text": "Riegel? "
+    },
+    {
+      "name": "LIAM",
+      "ts": {
+        "h": 1,
+        "m": "8",
+        "s": 45
+      },
+      "text": "Riegel. "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 1,
+        "m": "8",
+        "s": 46
+      },
+      "text": "R-I-E-G-E-L? "
+    },
+    {
+      "name": "LIAM",
+      "ts": {
+        "h": 1,
+        "m": "8",
+        "s": 47
+      },
+      "text": "R-I-E-G-E-L. "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 1,
+        "m": "8",
+        "s": 49
+      },
+      "text": "That's me! This is my kincharkunen person! I don't know. "
+    },
+    {
+      "name": "LIAM",
+      "ts": {
+        "h": 1,
+        "m": "8",
+        "s": 55
+      },
+      "text": "It's a beautiful handwritten letter, which I won't read on air, but we're going to pass it around to everybody because we have so many letters, but thank you, I read the whole thing during the stream. "
+    },
+    {
+      "name": "TALIESIN",
+      "ts": {
+        "h": 1,
+        "m": "9",
+        "s": 6
+      },
+      "text": "I feel like I'm doing a Final Fantasy IV dungeon crawl right now. "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 1,
+        "m": "9",
+        "s": 8
+      },
+      "text": "Are we still on french horns? "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 1,
+        "m": "9",
+        "s": 10
+      },
+      "text": "Yeah, we are. "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 1,
+        "m": "9",
+        "s": 11
+      },
+      "text": "It never ends. "
+    },
+    {
+      "name": "TRAVIS",
+      "ts": {
+        "h": 1,
+        "m": "9",
+        "s": 13
+      },
+      "text": "There's a box of something if somebody wants to unbox-- "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 1,
+        "m": "9",
+        "s": 15
+      },
+      "text": "Thank you. (laughs) Who's up next? "
+    },
+    {
+      "name": "TALIESIN",
+      "ts": {
+        "h": 1,
+        "m": "10",
+        "s": 17
+      },
+      "text": "For Marisha, there are some princesses, apparently. Marisha has some princesses. "
+    },
+    {
+      "name": "MARISHA",
+      "ts": {
+        "h": 1,
+        "m": "10",
+        "s": 41
+      },
+      "text": "Oh, cool! "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 1,
+        "m": "10",
+        "s": 44
+      },
+      "text": "That's awesome! That is some awesome crossover. "
+    },
+    {
+      "name": "TALIESIN",
+      "ts": {
+        "h": 1,
+        "m": "10",
+        "s": 48
+      },
+      "text": "For Matt, we've got a cowboy. "
+    },
+    {
+      "name": "BRIAN",
+      "ts": {
+        "h": 1,
+        "m": "10",
+        "s": 53
+      },
+      "text": "Oh, nice! "
+    },
+    {
+      "name": "TALIESIN",
+      "ts": {
+        "h": 1,
+        "m": "10",
+        "s": 55
+      },
+      "text": "And something else-- "
+    },
+    {
+      "name": "BRIAN",
+      "ts": {
+        "h": 1,
+        "m": "10",
+        "s": 57
+      },
+      "text": "(high-pitched voice) It's high noon! "
+    },
+    {
+      "name": "TALIESIN",
+      "ts": {
+        "h": 1,
+        "m": "10",
+        "s": 59
+      },
+      "text": "And then, sadly, this is for Ashley, but I guess she's not around right now. "
+    },
+    {
+      "name": "BRIAN",
+      "ts": {
+        "h": 1,
+        "m": "11",
+        "s": 6
+      },
+      "text": "Ooh, she's going to love this. We have a lot of cool Spider-Gwen stuff at the house. "
+    },
+    {
+      "name": "TRAVIS",
+      "ts": {
+        "h": 1,
+        "m": "11",
+        "s": 13
+      },
+      "text": "Thank you, Steven. "
+    },
+    {
+      "name": "MARISHA",
+      "ts": {
+        "h": 1,
+        "m": "11",
+        "s": 15
+      },
+      "text": "As benders, which I'm so about. I remember this series. I remember seeing it on Tumblr when it came out. "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 1,
+        "m": "11",
+        "s": 25
+      },
+      "text": "Yeah, they have a continuation of it here as well, which is awesome. "
+    },
+    {
+      "name": "MARISHA",
+      "ts": {
+        "h": 1,
+        "m": "11",
+        "s": 29
+      },
+      "text": "This is pretty fucking awesome. Thank you so much! "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 1,
+        "m": "11",
+        "s": 33
+      },
+      "text": "This is a really cool thing. "
+    },
+    {
+      "name": "TALIESIN",
+      "ts": {
+        "h": 1,
+        "m": "11",
+        "s": 35
+      },
+      "text": "I have a bag if you want to keep your thing away from all the other terrible things-- "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 1,
+        "m": "11",
+        "s": 38
+      },
+      "text": "\"Laura, my husband and 12-year-old daughter are crazy about Critical Role. They're now playing D&D every Sunday with a small group here in Reno, Nevada. We thought of you when my ten-year-old was selling items for a fundraiser at school, and we hope you enjoy 'Trinket's Peanut Butter Bears!'\" "
+    },
+    {
+      "name": "BRIAN",
+      "ts": {
+        "h": 1,
+        "m": "11",
+        "s": 50
+      },
+      "text": "Whoa, give them to me! "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 1,
+        "m": "11",
+        "s": 53
+      },
+      "text": "What? How? And also, they made a donation to My Friend's Place, which is my charity that I love. "
+    },
+    {
+      "name": "BRIAN",
+      "ts": {
+        "h": 1,
+        "m": "12",
+        "s": 2
+      },
+      "text": "That's great! "
+    },
+    {
+      "name": "TALIESIN",
+      "ts": {
+        "h": 1,
+        "m": "12",
+        "s": 4
+      },
+      "text": "I'm sorry. I've had some wine. "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 1,
+        "m": "12",
+        "s": 10
+      },
+      "text": "Thank you Andrew and Grace and Ashley and Michelle! Thank you, all of you. Sorry. What are you doing? What did you do? What are you doing? "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 1,
+        "m": "12",
+        "s": 19
+      },
+      "text": "Nothing, a close up of the booze that Travis was trying to open. The camera keeps finding it! (laughter) "
+    },
+    {
+      "name": "TRAVIS",
+      "ts": {
+        "h": 1,
+        "m": "12",
+        "s": 32
+      },
+      "text": "I'm just trying to enjoy these season's greetings! "
+    },
+    {
+      "name": "BRIAN",
+      "ts": {
+        "h": 1,
+        "m": "12",
+        "s": 39
+      },
+      "text": "We can't show the label. "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 1,
+        "m": "12",
+        "s": 41
+      },
+      "text": "Oh, that's true, we can't. Unless they want to be a sponsor. "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 1,
+        "m": "12",
+        "s": 44
+      },
+      "text": "They could be a sponsor. If Shlitzmalt Liquor wants to sponsor us-- (singing) Shlitzmalt Liquor bull! "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 1,
+        "m": "12",
+        "s": 53
+      },
+      "text": "Right now, it looks like Travis had to find the bathroom and had an empty bottle. "
+    },
+    {
+      "name": "TALIESIN",
+      "ts": {
+        "h": 1,
+        "m": "12",
+        "s": 57
+      },
+      "text": "Brought to you by Shlitz: \"Why did you have to do that?\" "
+    },
+    {
+      "name": "LIAM",
+      "ts": {
+        "h": 1,
+        "m": "13",
+        "s": 2
+      },
+      "text": "Guys, I have some hand-done art from Jen Zurin Smith. I remember your art; I've seen it online. Here you go-- Taliesin. Marcia, here you go. This one's for me. Here you go. Hold that for Ashley. This is for Mr. Mercer. "
+    },
+    {
+      "name": "BRIAN",
+      "ts": {
+        "h": 1,
+        "m": "13",
+        "s": 27
+      },
+      "text": "Oh, this is so beautiful! "
+    },
+    {
+      "name": "LIAM",
+      "ts": {
+        "h": 1,
+        "m": "13",
+        "s": 29
+      },
+      "text": "Yeah, I remember seeing this. "
+    },
+    {
+      "name": "TRAVIS",
+      "ts": {
+        "h": 1,
+        "m": "13",
+        "s": 32
+      },
+      "text": "Jen-- is it Zurin Smith? "
+    },
+    {
+      "name": "LIAM",
+      "ts": {
+        "h": 1,
+        "m": "13",
+        "s": 34
+      },
+      "text": "Maybe. Zurin? "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 1,
+        "m": "13",
+        "s": 36
+      },
+      "text": "These are awesome! I like the colors! "
+    },
+    {
+      "name": "BRIAN",
+      "ts": {
+        "h": 1,
+        "m": "13",
+        "s": 42
+      },
+      "text": "Did we get them all in the shot? "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 1,
+        "m": "13",
+        "s": 44
+      },
+      "text": "Almost. Missing Liam's. "
+    },
+    {
+      "name": "LIAM",
+      "ts": {
+        "h": 1,
+        "m": "13",
+        "s": 45
+      },
+      "text": "Jeez, I didn't know we were doing a whole thing. "
+    },
+    {
+      "name": "TRAVIS",
+      "ts": {
+        "h": 1,
+        "m": "13",
+        "s": 47
+      },
+      "text": "Put it in the frame! "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 1,
+        "m": "13",
+        "s": 49
+      },
+      "text": "Put it in the fucking frame! "
+    },
+    {
+      "name": "BRIAN",
+      "ts": {
+        "h": 1,
+        "m": "13",
+        "s": 51
+      },
+      "text": "Now you're blocking-- there you go. "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 1,
+        "m": "13",
+        "s": 54
+      },
+      "text": "Fight, fight, fight! "
+    },
+    {
+      "name": "BRIAN",
+      "ts": {
+        "h": 1,
+        "m": "13",
+        "s": 59
+      },
+      "text": "I don't want to fight. I love you guys! I love everyone! "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 1,
+        "m": "14",
+        "s": 3
+      },
+      "text": "That is awesome. Thank you so much! "
+    },
+    {
+      "name": "BRIAN",
+      "ts": {
+        "h": 1,
+        "m": "14",
+        "s": 5
+      },
+      "text": "Thank you so much! "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 1,
+        "m": "14",
+        "s": 6
+      },
+      "text": "Thank you! "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 1,
+        "m": "14",
+        "s": 8
+      },
+      "text": "These are great! "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 1,
+        "m": "14",
+        "s": 10
+      },
+      "text": "Give me these Peanut Butter Bears! "
+    },
+    {
+      "name": "MARISHA",
+      "ts": {
+        "h": 1,
+        "m": "14",
+        "s": 13
+      },
+      "text": "What's next? "
+    },
+    {
+      "name": "LIAM",
+      "ts": {
+        "h": 1,
+        "m": "14",
+        "s": 15
+      },
+      "text": "That's the first box, so it resets, right? Open it! "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 1,
+        "m": "14",
+        "s": 20
+      },
+      "text": "I'm going to be in a mocap suit, so tomorrow with all this chocolate. "
+    },
+    {
+      "name": "BRIAN",
+      "ts": {
+        "h": 1,
+        "m": "14",
+        "s": 24
+      },
+      "text": "On a Wednesday? "
+    },
+    {
+      "name": "MARISHA",
+      "ts": {
+        "h": 1,
+        "m": "14",
+        "s": 26
+      },
+      "text": "Because that velcro neon was so flattering to begin with. "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 1,
+        "m": "14",
+        "s": 30
+      },
+      "text": "I know. "
+    },
+    {
+      "name": "LIAM",
+      "ts": {
+        "h": 1,
+        "m": "14",
+        "s": 31
+      },
+      "text": "Does anyone else want a bear? "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 1,
+        "m": "14",
+        "s": 34
+      },
+      "text": "I have to try a peanut butter bear. It needs to happen. "
+    },
+    {
+      "name": "TRAVIS",
+      "ts": {
+        "h": 1,
+        "m": "14",
+        "s": 38
+      },
+      "text": "Yeah, me too. "
+    },
+    {
+      "name": "MARISHA",
+      "ts": {
+        "h": 1,
+        "m": "14",
+        "s": 41
+      },
+      "text": "I'll have a bear. "
+    },
+    {
+      "name": "BRIAN",
+      "ts": {
+        "h": 1,
+        "m": "14",
+        "s": 43
+      },
+      "text": "Trinket is delicious! He makes a great rug and a great chocolate bar. "
+    },
+    {
+      "name": "LIAM",
+      "ts": {
+        "h": 1,
+        "m": "14",
+        "s": 49
+      },
+      "text": "Taliesin, you want a bear? "
+    },
+    {
+      "name": "TALIESIN",
+      "ts": {
+        "h": 1,
+        "m": "14",
+        "s": 51
+      },
+      "text": "I definitely want a bear! "
+    },
+    {
+      "name": "LIAM",
+      "ts": {
+        "h": 1,
+        "m": "14",
+        "s": 52
+      },
+      "text": "Sam, would you like a bear? "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 1,
+        "m": "14",
+        "s": 54
+      },
+      "text": "I'll have a bear. "
+    },
+    {
+      "name": "BRIAN",
+      "ts": {
+        "h": 1,
+        "m": "14",
+        "s": 55
+      },
+      "text": "(singing) Sam's like a bear-- he just said Sam's like a bear. (singing) I don't know where my home is. "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 1,
+        "m": "15",
+        "s": 8
+      },
+      "text": "What I thought when I came in tonight-- what we were missing for Critmas, it was more Nelly Furtado. "
+    },
+    {
+      "name": "BRIAN",
+      "ts": {
+        "h": 1,
+        "m": "15",
+        "s": 14
+      },
+      "text": "It was Nelly Furtado? I got that note. "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 1,
+        "m": "15",
+        "s": 19
+      },
+      "text": "I noticed. "
+    },
+    {
+      "name": "BRIAN",
+      "ts": {
+        "h": 1,
+        "m": "15",
+        "s": 20
+      },
+      "text": "It is hard to talk. "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 1,
+        "m": "15",
+        "s": 21
+      },
+      "text": "My mom, Momlan, sent these for us for all of you guys. They're graphic novels. Momlan sent graphic novels for all of us. "
+    },
+    {
+      "name": "MARISHA",
+      "ts": {
+        "h": 1,
+        "m": "15",
+        "s": 34
+      },
+      "text": "Are those the graphic novels we spilled wine on at the top of the show? "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 1,
+        "m": "15",
+        "s": 37
+      },
+      "text": "Yes, they are. "
+    },
+    {
+      "name": "TALIESIN",
+      "ts": {
+        "h": 1,
+        "m": "15",
+        "s": 38
+      },
+      "text": "We added a splash of color. "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 1,
+        "m": "15",
+        "s": 40
+      },
+      "text": "Signed by the author, I believe. Jerome Charron, my mom's husband. I was going to say baby daddy, but that would-- nope. "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 1,
+        "m": "15",
+        "s": 53
+      },
+      "text": "That's awesome! "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 1,
+        "m": "15",
+        "s": 55
+      },
+      "text": "Yeah. They're from Momlan. "
+    },
+    {
+      "name": "MARISHA",
+      "ts": {
+        "h": 1,
+        "m": "15",
+        "s": 57
+      },
+      "text": "I call dibs on one with no wine on it. "
+    },
+    {
+      "name": "TALIESIN",
+      "ts": {
+        "h": 1,
+        "m": "15",
+        "s": 59
+      },
+      "text": "I will take wine. "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 1,
+        "m": "16",
+        "s": 2
+      },
+      "text": "There's a lot of porn in there. "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 1,
+        "m": "16",
+        "s": 4
+      },
+      "text": "They're really good. My mom's husband is a prolific author, and that is male genitalia right there. Brian, I'm sorry. "
+    },
+    {
+      "name": "BRIAN",
+      "ts": {
+        "h": 1,
+        "m": "16",
+        "s": 16
+      },
+      "text": "For what? I have male genitalia. "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 1,
+        "m": "16",
+        "s": 19
+      },
+      "text": "Well... "
+    },
+    {
+      "name": "BRIAN",
+      "ts": {
+        "h": 1,
+        "m": "16",
+        "s": 21
+      },
+      "text": "Or I used to, before I went to that soft, smooth surface, which is way easier now. It's great when TSA pulls me aside. I go, \"Grab it all! There's nothing.\" "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 1,
+        "m": "16",
+        "s": 37
+      },
+      "text": "It's called "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 1,
+        "m": "16",
+        "s": 43
+      },
+      "text": "So this is from Justin Sharp, who sent a tweet to us a while ago. I don't know if you guys remember, but his daughter had just been diagnosed with cancer. She's going through chemo right now, but he wanted to thank us for giving him an uplifting thing to watch every week. He sent us all ribbons so we can support Chloe as she's going through chemo. \"As she's going through treatments, I'm asking people to send her cards to keep her spirits up. I'm sure she'd appreciate it if you guys could spread the word.\" So we'll put her little PO box number here so Critters can send her some cards. "
+    },
+    {
+      "name": "MARISHA",
+      "ts": {
+        "h": 1,
+        "m": "17",
+        "s": 23
+      },
+      "text": "Yeah. I'm assuming it's a PO box, right? "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 1,
+        "m": "17",
+        "s": 26
+      },
+      "text": "That's what it says. So that's awesome. Love you, Justin. Love you, Chloe. "
+    },
+    {
+      "name": "MARISHA",
+      "ts": {
+        "h": 1,
+        "m": "17",
+        "s": 53
+      },
+      "text": "Get it, Chloe. "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 1,
+        "m": "17",
+        "s": 57
+      },
+      "text": "All righty. Having torn through Critmas-- "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 1,
+        "m": "18",
+        "s": 0
+      },
+      "text": "Is that it? "
+    },
+    {
+      "name": "TALIESIN",
+      "ts": {
+        "h": 1,
+        "m": "18",
+        "s": 2
+      },
+      "text": "I think we did it. "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 1,
+        "m": "18",
+        "s": 3
+      },
+      "text": "Was that all of it? Wait, there's this thing over here. What was that from? "
+    },
+    {
+      "name": "TRAVIS",
+      "ts": {
+        "h": 1,
+        "m": "18",
+        "s": 6
+      },
+      "text": "It's for a GoPro. "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 1,
+        "m": "18",
+        "s": 7
+      },
+      "text": "It's a piece of a GoPro. "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 1,
+        "m": "18",
+        "s": 13
+      },
+      "text": "Why is there a piece of a GoPro--? "
+    },
+    {
+      "name": "TRAVIS",
+      "ts": {
+        "h": 1,
+        "m": "18",
+        "s": 16
+      },
+      "text": "It's my Secret Santa gift. Merry Christmas! "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 1,
+        "m": "18",
+        "s": 20
+      },
+      "text": "Every year, you'll get another piece until eventually you can assemble it into your own GoPro. "
+    },
+    {
+      "name": "TRAVIS",
+      "ts": {
+        "h": 1,
+        "m": "18",
+        "s": 25
+      },
+      "text": "Don't give her false hope. That's not true. "
+    },
+    {
+      "name": "MARISHA",
+      "ts": {
+        "h": 1,
+        "m": "18",
+        "s": 27
+      },
+      "text": "If we collect them all, maybe they'll sponsor us. "
+    },
+    {
+      "name": "TALIESIN",
+      "ts": {
+        "h": 1,
+        "m": "18",
+        "s": 30
+      },
+      "text": "There's no GoPro coming. "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 1,
+        "m": "18",
+        "s": 32
+      },
+      "text": "Oh, and Matt, you have a letter over here. "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 1,
+        "m": "18",
+        "s": 35
+      },
+      "text": "Oh, no way! "
+    },
+    {
+      "name": "BRIAN",
+      "ts": {
+        "h": 1,
+        "m": "18",
+        "s": 36
+      },
+      "text": "That's a subpoena. I've seen one of those. "
+    },
+    {
+      "name": "MARISHA",
+      "ts": {
+        "h": 1,
+        "m": "18",
+        "s": 39
+      },
+      "text": "Oh, is it yellow? "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 1,
+        "m": "18",
+        "s": 42
+      },
+      "text": "Oh, and there's another letter here! "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 1,
+        "m": "18",
+        "s": 44
+      },
+      "text": "This is from Matthew Ravensbergen. "
+    },
+    {
+      "name": "BRIAN",
+      "ts": {
+        "h": 1,
+        "m": "18",
+        "s": 48
+      },
+      "text": "I'm so freaking jealous of that last name. "
+    },
+    {
+      "name": "TALIESIN",
+      "ts": {
+        "h": 1,
+        "m": "18",
+        "s": 51
+      },
+      "text": "He's like the alternate evil version of you. "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 1,
+        "m": "18",
+        "s": 53
+      },
+      "text": "I will not read this on stream because it says \"do not read on stream,\" but thank you very much for the letter, and I will read this off stream, Matthew. Good strong name. "
+    },
+    {
+      "name": "TALIESIN",
+      "ts": {
+        "h": 1,
+        "m": "19",
+        "s": 3
+      },
+      "text": "There should be a yellow sheet of paper somewhere around here. We got a letter from the Post Office asking that we renew our post office box for another year. "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 1,
+        "m": "19",
+        "s": 12
+      },
+      "text": "Thank you Post Office! You've been gracious-- "
+    },
+    {
+      "name": "TALIESIN",
+      "ts": {
+        "h": 1,
+        "m": "19",
+        "s": 13
+      },
+      "text": "Thank you for being okay when all of this fills your store. "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 1,
+        "m": "19",
+        "s": 19
+      },
+      "text": "Did you already read this? This is from an Elle. "
+    },
+    {
+      "name": "TALIESIN",
+      "ts": {
+        "h": 1,
+        "m": "19",
+        "s": 24
+      },
+      "text": "Oh, Elle? "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 1,
+        "m": "19",
+        "s": 25
+      },
+      "text": "Did you read this one already? We didn't open this. "
+    },
+    {
+      "name": "TALIESIN",
+      "ts": {
+        "h": 1,
+        "m": "19",
+        "s": 28
+      },
+      "text": "Yeah, we did. From Elle? "
+    },
+    {
+      "name": "MARISHA",
+      "ts": {
+        "h": 1,
+        "m": "19",
+        "s": 30
+      },
+      "text": "Well, no, there was an Elle that gave a donation. "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 1,
+        "m": "19",
+        "s": 32
+      },
+      "text": "Okay. This is from @cxnnamonspxder, but there's Xs in the places of the Is. Anywho, she made us drawings, you guys! And she donated to the Nature Conservatory. "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 1,
+        "m": "19",
+        "s": 47
+      },
+      "text": "Does that mean I don't have to? "
+    },
+    {
+      "name": "TALIESIN",
+      "ts": {
+        "h": 1,
+        "m": "19",
+        "s": 51
+      },
+      "text": "No, Sam. "
+    },
+    {
+      "name": "TRAVIS",
+      "ts": {
+        "h": 1,
+        "m": "19",
+        "s": 53
+      },
+      "text": "Oh, look at Keyleth. That's adorable. "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 1,
+        "m": "19",
+        "s": 58
+      },
+      "text": "Oh, I love that we're all in little Christmas gear! This is so cute! There's Ashley's. "
+    },
+    {
+      "name": "MARISHA",
+      "ts": {
+        "h": 1,
+        "m": "20",
+        "s": 5
+      },
+      "text": "I have Christmas tree earrings! "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 1,
+        "m": "20",
+        "s": 8
+      },
+      "text": "Look at this! I'm wearing a Trinket sweater. "
+    },
+    {
+      "name": "TRAVIS",
+      "ts": {
+        "h": 1,
+        "m": "20",
+        "s": 11
+      },
+      "text": "Grog's in a Santa hat. Someone will be punished for this. "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 1,
+        "m": "20",
+        "s": 15
+      },
+      "text": "(laughing) \"Someone will be punished for this.\" "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 1,
+        "m": "20",
+        "s": 18
+      },
+      "text": "Quick! Make them all kiss! "
+    },
+    {
+      "name": "BRIAN",
+      "ts": {
+        "h": 1,
+        "m": "20",
+        "s": 21
+      },
+      "text": "I can't reach that far. "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 1,
+        "m": "20",
+        "s": 26
+      },
+      "text": "I accidentally did that to my brother. "
+    },
+    {
+      "name": "LIAM",
+      "ts": {
+        "h": 1,
+        "m": "20",
+        "s": 29
+      },
+      "text": "Not the first time! "
+    },
+    {
+      "name": "MARISHA",
+      "ts": {
+        "h": 1,
+        "m": "20",
+        "s": 35
+      },
+      "text": "Awesome. That was nice. Now Christmas is over. "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 1,
+        "m": "20",
+        "s": 39
+      },
+      "text": "Brian prepared a game. It's called \"Spin the Bottle.\" "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 1,
+        "m": "20",
+        "s": 44
+      },
+      "text": "No. No! "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 1,
+        "m": "20",
+        "s": 47
+      },
+      "text": "(laughter) "
+    },
+    {
+      "name": "BRIAN",
+      "ts": {
+        "h": 1,
+        "m": "20",
+        "s": 57
+      },
+      "text": "There's plenty of photographic and video evidence that-- yeah, that it's happened many times. "
+    },
+    {
+      "name": "TALIESIN",
+      "ts": {
+        "h": 1,
+        "m": "21",
+        "s": 3
+      },
+      "text": "And this is where it devolves into \"Truth or Dare.\" "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 1,
+        "m": "21",
+        "s": 5
+      },
+      "text": "If I could say something real fast? "
+    },
+    {
+      "name": "BRIAN",
+      "ts": {
+        "h": 1,
+        "m": "21",
+        "s": 8
+      },
+      "text": "(laughter) "
+    },
+    {
+      "name": "TALIESIN",
+      "ts": {
+        "h": 1,
+        "m": "21",
+        "s": 12
+      },
+      "text": "Wow, that took a dark turn! "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 1,
+        "m": "21",
+        "s": 14
+      },
+      "text": "Yeah, well doesn't it always? "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 1,
+        "m": "21",
+        "s": 15
+      },
+      "text": "Is this where Matt quits the show? "
+    },
+    {
+      "name": "BRIAN",
+      "ts": {
+        "h": 1,
+        "m": "21",
+        "s": 17
+      },
+      "text": "Don't do it on this show. "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 1,
+        "m": "21",
+        "s": 20
+      },
+      "text": "No, I got what I came in here for, guys. I'm out. "
+    },
+    {
+      "name": "MARISHA",
+      "ts": {
+        "h": 1,
+        "m": "21",
+        "s": 23
+      },
+      "text": "The lead singer spinning off. Solo album! "
+    },
+    {
+      "name": "TALIESIN",
+      "ts": {
+        "h": 1,
+        "m": "21",
+        "s": 28
+      },
+      "text": "I'm going to run a game for stuffed animals. "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 1,
+        "m": "21",
+        "s": 33
+      },
+      "text": "I'd be okay with it. Well, no, a universal year-wrap-up here. We're going towards the end of our second year doing this craziness on stream and our four years playing this game-- plus now. And it's-- (sighs) I don't know, it's invigorating, it's delightful, and this is a perfect example of the amazing generosity that this community continuously perpetuates and helps support each other with. And us. We have the pleasure of being able to do this every week and have people care that aren't just us, and that's really cool. We constantly get letters and emails from a lot of people in this community saying how much this means to them, and I want to reiterate on that part. We're so glad, because it means so much to us, and it means so much that other people care about it as much as we do-- and I'm partially rambling now, but I'm really humbled and touched and proud. Proud of everything that you guys have done. We're such a small part of this now. This is so much bigger than anything we ever did or now do on this show, and that's what you guys continue to carry and make your own adventures, your own heroes, your own community support structures, and continue to make the world a better place through inspiration and storytelling and being good people. I think I speak for all of us when I say that we're extremely grateful and thankful and humbled by all of what you guys continue to put out there. And thank you. Thank you from the bottom of my heart and our hearts. "
+    },
+    {
+      "name": "TRAVIS",
+      "ts": {
+        "h": 1,
+        "m": "23",
+        "s": 19
+      },
+      "text": "Roll a charisma check. "
+    },
+    {
+      "name": "BRIAN",
+      "ts": {
+        "h": 1,
+        "m": "23",
+        "s": 21
+      },
+      "text": "That's awesome. Well, speaking of, after a month or more of asking for people to send in their \"What does Critical Role mean to you?\" videos, it's ready. "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 1,
+        "m": "23",
+        "s": 33
+      },
+      "text": "Are we going to cry? Forever? "
+    },
+    {
+      "name": "BRIAN",
+      "ts": {
+        "h": 1,
+        "m": "23",
+        "s": 36
+      },
+      "text": "Everybody tear off a piece of the bearskin rug and prepare to use it as a Kleenex. "
+    },
+    {
+      "name": "TRAVIS",
+      "ts": {
+        "h": 1,
+        "m": "23",
+        "s": 40
+      },
+      "text": "Is it set to Sarah McLachlan's \"I Will Remember You?\" "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 1,
+        "m": "23",
+        "s": 43
+      },
+      "text": "I was hoping it was going to be set to AC/DC's \"Thunderstruck\" but-- "
+    },
+    {
+      "name": "BRIAN",
+      "ts": {
+        "h": 1,
+        "m": "23",
+        "s": 52
+      },
+      "text": "Let's take a look. "
+    },
+    {
+      "name": "CRITTER",
+      "ts": {
+        "h": 1,
+        "m": "30",
+        "s": 46
+      },
+      "text": "Is it Thursday yet? "
+    },
+    {
+      "name": "MARISHA",
+      "ts": {
+        "h": 1,
+        "m": "30",
+        "s": 50
+      },
+      "text": "Shit, man. "
+    },
+    {
+      "name": "BRIAN",
+      "ts": {
+        "h": 1,
+        "m": "30",
+        "s": 54
+      },
+      "text": "Told you guys. "
+    },
+    {
+      "name": "LAURA",
+      "ts": {
+        "h": 1,
+        "m": "30",
+        "s": 56
+      },
+      "text": "Fuck. "
+    },
+    {
+      "name": "TRAVIS",
+      "ts": {
+        "h": 1,
+        "m": "31",
+        "s": 4
+      },
+      "text": "That's really touching. That's incredible. "
+    },
+    {
+      "name": "BRIAN",
+      "ts": {
+        "h": 1,
+        "m": "31",
+        "s": 8
+      },
+      "text": "I want to thank everybody who sent in videos. I know for some of you it was really, really hard to put yourself on video and send it to us, and we thank you, and thank you for putting yourself out there. Obviously, you can tell it's hit home, and I'm sure all the rest of the Critters out there are so glad and encouraged that you guys did that. Thank you so much. That's all the time we have for this week, we are going to post that video on YouTube and the Geek & Sundry website, bunch of other places, so-- "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 1,
+        "m": "31",
+        "s": 39
+      },
+      "text": "Brian, by the way. "
+    },
+    {
+      "name": "BRIAN",
+      "ts": {
+        "h": 1,
+        "m": "31",
+        "s": 41
+      },
+      "text": "Yes? "
+    },
+    {
+      "name": "SAM",
+      "ts": {
+        "h": 1,
+        "m": "31",
+        "s": 42
+      },
+      "text": "(laughter) "
+    },
+    {
+      "name": "BRIAN",
+      "ts": {
+        "h": 1,
+        "m": "31",
+        "s": 54
+      },
+      "text": "Okay, thank you guys for coming. Thank you for doing Critmas on our show. "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 1,
+        "m": "32",
+        "s": 2
+      },
+      "text": "Thank you for having us. "
+    },
+    {
+      "name": "BRIAN",
+      "ts": {
+        "h": 1,
+        "m": "32",
+        "s": 5
+      },
+      "text": "Hang out with your friends instead, and we will see you guys back on Talks Machina on January 3rd for our post-Thordak battle episode. Yes. Have a great Critmas everybody. We love you, don't forget to love each other, and don't worry-- fuck! It's almost January 3rd? (laughter) "
+    },
+    {
+      "name": "TALIESIN",
+      "ts": {
+        "h": 1,
+        "m": "32",
+        "s": 39
+      },
+      "text": "It's almost 2017. "
+    },
+    {
+      "name": "BRIAN",
+      "ts": {
+        "h": 1,
+        "m": "32",
+        "s": 41
+      },
+      "text": "It's almost 2017. Good night everybody! (applause) "
+    },
+    {
+      "name": "MATT",
+      "ts": {
+        "h": 1,
+        "m": "32",
+        "s": 47
+      },
+      "text": "We love you, guys! Happy holidays! (Intro music) (Geek and Sundry jingle) "
+    }
+  ]
+}
