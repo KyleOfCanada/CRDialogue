@@ -47,7 +47,7 @@ castWords1 %>%
 
 colourScheme1 <- tibble(name = c('MATT', 'LAURA', 'MARISHA', 'TALIESIN', 'LIAM', 'SAM', 'TRAVIS', 'ASHLEY'),
                           bgColour = c('purple', 'darkblue', 'darkgreen', 'grey40', 'black', 'purple4', 'grey60', 'royalblue'),
-                          textColour = c('green', 'white', 'red', 'blue', 'darkblue', 'pink', 'darkred', 'yellow'))
+                          textColour = c('green', 'white', 'red', 'blue', 'blue', 'pink', 'darkred', 'yellow'))
 
 for(i in 1:8) {
   tmpDat <- castWords1 %>% 
