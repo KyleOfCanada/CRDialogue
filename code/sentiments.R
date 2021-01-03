@@ -11,6 +11,14 @@ dat <- readRDS(here('data', 'tidyData.rds'))
 #### tokenize text, get sentiments, calc sentiment frequencies ####
 
 datNRC <- dat %>% 
+  separate(name,
+           into = paste0('name', 1:8), # as of C2E120 max of 6 simultaneously, used 8
+           sep = ', ') %>% 
+  pivot_longer(cols = name1:name8,
+               names_to = 'x',
+               values_to = 'name') %>% 
+  filter(!is.na(name)) %>% 
+  select(-x) %>% 
   filter(mainCast) %>% 
   select(name, campaign, episode, text) %>% 
   unnest_tokens(word, text) %>% 
