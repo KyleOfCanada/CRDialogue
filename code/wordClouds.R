@@ -8,28 +8,12 @@ library(here)
 
 dat <- readRDS(here('data', 'tidyData.rds'))
 
-# account for multiple cast saying the same thing
-datSep <- dat %>% 
-  separate(name,
-           into = paste0('name', 1:8), # as of C2E120 max of 6 simultaneously, used 8
-           sep = ', ') %>% 
-  pivot_longer(cols = name1:name8,
-               names_to = 'x',
-               values_to = 'name') %>% 
-  filter(!is.na(name)) %>% 
-  select(-x) 
-
-# fix ASHLY Burch's name, was written as ASHLEY
-datSep <- datSep %>% 
-  mutate(name = ifelse(name == 'ASHLEY' & campaign == '2' & episode %in% 26:29,
-                       'ASHLY',
-                       name))
-
 #### campaign 1 ####
 
-castWords1 <- datSep %>% 
+castWords1 <- dat %>% 
   filter(mainCast,
-         campaign == '1') %>% 
+         campaign == '1',
+         !oneShot) %>% 
   select(name, text) %>% 
   unnest_tokens(word, text) %>%
   filter(!str_detect(word,
@@ -49,19 +33,6 @@ castWords1 <- castWords1 %>%
 
 castWords1 %>% 
   arrange(desc(tf_idf))
-
-# wordcloud(castWords1$word,
-#           castWords1$tf_idf)
-
-# test1 <- castWords1 %>% 
-#   filter(name == "ASHLEY")
-# 
-# par(bg = 'royalblue')
-# wordcloud(str_to_title(test1$word),
-#           test1$tf_idf,
-#           max.words = 100,
-#           random.order = FALSE,
-#           colors = 'yellow')
 
 colourScheme1 <- tibble(name = c('MATT', 'LAURA', 'MARISHA', 'TALIESIN', 'LIAM', 'SAM', 'TRAVIS', 'ASHLEY'),
                           bgColour = c('purple', 'darkblue', 'darkgreen', 'grey40', 'black', 'purple4', 'grey60', 'royalblue'),
@@ -88,9 +59,10 @@ for(i in 1:8) {
 
 #### campaign 2 ####
 
-castWords2 <- datSep %>% 
+castWords2 <- dat %>% 
   filter(mainCast,
-         campaign == '2') %>% 
+         campaign == '2',
+         !oneShot) %>% 
   select(name, text) %>% 
   unnest_tokens(word, text) %>%
   filter(!str_detect(word,
@@ -139,8 +111,9 @@ for(i in 1:8) {
 
 guestsC1 <- c('MARY', 'NOELLE', 'WIL', 'DARIN', 'CHRIS', 'FELICIA', 'JON', 'KIT', 'PATRICK', 'WILL', 'JASON', 'JOE')
 
-guestWords1 <- datSep %>% 
-  filter(campaign == 1) %>% 
+guestWords1 <- dat %>% 
+  filter(campaign == 1,
+         !oneShot) %>% 
   mutate(guest = name %in% guestsC1) %>% 
   filter(mainCast | guest) %>% 
   select(name, text) %>% 
@@ -192,8 +165,9 @@ for(i in 1:nrow(colourSchemeG1)) {
 guestsC2 <- c('DEBORAH', 'CHRIS', 'KHARY', 'MICA', 'SUMALEE', 'MARK', 'ASHLY')
 
 
-guestWords2 <- datSep %>% 
-  filter(campaign == 2) %>% 
+guestWords2 <- dat %>% 
+  filter(campaign == 2,
+         !oneShot) %>% 
   mutate(guest = name %in% guestsC2) %>% 
   filter(mainCast | guest) %>% 
   select(name, text) %>% 
