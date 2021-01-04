@@ -6,7 +6,9 @@ library(knitr)
 
 #### load tidy data ####
 
-dat <- readRDS(here('data', 'tidyData.rds'))
+dat <- readRDS(here('data', 'tidyData.rds')) %>% 
+  filter(!oneShot,
+         gamePlay)
 
 #### tokenize text, get sentiments, calc sentiment frequencies ####
 
@@ -72,7 +74,7 @@ posNeg2 <- datAfinn %>%
 
 plotPosNeg <- posNeg %>% 
   mutate(name = factor(name,
-                       levels = c('TRAVIS', 'LIAM', 'MARISHA', 'TALIESIN', 'ASHLEY', 'SAM', 'LAURA'))) %>% 
+                       levels = c('TRAVIS', 'MARISHA', 'LIAM', 'TALIESIN', 'SAM', 'ASHLEY', 'LAURA'))) %>% 
   ggplot(aes(x = name,
              y = ratio)) +
   geom_col(fill = 'darkgreen') +
