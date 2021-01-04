@@ -17,7 +17,13 @@ datSep <- dat %>%
                names_to = 'x',
                values_to = 'name') %>% 
   filter(!is.na(name)) %>% 
-  select(-x)
+  select(-x) 
+
+# fix ASHLY Burch's name, was written as ASHLEY
+datSep <- datSep %>% 
+  mutate(name = ifelse(name == 'ASHLEY' & campaign == '2' & episode %in% 26:29,
+                       'ASHLY',
+                       name))
 
 #### campaign 1 ####
 
@@ -28,6 +34,7 @@ castWords1 <- datSep %>%
   unnest_tokens(word, text) %>%
   filter(!str_detect(word,
                     '\\d')) %>% 
+  mutate(word = str_remove_all(word, '\'s')) %>% 
   count(name, word, sort = TRUE)
   
 totalWords1 <- castWords1 %>% 
@@ -88,6 +95,7 @@ castWords2 <- datSep %>%
   unnest_tokens(word, text) %>%
   filter(!str_detect(word,
                      '\\d')) %>% 
+  mutate(word = str_remove_all(word, '\'s')) %>% 
   count(name, word, sort = TRUE)
 
 totalWords2 <- castWords2 %>% 
@@ -139,6 +147,7 @@ guestWords1 <- datSep %>%
   unnest_tokens(word, text) %>%
   filter(!str_detect(word,
                      '\\d')) %>% 
+  mutate(word = str_remove_all(word, '\'s')) %>% 
   count(name, word, sort = TRUE)
 
 totalWordsG1 <- guestWords1 %>% 
@@ -180,7 +189,7 @@ for(i in 1:nrow(colourSchemeG1)) {
 
 # campaign 2
 
-guestsC2 <- c('DEBORAH', 'CHRIS', 'KHARY', 'MICA', 'SUMALEE', 'MARK')
+guestsC2 <- c('DEBORAH', 'CHRIS', 'KHARY', 'MICA', 'SUMALEE', 'MARK', 'ASHLY')
 
 
 guestWords2 <- datSep %>% 
@@ -191,6 +200,7 @@ guestWords2 <- datSep %>%
   unnest_tokens(word, text) %>%
   filter(!str_detect(word,
                      '\\d')) %>% 
+  mutate(word = str_remove_all(word, '\'s')) %>% 
   count(name, word, sort = TRUE)
 
 totalWordsG2 <- guestWords2 %>% 
