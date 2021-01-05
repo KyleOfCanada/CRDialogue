@@ -1,6 +1,6 @@
 ### Word Clouds for Campaign 1
 
-This analysis compares the frequency words are used by each cast member and compares that to the frequency the word is used by the whole cast to determine how unique words are to each cast member. The more unique a word is to the cast memeber the larger it will appear in their word cloud.
+This analysis compares the frequency words are used by each cast member and compares that to the frequency the word is used by the whole cast to determine how unique words are to each cast member. The more unique a word is to the cast member the larger it will appear in their word cloud.
 
 #### Ashley
 ![Ashley](https://github.com/KyleOfCanada/CRDialogue/raw/main/plots/wordClouds/C1/C1ASHLEY.png)
