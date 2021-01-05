@@ -13,10 +13,19 @@ dat <- readRDS(here('data', 'tidyData.rds')) %>%
 
 #### tokenize text, get sentiments, calc sentiment frequencies ####
 
+negatorWords <- nma_words %>% 
+  filter(modifier == 'negator')
+
 datNRC <- dat %>% 
   filter(mainCast) %>% 
   select(name, campaign, episode, text) %>% 
-  unnest_tokens(word, text) %>% 
+  unnest_tokens(sentence, 
+                text,
+                token = 'sentences') %>% 
+  mutate(sentenceNumber = row_number()) %>% 
+  unnest_tokens(word, sentence) %>% 
+  group_by(sentenceNumber) %>% 
+  mutate(negated = lag(word) %in% negatorWords$word) %>% 
   inner_join(get_sentiments('nrc'))
 
 
@@ -48,8 +57,19 @@ totalSentiments %>%
 datBing <- dat %>% 
   filter(mainCast) %>% 
   select(name, campaign, episode, text) %>% 
-  unnest_tokens(word, text) %>% 
-  inner_join(get_sentiments('bing'))
+  unnest_tokens(sentence, 
+                text,
+                token = 'sentences') %>% 
+  mutate(sentenceNumber = row_number()) %>% 
+  unnest_tokens(word, sentence) %>% 
+  group_by(sentenceNumber) %>% 
+  mutate(negated = lag(word) %in% negatorWords$word) %>% 
+  inner_join(get_sentiments('bing')) %>% 
+  mutate(sentiment = ifelse(negated,
+                            ifelse(sentiment == 'positive',
+                                   'negative',
+                                   'positive'),
+                            sentiment))
 
 posNeg <- datBing %>% 
   filter(name != 'MATT',
@@ -120,6 +140,7 @@ posNeg %>%
 
 joySad <- datNRC %>% 
   filter(name != 'MATT',
+         !negated,
          sentiment %in% c('joy', 'sadness')) %>% 
   group_by(name, sentiment) %>% 
   count(sentiment) %>% 
@@ -175,7 +196,8 @@ joySad %>%
 #### Spider plots ####
 
 datSpider <- datNRC %>% 
-  filter(!(sentiment %in% c('positive', 'negative'))) %>% 
+  filter(!(sentiment %in% c('positive', 'negative')),
+         !negated) %>% 
   group_by(name, campaign, sentiment) %>% 
   count() %>% 
   group_by(name, campaign) %>% 

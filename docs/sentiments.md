@@ -9,13 +9,13 @@ To answer this I searched the dialogue from the show for words associated with a
 
 |Name     |   Joy| Sadness| Ratio|
 |:--------|-----:|-------:|-----:|
-|Ashley   |  2256|    1110|  2.03|
-|Laura    | 12274|    6342|  1.94|
-|Sam      | 10290|    5873|  1.75|
-|Marisha  |  9042|    5606|  1.61|
-|Liam     |  7450|    4786|  1.56|
-|Travis   |  8363|    5604|  1.49|
-|Taliesin |  8735|    6313|  1.38|
+|Ashley   |  2237|    1094|  2.04|
+|Laura    | 12197|    6231|  1.96|
+|Sam      | 10126|    5728|  1.77|
+|Marisha  |  8891|    5455|  1.63|
+|Liam     |  7339|    4688|  1.57|
+|Travis   |  8263|    5457|  1.51|
+|Taliesin |  8590|    6149|  1.40|
 
 We can see that while Liam is in the bottom half, both Travis and Taliesin have lower scores.
 
@@ -26,12 +26,12 @@ I also wanted to take a slightly different approach and look at for words with e
 
 |Name     | Negative| Positive| Ratio|
 |:--------|--------:|--------:|-----:|
-|Laura    |    15929|    26168|  1.64|
-|Ashley   |     2781|     4499|  1.62|
-|Sam      |    12936|    19884|  1.54|
-|Taliesin |    12537|    18725|  1.49|
-|Liam     |    12289|    16376|  1.33|
-|Marisha  |    15407|    19953|  1.30|
-|Travis   |    14737|    18656|  1.27|
+|Laura    |    15918|    26179|  1.64|
+|Ashley   |     2795|     4485|  1.60|
+|Sam      |    13056|    19764|  1.51|
+|Taliesin |    12563|    18699|  1.49|
+|Liam     |    12343|    16322|  1.32|
+|Marisha  |    15445|    19915|  1.29|
+|Travis   |    14702|    18691|  1.27|
 
 Again Liam is near the bottom, but Travis still has a lower score.
