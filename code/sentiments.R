@@ -3,6 +3,7 @@ library(tidytext)
 library(textdata)
 library(here)
 library(knitr)
+library(fmsb)
 
 #### load tidy data ####
 
@@ -170,3 +171,55 @@ joySad %>%
          Ratio = ratio) %>% 
   kable(format = 'pipe',
         digits = 2)
+
+#### Spider plots ####
+
+datSpider <- datNRC %>% 
+  filter(!(sentiment %in% c('positive', 'negative'))) %>% 
+  group_by(name, campaign, sentiment) %>% 
+  count() %>% 
+  group_by(name, campaign) %>% 
+  mutate(N = sum(n),
+         ratio = n / N)
+
+# min .05, max .2
+maxdf <- tibble(Anger = c(.05, .2), Anticipation = c(.05, .2), Disgust = c(.05, .2), Fear = c(.05, .2), Joy = c(.05, .2), Sadness = c(.05, .2), Surprise = c(.05, .2), Trust = c(.05, .2))
+
+for(i in unique(datSpider$name)) {
+  tmpDat <- datSpider %>% 
+    filter(name == i) %>% 
+    mutate(sentiment = str_to_title(sentiment)) %>% 
+    ungroup() %>% 
+    select(campaign, sentiment, ratio) %>% 
+    pivot_wider(campaign,
+                names_from = sentiment,
+                values_from = ratio) %>% 
+    select(Anger, Anticipation, Disgust, Fear, Joy, Sadness, Surprise, Trust)
+  
+  tmpDat <- as.data.frame(bind_rows(maxdf, tmpDat))
+  
+  rownames(tmpDat) <- c('min', 'max', 'Campaign 1', 'Campaign 2')
+  
+  png(filename = here('plots', 'spiderPlots', paste0(i, '.png')),
+      bg = 'white')
+  
+  radarchart(tmpDat,
+             title = str_to_title(i),
+             pfcol = c(rgb(0.2,0.5,0.5,0.4), rgb(0.2,0.2,0.8,0.4)),
+             pcol = 'grey30',
+             pty = 32,
+             plty = 'solid',
+             cglcol = 'grey30')
+  
+  legend(x = 0.65, 
+         y = 1.3, 
+         legend = rownames(tmpDat[-c(1,2),]), 
+         bty = "n", 
+         pch = 20, 
+         col = c(rgb(0.2,0.5,0.5,0.4), rgb(0.2,0.2,0.8,0.4)), 
+         text.col = "grey30", 
+         cex = 1.2,
+         pt.cex = 3)
+  
+  dev.off()
+}
