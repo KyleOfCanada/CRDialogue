@@ -13,7 +13,8 @@ dat <- readRDS(here('data', 'tidyData.rds'))
 castWords1 <- dat %>% 
   filter(mainCast,
          campaign == '1',
-         !oneShot) %>% 
+         !oneShot,
+         gamePlay) %>% 
   select(name, text) %>% 
   unnest_tokens(word, text) %>%
   filter(!str_detect(word,
@@ -62,7 +63,8 @@ for(i in 1:8) {
 castWords2 <- dat %>% 
   filter(mainCast,
          campaign == '2',
-         !oneShot) %>% 
+         !oneShot,
+         gamePlay) %>% 
   select(name, text) %>% 
   unnest_tokens(word, text) %>%
   filter(!str_detect(word,
@@ -84,8 +86,8 @@ castWords2 %>%
   arrange(desc(tf_idf))
 
 colourScheme2 <- tibble(name = c('MATT', 'LAURA', 'MARISHA', 'TALIESIN', 'LIAM', 'SAM', 'TRAVIS', 'ASHLEY'),
-                        bgColour = c('purple', 'blue', 'royalblue', 'green', 'darkred', 'grey', 'darkgreen', 'grey'),
-                        textColour = c('green', 'pink', 'white', 'black', 'darkorange', 'darkgreen', 'lightblue', 'black'))
+                        bgColour = c('purple', 'blue', 'royalblue', '#03fce3', 'darkred', 'grey', 'darkgreen', 'grey'),
+                        textColour = c('green', 'pink', 'white', '#fa8cdb', 'darkorange', 'darkgreen', 'lightblue', 'black'))
 
 for(i in 1:8) {
   tmpDat <- castWords2 %>% 
@@ -113,7 +115,8 @@ guestsC1 <- c('MARY', 'NOELLE', 'WIL', 'DARIN', 'CHRIS', 'FELICIA', 'JON', 'KIT'
 
 guestWords1 <- dat %>% 
   filter(campaign == 1,
-         !oneShot) %>% 
+         !oneShot,
+         gamePlay) %>% 
   mutate(guest = name %in% guestsC1) %>% 
   filter(mainCast | guest) %>% 
   select(name, text) %>% 
@@ -167,7 +170,8 @@ guestsC2 <- c('DEBORAH', 'CHRIS', 'KHARY', 'MICA', 'SUMALEE', 'MARK', 'ASHLY')
 
 guestWords2 <- dat %>% 
   filter(campaign == 2,
-         !oneShot) %>% 
+         !oneShot,
+         gamePlay) %>% 
   mutate(guest = name %in% guestsC2) %>% 
   filter(mainCast | guest) %>% 
   select(name, text) %>% 
