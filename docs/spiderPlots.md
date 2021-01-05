@@ -4,6 +4,9 @@ This analysis looks at the use of words associated with emotional sentiments and
 
 For each cast member, the frequency each category of emotional sentiment appears in their dialogue during game play is compared to their overall use of emotional sentiments. This is then compared between the two campaigns.
 
+#### Overall
+![Overall](https://github.com/KyleOfCanada/CRDialogue/raw/main/plots/spiderPlots/Overall.png)
+
 #### Ashley
 ![Ashley](https://github.com/KyleOfCanada/CRDialogue/raw/main/plots/spiderPlots/ASHLEY.png)
 

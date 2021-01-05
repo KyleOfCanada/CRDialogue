@@ -245,3 +245,48 @@ for(i in unique(datSpider$name)) {
   
   dev.off()
 }
+
+# overall spiderplot
+
+datSpiderOverall <- datNRC %>% 
+  filter(!(sentiment %in% c('positive', 'negative')),
+         !negated) %>% 
+  group_by(campaign, sentiment) %>% 
+  count() %>% 
+  group_by(campaign) %>% 
+  mutate(N = sum(n),
+         ratio = n / N,
+         sentiment = str_to_title(sentiment)) %>% 
+  ungroup() %>% 
+  select(campaign, sentiment, ratio) %>% 
+  pivot_wider(campaign,
+              names_from = sentiment,
+              values_from = ratio) %>% 
+  select(Anger, Anticipation, Disgust, Fear, Joy, Sadness, Surprise, Trust)
+
+datdatSpiderOverall <- as.data.frame(bind_rows(maxdf, datSpiderOverall))
+
+rownames(datdatSpiderOverall) <- c('min', 'max', 'Campaign 1', 'Campaign 2')
+
+png(filename = here('plots', 'spiderPlots', 'Overall.png'),
+    bg = 'white')
+
+radarchart(datdatSpiderOverall,
+           title = 'Overall',
+           pfcol = c(rgb(0.2,0.5,0.5,0.4), rgb(0.2,0.2,0.8,0.4)),
+           pcol = 'grey30',
+           pty = 32,
+           plty = 'solid',
+           cglcol = 'grey30')
+
+legend(x = 0.65, 
+       y = 1.3, 
+       legend = rownames(datdatSpiderOverall[-c(1,2),]), 
+       bty = "n", 
+       pch = 20, 
+       col = c(rgb(0.2,0.5,0.5,0.4), rgb(0.2,0.2,0.8,0.4)), 
+       text.col = "grey30", 
+       cex = 1.2,
+       pt.cex = 3)
+
+dev.off()
