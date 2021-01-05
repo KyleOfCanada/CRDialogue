@@ -3,6 +3,8 @@ An exploration of the dialogue from Critical Role
 
 ### Projects
 
+* [How does the use of emotional words change between campaigns?](https://github.com/KyleOfCanada/CRDialogue/blob/main/docs/spiderPlots.md)
+
 * [Does Liam play the saddest bois? A word sentiment analysis of cast dialogue](https://github.com/KyleOfCanada/CRDialogue/blob/main/docs/sentiments.md)
 
 * Word Clouds for [Campaign 1](https://github.com/KyleOfCanada/CRDialogue/blob/main/docs/wordCloudsC1.md) and [Campaign 2](https://github.com/KyleOfCanada/CRDialogue/blob/main/docs/wordCloudsC2.md)
