@@ -50,7 +50,7 @@ for(i in 1:8) {
   
   wordcloud(str_to_title(tmpDat$word),
             tmpDat$tf_idf,
-            scale = c(8, .5),
+            scale = c(8, 1),
             max.words = 500,
             random.order = FALSE,
             colors = colourScheme1$textColour[i])
@@ -100,7 +100,7 @@ for(i in 1:8) {
   
   wordcloud(str_to_title(tmpDat$word),
             tmpDat$tf_idf,
-            scale = c(8, .5),
+            scale = c(8, 1),
             max.words = 500,
             random.order = FALSE,
             colors = colourScheme2$textColour[i])
@@ -155,7 +155,7 @@ for(i in 1:nrow(colourSchemeG1)) {
   
   wordcloud(str_to_title(tmpDat$word),
             tmpDat$tf_idf,
-            scale = c(8, .5),
+            scale = c(8, 1),
             max.words = 500,
             random.order = FALSE,
             colors = colourSchemeG1$textColour[i])
@@ -210,7 +210,7 @@ for(i in 1:nrow(colourSchemeG2)) {
   
   wordcloud(str_to_title(tmpDat$word),
             tmpDat$tf_idf,
-            scale = c(8, .5),
+            scale = c(8, 1),
             max.words = 500,
             random.order = FALSE,
             colors = colourSchemeG2$textColour[i])
