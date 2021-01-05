@@ -48,9 +48,7 @@ dat <- fileList %>%
               simplifyVector = TRUE)$lines
     tmplines$campaign <- tmpMetadata$campaign
     tmplines$episode <- tmpMetadata$episode
-    tmplines %>% 
-      mutate(oneShot = str_detect(episode,
-                                  '\\.'))
+    tmplines 
   }) %>% 
   as_tibble() %>% 
   left_join(runTimes) %>% 
@@ -71,7 +69,15 @@ dat <- fileList %>%
                        | (name == 'ASHLEY' & campaign == '1' & episode == '115.03'),
                        'ASHLY',
                        name),
-         mainCast = name %in% castList)
+         episode = ifelse(campaign == '1' & episode == '45.01',
+                          '46',
+                          episode),
+         name = ifelse(name == 'CHRIS' & campaign == '1' & episode == '46',
+                       'CHRISh',
+                       name),
+         mainCast = name %in% castList,
+         oneShot = str_detect(episode,
+                              '\\.'))
 
 # save tidy data
 saveRDS(dat,
