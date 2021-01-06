@@ -29,6 +29,8 @@ This analysis compares the frequency words are used by each cast member and comp
 #### Fun facts
 
 * Over 2.95 million words were spoken during Campaign 1
+
+
 During game play of Campaign 1:
 * Ashley said the fewest words at 46,427; but said 'okay' 778 times
 * Laura said 'dear' or 'darling' 228 times

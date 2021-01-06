@@ -37,4 +37,4 @@ During game play of Campaign 2:
 * Matt said the most words at 1,039,174; including 'begins' 711 times and 'righty' 670 times
 * Sam said 'traps' 116 times
 * Taliesin said 'suppose' 86 times and 'undead' 89 times
-* Travis said 'blast' or 'blasts 183 times and 'falchion' 61 times
+* Travis said 'blast' or 'blasts' 183 times and 'falchion' 61 times
