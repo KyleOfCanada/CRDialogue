@@ -25,3 +25,16 @@ This analysis compares the frequency words are used by each cast member and comp
 
 #### Travis
 ![Travis](https://github.com/KyleOfCanada/CRDialogue/raw/main/plots/wordClouds/C1/C1TRAVIS.png)
+
+#### Fun facts
+
+* Over 2.95 million words were spoken during Campaign 1
+During game play of Campaign 1:
+* Ashley said the fewest words at 46,427; but said 'okay' 778 times
+* Laura said 'dear' or 'darling' 228 times
+* Liam said 'dagger' or 'daggers' 390 times
+* Marisha said 'dope' 36 times
+* Matt said the most words at 1,232,839; including 'begins' 877 times and 'righty' 759 times
+* Sam said 'oi' 52 times and 'inspire' 153 times
+* Taliesin said 'reload' 62 times and 'sharpshooter' 134 times
+* Travis said 'rage' 171 times and 'reckless' 156 times
