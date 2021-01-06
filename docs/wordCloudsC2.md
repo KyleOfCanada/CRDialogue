@@ -29,6 +29,8 @@ This analysis compares the frequency words are used by each cast member and comp
 #### Fun facts
 
 * So far over 2.91 million words were spoken during Campaign 2
+
+\n
 During game play of Campaign 2:
 * Ashley said the fewest words at 55,862; but said 'okay' 1066 times and 'rage' 51 times
 * Laura said 'mama' 71 time
