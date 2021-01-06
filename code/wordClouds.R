@@ -216,3 +216,30 @@ for(i in 1:nrow(colourSchemeG2)) {
             colors = colourSchemeG2$textColour[i])
   dev.off()
 }
+
+
+#### overall clouds ####
+
+campWords <- dat %>% 
+  filter(!oneShot,
+         gamePlay) %>% 
+  select(campaign, text) %>% 
+  unnest_tokens(word, text) %>%
+  filter(!str_detect(word,
+                     '\\d')) %>% 
+  mutate(word = str_remove_all(word, '\'s')) %>% 
+  count(campaign, word, sort = TRUE)
+
+totalWordsOverall <- campWords %>% 
+  group_by(campaign) %>% 
+  summarise(total = sum(n))
+
+campWords <- campWords %>% 
+  left_join(totalWordsOverall)
+
+campWords <- campWords %>%
+  bind_tf_idf(word, campaign, n)
+
+campWords %>% 
+  arrange(desc(tf_idf))
+
