@@ -1,6 +1,6 @@
 ### Word Clouds for Campaign 2
 
-This analysis compares the frequency words are used by each cast member and compares that to the frequency the word is used by the whole cast to determine how unique words are to each cast member. The more unique a word is to the cast member the larger it will appear in their word cloud.
+This analysis compares the frequency words are used by each cast member and compares that to the frequency the word is used by the whole cast to determine how unique words are to each cast member. The more unique a word is to the cast member the larger it will appear in their word cloud. Only dialogue from game play of the main campaign episodes was included.
 
 #### Ashley
 ![Ashley](https://github.com/KyleOfCanada/CRDialogue/raw/main/plots/wordClouds/C2/C2ASHLEY.png)
@@ -40,3 +40,5 @@ During game play of Campaign 2:
 * Sam said 'traps' 116 times
 * Taliesin said 'suppose' 86 times and 'undead' 89 times
 * Travis said 'blast' or 'blasts' 183 times and 'falchion' 61 times
+
+[Campaign 2 guest word Clouds](https://github.com/KyleOfCanada/CRDialogue/blob/main/docs/wordCloudsGuests.md#word-clouds-for-campaign-2-guests)

@@ -1,6 +1,6 @@
 ### Word Clouds for Campaign 1
 
-This analysis compares the frequency words are used by each cast member and compares that to the frequency the word is used by the whole cast to determine how unique words are to each cast member. The more unique a word is to the cast member the larger it will appear in their word cloud.
+This analysis compares the frequency words are used by each cast member and compares that to the frequency the word is used by the whole cast to determine how unique words are to each cast member. The more unique a word is to the cast member the larger it will appear in their word cloud. Only dialogue from game play of the main campaign episodes was included.
 
 #### Ashley
 ![Ashley](https://github.com/KyleOfCanada/CRDialogue/raw/main/plots/wordClouds/C1/C1ASHLEY.png)
@@ -40,3 +40,5 @@ During game play of Campaign 1:
 * Sam said 'oi' 52 times and 'inspire' 153 times
 * Taliesin said 'reload' 62 times and 'sharpshooter' 134 times
 * Travis said 'rage' 171 times and 'reckless' 156 times
+
+[Campaign 1 guest word Clouds](https://github.com/KyleOfCanada/CRDialogue/blob/main/docs/wordCloudsGuests.md#word-clouds-for-campaign-1-guests)
