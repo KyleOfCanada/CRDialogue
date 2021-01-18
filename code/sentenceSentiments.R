@@ -27,9 +27,21 @@ c1Dat <- dat %>%
 c1Dat %>% 
   ggplot(aes(x = indexN,
              y = meanSent,
-             yend = 0,
-             xend = indexN,
              group = episode)) +
+  geom_point(alpha = .2) +
+  geom_smooth(se = FALSE,
+              colour = 'red') +
+  geom_hline(yintercept = 0,
+             colour = 'white') +
+  coord_cartesian(ylim = c(-1, 1)) +
+  labs(title = "Campaign 1")
+
+c1Dat %>% 
+  group_by(episode) %>% 
+  summarise(meanSent = mean(meanSent)) %>% 
+  mutate(episode = as.numeric(episode)) %>% 
+  ggplot(aes(x = episode,
+             y = meanSent)) +
   geom_point(alpha = .2) +
   geom_smooth(se = FALSE,
               colour = 'red') +
@@ -55,12 +67,24 @@ c2Dat <- dat %>%
 c2Dat %>% 
   ggplot(aes(x = indexN,
              y = meanSent,
-             yend = 0,
-             xend = indexN,
              group = episode)) +
   geom_point(alpha = .2) +
   geom_smooth(se = FALSE,
               colour = 'red') +
   geom_hline(yintercept = 0,
              colour = 'white') +
-  labs(title = "Campaign 1")
+  coord_cartesian(ylim = c(-1, 1)) +
+  labs(title = "Campaign 2")
+
+c2Dat %>% 
+  group_by(episode) %>% 
+  summarise(meanSent = mean(meanSent)) %>% 
+  mutate(episode = as.numeric(episode)) %>% 
+  ggplot(aes(x = episode,
+             y = meanSent)) +
+  geom_point(alpha = .2) +
+  geom_smooth(se = FALSE,
+              colour = 'red') +
+  geom_hline(yintercept = 0,
+             colour = 'white') +
+  labs(title = "Campaign 2")
