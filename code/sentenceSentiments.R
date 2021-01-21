@@ -49,6 +49,14 @@ c1Dat %>%
              colour = 'white') +
   labs(title = "Campaign 1")
 
+c1Dat %>% 
+  group_by(timeMin) %>% 
+  summarise(meanSent = mean(meanSent)) %>% 
+  ggplot(aes(x = timeMin,
+             y = meanSent)) +
+  geom_point() +
+  geom_smooth()
+
 #### Campaign 2 ####
 
 c2Dat <- dat %>% 
@@ -88,3 +96,11 @@ c2Dat %>%
   geom_hline(yintercept = 0,
              colour = 'white') +
   labs(title = "Campaign 2")
+
+c2Dat %>% 
+  group_by(timeMin) %>% 
+  summarise(meanSent = mean(meanSent)) %>% 
+  ggplot(aes(x = timeMin,
+             y = meanSent)) +
+  geom_point() +
+  geom_smooth()
