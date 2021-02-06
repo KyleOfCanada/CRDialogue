@@ -107,6 +107,63 @@ for(i in 1:8) {
   dev.off()
 }
 
+# stats for C2
+
+# total words
+dat %>% 
+  filter(campaign == '2',
+         !oneShot) %>% 
+  select(name, text) %>% 
+  unnest_tokens(word, text) %>% 
+  nrow()
+
+# words per cast member
+dat %>% 
+  filter(campaign == '2',
+         !oneShot) %>% 
+  select(name, text) %>% 
+  unnest_tokens(word, text) %>% group_by(name) %>% summarise(N = n()) %>% arrange(desc(N))
+
+# Ashley
+castWords2 %>% 
+  filter(word %in% c('okay', 'rage')
+         , name == 'ASHLEY')
+
+# Laura
+castWords2 %>% 
+  filter(word %in% c('mama')
+         , name == 'LAURA')
+
+# Liam
+castWords2 %>% 
+  filter(word %in% c('cast', 'casts', 'casting')
+         , name == 'LIAM')
+
+# Marisha
+castWords2 %>% 
+  filter(word %in% c('dope', 'stunning')
+         , name == 'MARISHA')
+
+# Matt
+castWords2 %>% 
+  filter(word %in% c('begins', 'righty')
+         , name == 'MATT')
+
+# Sam
+castWords2 %>% 
+  filter(word %in% c('traps')
+         , name == 'SAM')
+
+# Taliesin
+castWords2 %>% 
+  filter(word %in% c('suppose', 'undead')
+         , name == 'TALIESIN')
+
+# Travis
+castWords2 %>% 
+  filter(word %in% c('blast', 'blasts', 'falchion')
+         , name == 'TRAVIS')
+
 #### Guests ####
 
 # campaign 1
