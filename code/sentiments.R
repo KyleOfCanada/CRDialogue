@@ -127,7 +127,7 @@ ggsave(here('plots', 'positiveNegativePlot.png'),
        width = 8.5,
        height = 5)
 
-posNeg %>% 
+sentimentPosNegTable <- posNeg %>% 
   mutate(name = str_to_title(name)) %>% 
   select(Name = name,
          Negative = negative,
@@ -184,7 +184,7 @@ ggsave(here('plots', 'joySadPlot.png'),
        width = 8.5,
        height = 5)
 
-joySad %>% 
+sentimentJoySadTable <- joySad %>% 
   mutate(name = str_to_title(name)) %>% 
   select(Name = name,
          Joy = joy,
@@ -192,6 +192,9 @@ joySad %>%
          Ratio = ratio) %>% 
   kable(format = 'pipe',
         digits = 2)
+
+save(sentimentPosNegTable, sentimentJoySadTable,
+     file = here('data', 'sentimentTables.RData'))
 
 #### Spider plots ####
 
