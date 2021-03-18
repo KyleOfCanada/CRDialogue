@@ -1,0 +1,86 @@
+---
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+### Word Clouds for Campaign 2
+
+This analysis compares the frequency words are used by each cast member and compares that to the frequency the word is used by the whole cast to determine how unique words are to each cast member. The more unique a word is to the cast member the larger it will appear in their word cloud. Only dialogue from game play of the main campaign episodes was included.
+
+#### Ashley
+![](https://github.com/KyleOfCanada/CRDialogue/raw/main/plots/wordClouds/C2/C2ASHLEY.png)
+
+
+#### Laura
+![](https://github.com/KyleOfCanada/CRDialogue/raw/main/plots/wordClouds/C2/C2LAURA.png)
+
+
+#### Liam
+![](https://github.com/KyleOfCanada/CRDialogue/raw/main/plots/wordClouds/C2/C2LIAM.png)
+
+#### Marisha
+![](https://github.com/KyleOfCanada/CRDialogue/raw/main/plots/wordClouds/C2/C2MARISHA.png)
+
+
+#### Matt
+![](https://github.com/KyleOfCanada/CRDialogue/raw/main/plots/wordClouds/C2/C2MATT.png)
+
+
+#### Sam
+![](https://github.com/KyleOfCanada/CRDialogue/raw/main/plots/wordClouds/C2/C2SAM.png)
+
+
+#### Taliesin
+![](https://github.com/KyleOfCanada/CRDialogue/raw/main/plots/wordClouds/C2/C2TALIESIN.png)
+
+
+#### Travis
+![](https://github.com/KyleOfCanada/CRDialogue/raw/main/plots/wordClouds/C2/C2TRAVIS.png)
+
+
+#### Fun facts
+
+```{r C2 Stats, echo=FALSE, message = FALSE}
+library(tidyverse,
+        verbose = FALSE,
+        quietly = TRUE)
+library(here,
+        verbose = FALSE,
+        quietly = TRUE)
+
+load(here('data', 'cloudStatsC2.RData'))
+totalWords <- totalWords %>% prettyNum(big.mark = ',')
+wordsPerCast <- wordsPerCast %>% 
+  mutate(N = prettyNum(N,
+                       big.mark = ','))
+wordcloudStatsC2 <- wordcloudStatsC2 %>% 
+  mutate(n = prettyNum(n,
+                       big.mark = ','))
+```
+
+* So far `r totalWords` words have been spoken during Campaign 2
+
+
+During game play of Campaign 2:
+
+* Ashley said the fewest words at `r wordsPerCast[8, 2]`; but said 'okay' `r wordcloudStatsC2$n[1]` times and 'rage' `r wordcloudStatsC2$n[2]` times
+
+* Laura said 'mama' `r wordcloudStatsC2$n[3]` times
+
+* Liam said 'cast', 'casts', or 'casting' `r wordcloudStatsC2$n[4]` times
+
+* Marisha said 'dope' `r wordcloudStatsC2$n[5]` times and 'stunning' `r wordcloudStatsC2$n[6]` times
+
+* Matt said the most words at `r wordsPerCast[1, 2]`; including 'begins' `r wordcloudStatsC2$n[7]` times and 'righty' `r wordcloudStatsC2$n[8]` times
+
+* Sam said 'traps' `r wordcloudStatsC2$n[9]` times
+
+* Taliesin said 'suppose' `r wordcloudStatsC2$n[10]` times and 'undead' `r wordcloudStatsC2$n[11]` times
+
+* Travis said 'blast' or 'blasts' `r wordcloudStatsC2$n[12]` times and 'falchion' `r wordcloudStatsC2$n[13]` times
+
+[Campaign 2 guest word Clouds](https://github.com/KyleOfCanada/CRDialogue/blob/main/docs/wordCloudsGuests.md#word-clouds-for-campaign-2-guests)
