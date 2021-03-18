@@ -9,35 +9,35 @@ included.
 
 #### Ashley
 
-![](https://github.com/KyleOfCanada/CRDialogue/raw/main/plots/wordClouds/C2/C2ASHLEY.png)
+![Ashley](https://github.com/KyleOfCanada/CRDialogue/raw/main/plots/wordClouds/C2/C2ASHLEY.png)
 
 #### Laura
 
-![](https://github.com/KyleOfCanada/CRDialogue/raw/main/plots/wordClouds/C2/C2LAURA.png)
+![Laura](https://github.com/KyleOfCanada/CRDialogue/raw/main/plots/wordClouds/C2/C2LAURA.png)
 
 #### Liam
 
-![](https://github.com/KyleOfCanada/CRDialogue/raw/main/plots/wordClouds/C2/C2LIAM.png)
+![Liam](https://github.com/KyleOfCanada/CRDialogue/raw/main/plots/wordClouds/C2/C2LIAM.png)
 
 #### Marisha
 
-![](https://github.com/KyleOfCanada/CRDialogue/raw/main/plots/wordClouds/C2/C2MARISHA.png)
+![Marisha](https://github.com/KyleOfCanada/CRDialogue/raw/main/plots/wordClouds/C2/C2MARISHA.png)
 
 #### Matt
 
-![](https://github.com/KyleOfCanada/CRDialogue/raw/main/plots/wordClouds/C2/C2MATT.png)
+![Matt](https://github.com/KyleOfCanada/CRDialogue/raw/main/plots/wordClouds/C2/C2MATT.png)
 
 #### Sam
 
-![](https://github.com/KyleOfCanada/CRDialogue/raw/main/plots/wordClouds/C2/C2SAM.png)
+![Sam](https://github.com/KyleOfCanada/CRDialogue/raw/main/plots/wordClouds/C2/C2SAM.png)
 
 #### Taliesin
 
-![](https://github.com/KyleOfCanada/CRDialogue/raw/main/plots/wordClouds/C2/C2TALIESIN.png)
+![Taliesin](https://github.com/KyleOfCanada/CRDialogue/raw/main/plots/wordClouds/C2/C2TALIESIN.png)
 
 #### Travis
 
-![](https://github.com/KyleOfCanada/CRDialogue/raw/main/plots/wordClouds/C2/C2TRAVIS.png)
+![Travis](https://github.com/KyleOfCanada/CRDialogue/raw/main/plots/wordClouds/C2/C2TRAVIS.png)
 
 #### Fun facts
 
