@@ -110,7 +110,7 @@ for(i in 1:8) {
 # stats for C2
 
 # total words
-dat %>% 
+totalWords <- dat %>% 
   filter(campaign == '2',
          !oneShot) %>% 
   select(name, text) %>% 
@@ -118,51 +118,97 @@ dat %>%
   nrow()
 
 # words per cast member
-dat %>% 
+wordsPerCast <- dat %>% 
   filter(campaign == '2',
-         !oneShot) %>% 
+         !oneShot,
+         name %in% c('MATT', 'LAURA', 'MARISHA', 'TALIESIN', 'LIAM', 'SAM', 'TRAVIS', 'ASHLEY')) %>% 
   select(name, text) %>% 
-  unnest_tokens(word, text) %>% group_by(name) %>% summarise(N = n()) %>% arrange(desc(N))
+  unnest_tokens(word, text) %>% 
+  group_by(name) %>% 
+  summarise(N = n()) %>% 
+  arrange(desc(N))
 
 # Ashley
-castWords2 %>% 
-  filter(word %in% c('okay', 'rage')
-         , name == 'ASHLEY')
+ashleyOk <- castWords2 %>% 
+  filter(word == 'okay',
+         name == 'ASHLEY') %>% 
+  select(name, word, n)
+
+ashleyRage <- castWords2 %>% 
+  filter(word =='rage',
+         name == 'ASHLEY') %>% 
+  select(name, word, n)
 
 # Laura
-castWords2 %>% 
-  filter(word %in% c('mama')
-         , name == 'LAURA')
+lauraMama <- castWords2 %>% 
+  filter(word %in% c('mama'),
+         name == 'LAURA') %>% 
+  select(name, word, n)
 
 # Liam
-castWords2 %>% 
-  filter(word %in% c('cast', 'casts', 'casting')
-         , name == 'LIAM')
+liamCast <- castWords2 %>% 
+  filter(word %in% c('cast', 'casts', 'casting'),
+         name == 'LIAM') %>% 
+  group_by(name, word) %>% 
+  mutate(word = 'cast') %>% 
+  summarise(n = sum(n))
 
 # Marisha
-castWords2 %>% 
-  filter(word %in% c('dope', 'stunning')
-         , name == 'MARISHA')
+marishaDope <- castWords2 %>% 
+  filter(word == 'dope',
+         name == 'MARISHA') %>% 
+  select(name, word, n)
+
+marishaStunning <- castWords2 %>% 
+  filter(word == 'stunning',
+         name == 'MARISHA') %>% 
+  select(name, word, n)
 
 # Matt
-castWords2 %>% 
-  filter(word %in% c('begins', 'righty')
-         , name == 'MATT')
+mattBegins <- castWords2 %>% 
+  filter(word == 'begins',
+         name == 'MATT') %>% 
+  select(name, word, n)
+
+mattRighty <- castWords2 %>% 
+  filter(word == 'righty',
+         name == 'MATT') %>% 
+  select(name, word, n)
 
 # Sam
-castWords2 %>% 
-  filter(word %in% c('traps')
-         , name == 'SAM')
+samTraps <- castWords2 %>% 
+  filter(word == 'traps',
+         name == 'SAM') %>% 
+  select(name, word, n)
 
 # Taliesin
-castWords2 %>% 
-  filter(word %in% c('suppose', 'undead')
-         , name == 'TALIESIN')
+taliesinSuppose <- castWords2 %>% 
+  filter(word == 'suppose',
+         name == 'TALIESIN') %>% 
+  select(name, word, n)
+
+taliesinUndead <- castWords2 %>% 
+  filter(word == 'undead',
+         name == 'TALIESIN') %>% 
+  select(name, word, n)
 
 # Travis
-castWords2 %>% 
-  filter(word %in% c('blast', 'blasts', 'falchion')
-         , name == 'TRAVIS')
+travisBlast <- castWords2 %>% 
+  filter(word %in% c('blast', 'blasts'),
+         name == 'TRAVIS') %>% 
+  group_by(name, word) %>% 
+  mutate(word = 'blast') %>% 
+  summarise(n = sum(n))
+
+travisFalchion <- castWords2 %>% 
+  filter(word == 'falchion',
+         name == 'TRAVIS') %>% 
+  select(name, word, n)
+
+wordcloudStatsC2 <- bind_rows(ashleyOk, ashleyRage, lauraMama, liamCast, marishaDope, marishaStunning, mattBegins, mattRighty, samTraps, taliesinSuppose, taliesinUndead, travisBlast, travisFalchion)
+
+save(totalWords, wordsPerCast, wordcloudStatsC2,
+     file = here('data', 'cloudStatsC2.RData'))
 
 #### Guests ####
 
