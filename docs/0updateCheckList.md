@@ -5,6 +5,6 @@
 * run wordClouds.R, just need to run C2 sections
 * knit wordCloudsC2.Rmd to update wordCloudsC2.md with new stats
 * run sentiments.R
-* update sentiments.md with new tables
+* knit sentiments.Rmd to update sentiments.md with new tables
 * update README.md with new episode number
 * commit and push git
