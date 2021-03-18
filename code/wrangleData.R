@@ -82,3 +82,15 @@ dat <- fileList %>%
 # save tidy data
 saveRDS(dat,
         here('data', 'tidyData.rds'))
+
+# save episode count
+episodeCount <- dat %>% 
+  mutate(campaign = campaign %>% 
+           as.numeric()) %>% 
+  group_by(campaign) %>% 
+  summarise(episode = episode %>% 
+              as.numeric() %>% 
+              max())
+
+saveRDS(episodeCount,
+        here('data', 'episodeCount.rds'))
