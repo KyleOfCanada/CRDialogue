@@ -41,7 +41,7 @@ included.
 
 #### Fun facts
 
--   So far 3,114,753 words have been spoken during Campaign 2
+-   So far, over 3.11 million words have been spoken during Campaign 2
 
 During game play of Campaign 2:
 

@@ -49,7 +49,7 @@ library(here,
         quietly = TRUE)
 
 load(here('data', 'cloudStatsC2.RData'))
-totalWords <- totalWords %>% prettyNum(big.mark = ',')
+totalWords <- (totalWords %/% 10000) / 100
 wordsPerCast <- wordsPerCast %>% 
   mutate(N = prettyNum(N,
                        big.mark = ','))
@@ -58,7 +58,7 @@ wordcloudStatsC2 <- wordcloudStatsC2 %>%
                        big.mark = ','))
 ```
 
-* So far `r totalWords` words have been spoken during Campaign 2
+* So far, over `r totalWords` million words have been spoken during Campaign 2
 
 
 During game play of Campaign 2:
