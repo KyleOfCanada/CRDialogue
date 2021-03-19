@@ -6,5 +6,5 @@
 * knit wordCloudsC2.Rmd to update wordCloudsC2.md with new stats
 * run sentiments.R
 * knit sentiments.Rmd to update sentiments.md with new tables
-* update README.md with new episode number
+* knit README.Rmd to update README.md with new episode number
 * commit and push git

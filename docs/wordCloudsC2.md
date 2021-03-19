@@ -41,27 +41,27 @@ included.
 
 #### Fun facts
 
--   So far 3,079,787 words have been spoken during Campaign 2
+-   So far 3,114,753 words have been spoken during Campaign 2
 
 During game play of Campaign 2:
 
--   Ashley said the fewest words at 69,548; but said ‘okay’ 1,174 times
-    and ‘rage’ 61 times
+-   Ashley said the fewest words at 71,152; but said ‘okay’ 1,197 times
+    and ‘rage’ 62 times
 
--   Laura said ‘mama’ 71 times
+-   Laura said ‘mama’ 79 times
 
--   Liam said ‘cast’, ‘casts’, or ‘casting’ 431 times
+-   Liam said ‘cast’, ‘casts’, or ‘casting’ 436 times
 
--   Marisha said ‘dope’ 82 times and ‘stunning’ 109 times
+-   Marisha said ‘dope’ 82 times and ‘stunning’ 110 times
 
--   Matt said the most words at 1,191,230; including ‘begins’ 731 times
-    and ‘righty’ 698 times
+-   Matt said the most words at 1,202,453; including ‘begins’ 737 times
+    and ‘righty’ 704 times
 
--   Sam said ‘traps’ 121 times
+-   Sam said ‘traps’ 123 times
 
 -   Taliesin said ‘suppose’ 90 times and ‘undead’ 89 times
 
--   Travis said ‘blast’ or ‘blasts’ 189 times and ‘falchion’ 61 times
+-   Travis said ‘blast’ or ‘blasts’ 190 times and ‘falchion’ 61 times
 
 [Campaign 2 guest word
 Clouds](https://github.com/KyleOfCanada/CRDialogue/blob/main/docs/wordCloudsGuests.md#word-clouds-for-campaign-2-guests)
