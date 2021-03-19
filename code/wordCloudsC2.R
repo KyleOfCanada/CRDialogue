@@ -161,60 +161,61 @@ save(totalWords, wordsPerCast, wordcloudStatsC2,
      file = here('data', 'cloudStatsC2.RData'))
 
 #### Guests ####
-
-# campaign 2
-
-guestsC2 <- c('DEBORAH', 'CHRIS', 'KHARY', 'MICA', 'SUMALEE', 'MARK', 'ASHLY')
-
-
-guestWords2 <- dat %>% 
-  filter(campaign == 2,
-         !oneShot,
-         gamePlay) %>% 
-  mutate(guest = name %in% guestsC2) %>% 
-  filter(mainCast | guest) %>% 
-  select(name, text) %>% 
-  unnest_tokens(word, text) %>%
-  filter(!str_detect(word,
-                     '\\d')) %>% 
-  mutate(word = str_remove_all(word, '\'s')) %>% 
-  count(name, word, sort = TRUE)
-
-totalWordsG2 <- guestWords2 %>% 
-  group_by(name) %>% 
-  summarise(total = sum(n))
-
-guestWords2 <- guestWords2 %>% 
-  left_join(totalWordsG2)
-
-guestWords2 <- guestWords2 %>%
-  bind_tf_idf(word, name, n) %>% 
-  filter(name %in% guestsC2)
-
-guestWords2 %>% 
-  arrange(desc(tf_idf))
-
-colourSchemeG2 <- tibble(name = guestsC2,
-                         bgColour = 'white',
-                         textColour = 'black')
-
-for(i in 1:nrow(colourSchemeG2)) {
-  tmpDat <- guestWords2 %>% 
-    filter(name == colourSchemeG2$name[i])
+if(runC2Guests) {
+  # campaign 2
   
-  png(here('plots', 'wordClouds', 'C2', 'guests', paste0('C2', colourSchemeG2$name[i], '.png')),
-      width = 720,
-      height = 720,
-      bg = colourSchemeG2$bgColour[i])
+  guestsC2 <- c('DEBORAH', 'CHRIS', 'KHARY', 'MICA', 'SUMALEE', 'MARK', 'ASHLY')
   
-  wordcloud(str_to_title(tmpDat$word),
-            tmpDat$tf_idf,
-            scale = c(8, 1),
-            max.words = 500,
-            random.order = FALSE,
-            colors = colourSchemeG2$textColour[i])
-  dev.off()
+  guestWords2 <- dat %>% 
+    filter(campaign == 2,
+           !oneShot,
+           gamePlay) %>% 
+    mutate(guest = name %in% guestsC2) %>% 
+    filter(mainCast | guest) %>% 
+    select(name, text) %>% 
+    unnest_tokens(word, text) %>%
+    filter(!str_detect(word,
+                       '\\d')) %>% 
+    mutate(word = str_remove_all(word, '\'s')) %>% 
+    count(name, word, sort = TRUE)
+  
+  totalWordsG2 <- guestWords2 %>% 
+    group_by(name) %>% 
+    summarise(total = sum(n))
+  
+  guestWords2 <- guestWords2 %>% 
+    left_join(totalWordsG2)
+  
+  guestWords2 <- guestWords2 %>%
+    bind_tf_idf(word, name, n) %>% 
+    filter(name %in% guestsC2)
+  
+  guestWords2 %>% 
+    arrange(desc(tf_idf))
+  
+  colourSchemeG2 <- tibble(name = guestsC2,
+                           bgColour = 'white',
+                           textColour = 'black')
+  
+  for(i in 1:nrow(colourSchemeG2)) {
+    tmpDat <- guestWords2 %>% 
+      filter(name == colourSchemeG2$name[i])
+    
+    png(here('plots', 'wordClouds', 'C2', 'guests', paste0('C2', colourSchemeG2$name[i], '.png')),
+        width = 720,
+        height = 720,
+        bg = colourSchemeG2$bgColour[i])
+    
+    wordcloud(str_to_title(tmpDat$word),
+              tmpDat$tf_idf,
+              scale = c(8, 1),
+              max.words = 500,
+              random.order = FALSE,
+              colors = colourSchemeG2$textColour[i])
+    dev.off()
+  }
 }
+
 
 #### overall clouds ####
 
