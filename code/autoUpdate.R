@@ -1,11 +1,43 @@
+library(tidyverse)
 library(here)
 
+# get latest episode numbers
+episodeCount <- readRDS(here('data', 'episodeCount.rds'))
+
+# get the next episode
+nextEpisode <- (episodeCount[nrow(episodeCount), 2] + 1) %>% as.character()
+moreEpisodes <- TRUE
+
+# progress through downloading episodes until file not found
+while(moreEpisodes) {
+  nextURL <- str_c('https://kryogenix.org/crsearch/html/cr2-', nextEpisode, '.html')
+  fileDownloaded <- try(download.file(nextURL,
+                    destfile = here('data', 'html', str_c('cr2-', nextEpisode, '.html'))))
+  if(class(fileDownloaded) == 'try-error') {
+    moreEpisodes <- FALSE
+  } else {
+    nextEpisode <- nextEpisode + 1
+  }
+}
+
+# run pyton script to convert html to json files
 reticulate::py_run_file(here('data', 'tojson.py'))
+
+# delete processed html files
+htmlFiles <- list.files(here('data', 'html'),
+                        pattern = '.html',
+                        full.names = TRUE)
+htmlFiles %>% 
+  map(file.remove)
+
+# run R scripts with new episodes
 source(here('code', 'wrangleData.R')) 
 1 # to select google account to read in critrolestats tables
 runC2Guests <- FALSE # set to TRUE to run code for guests in C2
 source(here('code', 'wordCloudsC2.R'))
 source(here('code', 'sentiments.R'))
+
+# render updated markdown docs
 rmarkdown::render(here('docs', 'wordCloudsC2.Rmd'))
 rmarkdown::render(here('docs', 'sentiments.Rmd'))
 rmarkdown::render(here('README.Rmd'))
