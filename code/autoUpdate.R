@@ -20,7 +20,7 @@ while(moreEpisodes) {
   }
 }
 
-# run pyton script to convert html to json files
+# run python script to convert html to json files
 reticulate::py_run_file(here('data', 'tojson.py'))
 
 # delete processed html files
