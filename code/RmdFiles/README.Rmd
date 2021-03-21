@@ -11,7 +11,7 @@ library(here)
 episodeCount <- readRDS(here('data', 'episodeCount.rds'))
 
 maxCampaign <- max(episodeCount$campaign)
-maxEpisode <- max(episodeCount$episode)
+maxEpisode <- episodeCount$episode[nrow(episodeCount)]
 ```
 # CRDialogue
 An exploration of the dialogue from Critical Role
