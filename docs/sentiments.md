@@ -1,3 +1,4 @@
+
 ### Does Liam play the saddest bois? A word sentiment analysis of cast dialogue
 
 Liam has a reputation for playing sad characters, but is this deserved?
@@ -11,60 +12,15 @@ cast member and plotted it.
 ![joyful vs
 sad](https://github.com/KyleOfCanada/CRDialogue/raw/main/plots/joySadPlot.png)
 
-<table>
-<thead>
-<tr class="header">
-<th style="text-align: left;">Name</th>
-<th style="text-align: right;">Joy</th>
-<th style="text-align: right;">Sadness</th>
-<th style="text-align: right;">Ratio</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;">Ashley</td>
-<td style="text-align: right;">2434</td>
-<td style="text-align: right;">1168</td>
-<td style="text-align: right;">2.08</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">Laura</td>
-<td style="text-align: right;">12633</td>
-<td style="text-align: right;">6448</td>
-<td style="text-align: right;">1.96</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">Sam</td>
-<td style="text-align: right;">10560</td>
-<td style="text-align: right;">5980</td>
-<td style="text-align: right;">1.77</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">Marisha</td>
-<td style="text-align: right;">9248</td>
-<td style="text-align: right;">5671</td>
-<td style="text-align: right;">1.63</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">Liam</td>
-<td style="text-align: right;">7686</td>
-<td style="text-align: right;">4888</td>
-<td style="text-align: right;">1.57</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">Travis</td>
-<td style="text-align: right;">8614</td>
-<td style="text-align: right;">5630</td>
-<td style="text-align: right;">1.53</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">Taliesin</td>
-<td style="text-align: right;">8867</td>
-<td style="text-align: right;">6328</td>
-<td style="text-align: right;">1.40</td>
-</tr>
-</tbody>
-</table>
+| Name     |   Joy | Sadness | Ratio |
+|:---------|------:|--------:|------:|
+| Ashley   |  2434 |    1168 |  2.08 |
+| Laura    | 12633 |    6448 |  1.96 |
+| Sam      | 10560 |    5980 |  1.77 |
+| Marisha  |  9248 |    5671 |  1.63 |
+| Liam     |  7686 |    4888 |  1.57 |
+| Travis   |  8614 |    5630 |  1.53 |
+| Taliesin |  8867 |    6328 |  1.40 |
 
 We can see that while Liam is in the bottom half, both Travis and
 Taliesin have lower scores.
@@ -75,59 +31,14 @@ words with either a positive or negative sentiment.
 ![positive vs
 negative](https://github.com/KyleOfCanada/CRDialogue/raw/main/plots/positiveNegativePlot.png)
 
-<table>
-<thead>
-<tr class="header">
-<th style="text-align: left;">Name</th>
-<th style="text-align: right;">Negative</th>
-<th style="text-align: right;">Positive</th>
-<th style="text-align: right;">Ratio</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;">Laura</td>
-<td style="text-align: right;">16375</td>
-<td style="text-align: right;">27145</td>
-<td style="text-align: right;">1.66</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">Ashley</td>
-<td style="text-align: right;">2992</td>
-<td style="text-align: right;">4821</td>
-<td style="text-align: right;">1.61</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">Sam</td>
-<td style="text-align: right;">13594</td>
-<td style="text-align: right;">20595</td>
-<td style="text-align: right;">1.52</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">Taliesin</td>
-<td style="text-align: right;">12981</td>
-<td style="text-align: right;">19323</td>
-<td style="text-align: right;">1.49</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">Liam</td>
-<td style="text-align: right;">12793</td>
-<td style="text-align: right;">17050</td>
-<td style="text-align: right;">1.33</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">Marisha</td>
-<td style="text-align: right;">15975</td>
-<td style="text-align: right;">20733</td>
-<td style="text-align: right;">1.30</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">Travis</td>
-<td style="text-align: right;">15213</td>
-<td style="text-align: right;">19343</td>
-<td style="text-align: right;">1.27</td>
-</tr>
-</tbody>
-</table>
+| Name     | Negative | Positive | Ratio |
+|:---------|---------:|---------:|------:|
+| Laura    |    16375 |    27145 |  1.66 |
+| Ashley   |     2992 |     4821 |  1.61 |
+| Sam      |    13594 |    20595 |  1.52 |
+| Taliesin |    12981 |    19323 |  1.49 |
+| Liam     |    12793 |    17050 |  1.33 |
+| Marisha  |    15975 |    20733 |  1.30 |
+| Travis   |    15213 |    19343 |  1.27 |
 
 Again Liam is near the bottom, but Travis still has a lower score.
