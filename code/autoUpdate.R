@@ -5,9 +5,10 @@ library(here)
 episodeCount <- readRDS(here('data', 'episodeCount.rds'))
 
 # get the next episode
-nextEpisode <- (episodeCount[nrow(episodeCount), 2] + 1) %>% as.character()
-moreEpisodes <- TRUE
+nextEpisode <- (episodeCount[nrow(episodeCount), 2] + 1) %>% 
+  as.character()
 
+moreEpisodes <- TRUE
 # progress through downloading episodes until file not found
 while(moreEpisodes) {
   nextURL <- str_c('https://kryogenix.org/crsearch/html/cr2-', nextEpisode, '.html')
@@ -28,10 +29,9 @@ if(nextEpisode == (episodeCount[nrow(episodeCount), 2] + 1)) {
   reticulate::py_run_file(here('data', 'tojson.py'))
   
   # delete processed html files
-  htmlFiles <- list.files(here('data', 'html'),
+  list.files(here('data', 'html'),
                           pattern = '.html',
-                          full.names = TRUE)
-  htmlFiles %>% 
+                          full.names = TRUE) %>% 
     map(file.remove)
   
   # run R scripts with new episodes
