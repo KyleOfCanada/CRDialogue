@@ -1,5 +1,8 @@
 ---
-output: md_document
+title: sentiments
+output: 
+  github_document:
+    html_preview: false
 ---
 
 ```{r setup, echo=FALSE, message=FALSE}

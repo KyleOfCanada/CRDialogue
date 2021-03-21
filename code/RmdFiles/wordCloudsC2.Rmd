@@ -1,5 +1,8 @@
 ---
-output: md_document
+title: wordCloudsC2
+output: 
+  github_document:
+    html_preview: false
 ---
 
 

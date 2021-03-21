@@ -42,8 +42,11 @@ if(nextEpisode == (episodeCount[nrow(episodeCount), 2] + 1)) {
   source(here('code', 'sentiments.R'))
   
   # render updated markdown docs
-  rmarkdown::render(here('docs', 'wordCloudsC2.Rmd'))
-  rmarkdown::render(here('docs', 'sentiments.Rmd'))
-  rmarkdown::render(here('README.Rmd'))
+  rmarkdown::render(here('code', 'RmdFiles', 'wordCloudsC2.Rmd'),
+                    output_dir = here('docs'))
+  rmarkdown::render(here('code', 'RmdFiles', 'sentiments.Rmd'),
+                    output_dir = here('docs'))
+  rmarkdown::render(here('code', 'RmdFiles', 'README.Rmd'),
+                    output_dir = here())
 }
 
