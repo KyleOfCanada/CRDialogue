@@ -1,5 +1,3 @@
-wordCloudsC2
-================
 
 ### Word Clouds for Campaign 2
 

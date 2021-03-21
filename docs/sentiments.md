@@ -1,5 +1,3 @@
-sentiments
-================
 
 ### Does Liam play the saddest bois? A word sentiment analysis of cast dialogue
 
