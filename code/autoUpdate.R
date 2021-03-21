@@ -12,8 +12,9 @@ moreEpisodes <- TRUE
 # progress through downloading episodes until file not found
 while(moreEpisodes) {
   nextURL <- str_c('https://kryogenix.org/crsearch/html/cr2-', nextEpisode, '.html')
+  downloadName <- str_c('cr2-', nextEpisode, '.html')
   fileDownloaded <- try(download.file(nextURL,
-                    destfile = here('data', 'html', str_c('cr2-', nextEpisode, '.html'))))
+                                      destfile = here('data', 'html', downloadName)))
   if(class(fileDownloaded) == 'try-error') {
     moreEpisodes <- FALSE
   } else {
@@ -22,7 +23,7 @@ while(moreEpisodes) {
 }
 
 if(nextEpisode == (episodeCount[nrow(episodeCount), 2] + 1)) {
-  warning('No new episode available',
+  warning('No new episodes available',
           call. = FALSE)
 } else {
   # run python script to convert html to json files
