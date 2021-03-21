@@ -20,24 +20,30 @@ while(moreEpisodes) {
   }
 }
 
-# run python script to convert html to json files
-reticulate::py_run_file(here('data', 'tojson.py'))
+if(nextEpisode == (episodeCount[nrow(episodeCount), 2] + 1)) {
+  warning('No new episode available',
+          call. = FALSE)
+} else {
+  # run python script to convert html to json files
+  reticulate::py_run_file(here('data', 'tojson.py'))
+  
+  # delete processed html files
+  htmlFiles <- list.files(here('data', 'html'),
+                          pattern = '.html',
+                          full.names = TRUE)
+  htmlFiles %>% 
+    map(file.remove)
+  
+  # run R scripts with new episodes
+  source(here('code', 'wrangleData.R')) 
+  1 # to select google account to read in critrolestats tables
+  runC2Guests <- FALSE # set to TRUE to run code for guests in C2
+  source(here('code', 'wordCloudsC2.R'))
+  source(here('code', 'sentiments.R'))
+  
+  # render updated markdown docs
+  rmarkdown::render(here('docs', 'wordCloudsC2.Rmd'))
+  rmarkdown::render(here('docs', 'sentiments.Rmd'))
+  rmarkdown::render(here('README.Rmd'))
+}
 
-# delete processed html files
-htmlFiles <- list.files(here('data', 'html'),
-                        pattern = '.html',
-                        full.names = TRUE)
-htmlFiles %>% 
-  map(file.remove)
-
-# run R scripts with new episodes
-source(here('code', 'wrangleData.R')) 
-1 # to select google account to read in critrolestats tables
-runC2Guests <- FALSE # set to TRUE to run code for guests in C2
-source(here('code', 'wordCloudsC2.R'))
-source(here('code', 'sentiments.R'))
-
-# render updated markdown docs
-rmarkdown::render(here('docs', 'wordCloudsC2.Rmd'))
-rmarkdown::render(here('docs', 'sentiments.Rmd'))
-rmarkdown::render(here('README.Rmd'))
