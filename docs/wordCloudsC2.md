@@ -10,35 +10,35 @@ included.
 
 #### Ashley
 
-![Ashley](https://github.com/KyleOfCanada/CRDialogue/raw/main/plots/wordClouds/C2/C2ASHLEY.png)
+![Ashley](../plots/wordClouds/C2/C2ASHLEY.png)
 
 #### Laura
 
-![Laura](https://github.com/KyleOfCanada/CRDialogue/raw/main/plots/wordClouds/C2/C2LAURA.png)
+![Laura](../plots/wordClouds/C2/C2LAURA.png)
 
 #### Liam
 
-![Liam](https://github.com/KyleOfCanada/CRDialogue/raw/main/plots/wordClouds/C2/C2LIAM.png)
+![Liam](../plots/wordClouds/C2/C2LIAM.png)
 
 #### Marisha
 
-![Marisha](https://github.com/KyleOfCanada/CRDialogue/raw/main/plots/wordClouds/C2/C2MARISHA.png)
+![Marisha](../plots/wordClouds/C2/C2MARISHA.png)
 
 #### Matt
 
-![Matt](https://github.com/KyleOfCanada/CRDialogue/raw/main/plots/wordClouds/C2/C2MATT.png)
+![Matt](../plots/wordClouds/C2/C2MATT.png)
 
 #### Sam
 
-![Sam](https://github.com/KyleOfCanada/CRDialogue/raw/main/plots/wordClouds/C2/C2SAM.png)
+![Sam](../plots/wordClouds/C2/C2SAM.png)
 
 #### Taliesin
 
-![Taliesin](https://github.com/KyleOfCanada/CRDialogue/raw/main/plots/wordClouds/C2/C2TALIESIN.png)
+![Taliesin](../plots/wordClouds/C2/C2TALIESIN.png)
 
 #### Travis
 
-![Travis](https://github.com/KyleOfCanada/CRDialogue/raw/main/plots/wordClouds/C2/C2TRAVIS.png)
+![Travis](../plots/wordClouds/C2/C2TRAVIS.png)
 
 #### Fun facts
 
@@ -65,4 +65,4 @@ During game play of Campaign 2:
 -   Travis said ‘blast’ or ‘blasts’ 190 times and ‘falchion’ 61 times
 
 [Campaign 2 guest word
-Clouds](https://github.com/KyleOfCanada/CRDialogue/blob/main/docs/wordCloudsGuests.md#word-clouds-for-campaign-2-guests)
+Clouds](wordCloudsGuests.md#word-clouds-for-campaign-2-guests)

@@ -16,7 +16,7 @@ Liam has a reputation for playing sad characters, but is this deserved? Does his
 
 To answer this I searched the dialogue from the show for words associated with a sad sentiment, and words associated with joy as a control. I then calculated the ratio of joyful to sad words for each cast member and plotted it.
 
-![joyful vs sad](https://github.com/KyleOfCanada/CRDialogue/raw/main/plots/joySadPlot.png)
+![joyful vs sad](../plots/joySadPlot.png)
 
 `r sentimentJoySadTable`
 
@@ -26,7 +26,7 @@ We can see that while Liam is in the bottom half, both Travis and Taliesin have 
 
 I also wanted to take a slightly different approach and look at for words with either a positive or negative sentiment.
 
-![positive vs negative](https://github.com/KyleOfCanada/CRDialogue/raw/main/plots/positiveNegativePlot.png)
+![positive vs negative](../plots/positiveNegativePlot.png)
 
 
 `r sentimentPosNegTable`
