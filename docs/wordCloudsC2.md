@@ -65,4 +65,4 @@ During game play of Campaign 2:
 -   Travis said ‘blast’ or ‘blasts’ 190 times and ‘falchion’ 61 times
 
 [Campaign 2 guest word
-Clouds](https://github.com/KyleOfCanada/CRDialogue/blob/main/docs/wordCloudsGuests.md#word-clouds-for-campaign-2-guests)
+Clouds](docs/wordCloudsGuests.md#word-clouds-for-campaign-2-guests)

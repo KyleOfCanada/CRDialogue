@@ -81,4 +81,4 @@ During game play of Campaign 2:
 
 * Travis said 'blast' or 'blasts' `r wordcloudStatsC2$n[12]` times and 'falchion' `r wordcloudStatsC2$n[13]` times
 
-[Campaign 2 guest word Clouds](https://github.com/KyleOfCanada/CRDialogue/blob/main/docs/wordCloudsGuests.md#word-clouds-for-campaign-2-guests)
+[Campaign 2 guest word Clouds](docs/wordCloudsGuests.md#word-clouds-for-campaign-2-guests)

@@ -39,7 +39,7 @@
 ### Word Clouds for Campaign 2 Guests
 
 #### Ashly Burch
-![Ashly]((https://github.com/KyleOfCanada/CRDialogue/raw/main/)plots/wordClouds/C2/guests/C2ASHLY.png)
+![Ashly](plots/wordClouds/C2/guests/C2ASHLY.png)
 
 #### Chris Perkins
 ![Chris](plots/wordClouds/C2/guests/C2CHRIS.png)
