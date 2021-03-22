@@ -9,7 +9,7 @@ associated with a sad sentiment, and words associated with joy as a
 control. I then calculated the ratio of joyful to sad words for each
 cast member and plotted it.
 
-![joyful vs sad](../../plots/joySadPlot.png)
+![joyful vs sad](../plots/joySadPlot.png)
 
 | Name     |   Joy | Sadness | Ratio |
 |:---------|------:|--------:|------:|
@@ -27,7 +27,7 @@ Taliesin have lower scores.
 I also wanted to take a slightly different approach and look at for
 words with either a positive or negative sentiment.
 
-![positive vs negative](../../plots/positiveNegativePlot.png)
+![positive vs negative](../plots/positiveNegativePlot.png)
 
 | Name     | Negative | Positive | Ratio |
 |:---------|---------:|---------:|------:|
