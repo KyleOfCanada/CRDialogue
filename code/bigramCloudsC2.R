@@ -66,3 +66,5 @@ for(i in 1:8) {
   dev.off()
 }
 
+saveRDS(castBigrams2,
+        file = here('data', 'bigramsC2.rds'))

@@ -27,7 +27,7 @@ castBigrams1 <- dat %>%
   mutate(stopword = (word1 %in% stop_words$word) | (word2 %in% stop_words$word),
          digits = !str_detect(word1,'[:alpha:]') | !str_detect(word2,'[:alpha:]')) %>% 
   filter(!stopword,
-         !digits) %>% 
+         !digits) %>%
   select(name, bigram) %>% 
   count(name, bigram, sort = TRUE)
 
@@ -66,3 +66,5 @@ for(i in 1:8) {
   dev.off()
 }
 
+saveRDS(castBigrams1,
+        file = here('data', 'bigramsC1.rds'))

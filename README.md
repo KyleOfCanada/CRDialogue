@@ -14,6 +14,9 @@ An exploration of the dialogue from Critical Role
 -   Word Clouds for [Campaign 1](docs/wordCloudsC1.md) and [Campaign
     2](docs/wordCloudsC2.md)
 
+-   Bigram Analysis for [Campaign 1](docs/bigramsC1) and [Campaign
+    2](docs/bigramsC2)
+
 ### Acknowledgments
 
 The dialogue data come from the [Critical Role Linkable

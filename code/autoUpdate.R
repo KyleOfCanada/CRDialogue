@@ -47,6 +47,8 @@ if(nextEpisode == (episodeCount[nrow(episodeCount), 2] + 1)) {
                     output_dir = here('docs'))
   rmarkdown::render(here('code', 'RmdFiles', 'sentiments.Rmd'),
                     output_dir = here('docs'))
+  rmarkdown::render(here('code', 'RmdFiles', 'bigramsC2.Rmd'),
+                    output_dir = here('docs'))
   rmarkdown::render(here('code', 'RmdFiles', 'README.Rmd'),
                     output_dir = here())
 }

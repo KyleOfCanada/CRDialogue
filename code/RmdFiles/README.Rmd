@@ -24,6 +24,8 @@ An exploration of the dialogue from Critical Role
 
 * Word Clouds for [Campaign 1](docs/wordCloudsC1.md) and [Campaign 2](docs/wordCloudsC2.md)
 
+* Bigram Analysis for [Campaign 1](docs/bigramsC1) and [Campaign 2](docs/bigramsC2)
+
 ### Acknowledgments
 The dialogue data come from the [Critical Role Linkable transcripts](https://kryogenix.org/crsearch/). Last updated with data from campaign `r maxCampaign` episode `r maxEpisode`. Time stamps to delineate game play time come from [CritRoleStats](https://www.critrolestats.com/).
 

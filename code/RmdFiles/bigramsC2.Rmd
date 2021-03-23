@@ -1,0 +1,60 @@
+---
+output:
+  github_document:
+    html_preview: false
+---
+
+```{r setup, include=FALSE, message=FALSE}
+library(tidyverse)
+library(here)
+library(knitr)
+
+castBigrams2 <- readRDS(here('data', 'bigramsC2.rds')) %>% 
+  arrange(name, desc(tf_idf)) %>% 
+  group_by(name) %>% 
+  mutate(rank = row_number()) %>% 
+  filter(rank < 11) %>% 
+  ungroup()
+```
+
+## Bigrams for C2
+
+Pairs of words, bigrams, were analyzed. Bigrams containing stopwords or digits were dropped, and bigrams were ranked by how unique they were to each cast member, using tf-idf.
+
+![Ashley](../plots/bigramClounds/C2/C2ASHLEY.png)
+
+`r castBigrams2 %>% filter(name == 'ASHLEY') %>% select(rank, bigram) %>% kable()`
+
+
+![Laura](../plots/bigramClounds/C2/C2LAURA.png)
+
+`r castBigrams2 %>% filter(name == 'LAURA') %>% select(rank, bigram) %>% kable()`
+
+
+![Liam](../plots/bigramClounds/C2/C2LIAM.png)
+
+`r castBigrams2 %>% filter(name == 'LIAM') %>% select(rank, bigram) %>% kable()`
+
+
+![Marisha](../plots/bigramClounds/C2/C2MARISHA.png)
+
+`r castBigrams2 %>% filter(name == 'MARISHA') %>% select(rank, bigram) %>% kable()`
+
+
+![Matt](../plots/bigramClounds/C2/C2MATT.png)
+
+`r castBigrams2 %>% filter(name == 'MATT') %>% select(rank, bigram) %>% kable()`
+
+![Sam](../plots/bigramClounds/C2/C2SAM.png)
+
+`r castBigrams2 %>% filter(name == 'SAM') %>% select(rank, bigram) %>% kable()`
+
+
+![Taliesin](../plots/bigramClounds/C2/C2TALIESIN.png)
+
+`r castBigrams2 %>% filter(name == 'TALIESIN') %>% select(rank, bigram) %>% kable()`
+
+
+![Travis](../plots/bigramClounds/C2/C2TRAVIS.png)
+
+`r castBigrams2 %>% filter(name == 'TRAVIS') %>% select(rank, bigram) %>% kable()`
