@@ -5,7 +5,7 @@ Pairs of words, bigrams, were analyzed. Bigrams containing stopwords or
 digits were dropped, and bigrams were ranked by how unique they were to
 each cast member, using tf-idf.
 
-![Ashley](../plots/bigramClounds/C1/C1ASHLEY.png)
+![Ashley](../plots/bigramClouds/C1/C1ASHLEY.png)
 
 | rank | bigram           |
 |-----:|:-----------------|
@@ -20,7 +20,7 @@ each cast member, using tf-idf.
 |    9 | cast war         |
 |   10 | fine i’m         |
 
-![Laura](../plots/bigramClounds/C1/C1LAURA.png)
+![Laura](../plots/bigramClouds/C1/C1LAURA.png)
 
 | rank | bigram            |
 |-----:|:------------------|
@@ -35,7 +35,7 @@ each cast member, using tf-idf.
 |    9 | party funds       |
 |   10 | hunter’s marked   |
 
-![Liam](../plots/bigramClounds/C1/C1LIAM.png)
+![Liam](../plots/bigramClouds/C1/C1LIAM.png)
 
 | rank | bigram             |
 |-----:|:-------------------|
@@ -50,7 +50,7 @@ each cast member, using tf-idf.
 |    9 | cast vow           |
 |   10 | sneak attack       |
 
-![Marisha](../plots/bigramClounds/C1/C1MARISHA.png)
+![Marisha](../plots/bigramClouds/C1/C1MARISHA.png)
 
 | rank | bigram         |
 |-----:|:---------------|
@@ -65,7 +65,7 @@ each cast member, using tf-idf.
 |    9 | gust cantrip   |
 |   10 | heat metal     |
 
-![Matt](../plots/bigramClounds/C1/C1MATT.png)
+![Matt](../plots/bigramClouds/C1/C1MATT.png)
 
 | rank | bigram          |
 |-----:|:----------------|
@@ -80,7 +80,7 @@ each cast member, using tf-idf.
 |    9 | guys continue   |
 |   10 | real fast       |
 
-![Sam](../plots/bigramClounds/C1/C1SAM.png)
+![Sam](../plots/bigramClouds/C1/C1SAM.png)
 
 | rank | bigram          |
 |-----:|:----------------|
@@ -95,7 +95,7 @@ each cast member, using tf-idf.
 |    9 | hand cone       |
 |   10 | inspire keyleth |
 
-![Taliesin](../plots/bigramClounds/C1/C1TALIESIN.png)
+![Taliesin](../plots/bigramClouds/C1/C1TALIESIN.png)
 
 | rank | bigram               |
 |-----:|:---------------------|
@@ -110,7 +110,7 @@ each cast member, using tf-idf.
 |    9 | cassandra de         |
 |   10 | distinct impression  |
 
-![Travis](../plots/bigramClounds/C1/C1TRAVIS.png)
+![Travis](../plots/bigramClouds/C1/C1TRAVIS.png)
 
 | rank | bigram              |
 |-----:|:--------------------|

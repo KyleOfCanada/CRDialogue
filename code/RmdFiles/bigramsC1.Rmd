@@ -21,40 +21,40 @@ castBigrams1 <- readRDS(here('data', 'bigramsC1.rds')) %>%
 
 Pairs of words, bigrams, were analyzed. Bigrams containing stopwords or digits were dropped, and bigrams were ranked by how unique they were to each cast member, using tf-idf.
 
-![Ashley](../plots/bigramClounds/C1/C1ASHLEY.png)
+![Ashley](../plots/bigramClouds/C1/C1ASHLEY.png)
 
 `r castBigrams1 %>% filter(name == 'ASHLEY') %>% select(rank, bigram) %>% kable()`
 
 
-![Laura](../plots/bigramClounds/C1/C1LAURA.png)
+![Laura](../plots/bigramClouds/C1/C1LAURA.png)
 
 `r castBigrams1 %>% filter(name == 'LAURA') %>% select(rank, bigram) %>% kable()`
 
 
-![Liam](../plots/bigramClounds/C1/C1LIAM.png)
+![Liam](../plots/bigramClouds/C1/C1LIAM.png)
 
 `r castBigrams1 %>% filter(name == 'LIAM') %>% select(rank, bigram) %>% kable()`
 
 
-![Marisha](../plots/bigramClounds/C1/C1MARISHA.png)
+![Marisha](../plots/bigramClouds/C1/C1MARISHA.png)
 
 `r castBigrams1 %>% filter(name == 'MARISHA') %>% select(rank, bigram) %>% kable()`
 
 
-![Matt](../plots/bigramClounds/C1/C1MATT.png)
+![Matt](../plots/bigramClouds/C1/C1MATT.png)
 
 `r castBigrams1 %>% filter(name == 'MATT') %>% select(rank, bigram) %>% kable()`
 
-![Sam](../plots/bigramClounds/C1/C1SAM.png)
+![Sam](../plots/bigramClouds/C1/C1SAM.png)
 
 `r castBigrams1 %>% filter(name == 'SAM') %>% select(rank, bigram) %>% kable()`
 
 
-![Taliesin](../plots/bigramClounds/C1/C1TALIESIN.png)
+![Taliesin](../plots/bigramClouds/C1/C1TALIESIN.png)
 
 `r castBigrams1 %>% filter(name == 'TALIESIN') %>% select(rank, bigram) %>% kable()`
 
 
-![Travis](../plots/bigramClounds/C1/C1TRAVIS.png)
+![Travis](../plots/bigramClouds/C1/C1TRAVIS.png)
 
 `r castBigrams1 %>% filter(name == 'TRAVIS') %>% select(rank, bigram) %>% kable()`
