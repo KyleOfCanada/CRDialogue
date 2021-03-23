@@ -41,6 +41,7 @@ if(nextEpisode == (episodeCount[nrow(episodeCount), 2] + 1)) {
   runC2Guests <- FALSE # set to TRUE to run code for guests in C2
   source(here('code', 'wordCloudsC2.R'))
   source(here('code', 'sentiments.R'))
+  source(here('code', 'bigramCloudsC2.R'))
   
   # render updated markdown docs
   rmarkdown::render(here('code', 'RmdFiles', 'wordCloudsC2.Rmd'),
