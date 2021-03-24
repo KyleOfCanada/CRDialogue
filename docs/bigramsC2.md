@@ -7,18 +7,18 @@ each cast member, using tf-idf.
 
 ![Ashley](../plots/bigramClouds/C2/C2ASHLEY.png)
 
-| rank | bigram             |
-|-----:|:-------------------|
-|    1 | healing hands      |
-|    2 | um um              |
-|    3 | divine fury        |
-|    4 | kay kay            |
-|    5 | savage attacker    |
-|    6 | dah dah            |
-|    7 | wha wha            |
-|    8 | zealous presence   |
-|    9 | bee bee            |
-|   10 | super intimidating |
+| rank | bigram           |
+|-----:|:-----------------|
+|    1 | healing hands    |
+|    2 | um um            |
+|    3 | divine fury      |
+|    4 | kay kay          |
+|    5 | savage attacker  |
+|    6 | dah dah          |
+|    7 | wha wha          |
+|    8 | zealous presence |
+|    9 | bee bee          |
+|   10 | ist das          |
 
 ![Laura](../plots/bigramClouds/C2/C2LAURA.png)
 
