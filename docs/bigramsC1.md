@@ -5,6 +5,8 @@ Pairs of words, bigrams, were analyzed. Bigrams containing stopwords or
 digits were dropped, and bigrams were ranked by how unique they were to
 each cast member, using tf-idf.
 
+#### Ashley
+
 ![Ashley](../plots/bigramClouds/C1/C1ASHLEY.png)
 
 | rank | bigram           |
@@ -19,6 +21,8 @@ each cast member, using tf-idf.
 |    8 | sprinter’s boots |
 |    9 | cast war         |
 |   10 | fine i’m         |
+
+#### Laura
 
 ![Laura](../plots/bigramClouds/C1/C1LAURA.png)
 
@@ -35,6 +39,8 @@ each cast member, using tf-idf.
 |    9 | party funds       |
 |   10 | hunter’s marked   |
 
+#### Liam
+
 ![Liam](../plots/bigramClouds/C1/C1LIAM.png)
 
 | rank | bigram             |
@@ -49,6 +55,8 @@ each cast member, using tf-idf.
 |    8 | deathwalker’s ward |
 |    9 | cast vow           |
 |   10 | sneak attack       |
+
+#### Marisha
 
 ![Marisha](../plots/bigramClouds/C1/C1MARISHA.png)
 
@@ -65,6 +73,8 @@ each cast member, using tf-idf.
 |    9 | gust cantrip   |
 |   10 | heat metal     |
 
+#### Matt
+
 ![Matt](../plots/bigramClouds/C1/C1MATT.png)
 
 | rank | bigram          |
@@ -79,6 +89,8 @@ each cast member, using tf-idf.
 |    8 | guys begin      |
 |    9 | guys continue   |
 |   10 | real fast       |
+
+#### Sam
 
 ![Sam](../plots/bigramClouds/C1/C1SAM.png)
 
@@ -95,6 +107,8 @@ each cast member, using tf-idf.
 |    9 | hand cone       |
 |   10 | inspire keyleth |
 
+#### Taliesin
+
 ![Taliesin](../plots/bigramClouds/C1/C1TALIESIN.png)
 
 | rank | bigram               |
@@ -109,6 +123,8 @@ each cast member, using tf-idf.
 |    8 | technically speaking |
 |    9 | cassandra de         |
 |   10 | distinct impression  |
+
+#### Travis
 
 ![Travis](../plots/bigramClouds/C1/C1TRAVIS.png)
 

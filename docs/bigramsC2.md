@@ -5,6 +5,8 @@ Pairs of words, bigrams, were analyzed. Bigrams containing stopwords or
 digits were dropped, and bigrams were ranked by how unique they were to
 each cast member, using tf-idf.
 
+#### Ashley
+
 ![Ashley](../plots/bigramClouds/C2/C2ASHLEY.png)
 
 | rank | bigram           |
@@ -19,6 +21,8 @@ each cast member, using tf-idf.
 |    8 | zealous presence |
 |    9 | bee bee          |
 |   10 | ist das          |
+
+#### Laura
 
 ![Laura](../plots/bigramClouds/C2/C2LAURA.png)
 
@@ -35,6 +39,8 @@ each cast member, using tf-idf.
 |    9 | super duper      |
 |   10 | cast cure        |
 
+#### Liam
+
 ![Liam](../plots/bigramClouds/C2/C2LIAM.png)
 
 | rank | bigram               |
@@ -49,6 +55,8 @@ each cast member, using tf-idf.
 |    8 | cast fortune’s       |
 |    9 | caleb starts         |
 |   10 | detect magic         |
+
+#### Marisha
 
 ![Marisha](../plots/bigramClouds/C2/C2MARISHA.png)
 
@@ -65,6 +73,8 @@ each cast member, using tf-idf.
 |    9 | quick scan       |
 |   10 | totally honest   |
 
+#### Matt
+
 ![Matt](../plots/bigramClouds/C2/C2MATT.png)
 
 | rank | bigram              |
@@ -79,6 +89,8 @@ each cast member, using tf-idf.
 |    8 | damage nice         |
 |    9 | damage reduced      |
 |   10 | guys begin          |
+
+#### Sam
 
 ![Sam](../plots/bigramClouds/C2/C2SAM.png)
 
@@ -95,6 +107,8 @@ each cast member, using tf-idf.
 |    9 | attack damage      |
 |   10 | uncanny dodge      |
 
+#### Taliesin
+
 ![Taliesin](../plots/bigramClouds/C2/C2TALIESIN.png)
 
 | rank | bigram           |
@@ -109,6 +123,8 @@ each cast member, using tf-idf.
 |    8 | light spell      |
 |    9 | spirit guardians |
 |   10 | cast light       |
+
+#### Travis
 
 ![Travis](../plots/bigramClouds/C2/C2TRAVIS.png)
 

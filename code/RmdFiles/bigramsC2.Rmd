@@ -21,39 +21,49 @@ castBigrams2 <- readRDS(here('data', 'bigramsC2.rds')) %>%
 
 Pairs of words, bigrams, were analyzed. Bigrams containing stopwords or digits were dropped, and bigrams were ranked by how unique they were to each cast member, using tf-idf.
 
+#### Ashley
+
 ![Ashley](../plots/bigramClouds/C2/C2ASHLEY.png)
 
 `r castBigrams2 %>% filter(name == 'ASHLEY') %>% select(rank, bigram) %>% kable()`
 
+#### Laura
 
 ![Laura](../plots/bigramClouds/C2/C2LAURA.png)
 
 `r castBigrams2 %>% filter(name == 'LAURA') %>% select(rank, bigram) %>% kable()`
 
+#### Liam
 
 ![Liam](../plots/bigramClouds/C2/C2LIAM.png)
 
 `r castBigrams2 %>% filter(name == 'LIAM') %>% select(rank, bigram) %>% kable()`
 
+#### Marisha
 
 ![Marisha](../plots/bigramClouds/C2/C2MARISHA.png)
 
 `r castBigrams2 %>% filter(name == 'MARISHA') %>% select(rank, bigram) %>% kable()`
 
+#### Matt
 
 ![Matt](../plots/bigramClouds/C2/C2MATT.png)
 
 `r castBigrams2 %>% filter(name == 'MATT') %>% select(rank, bigram) %>% kable()`
 
+#### Sam
+
 ![Sam](../plots/bigramClouds/C2/C2SAM.png)
 
 `r castBigrams2 %>% filter(name == 'SAM') %>% select(rank, bigram) %>% kable()`
 
+#### Taliesin
 
 ![Taliesin](../plots/bigramClouds/C2/C2TALIESIN.png)
 
 `r castBigrams2 %>% filter(name == 'TALIESIN') %>% select(rank, bigram) %>% kable()`
 
+#### Travis
 
 ![Travis](../plots/bigramClouds/C2/C2TRAVIS.png)
 
