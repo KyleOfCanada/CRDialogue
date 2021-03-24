@@ -5,8 +5,7 @@ library(here)
 episodeCount <- readRDS(here('data', 'episodeCount.rds'))
 
 # get the next episode
-nextEpisode <- (episodeCount[nrow(episodeCount), 2] + 1) %>% 
-  as.character()
+nextEpisode <- (episodeCount[nrow(episodeCount), 2] + 1)
 
 moreEpisodes <- TRUE
 # progress through downloading episodes until file not found
