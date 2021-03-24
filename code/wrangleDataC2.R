@@ -66,7 +66,7 @@ datC2 <- fileList %>%
                               '\\.'))
 
 # save tidy data
-saveRDS(dat2,
+saveRDS(datC2,
         here('data', 'tidyDataC2.rds'))
 
 # save episode count

@@ -6,7 +6,9 @@ library(here)
 
 #### load tidy data ####
 
-dat <- readRDS(here('data', 'tidyData.rds'))
+datC1 <- readRDS(here('data', 'tidyDataC1.rds'))
+datC2 <- readRDS(here('data', 'tidyDataC2.rds'))
+dat <- bind_rows(datC1, datC2)
 
 #### campaign 1 ####
 

@@ -6,11 +6,11 @@ library(here)
 
 #### load tidy data ####
 
-dat <- readRDS(here('data', 'tidyData.rds'))
+datC2 <- readRDS(here('data', 'tidyDataC2.rds'))
 
 #### campaign 2 ####
 
-castWords2 <- dat %>% 
+castWords2 <- datC2 %>% 
   filter(mainCast,
          campaign == '2',
          !oneShot,
@@ -60,7 +60,7 @@ for(i in 1:8) {
 # stats for C2
 
 # total words
-totalWords <- dat %>% 
+totalWords <- datC2 %>% 
   filter(campaign == '2',
          !oneShot) %>% 
   select(name, text) %>% 
@@ -68,7 +68,7 @@ totalWords <- dat %>%
   nrow()
 
 # words per cast member
-wordsPerCast <- dat %>% 
+wordsPerCast <- datC2 %>% 
   filter(campaign == '2',
          !oneShot,
          name %in% c('MATT', 'LAURA', 'MARISHA', 'TALIESIN', 'LIAM', 'SAM', 'TRAVIS', 'ASHLEY')) %>% 
@@ -166,7 +166,7 @@ if(runC2Guests) {
   
   guestsC2 <- c('DEBORAH', 'CHRIS', 'KHARY', 'MICA', 'SUMALEE', 'MARK', 'ASHLY')
   
-  guestWords2 <- dat %>% 
+  guestWords2 <- datC2 %>% 
     filter(campaign == 2,
            !oneShot,
            gamePlay) %>% 
@@ -219,7 +219,7 @@ if(runC2Guests) {
 
 #### overall clouds ####
 
-campWords <- dat %>% 
+campWords <- datC2 %>% 
   filter(!oneShot,
          gamePlay) %>% 
   select(campaign, text) %>% 

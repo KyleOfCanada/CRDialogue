@@ -6,11 +6,12 @@ library(here)
 
 #### load tidy data ####
 
-dat <- readRDS(here('data', 'tidyData.rds'))
+datC1 <- readRDS(here('data', 'tidyDataC1.rds'))
+
 
 #### campaign 1 ####
 
-castWords1 <- dat %>% 
+castWords1 <- datC1 %>% 
   filter(mainCast,
          campaign == '1',
          !oneShot,
@@ -63,7 +64,7 @@ for(i in 1:8) {
 
 guestsC1 <- c('MARY', 'NOELLE', 'WIL', 'DARIN', 'CHRIS', 'FELICIA', 'JON', 'KIT', 'PATRICK', 'WILL', 'JASON', 'JOE')
 
-guestWords1 <- dat %>% 
+guestWords1 <- datC1 %>% 
   filter(campaign == 1,
          !oneShot,
          gamePlay) %>% 
