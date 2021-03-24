@@ -35,7 +35,7 @@ if(nextEpisode == (episodeCount[nrow(episodeCount), 2] + 1)) {
     map(file.remove)
   
   # run R scripts with new episodes
-  source(here('code', 'wrangleData.R')) 
+  source(here('code', 'wrangleDataC2.R')) 
   1 # to select google account to read in critrolestats tables
   runC2Guests <- FALSE # set to TRUE to run code for guests in C2
   source(here('code', 'wordCloudsC2.R'))
