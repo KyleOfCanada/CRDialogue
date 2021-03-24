@@ -6,11 +6,11 @@ library(here)
 
 #### load tidy data ####
 
-dat <- readRDS(here('data', 'tidyData.rds'))
+datC2 <- readRDS(here('data', 'tidyDataC2.rds'))
 
 #### campaign 2 ####
 
-castBigrams2 <- dat %>% 
+castBigrams2 <- datC2 %>% 
   filter(mainCast,
          campaign == '2',
          !oneShot,

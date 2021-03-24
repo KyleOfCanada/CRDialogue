@@ -76,5 +76,5 @@ datC1 <- fileList %>%
 
 # save tidy data
 saveRDS(datC1,
-        here('data', 'tidyData.rds'))
+        here('data', 'tidyDataC1.rds'))
 
