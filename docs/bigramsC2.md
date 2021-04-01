@@ -14,8 +14,8 @@ each cast member, using tf-idf.
 |    1 | healing hands    |
 |    2 | um um            |
 |    3 | divine fury      |
-|    4 | kay kay          |
-|    5 | savage attacker  |
+|    4 | savage attacker  |
+|    5 | kay kay          |
 |    6 | dah dah          |
 |    7 | wha wha          |
 |    8 | zealous presence |
@@ -82,13 +82,13 @@ each cast member, using tf-idf.
 |    1 | roll damage         |
 |    2 | hits roll           |
 |    3 | persuasion check    |
-|    4 | bludgeoning damage  |
-|    5 | investigation check |
-|    6 | piercing damage     |
-|    7 | guys continue       |
-|    8 | damage nice         |
-|    9 | damage reduced      |
-|   10 | guys begin          |
+|    4 | investigation check |
+|    5 | piercing damage     |
+|    6 | guys continue       |
+|    7 | damage nice         |
+|    8 | damage reduced      |
+|    9 | guys begin          |
+|   10 | hand check          |
 
 #### Sam
 
