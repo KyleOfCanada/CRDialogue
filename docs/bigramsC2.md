@@ -13,12 +13,12 @@ each cast member, using tf-idf.
 |-----:|:-----------------|
 |    1 | healing hands    |
 |    2 | um um            |
-|    3 | divine fury      |
-|    4 | savage attacker  |
+|    3 | savage attacker  |
+|    4 | divine fury      |
 |    5 | kay kay          |
-|    6 | dah dah          |
-|    7 | wha wha          |
-|    8 | zealous presence |
+|    6 | zealous presence |
+|    7 | dah dah          |
+|    8 | wha wha          |
 |    9 | bee bee          |
 |   10 | ist das          |
 
@@ -54,7 +54,7 @@ each cast member, using tf-idf.
 |    7 | arcane words         |
 |    8 | cast fortune’s       |
 |    9 | caleb starts         |
-|   10 | detect magic         |
+|   10 | cast comprehend      |
 
 #### Marisha
 
@@ -84,8 +84,8 @@ each cast member, using tf-idf.
 |    3 | persuasion check    |
 |    4 | investigation check |
 |    5 | piercing damage     |
-|    6 | guys continue       |
-|    7 | damage nice         |
+|    6 | damage nice         |
+|    7 | guys continue       |
 |    8 | damage reduced      |
 |    9 | guys begin          |
 |   10 | hand check          |
