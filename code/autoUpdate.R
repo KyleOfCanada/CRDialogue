@@ -36,7 +36,6 @@ if(nextEpisode == (episodeCount[nrow(episodeCount), 2] + 1)) {
   
   # run R scripts with new episodes
   source(here('code', 'wrangleDataC2.R')) 
-  1 # to select google account to read in critrolestats tables
   runC2Guests <- FALSE # set to TRUE to run code for guests in C2
   source(here('code', 'wordCloudsC2.R'))
   source(here('code', 'sentiments.R'))
@@ -52,4 +51,4 @@ if(nextEpisode == (episodeCount[nrow(episodeCount), 2] + 1)) {
   rmarkdown::render(here('code', 'RmdFiles', 'README.Rmd'),
                     output_dir = here())
 }
-
+1 # to select google account to read in critrolestats tables
