@@ -46,13 +46,13 @@ each cast member, using tf-idf.
 | rank | bigram               |
 |-----:|:---------------------|
 |    1 | fire bolt            |
-|    2 | fortune’s favor      |
-|    3 | comprehend languages |
-|    4 | ritual casting       |
-|    5 | arcane recovery      |
-|    6 | cast slow            |
-|    7 | arcane words         |
-|    8 | cast fortune’s       |
+|    2 | comprehend languages |
+|    3 | ritual casting       |
+|    4 | arcane recovery      |
+|    5 | cast fortune’s       |
+|    6 | fortune’s favor      |
+|    7 | cast slow            |
+|    8 | arcane words         |
 |    9 | caleb starts         |
 |   10 | cast comprehend      |
 
@@ -79,9 +79,9 @@ each cast member, using tf-idf.
 
 | rank | bigram              |
 |-----:|:--------------------|
-|    1 | roll damage         |
-|    2 | hits roll           |
-|    3 | persuasion check    |
+|    1 | hits roll           |
+|    2 | persuasion check    |
+|    3 | roll damage         |
 |    4 | investigation check |
 |    5 | piercing damage     |
 |    6 | damage nice         |
@@ -115,8 +115,8 @@ each cast member, using tf-idf.
 |-----:|:-----------------|
 |    1 | vicious mockery  |
 |    2 | detect undead    |
-|    3 | blood maledict   |
-|    4 | sacred flame     |
+|    3 | sacred flame     |
+|    4 | blood maledict   |
 |    5 | detect magic     |
 |    6 | funny feeling    |
 |    7 | cast bane        |
