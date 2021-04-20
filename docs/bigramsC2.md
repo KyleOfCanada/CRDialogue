@@ -51,10 +51,10 @@ each cast member, using tf-idf.
 |    4 | arcane recovery      |
 |    5 | cast fortune’s       |
 |    6 | fortune’s favor      |
-|    7 | cast slow            |
-|    8 | arcane words         |
-|    9 | caleb starts         |
-|   10 | cast comprehend      |
+|    7 | cast comprehend      |
+|    8 | cast slow            |
+|    9 | detect magic         |
+|   10 | arcane words         |
 
 #### Marisha
 
@@ -70,8 +70,8 @@ each cast member, using tf-idf.
 |    6 | pop pop          |
 |    7 | dodge action     |
 |    8 | fucking punch    |
-|    9 | quick scan       |
-|   10 | totally honest   |
+|    9 | lucky jade       |
+|   10 | quick scan       |
 
 #### Matt
 
@@ -103,8 +103,8 @@ each cast member, using tf-idf.
 |    5 | silent image       |
 |    6 | cast silent        |
 |    7 | cast mage          |
-|    8 | brenatto’s voltaic |
-|    9 | attack damage      |
+|    8 | attack damage      |
+|    9 | brenatto’s voltaic |
 |   10 | uncanny dodge      |
 
 #### Taliesin
@@ -131,10 +131,10 @@ each cast member, using tf-idf.
 | rank | bigram          |
 |-----:|:----------------|
 |    1 | blast damage    |
-|    2 | eldritch blasts |
+|    2 | celestial fiend |
 |    3 | star razor      |
-|    4 | cast hexblade’s |
-|    5 | celestial fiend |
+|    4 | eldritch blasts |
+|    5 | cast hexblade’s |
 |    6 | slashing damage |
 |    7 | cast hex        |
 |    8 | divine sense    |
