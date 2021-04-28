@@ -19,7 +19,7 @@ each cast member, using tf-idf.
 |    6 | zealous presence |
 |    7 | dah dah          |
 |    8 | wha wha          |
-|    9 | bee bee          |
+|    9 | battle cry       |
 |   10 | ist das          |
 
 #### Laura
@@ -49,12 +49,12 @@ each cast member, using tf-idf.
 |    2 | comprehend languages |
 |    3 | ritual casting       |
 |    4 | arcane recovery      |
-|    5 | cast fortune’s       |
-|    6 | fortune’s favor      |
-|    7 | cast comprehend      |
-|    8 | cast slow            |
-|    9 | detect magic         |
-|   10 | arcane words         |
+|    5 | cast comprehend      |
+|    6 | cast fortune’s       |
+|    7 | cast slow            |
+|    8 | detect magic         |
+|    9 | arcane words         |
+|   10 | caleb starts         |
 
 #### Marisha
 
@@ -84,9 +84,9 @@ each cast member, using tf-idf.
 |    3 | roll damage         |
 |    4 | investigation check |
 |    5 | piercing damage     |
-|    6 | damage nice         |
-|    7 | guys continue       |
-|    8 | damage reduced      |
+|    6 | damage reduced      |
+|    7 | damage nice         |
+|    8 | guys continue       |
 |    9 | guys begin          |
 |   10 | hand check          |
 
@@ -99,9 +99,9 @@ each cast member, using tf-idf.
 |    1 | action hide        |
 |    2 | action disengage   |
 |    3 | cast phantasmal    |
-|    4 | voltaic bolt       |
-|    5 | silent image       |
-|    6 | cast silent        |
+|    4 | silent image       |
+|    5 | cast silent        |
+|    6 | voltaic bolt       |
 |    7 | cast mage          |
 |    8 | attack damage      |
 |    9 | brenatto’s voltaic |
@@ -132,8 +132,8 @@ each cast member, using tf-idf.
 |-----:|:----------------|
 |    1 | blast damage    |
 |    2 | celestial fiend |
-|    3 | star razor      |
-|    4 | eldritch blasts |
+|    3 | eldritch blasts |
+|    4 | star razor      |
 |    5 | cast hexblade’s |
 |    6 | slashing damage |
 |    7 | cast hex        |
