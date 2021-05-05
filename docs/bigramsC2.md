@@ -12,15 +12,15 @@ each cast member, using tf-idf.
 | rank | bigram           |
 |-----:|:-----------------|
 |    1 | healing hands    |
-|    2 | um um            |
-|    3 | savage attacker  |
+|    2 | savage attacker  |
+|    3 | um um            |
 |    4 | divine fury      |
 |    5 | kay kay          |
 |    6 | zealous presence |
 |    7 | dah dah          |
 |    8 | wha wha          |
-|    9 | battle cry       |
-|   10 | ist das          |
+|    9 | holy avenger     |
+|   10 | battle cry       |
 
 #### Laura
 
@@ -88,7 +88,7 @@ each cast member, using tf-idf.
 |    7 | damage nice         |
 |    8 | guys continue       |
 |    9 | guys begin          |
-|   10 | hand check          |
+|   10 | faint bit           |
 
 #### Sam
 
