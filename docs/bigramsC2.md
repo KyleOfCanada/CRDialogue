@@ -18,8 +18,8 @@ each cast member, using tf-idf.
 |    5 | kay kay          |
 |    6 | zealous presence |
 |    7 | dah dah          |
-|    8 | wha wha          |
-|    9 | holy avenger     |
+|    8 | holy avenger     |
+|    9 | wha wha          |
 |   10 | battle cry       |
 
 #### Laura
@@ -65,13 +65,13 @@ each cast member, using tf-idf.
 |    1 | stunning strike  |
 |    2 | patient defense  |
 |    3 | deflect missiles |
-|    4 | deep speech      |
-|    5 | yeah laughs      |
-|    6 | pop pop          |
-|    7 | dodge action     |
-|    8 | fucking punch    |
-|    9 | lucky jade       |
-|   10 | quick scan       |
+|    4 | yeah laughs      |
+|    5 | deep speech      |
+|    6 | quick scan       |
+|    7 | pop pop          |
+|    8 | dodge action     |
+|    9 | fucking punch    |
+|   10 | lucky jade       |
 
 #### Matt
 
@@ -99,13 +99,13 @@ each cast member, using tf-idf.
 |    1 | action hide        |
 |    2 | action disengage   |
 |    3 | cast phantasmal    |
-|    4 | silent image       |
-|    5 | cast silent        |
-|    6 | voltaic bolt       |
+|    4 | voltaic bolt       |
+|    5 | silent image       |
+|    6 | cast silent        |
 |    7 | cast mage          |
 |    8 | attack damage      |
 |    9 | brenatto’s voltaic |
-|   10 | uncanny dodge      |
+|   10 | cast message       |
 
 #### Taliesin
 
@@ -131,12 +131,12 @@ each cast member, using tf-idf.
 | rank | bigram          |
 |-----:|:----------------|
 |    1 | blast damage    |
-|    2 | celestial fiend |
-|    3 | eldritch blasts |
+|    2 | eldritch blasts |
+|    3 | celestial fiend |
 |    4 | star razor      |
 |    5 | cast hexblade’s |
 |    6 | slashing damage |
-|    7 | cast hex        |
-|    8 | divine sense    |
+|    7 | divine sense    |
+|    8 | cast hex        |
 |    9 | yasha rolled    |
 |   10 | cast armor      |
