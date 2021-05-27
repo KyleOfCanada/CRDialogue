@@ -11,8 +11,8 @@ each cast member, using tf-idf.
 
 | rank | bigram           |
 |-----:|:-----------------|
-|    1 | healing hands    |
-|    2 | savage attacker  |
+|    1 | savage attacker  |
+|    2 | healing hands    |
 |    3 | um um            |
 |    4 | divine fury      |
 |    5 | kay kay          |
@@ -49,8 +49,8 @@ each cast member, using tf-idf.
 |    2 | comprehend languages |
 |    3 | ritual casting       |
 |    4 | arcane recovery      |
-|    5 | cast comprehend      |
-|    6 | cast fortune’s       |
+|    5 | cast fortune’s       |
+|    6 | cast comprehend      |
 |    7 | cast slow            |
 |    8 | detect magic         |
 |    9 | arcane words         |
@@ -80,9 +80,9 @@ each cast member, using tf-idf.
 | rank | bigram              |
 |-----:|:--------------------|
 |    1 | hits roll           |
-|    2 | persuasion check    |
-|    3 | roll damage         |
-|    4 | investigation check |
+|    2 | roll damage         |
+|    3 | investigation check |
+|    4 | persuasion check    |
 |    5 | piercing damage     |
 |    6 | damage reduced      |
 |    7 | damage nice         |
@@ -98,14 +98,14 @@ each cast member, using tf-idf.
 |-----:|:-------------------|
 |    1 | action hide        |
 |    2 | action disengage   |
-|    3 | cast phantasmal    |
-|    4 | voltaic bolt       |
+|    3 | voltaic bolt       |
+|    4 | cast phantasmal    |
 |    5 | silent image       |
 |    6 | cast silent        |
 |    7 | cast mage          |
-|    8 | attack damage      |
-|    9 | brenatto’s voltaic |
-|   10 | cast message       |
+|    8 | brenatto’s voltaic |
+|    9 | attack damage      |
+|   10 | uncanny dodge      |
 
 #### Taliesin
 
