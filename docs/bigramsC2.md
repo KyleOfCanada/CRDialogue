@@ -32,12 +32,12 @@ each cast member, using tf-idf.
 |    2 | invoke duplicity |
 |    3 | cast inflict     |
 |    4 | cast sending     |
-|    5 | inflict wounds   |
-|    6 | cast guiding     |
+|    5 | cast guiding     |
+|    6 | inflict wounds   |
 |    7 | hellish rebuke   |
-|    8 | blink blink      |
-|    9 | super duper      |
-|   10 | cast cure        |
+|    8 | cast cure        |
+|    9 | blink blink      |
+|   10 | super duper      |
 
 #### Liam
 
@@ -67,11 +67,11 @@ each cast member, using tf-idf.
 |    3 | deflect missiles |
 |    4 | yeah laughs      |
 |    5 | deep speech      |
-|    6 | quick scan       |
-|    7 | pop pop          |
+|    6 | pop pop          |
+|    7 | quick scan       |
 |    8 | dodge action     |
-|    9 | fucking punch    |
-|   10 | lucky jade       |
+|    9 | sentinel attack  |
+|   10 | fucking punch    |
 
 #### Matt
 
@@ -80,15 +80,15 @@ each cast member, using tf-idf.
 | rank | bigram              |
 |-----:|:--------------------|
 |    1 | hits roll           |
-|    2 | roll damage         |
+|    2 | persuasion check    |
 |    3 | investigation check |
-|    4 | persuasion check    |
-|    5 | piercing damage     |
-|    6 | damage reduced      |
-|    7 | damage nice         |
-|    8 | guys continue       |
-|    9 | guys begin          |
-|   10 | faint bit           |
+|    4 | piercing damage     |
+|    5 | damage reduced      |
+|    6 | damage nice         |
+|    7 | guys continue       |
+|    8 | guys begin          |
+|    9 | faint bit           |
+|   10 | hand check          |
 
 #### Sam
 
@@ -105,7 +105,7 @@ each cast member, using tf-idf.
 |    7 | cast mage          |
 |    8 | brenatto’s voltaic |
 |    9 | attack damage      |
-|   10 | uncanny dodge      |
+|   10 | action fire        |
 
 #### Taliesin
 
@@ -117,8 +117,8 @@ each cast member, using tf-idf.
 |    2 | detect undead    |
 |    3 | sacred flame     |
 |    4 | blood maledict   |
-|    5 | detect magic     |
-|    6 | funny feeling    |
+|    5 | funny feeling    |
+|    6 | detect magic     |
 |    7 | cast bane        |
 |    8 | light spell      |
 |    9 | spirit guardians |
