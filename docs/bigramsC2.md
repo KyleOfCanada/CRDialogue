@@ -15,12 +15,12 @@ each cast member, using tf-idf.
 |    2 | healing hands    |
 |    3 | um um            |
 |    4 | divine fury      |
-|    5 | kay kay          |
-|    6 | zealous presence |
-|    7 | dah dah          |
-|    8 | holy avenger     |
-|    9 | wha wha          |
-|   10 | battle cry       |
+|    5 | zealous presence |
+|    6 | dah dah          |
+|    7 | holy avenger     |
+|    8 | battle cry       |
+|    9 | kay kay          |
+|   10 | wha wha          |
 
 #### Laura
 
@@ -47,8 +47,8 @@ each cast member, using tf-idf.
 |-----:|:---------------------|
 |    1 | fire bolt            |
 |    2 | comprehend languages |
-|    3 | ritual casting       |
-|    4 | arcane recovery      |
+|    3 | arcane recovery      |
+|    4 | ritual casting       |
 |    5 | cast fortune’s       |
 |    6 | cast comprehend      |
 |    7 | cast slow            |
@@ -99,8 +99,8 @@ each cast member, using tf-idf.
 |    1 | action hide        |
 |    2 | action disengage   |
 |    3 | voltaic bolt       |
-|    4 | cast phantasmal    |
-|    5 | silent image       |
+|    4 | silent image       |
+|    5 | cast phantasmal    |
 |    6 | cast silent        |
 |    7 | cast mage          |
 |    8 | brenatto’s voltaic |
@@ -130,10 +130,10 @@ each cast member, using tf-idf.
 
 | rank | bigram          |
 |-----:|:----------------|
-|    1 | blast damage    |
-|    2 | eldritch blasts |
-|    3 | celestial fiend |
-|    4 | star razor      |
+|    1 | eldritch blasts |
+|    2 | blast damage    |
+|    3 | star razor      |
+|    4 | celestial fiend |
 |    5 | cast hexblade’s |
 |    6 | slashing damage |
 |    7 | divine sense    |
