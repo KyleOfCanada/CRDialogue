@@ -23,7 +23,7 @@ strp_date <- function(x) {
 
 runTimesC2 <- read_sheet('https://docs.google.com/spreadsheets/d/1E1DfdXJVu9UpGNG29JMHT3ovk8Ol_UTzol40DMzz-rw/edit#gid=1820863997',
                          sheet = 1,
-                         col_types = 'ctttttlttttc') [-c(1:2),] %>% 
+                         col_types = 'ctttttltttt') [-c(1:2),] %>% 
   select(Episode, `1st start`, `1st end`, `2nd start`, `2nd end`)
 
 runTimes <- runTimesC2 %>% 
