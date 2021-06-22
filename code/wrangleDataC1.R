@@ -21,6 +21,8 @@ strp_date <- function(x) {
     hms()
 }
 
+gs4_deauth()
+
 runTimesC1 <- read_sheet('https://docs.google.com/spreadsheets/d/1Zx1N0cQcd1fJadUwar7f2hJ2p61qoX7lctsVaIEa5uM/edit#gid=0',
                          sheet = 1,
                          col_types = 'ctttttttlttttc')[-c(1:3),] %>% 

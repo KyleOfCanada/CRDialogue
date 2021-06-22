@@ -51,4 +51,3 @@ if(nextEpisode == (episodeCount[nrow(episodeCount), 2] + 1)) {
   rmarkdown::render(here('code', 'RmdFiles', 'README.Rmd'),
                     output_dir = here())
 }
-1 # to select google account to read in critrolestats tables
