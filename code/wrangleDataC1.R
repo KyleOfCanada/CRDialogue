@@ -1,13 +1,12 @@
-library(jsonlite)
 library(tidyverse)
 library(here)
 library(googlesheets4)
 library(lubridate)
 
-# create list of json files
-fileList <- list.files(here('data', 'jsonTranscripts'),
+# create list of rds files
+fileList <- list.files(here('data', 'rdsTranscripts'),
            full.names = TRUE,
-           pattern = 'cr1-\\d+.?\\d*.json')
+           pattern = 'cr1-\\d+.?\\d*.rds')
 
 # create list of main cast members
 castList <- c('MATT', 'TRAVIS', 'MARISHA', 'TALIESIN', 'SAM', 'LIAM', 'LAURA', 'ASHLEY')
@@ -39,19 +38,9 @@ runTimes <- runTimesC1 %>%
 
 # read in json data and single tibble
 datC1 <- fileList %>% 
-  map_dfr(function(x) {
-    tmpMetadata <- read_json(x,
-                             simplifyVector = TRUE)$metadata
-    tmplines <- read_json(x,
-              simplifyVector = TRUE)$lines
-    tmplines$campaign <- tmpMetadata$campaign
-    tmplines$episode <- tmpMetadata$episode
-    tmplines 
-  }) %>% 
-  as_tibble() %>% 
+  map_dfr(readRDS) %>% 
   left_join(runTimes) %>% 
-  mutate(ts = hms(paste(ts$h, ts$m, ts$s)),
-         gamePlay = (ts >= `1st start` & ts <= `1st end`) | (ts >= `2nd start` & ts <= `2nd end`)) %>% 
+  mutate(gamePlay = (ts >= `1st start` & ts <= `1st end`) | (ts >= `2nd start` & ts <= `2nd end`)) %>% 
   select(-`1st start`, -`1st end`, -`2nd start`, -`2nd end`) %>% 
   separate(name,
            into = paste0('name', 1:8), # as of C2E120 max of 6 simultaneously, used 8

@@ -1,5 +1,7 @@
 library(tidyverse)
 library(here)
+library(rvest)
+library(lubridate)
 
 # get latest episode numbers
 episodeCount <- readRDS(here('data', 'episodeCount.rds'))
@@ -25,12 +27,64 @@ if(nextEpisode == (episodeCount[nrow(episodeCount), 2] + 1)) {
   warning('No new episodes available',
           call. = FALSE)
 } else {
-  # run python script to convert html to json files
-  reticulate::py_run_file(here('data', 'tojson.py'))
+  # function to read html files and save as rds
+  
+  htmlHarvest <- function(htmlFile) {
+    
+    html <- read_html(htmlFile)
+    
+    title <- html %>% 
+      html_elements('main') %>% 
+      html_element('h3') %>% 
+      html_text()
+    
+    if(is.na(title)) {
+      warning('Transcript not available')
+    } else {
+      datLines <- html %>% 
+        html_elements('#lines') %>% 
+        html_children() 
+      
+      times <- datLines %>% 
+        html_attr('id') %>% 
+        as_tibble() %>%  
+        rename(ts = value) %>% 
+        filter(!is.na(ts))
+      
+      dat <- datLines %>% 
+        html_text() %>% 
+        as_tibble() %>% 
+        rename(text = value) %>% 
+        mutate(name = ifelse(str_detect(text, '^# '),
+                             str_remove(text, '^# '),
+                             NA)) %>% 
+        fill(name) %>% 
+        filter(!str_detect(text, '^# ')) %>%
+        bind_cols(times) %>% 
+        mutate(text = str_remove(text, ' →'),
+               ts = hms(ts),
+               campaign = str_extract(title, '(?<=^Campaign )\\d+'),
+               episode = str_extract(title, '(?<=Episode )\\d+\\.?\\d*$'))
+      
+      saveFileName <- str_c('cr', str_extract(title, '(?<=^Campaign )\\d+'), '-', str_extract(title, '(?<=Episode )\\d+\\.?\\d*$'), '.rds')
+      
+      saveRDS(dat, 
+              here('data', 'rdsTranscripts', saveFileName))
+      
+      cat(str_c('Saved ', saveFileName, '\n'))
+    }
+  }
+  
+  # read in html files and save as rds
+  list.files(here('data', 'html'),
+             pattern = '\\.html',
+             full.names = TRUE) %>% 
+    map(htmlHarvest)
+  
   
   # delete processed html files
   list.files(here('data', 'html'),
-                          pattern = '.html',
+                          pattern = '\\.html',
                           full.names = TRUE) %>% 
     map(file.remove)
   

@@ -12,15 +12,15 @@ each cast member, using tf-idf.
 | rank | bigram           |
 |-----:|:-----------------|
 |    1 | savage attacker  |
-|    2 | healing hands    |
-|    3 | um um            |
-|    4 | divine fury      |
-|    5 | zealous presence |
-|    6 | dah dah          |
-|    7 | holy avenger     |
-|    8 | battle cry       |
+|    2 | um um            |
+|    3 | zealous presence |
+|    4 | healing hands    |
+|    5 | divine fury      |
+|    6 | holy avenger     |
+|    7 | battle cry       |
+|    8 | dah dah          |
 |    9 | kay kay          |
-|   10 | wha wha          |
+|   10 | holy moly        |
 
 #### Laura
 
@@ -34,10 +34,10 @@ each cast member, using tf-idf.
 |    4 | cast sending     |
 |    5 | cast guiding     |
 |    6 | inflict wounds   |
-|    7 | hellish rebuke   |
-|    8 | cast cure        |
-|    9 | blink blink      |
-|   10 | super duper      |
+|    7 | super duper      |
+|    8 | hellish rebuke   |
+|    9 | cast enhance     |
+|   10 | locate object    |
 
 #### Liam
 
@@ -46,15 +46,15 @@ each cast member, using tf-idf.
 | rank | bigram               |
 |-----:|:---------------------|
 |    1 | fire bolt            |
-|    2 | comprehend languages |
-|    3 | arcane recovery      |
-|    4 | ritual casting       |
-|    5 | cast fortune’s       |
-|    6 | cast comprehend      |
-|    7 | cast slow            |
-|    8 | detect magic         |
-|    9 | arcane words         |
-|   10 | caleb starts         |
+|    2 | cast fortune’s       |
+|    3 | comprehend languages |
+|    4 | arcane words         |
+|    5 | ritual casting       |
+|    6 | arcane recovery      |
+|    7 | cast comprehend      |
+|    8 | cat’s ire            |
+|    9 | caleb starts         |
+|   10 | cast slow            |
 
 #### Marisha
 
@@ -66,12 +66,12 @@ each cast member, using tf-idf.
 |    2 | patient defense  |
 |    3 | deflect missiles |
 |    4 | yeah laughs      |
-|    5 | deep speech      |
+|    5 | lucky jade       |
 |    6 | pop pop          |
 |    7 | quick scan       |
-|    8 | dodge action     |
-|    9 | sentinel attack  |
-|   10 | fucking punch    |
+|    8 | totally honest   |
+|    9 | deep speech      |
+|   10 | cobalt reserve   |
 
 #### Matt
 
@@ -80,15 +80,15 @@ each cast member, using tf-idf.
 | rank | bigram              |
 |-----:|:--------------------|
 |    1 | hits roll           |
-|    2 | persuasion check    |
-|    3 | investigation check |
-|    4 | piercing damage     |
-|    5 | damage reduced      |
-|    6 | damage nice         |
-|    7 | guys continue       |
-|    8 | guys begin          |
+|    2 | guys begin          |
+|    3 | guys continue       |
+|    4 | damage nice         |
+|    5 | leans forward       |
+|    6 | damage reduced      |
+|    7 | piercing damage     |
+|    8 | investigation check |
 |    9 | faint bit           |
-|   10 | hand check          |
+|   10 | guys watch          |
 
 #### Sam
 
@@ -97,32 +97,32 @@ each cast member, using tf-idf.
 | rank | bigram             |
 |-----:|:-------------------|
 |    1 | action hide        |
-|    2 | action disengage   |
-|    3 | voltaic bolt       |
-|    4 | silent image       |
-|    5 | cast phantasmal    |
-|    6 | cast silent        |
-|    7 | cast mage          |
-|    8 | brenatto’s voltaic |
-|    9 | attack damage      |
-|   10 | action fire        |
+|    2 | silent image       |
+|    3 | cast phantasmal    |
+|    4 | cast silent        |
+|    5 | brenatto’s voltaic |
+|    6 | cast mage          |
+|    7 | voltaic bolt       |
+|    8 | cast brenatto’s    |
+|    9 | cast message       |
+|   10 | action disengage   |
 
 #### Taliesin
 
 ![Taliesin](../plots/bigramClouds/C2/C2TALIESIN.png)
 
-| rank | bigram           |
-|-----:|:-----------------|
-|    1 | vicious mockery  |
-|    2 | detect undead    |
-|    3 | sacred flame     |
-|    4 | blood maledict   |
-|    5 | funny feeling    |
-|    6 | detect magic     |
-|    7 | cast bane        |
-|    8 | light spell      |
-|    9 | spirit guardians |
-|   10 | cast light       |
+| rank | bigram          |
+|-----:|:----------------|
+|    1 | vicious mockery |
+|    2 | funny feeling   |
+|    3 | detect undead   |
+|    4 | sacred flame    |
+|    5 | blood maledict  |
+|    6 | detect magic    |
+|    7 | cast bless      |
+|    8 | cast bane       |
+|    9 | light spell     |
+|   10 | mass healing    |
 
 #### Travis
 
@@ -131,12 +131,12 @@ each cast member, using tf-idf.
 | rank | bigram          |
 |-----:|:----------------|
 |    1 | eldritch blasts |
-|    2 | blast damage    |
-|    3 | star razor      |
-|    4 | celestial fiend |
-|    5 | cast hexblade’s |
+|    2 | star razor      |
+|    3 | celestial fiend |
+|    4 | cast hexblade’s |
+|    5 | divine sense    |
 |    6 | slashing damage |
-|    7 | divine sense    |
+|    7 | divine smite    |
 |    8 | cast hex        |
-|    9 | yasha rolled    |
-|   10 | cast armor      |
+|    9 | relentless hex  |
+|   10 | blast damage    |
