@@ -7,23 +7,40 @@ library(lubridate)
 episodeCount <- readRDS(here('data', 'episodeCount.rds'))
 
 # get the next episode
-nextEpisode <- (episodeCount[nrow(episodeCount), 2] + 1)
+episode <- episodeCount[nrow(episodeCount), 2]
 
 moreEpisodes <- TRUE
 # progress through downloading episodes until file not found
 while(moreEpisodes) {
-  nextURL <- str_c('https://kryogenix.org/crsearch/html/cr2-', nextEpisode, '.html')
-  downloadName <- str_c('cr2-', nextEpisode, '.html')
+  
+  oneshot <- 1
+  moreOneshots <- TRUE
+  while(moreOneshots){
+    oneshotNumber <- (oneshot / 100) %>% as.character() %>% str_remove('^0')
+    oneshotURL <- str_c('https://kryogenix.org/crsearch/html/cr2-', episode, oneshotNumber, '.html')
+    downloadName <- str_c('cr2-', episode, oneshotNumber, '.html')
+    oneshotDownloaded <- try(download.file(oneshotURL,
+                                           destfile = here('data', 'html', downloadName)))
+    if(class(oneshotDownloaded) == 'try-error') {
+      moreOneshots <- FALSE
+    } else {
+      oneshot <- oneshot + 1
+    }
+  }
+  
+  episode <- episode + 1
+  nextURL <- str_c('https://kryogenix.org/crsearch/html/cr2-', episode, '.html')
+  downloadName <- str_c('cr2-', episode, '.html')
   fileDownloaded <- try(download.file(nextURL,
                                       destfile = here('data', 'html', downloadName)))
   if(class(fileDownloaded) == 'try-error') {
     moreEpisodes <- FALSE
   } else {
-    nextEpisode <- nextEpisode + 1
+    episode <- episode + 1
   }
 }
 
-if(nextEpisode == (episodeCount[nrow(episodeCount), 2] + 1)) {
+if(episode == (episodeCount[nrow(episodeCount), 2] + 1)) {
   warning('No new episodes available',
           call. = FALSE)
 } else {
