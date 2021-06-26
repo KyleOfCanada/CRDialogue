@@ -13,22 +13,21 @@ moreEpisodes <- TRUE
 # progress through downloading episodes until file not found
 while(moreEpisodes) {
   
-  oneshot <- 1
+  oneshot <- episode + .01
   moreOneshots <- TRUE
   while(moreOneshots){
-    oneshotNumber <- (oneshot / 100) %>% as.character() %>% str_remove('^0')
-    oneshotURL <- str_c('https://kryogenix.org/crsearch/html/cr2-', episode, oneshotNumber, '.html')
-    downloadName <- str_c('cr2-', episode, oneshotNumber, '.html')
+    oneshotURL <- str_c('https://kryogenix.org/crsearch/html/cr2-', oneshot, '.html')
+    downloadName <- str_c('cr2-', oneshot, '.html')
     oneshotDownloaded <- try(download.file(oneshotURL,
                                            destfile = here('data', 'html', downloadName)))
     if(class(oneshotDownloaded) == 'try-error') {
       moreOneshots <- FALSE
     } else {
-      oneshot <- oneshot + 1
+      oneshot <- oneshot + .01
     }
   }
   
-  episode <- episode + 1
+  episode <- floor(episode) + 1
   nextURL <- str_c('https://kryogenix.org/crsearch/html/cr2-', episode, '.html')
   downloadName <- str_c('cr2-', episode, '.html')
   fileDownloaded <- try(download.file(nextURL,
