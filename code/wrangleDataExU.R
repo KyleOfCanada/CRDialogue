@@ -11,7 +11,8 @@ library(youtubecaption)
 
 
 URLs <- c('https://www.youtube.com/watch?v=-ijPD6yNdMs',
-          'https://www.youtube.com/watch?v=Hjucx2vz5Mg')
+          'https://www.youtube.com/watch?v=Hjucx2vz5Mg',
+          'https://www.youtube.com/watch?v=YDHxT4UT8NI')
 
 cast <- c('AABRIA', 'AIMEE', 'ASHLEY', 'LIAM', 'MATT', 'ROBBIE')
 
@@ -22,7 +23,7 @@ episodes <- str_c('ExU1E', format(1:length(URLs),
                     str_replace(' ', '0'))
 
 # function to read in and format Youtube captions
-cr_captions <- function(link, episodes) {
+cr_captions <- function(link, ep) {
   get_caption(link) %>% 
     mutate(name = ifelse(str_detect(text, '^[:upper:]{3,}: '),
                          str_extract(text, '^[:upper:]{3,}'),
@@ -50,4 +51,4 @@ runtimes <- read_sheet('https://docs.google.com/spreadsheets/d/1TQB5t7ZfbBamQ312
   mutate(across(`1st start`:`2nd end`,
                 .fns = strp_date))
 
-dat <- map2_dfr(URLs, 1:length(URLs), cr_captions)
+dat <- map2_dfr(URLs, episodes, cr_captions)
