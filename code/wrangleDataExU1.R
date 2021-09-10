@@ -4,10 +4,6 @@ library(googlesheets4)
 library(lubridate)
 library(youtubecaption)
 
-# TODO: 
-#       save data
-
-
 URLs <- c('https://www.youtube.com/watch?v=-ijPD6yNdMs',
           'https://www.youtube.com/watch?v=Hjucx2vz5Mg',
           'https://www.youtube.com/watch?v=YDHxT4UT8NI',
