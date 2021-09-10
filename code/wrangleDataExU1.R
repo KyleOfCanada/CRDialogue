@@ -4,17 +4,20 @@ library(googlesheets4)
 library(lubridate)
 library(youtubecaption)
 
-# TODO: some dialogue lines are in the same caption, split with a '\nNAME: '
-#         need to split into separate lines
-#       add gamePlay column
+# TODO: 
 #       save data
 
 
 URLs <- c('https://www.youtube.com/watch?v=-ijPD6yNdMs',
           'https://www.youtube.com/watch?v=Hjucx2vz5Mg',
-          'https://www.youtube.com/watch?v=YDHxT4UT8NI')
+          'https://www.youtube.com/watch?v=YDHxT4UT8NI',
+          'https://www.youtube.com/watch?v=qAhw51d3cGw',
+          'https://www.youtube.com/watch?v=Bj0Jd5mzLsI',
+          'https://www.youtube.com/watch?v=sLxUyJWXA0w',
+          'https://www.youtube.com/watch?v=LIrsjzz9TAQ',
+          'https://www.youtube.com/watch?v=73DU7qK-_xs')
 
-cast <- c('AABRIA', 'AIMEE', 'ASHLEY', 'LIAM', 'MATT', 'ROBBIE')
+cast <- c('AABRIA', 'AIMEE', 'ANJALI', 'ASHLEY', 'LIAM', 'MATT', 'ROBBIE')
 
 # get list of episodes
 episodes <- str_c('ExU1E', format(1:length(URLs),
@@ -25,6 +28,8 @@ episodes <- str_c('ExU1E', format(1:length(URLs),
 # function to read in and format Youtube captions
 cr_captions <- function(link, ep) {
   get_caption(link) %>% 
+    mutate(text = str_split(text, '\n')) %>% 
+    unnest(text) %>% 
     mutate(name = ifelse(str_detect(text, '^[:upper:]{3,}: '),
                          str_extract(text, '^[:upper:]{3,}'),
                          NA),
@@ -44,11 +49,20 @@ strp_date <- function(x) {
 
 gs4_deauth()
 
-runtimes <- read_sheet('https://docs.google.com/spreadsheets/d/1TQB5t7ZfbBamQ312znZgFbyiTOIflIgp52iE7Ah9BQY/edit#gid=1820863997',
+runTimes <- read_sheet('https://docs.google.com/spreadsheets/d/1TQB5t7ZfbBamQ312znZgFbyiTOIflIgp52iE7Ah9BQY/edit#gid=1820863997',
                        sheet = 1,
                        col_types = 'ctttttltttt') [-c(1:2),] %>% 
   select(Episode, `1st start`, `1st end`, `2nd start`, `2nd end`) %>% 
   mutate(across(`1st start`:`2nd end`,
                 .fns = strp_date))
 
-dat <- map2_dfr(URLs, episodes, cr_captions)
+datExU1 <- map2_dfr(URLs, episodes, cr_captions) %>% 
+  left_join(runTimes,
+            by = c('episode' = 'Episode')) %>% 
+  mutate(gamePlay = (start >= `1st start` & start <= `1st end`) | (start >= `2nd start` & start <= `2nd end`)) %>% 
+  select(-vid, -`1st start`, -`1st end`, -`2nd start`, -`2nd end`) %>% 
+  filter(!str_detect(text,
+                     '\\(.+\\)'))
+
+saveRDS(datExU1,
+        here('data', 'tidyDataExU1.rds'))
