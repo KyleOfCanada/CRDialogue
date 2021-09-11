@@ -8,7 +8,7 @@ library(here)
 
 datExU1 <- readRDS(here('data', 'tidyDataExU1.rds'))
 
-#### campaign 2 ####
+#### Word Clouds ####
 
 castWordsExU1 <- datExU1 %>% 
   filter(mainCast,
@@ -53,4 +53,27 @@ for(i in 1:8) {
             random.order = FALSE,
             colors = colourSchemeExU1$textColour[i])
   dev.off()
+}
+
+#### Stats for ExU1 ####
+
+# total words
+totalWordsExU1 <- datExU1 %>% 
+  select(name, text) %>% 
+  unnest_tokens(word, text) %>% 
+  nrow()
+
+# words per cast member
+wordsPerCast <- datExU1 %>% 
+  filter(name %in% c('AABRIA', 'AIMEE', 'ASHLEY', 'LIAM', 'MATT', 'ROBBIE')) %>% 
+  select(name, text) %>% 
+  unnest_tokens(word, text) %>% 
+  group_by(name) %>% 
+  summarise(N = n()) %>% 
+  arrange(desc(N))
+
+for(i in c('AABRIA', 'AIMEE', 'ASHLEY', 'LIAM', 'MATT', 'ROBBIE')) {
+  print(castWordsExU1 %>% 
+    filter(name == i) %>% 
+    arrange(desc(tf_idf)))
 }
