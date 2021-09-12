@@ -1,0 +1,58 @@
+---
+output:
+  github_document:
+    html_preview: false
+---
+
+```{r setup, include=FALSE, message=FALSE}
+library(tidyverse)
+library(here)
+library(knitr)
+
+castBigramsExU1 <- readRDS(here('data', 'bigramsExU1.rds')) %>% 
+  arrange(name, desc(tf_idf)) %>% 
+  group_by(name) %>% 
+  mutate(rank = row_number()) %>% 
+  filter(rank < 11) %>% 
+  ungroup()
+```
+
+## Bigrams for Exandria Unlimited
+
+Pairs of words, bigrams, were analyzed. Bigrams containing stopwords or digits were dropped, and bigrams were ranked by how unique they were to each cast member, using tf-idf.
+
+#### Aabria
+
+![Aabria](../plots/bigramClouds/ExU1/ExU1AABRIA.png)
+
+`r castBigramsExU1 %>% filter(name == 'AABRIA') %>% select(rank, bigram) %>% kable()`
+
+#### Aimee
+
+![Aimee](../plots/bigramClouds/ExU1/ExU1AIMEE.png)
+
+`r castBigramsExU1 %>% filter(name == 'AIMEE') %>% select(rank, bigram) %>% kable()`
+
+#### Ashley
+
+![Ashley](../plots/bigramClouds/ExU1/ExU1ASHLEY.png)
+
+`r castBigramsExU1 %>% filter(name == 'ASHLEY') %>% select(rank, bigram) %>% kable()`
+
+#### Liam
+
+![Liam](../plots/bigramClouds/ExU1/ExU1LIAM.png)
+
+`r castBigramsExU1 %>% filter(name == 'LIAM') %>% select(rank, bigram) %>% kable()`
+
+#### Matt
+
+![Matt](../plots/bigramClouds/ExU1/ExU1Matt.png)
+
+`r castBigramsExU1 %>% filter(name == 'MATT') %>% select(rank, bigram) %>% kable()`
+
+#### Robbie
+
+![Robbie](../plots/bigramClouds/ExU1/ExU1ROBBIE.png)
+
+`r castBigramsExU1 %>% filter(name == 'ROBBIE') %>% select(rank, bigram) %>% kable()`
