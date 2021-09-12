@@ -47,7 +47,7 @@ Pairs of words, bigrams, were analyzed. Bigrams containing stopwords or digits w
 
 #### Matt
 
-![Matt](../plots/bigramClouds/ExU1/ExU1Matt.png)
+![Matt](../plots/bigramClouds/ExU1/ExU1MATT.png)
 
 `r castBigramsExU1 %>% filter(name == 'MATT') %>% select(rank, bigram) %>% kable()`
 

@@ -75,7 +75,7 @@ each cast member, using tf-idf.
 
 #### Matt
 
-![Matt](../plots/bigramClouds/ExU1/ExU1Matt.png)
+![Matt](../plots/bigramClouds/ExU1/ExU1MATT.png)
 
 | rank | bigram           |
 |-----:|:-----------------|
