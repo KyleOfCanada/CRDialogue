@@ -15,8 +15,8 @@ An exploration of the dialogue from Critical Role
     2](docs/wordCloudsC2.md), and [Exandria
     Unlimited](docs/wordCloudsExU1.md)
 
--   Bigram Analysis for [Campaign 1](docs/bigramsC1.md) and [Campaign
-    2](docs/bigramsC2.md)
+-   Bigram Analysis for [Campaign 1](docs/bigramsC1.md), [Campaign
+    2](docs/bigramsC2.md), and [Exandria Unlimited](docs/bigramsExU1.md)
 
 ### Acknowledgments
 
