@@ -120,8 +120,8 @@ okDat <- okTrigrams %>%
            trigram = 'okay okay okay',
            fill = list(n = 0)) %>% 
   filter(!(campaign == '1' & episode %>% as.numeric() > 115)) %>% 
-  left_join(attDat) %>% 
-  filter(!is.na(Ashley))
+  filter(!(campaign == '1' & episode == '12')) %>% 
+  left_join(attDat)
 
 t.test(n ~ Ashley,
        data = okDat)
