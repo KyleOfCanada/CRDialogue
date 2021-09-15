@@ -83,7 +83,7 @@ okTrigrams %>%
   count(trigram,
         sort = TRUE) %>%
   ungroup() %>% 
-  complete(episode = 1:141 %>% as.character(), # needs to change
+  complete(episode = 1:141 %>% as.character(), 
            campaign = 1:2 %>% as.character(),
            trigram = 'okay okay okay',
            fill = list(n = 0)) %>% 
@@ -94,19 +94,18 @@ okTrigrams %>%
   ggplot(aes(x = counter,
              y = n,
              colour = campaign)) +
-  # geom_rug(sides = 'b',
-  #          aes(x = counter,
-  #          y = if_else(Ashley, 1, 0))) +
-  geom_tile(aes(fill = Ashley, #ifelse(Ashley, 'green', '#RRGGBBAA'),
-                y = 6,
+  geom_tile(aes(fill = Ashley,
+                y = 9.5,
                 linetype = NA),
             width = 1,
-            height = 12,
+            height = 19,
             show.legend = FALSE) +
   geom_point() +
   geom_smooth(method = 'lm') +
   scale_fill_manual(values = c(NA, 'green')) +
-  coord_cartesian(ylim = c(0, 12)) +
+  coord_cartesian(ylim = c(0, 19)) +
+  labs(x = 'Episode',
+       y = 'Count') +
   theme_classic() +
   theme(panel.grid = element_blank())
 
