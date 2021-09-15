@@ -30,7 +30,11 @@ attC2 <- read_sheet('https://docs.google.com/spreadsheets/d/1E1DfdXJVu9UpGNG29JM
 
 attDat <- bind_rows(attC1, attC2) %>% 
   mutate(across(Laura:Ashley,
-                ~ .x == 1))
+                ~ .x == 1),
+         across(Laura:Ashley,
+          ~ if_else(is.na(.x),
+                    FALSE,
+                    .x)))
 
 attSum <- attDat %>% 
   mutate(Matt = TRUE) %>% 
