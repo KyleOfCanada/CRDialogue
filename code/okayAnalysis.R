@@ -104,7 +104,7 @@ okTrigrams %>%
             height = 12,
             show.legend = FALSE) +
   geom_point() +
-  geom_smooth() +
+  geom_smooth(method = 'lm') +
   scale_fill_manual(values = c(NA, 'green')) +
   coord_cartesian(ylim = c(0, 12)) +
   theme_classic() +
