@@ -166,7 +166,7 @@ dat_ok <- ok_trigrams %>%
   filter(!(campaign == "1" & episode == "12")) %>%
   left_join(dat_att)
 
-t.test(n ~ Ashley,
+wilcox.test(n ~ Ashley,
   data = dat_ok
 )
 
@@ -178,7 +178,7 @@ dat_ok %>%
   group_by(Ashley) %>%
   summarise(n = mean_cl_boot(n))
 
-t.test(n ~ Laura,
+wilcox.test(n ~ Laura,
   data = dat_ok
 )
 
