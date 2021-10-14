@@ -2,11 +2,12 @@ library(tidyverse)
 library(here)
 library(tidytext)
 library(googlesheets4)
+library(effsize)
 
 #### load tidy data ####
-datC1 <- readRDS(here("data", "tidyDataC1.rds"))
-datC2 <- readRDS(here("data", "tidyDataC2.rds"))
-dat <- bind_rows(datC1, datC2) %>%
+dat_C1 <- readRDS(here("data", "tidyDataC1.rds"))
+dat_C2 <- readRDS(here("data", "tidyDataC2.rds"))
+dat <- bind_rows(dat_C1, dat_C2) %>%
   filter(
     !oneShot,
     gamePlay
@@ -16,7 +17,7 @@ dat <- bind_rows(datC1, datC2) %>%
 
 gs4_deauth()
 
-attC1 <- read_sheet("https://docs.google.com/spreadsheets/d/1Zx1N0cQcd1fJadUwar7f2hJ2p61qoX7lctsVaIEa5uM/edit#gid=744793917",
+att_C1 <- read_sheet("https://docs.google.com/spreadsheets/d/1Zx1N0cQcd1fJadUwar7f2hJ2p61qoX7lctsVaIEa5uM/edit#gid=744793917",
   sheet = 3,
   col_types = "cDnnnnnnnnlnnnlcc"
 )[-1, ] %>%
@@ -26,7 +27,7 @@ attC1 <- read_sheet("https://docs.google.com/spreadsheets/d/1Zx1N0cQcd1fJadUwar7
   ) %>%
   select(campaign, episode, Laura:Ashley)
 
-attC2 <- read_sheet("https://docs.google.com/spreadsheets/d/1E1DfdXJVu9UpGNG29JMHT3ovk8Ol_UTzol40DMzz-rw/edit#gid=1820863997",
+att_C2 <- read_sheet("https://docs.google.com/spreadsheets/d/1E1DfdXJVu9UpGNG29JMHT3ovk8Ol_UTzol40DMzz-rw/edit#gid=1820863997",
   sheet = 3,
   col_types = "cDnnnnnnnlnnnlcc"
 )[-1, ] %>%
@@ -36,7 +37,7 @@ attC2 <- read_sheet("https://docs.google.com/spreadsheets/d/1E1DfdXJVu9UpGNG29JM
   ) %>%
   select(campaign, episode, Laura:Ashley)
 
-attDat <- bind_rows(attC1, attC2) %>%
+dat_att <- bind_rows(att_C1, att_C2) %>%
   mutate(
     across(
       Laura:Ashley,
@@ -51,7 +52,7 @@ attDat <- bind_rows(attC1, attC2) %>%
     )
   )
 
-attSum <- attDat %>%
+att_sum <- dat_att %>%
   mutate(Matt = TRUE) %>%
   summarise(across(
     Laura:Matt,
@@ -64,7 +65,7 @@ attSum <- attDat %>%
   )
 
 #### detect and filter okay okay okay ####
-okTrigrams <- dat %>%
+ok_trigrams <- dat %>%
   filter(
     mainCast,
     !oneShot
@@ -76,9 +77,9 @@ okTrigrams <- dat %>%
   ) %>%
   select(campaign, episode, name, trigram) %>%
   filter(trigram == "okay okay okay") %>%
-  left_join(attDat)
+  left_join(dat_att)
 
-castWords <- dat %>%
+cast_words <- dat %>%
   filter(mainCast, gamePlay, !oneShot) %>%
   unnest_tokens(word,
     text,
@@ -88,15 +89,15 @@ castWords <- dat %>%
   count(name = "words") %>%
   mutate(name = str_to_title(name))
 
-okCast <- okTrigrams %>%
+ok_cast <- ok_trigrams %>%
   group_by(name) %>%
   count(trigram,
     sort = TRUE
   ) %>%
   mutate(name = str_to_title(name)) %>%
   select(name, n) %>%
-  left_join(attSum) %>%
-  left_join(castWords) %>%
+  left_join(att_sum) %>%
+  left_join(cast_words) %>%
   mutate(
     perEpisode = n / attended,
     perWord = n * 3 / words,
@@ -104,7 +105,7 @@ okCast <- okTrigrams %>%
   ) %>%
   arrange(desc(perWord))
 
-okTrigrams %>%
+ok_trigrams %>%
   group_by(campaign, episode) %>%
   count(trigram,
     sort = TRUE
@@ -117,7 +118,7 @@ okTrigrams %>%
     fill = list(n = 0)
   ) %>%
   filter(!(campaign == "1" & episode %>% as.numeric() > 115)) %>%
-  left_join(attDat) %>%
+  left_join(dat_att) %>%
   filter(!is.na(Ashley)) %>%
   mutate(counter = episode %>% as.numeric() + if_else(campaign == "2", 115, 0)) %>%
   ggplot(aes(
@@ -125,15 +126,16 @@ okTrigrams %>%
     y = n,
     colour = campaign
   )) +
-  geom_tile(aes(
-    fill = Ashley,
-    y = 9.5,
-    linetype = NA
-  ),
-  width = 1,
-  height = 19,
-  show.legend = FALSE,
-  alpha = .4
+  geom_tile(
+    aes(
+      fill = Ashley,
+      y = 9.5,
+      linetype = NA
+    ),
+    width = 1,
+    height = 19,
+    show.legend = FALSE,
+    alpha = .4
   ) +
   geom_point() +
   geom_smooth() +
@@ -148,7 +150,7 @@ okTrigrams %>%
   theme_classic() +
   theme(panel.grid = element_blank())
 
-okDat <- okTrigrams %>%
+dat_ok <- ok_trigrams %>%
   group_by(campaign, episode) %>%
   count(trigram,
     sort = TRUE
@@ -162,17 +164,22 @@ okDat <- okTrigrams %>%
   ) %>%
   filter(!(campaign == "1" & episode %>% as.numeric() > 115)) %>%
   filter(!(campaign == "1" & episode == "12")) %>%
-  left_join(attDat)
+  left_join(dat_att)
 
 t.test(n ~ Ashley,
-  data = okDat
+  data = dat_ok
 )
-okDat %>%
+
+cohen.d(n ~ Ashley,
+  data = dat_ok
+)
+
+dat_ok %>%
   group_by(Ashley) %>%
   summarise(n = mean_cl_boot(n))
 
 t.test(n ~ Laura,
-  data = okDat
+  data = dat_ok
 )
 
 
@@ -181,24 +188,32 @@ options(na.action = "na.fail")
 library(modelsummary)
 
 ms <- lm(n ~ Laura + Ashley + Liam + Marisha + Taliesin + Travis + Sam,
-  data = okDat
+  data = dat_ok
 )
+
 modelplot(ms,
   coef_omit = "Intercept",
   colour = "red"
 ) +
   geom_vline(xintercept = 0)
-okDredge <- dredge(ms)
-okModels <- get.models(
-  okDredge,
+
+ok_dredge <- dredge(ms)
+
+ok_models <- get.models(
+  ok_dredge,
   delta < 2
 )
-modelplot(okModels,
+
+modelplot(ok_models,
   coef_omit = "Intercept"
-)
+) +
+  geom_vline(
+    xintercept = 0,
+    colour = "black"
+  )
 
 
-okTrigrams %>%
+ok_trigrams %>%
   group_by(campaign, episode) %>%
   count(trigram) %>%
   ungroup() %>%
