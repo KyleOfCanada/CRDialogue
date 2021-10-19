@@ -3,6 +3,7 @@ library(here)
 library(tidytext)
 library(googlesheets4)
 library(effsize)
+library(knitr)
 
 #### load tidy data ####
 dat_C1 <- readRDS(here("data", "tidyDataC1.rds"))
@@ -92,18 +93,26 @@ cast_words <- dat %>%
 ok_cast <- ok_trigrams %>%
   group_by(name) %>%
   count(trigram,
-    sort = TRUE
+    sort = TRUE,
+    name = "count"
   ) %>%
   mutate(name = str_to_title(name)) %>%
-  select(name, n) %>%
+  select(name, count) %>%
   left_join(att_sum) %>%
   left_join(cast_words) %>%
   mutate(
-    perEpisode = n / attended,
-    perWord = n * 3 / words,
-    OneInEvery = 1 / perWord
+    `per episode` = count / attended,
+    `per word` = count * 3 / words,
+    `one in every n words` = 1 / `per word`
   ) %>%
-  arrange(desc(perWord))
+  arrange(desc(`per word`))
+
+sum(ok_cast$count)
+
+ok_cast %>% 
+  kable(format = 'pipe',
+        digits = c(0, 0, 0, 0, 2, 6, 0)) %>% 
+  saveRDS(file = here("data", "ok_cast.rds"))
 
 ok_trigrams %>%
   group_by(campaign, episode) %>%
@@ -134,12 +143,13 @@ ok_trigrams %>%
     ),
     width = 1,
     height = 19,
-    show.legend = FALSE,
+    show.legend = TRUE,
     alpha = .4
   ) +
   geom_point() +
   geom_smooth() +
-  scale_fill_manual(values = c(0, "green")) +
+  scale_fill_manual(values = c(0, "green"),
+                    labels = c("Absent", "Present")) +
   scale_color_manual(values = c("purple", "blue")) +
   coord_cartesian(ylim = c(0, 19)) +
   labs(
@@ -149,6 +159,11 @@ ok_trigrams %>%
   ) +
   theme_classic() +
   theme(panel.grid = element_blank())
+
+ggsave(here("plots", "okay_okay_okay.png"),
+       height = 1500,
+       width = 2550,
+       units = "px")
 
 dat_ok <- ok_trigrams %>%
   group_by(campaign, episode) %>%
@@ -182,6 +197,9 @@ wilcox.test(n ~ Laura,
   data = dat_ok
 )
 
+wilcox.test(n ~ Marisha,
+            data = dat_ok
+)
 
 library(MuMIn)
 options(na.action = "na.fail")
@@ -213,7 +231,7 @@ modelplot(ok_models,
   )
 
 
-ok_trigrams %>%
+ok_counts <- ok_trigrams %>%
   group_by(campaign, episode) %>%
   count(trigram) %>%
   ungroup() %>%
@@ -223,6 +241,11 @@ ok_trigrams %>%
     trigram = "okay okay okay",
     fill = list(n = 0)
   ) %>%
-  filter(!(campaign == "1" & episode %>% as.numeric() > 115)) %>%
+  filter(!(campaign == "1" & episode %>% as.numeric() > 115))
+
+ok_counts %>%
   group_by(n) %>%
   count(n, sort = TRUE)
+
+ok_counts %>% 
+  filter(n == 19)
