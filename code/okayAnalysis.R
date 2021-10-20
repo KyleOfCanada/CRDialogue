@@ -197,6 +197,14 @@ wilcox.test(n ~ Laura,
   data = dat_ok
 )
 
+ok_trigrams %>% 
+  group_by(name, Ashley) %>% 
+  summarise(okays = sum(name == name) ) %>% 
+  mutate(attended = if_else(Ashley,
+                            140,
+                            255 - 140),
+         `per episode` = okays / attended)
+
 wilcox.test(n ~ Marisha,
             data = dat_ok
 )
