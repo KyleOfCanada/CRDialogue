@@ -3,8 +3,6 @@ library(here)
 library(rvest)
 library(lubridate)
 
-print(here()) # DEBUG
-
 # get latest episode numbers
 episodeCount <- readRDS(here("data", "episodeCount.rds"))
 
@@ -14,9 +12,6 @@ episode <- episodeCount[nrow(episodeCount), 2]
 
 moreEpisodes <- TRUE
 
-print(str_c("start: C", campaign, ' E', episode)) # DEBUG
-print(list.files(here())) # DEBUG
-
 # progress through downloading episodes until file not found
 while (moreEpisodes) {
   oneshot <- episode + .01
@@ -24,12 +19,9 @@ while (moreEpisodes) {
   while (moreOneshots) {
     oneshotURL <- str_c("https://kryogenix.org/crsearch/html/cr", campaign, "-", oneshot, ".html")
     downloadName <- str_c("cr", campaign, "-", oneshot, ".html")
-    print(downloadName) # DEBUG
     oneshotDownloaded <- try(download.file(oneshotURL,
       destfile = here("data", "html", downloadName)
     ))
-    print(class(oneshotDownloaded)) # DEBUG
-    print(oneshotDownloaded) # DEBUG
     if ("try-error" %in% class(oneshotDownloaded) | oneshotDownloaded == 1) {
       moreOneshots <- FALSE
       print("Successful Error!") # DEBUG
@@ -42,11 +34,9 @@ while (moreEpisodes) {
   episode <- floor(episode) + 1
   nextURL <- str_c("https://kryogenix.org/crsearch/html/cr", campaign, "-", episode, ".html")
   downloadName <- str_c("cr", campaign, "-", episode, ".html")
-  print(downloadName) # DEBUG
   fileDownloaded <- try(download.file(nextURL,
     destfile = here("data", "html", downloadName)
   ))
-  print(fileDownloaded) # DEBUG
   if ("try-error" %in% class(fileDownloaded) | fileDownloaded == 1) {
     moreEpisodes <- FALSE
     print("Successful Error!") # DEBUG
