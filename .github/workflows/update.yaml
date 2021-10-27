@@ -1,0 +1,37 @@
+on:
+  schedule:
+    # * is a special character in YAML so you have to quote this string
+    - cron:  '0 12 * * THU'
+
+name: update
+
+jobs:
+  render:
+    name: render
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+        with:
+            ref: main
+            token: ${{ secrets.GITHUB_TOKEN }}
+      - uses: r-lib/actions/setup-r@v1
+      - uses: r-lib/actions/setup-pandoc@v1
+      - name: installPackages
+        run: Rscript -e 'install.packages(c("knitr", "rmarkdown", "tidyverse", "here", "rvest", "lubridate", "googlesheets4", "tidytext", "textdata", "wordcloud", "httr"))'
+      - name: autoUpdate
+        run: Rscript -e 'source("./code/autoUpdate.R")'
+      - name: commitChanges
+        run: |
+          git config --local user.name "$GITHUB_ACTOR"
+          git config --local user.email "$GITHUB_ACTOR@users.noreply.github.com"
+          git add .
+          git commit -m 'auto update' || echo "No changes to commit"
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+            github_token: ${{ secrets.GITHUB_TOKEN }}
+            branch: main
+      - name: IFTTT notification
+        with: 
+          IFTTT_KEY: ${{ secrets.IFTTT_KEY }}
+        run: Rscript -e 'source("./code/")'

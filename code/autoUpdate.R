@@ -43,9 +43,12 @@ if (episode == (episodeCount[nrow(episodeCount), 2] + 1)) {
   warning("No new episodes available",
     call. = FALSE
   )
+  Sys.setenv(NEW_EP = FALSE)
 } else {
   # function to read html files and save as rds
 
+  Sys.setenv(NEW_EP = TRUE)
+  
   htmlHarvest <- function(htmlFile) {
     html <- read_html(htmlFile)
 
