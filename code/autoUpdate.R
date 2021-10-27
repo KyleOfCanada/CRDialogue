@@ -3,6 +3,8 @@ library(here)
 library(rvest)
 library(lubridate)
 
+print(here())
+
 # get latest episode numbers
 episodeCount <- readRDS(here("data", "episodeCount.rds"))
 
@@ -11,6 +13,9 @@ campaign <- episodeCount[nrow(episodeCount), 1]
 episode <- episodeCount[nrow(episodeCount), 2]
 
 moreEpisodes <- TRUE
+
+print(str_c("start: C", campaign, ' E', episode))
+
 # progress through downloading episodes until file not found
 while (moreEpisodes) {
   oneshot <- episode + .01
@@ -18,6 +23,7 @@ while (moreEpisodes) {
   while (moreOneshots) {
     oneshotURL <- str_c("https://kryogenix.org/crsearch/html/cr", campaign, "-", oneshot, ".html")
     downloadName <- str_c("cr", campaign, "-", oneshot, ".html")
+    print(downloadName)
     oneshotDownloaded <- try(download.file(oneshotURL,
       destfile = here("data", "html", downloadName)
     ))
@@ -31,6 +37,7 @@ while (moreEpisodes) {
   episode <- floor(episode) + 1
   nextURL <- str_c("https://kryogenix.org/crsearch/html/cr", campaign, "-", episode, ".html")
   downloadName <- str_c("cr", campaign, "-", episode, ".html")
+  print(downloadName)
   fileDownloaded <- try(download.file(nextURL,
     destfile = here("data", "html", downloadName)
   ))
