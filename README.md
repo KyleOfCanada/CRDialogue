@@ -12,8 +12,9 @@ An exploration of the dialogue from Critical Role
     dialogue](docs/sentiments.md)
 
 -   Word Clouds for [Campaign 1](docs/wordCloudsC1.md), [Campaign
-    2](docs/wordCloudsC2.md), and [Exandria
-    Unlimited](docs/wordCloudsExU1.md)
+    2](docs/wordCloudsC2.md), [Exandria
+    Unlimited](docs/wordCloudsExU1.md), and [Campaign
+    3](docs/wordCloudsC3.md)
 
 -   Bigram Analysis for [Campaign 1](docs/bigramsC1.md), [Campaign
     2](docs/bigramsC2.md), and [Exandria Unlimited](docs/bigramsExU1.md)
@@ -24,7 +25,7 @@ An exploration of the dialogue from Critical Role
 
 The dialogue data come from the [Critical Role Linkable
 transcripts](https://kryogenix.org/crsearch/) and YouTube captions. Last
-updated with data from campaign 2 episode 141. Time stamps to delineate
+updated with data from campaign 3 episode 1. Time stamps to delineate
 game play time come from
 [CritRoleStats](https://www.critrolestats.com/).
 
