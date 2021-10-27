@@ -30,8 +30,9 @@ while (moreEpisodes) {
     ))
     print(class(oneshotDownloaded)) # DEBUG
     print(oneshotDownloaded) # DEBUG
-    if ("try-error" %in% class(oneshotDownloaded)) {
+    if ("try-error" %in% class(oneshotDownloaded) | oneshotDownloaded == 1) {
       moreOneshots <- FALSE
+      print("Successful Error!") # DEBUG
     } else {
       oneshot <- oneshot + .01
       moreOneshots <- FALSE # DEBUG
@@ -46,8 +47,9 @@ while (moreEpisodes) {
     destfile = here("data", "html", downloadName)
   ))
   print(fileDownloaded) # DEBUG
-  if ("try-error" %in% class(fileDownloaded)) {
+  if ("try-error" %in% class(fileDownloaded) | fileDownloaded == 1) {
     moreEpisodes <- FALSE
+    print("Successful Error!") # DEBUG
   }
   moreEpisodes <- FALSE # DEBUG
 }

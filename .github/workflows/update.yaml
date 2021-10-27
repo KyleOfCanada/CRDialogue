@@ -20,8 +20,13 @@ jobs:
         run: sudo apt-get install libcurl4-openssl-dev
       - name: install r packages
         run: Rscript -e 'install.packages(c("knitr", "rmarkdown", "tidyverse", "here", "rvest", "lubridate", "googlesheets4", "tidytext", "textdata", "wordcloud", "httr"))'
-      - name: run auto update
-        run: Rscript -e 'source("./code/autoUpdate.R")'
+      - name: auto update and notification
+        env:
+          IFTTT_KEY: ${{ secrets.IFTTT_KEY }}
+        run: |
+          source("./code/autoUpdate.R")
+          source("./code/notification.R")
+        shell: Rscript {0}
       - name: commit changes
         run: |
           git config --local user.name "$GITHUB_ACTOR"
@@ -33,9 +38,3 @@ jobs:
         with:
             github_token: ${{ secrets.GITHUB_TOKEN }}
             branch: main
-      - name: notification
-        env:
-          IFTTT_KEY: ${{ secrets.IFTTT_KEY }}
-        run: |
-          source("./code/notification.R")
-        shell: Rscript {0}
