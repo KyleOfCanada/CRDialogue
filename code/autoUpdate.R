@@ -53,7 +53,7 @@ if (episode == (episodeCount[nrow(episodeCount), 2] + 1)) {
   # function to read html files and save as rds
 
   Sys.setenv(NEW_EP = TRUE)
-  
+
   htmlHarvest <- function(htmlFile) {
     html <- read_html(htmlFile)
 
@@ -123,15 +123,16 @@ if (episode == (episodeCount[nrow(episodeCount), 2] + 1)) {
   source(here("code", "wrangleDataC3.R"))
   runC3Guests <- FALSE # set to TRUE to run code for guests in C3
   source(here("code", "wordCloudsC3.R"))
-  # source(here('code', 'sentiments.R'))
+  source(here("code", "sentiments.R"))
   # source(here('code', 'bigramCloudsC2.R'))
 
   # render updated markdown docs
   rmarkdown::render(here("code", "RmdFiles", "wordCloudsC3.Rmd"),
     output_dir = here("docs")
   )
-  # rmarkdown::render(here('code', 'RmdFiles', 'sentiments.Rmd'),
-  #                   output_dir = here('docs'))
+  rmarkdown::render(here("code", "RmdFiles", "sentiments.Rmd"),
+    output_dir = here("docs")
+  )
   # rmarkdown::render(here('code', 'RmdFiles', 'bigramsC2.Rmd'),
   #                   output_dir = here('docs'))
   rmarkdown::render(here("code", "RmdFiles", "README.Rmd"),
