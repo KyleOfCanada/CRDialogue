@@ -4,20 +4,21 @@ on:
     # * is a special character in YAML so you have to quote this string
     - cron:  '0 12 * * THU'
 
-name: update
+name: auto update
 
 jobs:
   render:
-    name: render
+    name: auto update
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
         with:
             ref: main
             token: ${{ secrets.GITHUB_TOKEN }}
-            IFTTT_KEY: ${{ secrets.IFTTT_KEY }}
       - uses: r-lib/actions/setup-r@v1
       - uses: r-lib/actions/setup-pandoc@v1
+      - name: install libcurl
+        run: sudo apt-get install libcurl4-openssl-dev
       - name: installPackages
         run: Rscript -e 'install.packages(c("knitr", "rmarkdown", "tidyverse", "here", "rvest", "lubridate", "googlesheets4", "tidytext", "textdata", "wordcloud", "httr"))'
       - name: autoUpdate
@@ -33,5 +34,9 @@ jobs:
         with:
             github_token: ${{ secrets.GITHUB_TOKEN }}
             branch: main
-      - name: IFTTT notification
-        run: Rscript -e 'source("./code/")'
+      - name: notification
+        env:
+          IFTTT_KEY: ${{ secrets.IFTTT_KEY }}
+        run: |
+          source(".code/notification.R")
+        shell: Rscript {0}
