@@ -10,12 +10,15 @@ jobs:
     name: auto update
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v1
+      - name: checkout repo
+        uses: actions/checkout@v1
         with:
             ref: main
             token: ${{ secrets.GITHUB_TOKEN }}
-      - uses: r-lib/actions/setup-r@v1
-      - uses: r-lib/actions/setup-pandoc@v1
+      - name: setup r
+        uses: r-lib/actions/setup-r@v1
+      - name: setup pandoc
+        uses: r-lib/actions/setup-pandoc@v1
       - name: install libcurl
         run: sudo apt-get install libcurl4-openssl-dev
       - name: install r packages
