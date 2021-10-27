@@ -37,5 +37,5 @@ jobs:
         env:
           IFTTT_KEY: ${{ secrets.IFTTT_KEY }}
         run: |
-          source(".code/notification.R")
+          source("./code/notification.R")
         shell: Rscript {0}

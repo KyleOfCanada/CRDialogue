@@ -15,6 +15,7 @@ episode <- episodeCount[nrow(episodeCount), 2]
 moreEpisodes <- TRUE
 
 print(str_c("start: C", campaign, ' E', episode)) # DEBUG
+print(list.files(here())) # DEBUG
 
 # progress through downloading episodes until file not found
 while (moreEpisodes) {
@@ -28,6 +29,7 @@ while (moreEpisodes) {
       destfile = here("data", "html", downloadName)
     ))
     print(class(oneshotDownloaded)) # DEBUG
+    print(oneshotDownloaded) # DEBUG
     if ("try-error" %in% class(oneshotDownloaded)) {
       moreOneshots <- FALSE
     } else {
@@ -39,10 +41,11 @@ while (moreEpisodes) {
   episode <- floor(episode) + 1
   nextURL <- str_c("https://kryogenix.org/crsearch/html/cr", campaign, "-", episode, ".html")
   downloadName <- str_c("cr", campaign, "-", episode, ".html")
-  print(downloadName)
+  print(downloadName) # DEBUG
   fileDownloaded <- try(download.file(nextURL,
     destfile = here("data", "html", downloadName)
   ))
+  print(fileDownloaded) # DEBUG
   if ("try-error" %in% class(fileDownloaded)) {
     moreEpisodes <- FALSE
   }
