@@ -234,36 +234,6 @@ wilcox.test(n ~ Marisha,
             data = dat_ok
 )
 
-library(MuMIn)
-options(na.action = "na.fail")
-library(modelsummary)
-
-ms <- lm(n ~ Laura + Ashley + Liam + Marisha + Taliesin + Travis + Sam,
-  data = dat_ok
-)
-
-modelplot(ms,
-  coef_omit = "Intercept",
-  colour = "red"
-) +
-  geom_vline(xintercept = 0)
-
-ok_dredge <- dredge(ms)
-
-ok_models <- get.models(
-  ok_dredge,
-  delta < 2
-)
-
-modelplot(ok_models,
-  coef_omit = "Intercept"
-) +
-  geom_vline(
-    xintercept = 0,
-    colour = "black"
-  )
-
-
 ok_counts <- ok_trigrams %>%
   group_by(campaign, episode) %>%
   count(trigram) %>%
