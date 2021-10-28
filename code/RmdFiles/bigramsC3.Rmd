@@ -53,7 +53,7 @@ Pairs of words, bigrams, were analyzed. Bigrams containing stopwords or digits w
 
 #### Robbie
 
-![Robbie](../plots/bigramClouds/C3/C3MROBBIE.png)
+![Robbie](../plots/bigramClouds/C3/C3ROBBIE.png)
 
 `r castBigrams3 %>% filter(name == 'ROBBIE') %>% select(rank, bigram) %>% kable()`
 

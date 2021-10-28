@@ -92,7 +92,7 @@ each cast member, using tf-idf.
 
 #### Robbie
 
-![Robbie](../plots/bigramClouds/C3/C3MROBBIE.png)
+![Robbie](../plots/bigramClouds/C3/C3ROBBIE.png)
 
 | rank | bigram              |
 |-----:|:--------------------|
