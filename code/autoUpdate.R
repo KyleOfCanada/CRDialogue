@@ -125,6 +125,7 @@ if (episode == (episodeCount[nrow(episodeCount), 2] + 1)) {
   source(here("code", "wordCloudsC3.R"))
   source(here("code", "sentiments.R"))
   source(here('code', 'bigramCloudsC3.R'))
+  source(here('code', 'okayAnalysis.R'))
 
   # render updated markdown docs
   rmarkdown::render(here("code", "RmdFiles", "wordCloudsC3.Rmd"),
@@ -135,6 +136,9 @@ if (episode == (episodeCount[nrow(episodeCount), 2] + 1)) {
   )
   rmarkdown::render(here("code", "RmdFiles", "bigramsC3.Rmd"),
     output_dir = here("docs")
+  )
+  rmarkdown::render(here("code", "RmdFiles", "okay_okay_okay.Rmd"),
+                    output_dir = here("docs")
   )
   rmarkdown::render(here("code", "RmdFiles", "README.Rmd"),
     output_dir = here()

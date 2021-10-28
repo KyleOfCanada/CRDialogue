@@ -8,11 +8,14 @@ library(knitr)
 #### load tidy data ####
 dat_C1 <- readRDS(here("data", "tidyDataC1.rds"))
 dat_C2 <- readRDS(here("data", "tidyDataC2.rds"))
-dat <- bind_rows(dat_C1, dat_C2) %>%
+dat_C3 <- readRDS(here("data", "tidyDataC3.rds"))
+dat <- bind_rows(dat_C1, dat_C2, dat_C3) %>%
   filter(
     !oneShot,
     gamePlay
   )
+
+episode_count <- readRDS(here("data", "episodeCount.rds"))
 
 #### get attendance data ####
 
@@ -38,7 +41,18 @@ att_C2 <- read_sheet("https://docs.google.com/spreadsheets/d/1E1DfdXJVu9UpGNG29J
   ) %>%
   select(campaign, episode, Laura:Ashley)
 
-dat_att <- bind_rows(att_C1, att_C2) %>%
+att_C3 <- read_sheet("https://docs.google.com/spreadsheets/d/1OE7QzSfj89xjY-DqXR468as9j6je7UgMulYCSO2Sdp0/edit#gid=1399380767",
+                     sheet = 3,
+                     col_types = "cDnnnnnnnllnnnlcc"
+)[-1, ] %>%
+  mutate(
+    campaign = "3",
+    episode = str_sub(Episode, 4, 6) %>% as.numeric() %>% as.character()
+  ) %>%
+  select(campaign, episode, Laura:Ashley) %>% 
+  filter(!is.na(episode))
+
+dat_att <- bind_rows(att_C1, att_C2, att_C3) %>%
   mutate(
     across(
       Laura:Ashley,
@@ -110,8 +124,6 @@ ok_cast <- ok_trigrams %>%
 sum(ok_cast$count)
 
 ok_cast %>% 
-  kable(format = 'pipe',
-        digits = c(0, 0, 0, 0, 2, 6, 0)) %>% 
   saveRDS(file = here("data", "ok_cast.rds"))
 
 ok_trigrams %>%
@@ -122,14 +134,19 @@ ok_trigrams %>%
   ungroup() %>%
   complete(
     episode = 1:141 %>% as.character(),
-    campaign = 1:2 %>% as.character(),
+    campaign = 1:3 %>% as.character(),
     trigram = "okay okay okay",
     fill = list(n = 0)
   ) %>%
-  filter(!(campaign == "1" & episode %>% as.numeric() > 115)) %>%
+  filter(!(campaign == "1" & episode %>% as.numeric() > 115),
+         !(campaign == "3" & episode %>% as.numeric() > episode_count$episode[1])) %>%
   left_join(dat_att) %>%
   filter(!is.na(Ashley)) %>%
-  mutate(counter = episode %>% as.numeric() + if_else(campaign == "2", 115, 0)) %>%
+  mutate(counter = episode %>% as.numeric() + case_when(
+    campaign == "1" ~ 0,
+    campaign == "2" ~ 115,
+    campaign == "3" ~ 115 + 141
+  )) %>%
   ggplot(aes(
     x = counter,
     y = n,
@@ -150,7 +167,7 @@ ok_trigrams %>%
   geom_smooth() +
   scale_fill_manual(values = c(0, "green"),
                     labels = c("Absent", "Present")) +
-  scale_color_manual(values = c("purple", "blue")) +
+  scale_color_manual(values = c("purple", "blue", "red")) +
   coord_cartesian(ylim = c(0, 19)) +
   labs(
     x = "Episode",
@@ -173,13 +190,17 @@ dat_ok <- ok_trigrams %>%
   ungroup() %>%
   complete(
     episode = 1:141 %>% as.character(),
-    campaign = 1:2 %>% as.character(),
+    campaign = 1:3 %>% as.character(),
     trigram = "okay okay okay",
     fill = list(n = 0)
   ) %>%
-  filter(!(campaign == "1" & episode %>% as.numeric() > 115)) %>%
+  filter(!(campaign == "1" & episode %>% as.numeric() > 115),
+         !(campaign == "3" & episode %>% as.numeric() > episode_count$episode[1])) %>%
   filter(!(campaign == "1" & episode == "12")) %>%
   left_join(dat_att)
+
+saveRDS(dat_ok,
+        here("data", "ok_dat.rds"))
 
 wilcox.test(n ~ Ashley,
   data = dat_ok
@@ -197,12 +218,16 @@ wilcox.test(n ~ Laura,
   data = dat_ok
 )
 
+att_Ashley <- dat_att %>% 
+  group_by(Ashley) %>% 
+  count()
+
 ok_trigrams %>% 
   group_by(name, Ashley) %>% 
   summarise(okays = sum(name == name) ) %>% 
   mutate(attended = if_else(Ashley,
-                            140,
-                            255 - 140),
+                            att_Ashley$n[2],
+                            att_Ashley$n[1]),
          `per episode` = okays / attended)
 
 wilcox.test(n ~ Marisha,
@@ -245,15 +270,19 @@ ok_counts <- ok_trigrams %>%
   ungroup() %>%
   complete(
     episode = 1:141 %>% as.character(),
-    campaign = 1:2 %>% as.character(),
+    campaign = 1:3 %>% as.character(),
     trigram = "okay okay okay",
     fill = list(n = 0)
   ) %>%
-  filter(!(campaign == "1" & episode %>% as.numeric() > 115))
+  filter(!(campaign == "1" & episode %>% as.numeric() > 115),
+         !(campaign == "3" & episode %>% as.numeric() > episode_count$episode[1]))
+
+saveRDS(ok_counts,
+        here("data", "ok_counts.rds"))
 
 ok_counts %>%
   group_by(n) %>%
   count(n, sort = TRUE)
 
 ok_counts %>% 
-  filter(n == 19)
+  filter(n == max(n))
