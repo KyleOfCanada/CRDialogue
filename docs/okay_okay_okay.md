@@ -9,16 +9,16 @@ frequency with which it is said changed over the campaigns?
 
 #### Who says “Okay, Okay, Okay” the most?
 
-| name     | count | attended |   words | per episode | per word | one in every n words |
-|:---------|------:|---------:|--------:|------------:|---------:|---------------------:|
-| Ashley   |    86 |      141 |  141367 |        0.61 | 0.001825 |                  548 |
-| Laura    |   248 |      246 |  704248 |        1.01 | 0.001056 |                  947 |
-| Marisha  |   168 |      254 |  564797 |        0.66 | 0.000892 |                 1121 |
-| Sam      |    51 |      247 |  556814 |        0.21 | 0.000275 |                 3639 |
-| Travis   |    17 |      246 |  509416 |        0.07 | 0.000100 |                 9989 |
-| Liam     |    16 |      252 |  577868 |        0.06 | 0.000083 |                12039 |
-| Taliesin |     2 |      251 |  524907 |        0.01 | 0.000011 |                87484 |
-| Matt     |     6 |      256 | 3128544 |        0.02 | 0.000006 |               173808 |
+| name     | count | attended |     words | per episode | per word | one in every n words |
+|:---------|------:|---------:|----------:|------------:|---------:|---------------------:|
+| Ashley   |    86 |      141 |   141,367 |        0.61 | 0.001825 |                  548 |
+| Laura    |   248 |      246 |   704,248 |        1.01 | 0.001056 |                  947 |
+| Marisha  |   168 |      254 |   564,797 |        0.66 | 0.000892 |                1,121 |
+| Sam      |    51 |      247 |   556,814 |        0.21 | 0.000275 |                3,639 |
+| Travis   |    17 |      246 |   509,416 |        0.07 | 0.000100 |                9,989 |
+| Liam     |    16 |      252 |   577,868 |        0.06 | 0.000083 |               12,039 |
+| Taliesin |     2 |      251 |   524,907 |        0.01 | 0.000011 |               87,484 |
+| Matt     |     6 |      256 | 3,128,544 |        0.02 | 0.000006 |              173,808 |
 
 It turns out that both Laura (248) and Marisha (168) have said “Okay,
 Okay, Okay” more times than Ashley (86). However, they both were present

@@ -14,8 +14,11 @@ dat_ok <- readRDS(here("data", "ok_dat.rds"))
 ok_counts <- readRDS(here("data", "ok_counts.rds"))
 
 ok_cast_table <- ok_cast %>% 
+  mutate(words = words %>% format(big.mark = ","),
+         `one in every n words` = `one in every n words`%>% round() %>% format(big.mark = ",")) %>% 
   kable(format = 'pipe',
-        digits = c(0, 0, 0, 0, 2, 6, 0))
+        digits = c(0, 0, 0, 0, 2, 6, 0),
+        align = "lrrrrrr")
 
 colnames(ok_cast) <- c("name", "count", "attended", "words", "per_episode", "per_word", "one_in_every")
 

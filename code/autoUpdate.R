@@ -138,7 +138,7 @@ if (episode == (episodeCount[nrow(episodeCount), 2] + 1)) {
     output_dir = here("docs")
   )
   rmarkdown::render(here("code", "RmdFiles", "okay_okay_okay.Rmd"),
-                    output_dir = here("docs")
+    output_dir = here("docs")
   )
   rmarkdown::render(here("code", "RmdFiles", "README.Rmd"),
     output_dir = here()
