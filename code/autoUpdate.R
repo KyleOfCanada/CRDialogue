@@ -124,7 +124,7 @@ if (episode == (episodeCount[nrow(episodeCount), 2] + 1)) {
   runC3Guests <- FALSE # set to TRUE to run code for guests in C3
   source(here("code", "wordCloudsC3.R"))
   source(here("code", "sentiments.R"))
-  # source(here('code', 'bigramCloudsC2.R'))
+  source(here('code', 'bigramCloudsC3.R'))
 
   # render updated markdown docs
   rmarkdown::render(here("code", "RmdFiles", "wordCloudsC3.Rmd"),
@@ -133,8 +133,9 @@ if (episode == (episodeCount[nrow(episodeCount), 2] + 1)) {
   rmarkdown::render(here("code", "RmdFiles", "sentiments.Rmd"),
     output_dir = here("docs")
   )
-  # rmarkdown::render(here('code', 'RmdFiles', 'bigramsC2.Rmd'),
-  #                   output_dir = here('docs'))
+  rmarkdown::render(here("code", "RmdFiles", "bigramsC3.Rmd"),
+    output_dir = here("docs")
+  )
   rmarkdown::render(here("code", "RmdFiles", "README.Rmd"),
     output_dir = here()
   )

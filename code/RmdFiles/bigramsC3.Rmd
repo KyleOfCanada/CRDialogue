@@ -1,0 +1,76 @@
+---
+output:
+  github_document:
+    html_preview: false
+---
+
+```{r setup, include=FALSE, message=FALSE}
+library(tidyverse)
+library(here)
+library(knitr)
+
+castBigrams3 <- readRDS(here('data', 'bigramsC3.rds')) %>% 
+  arrange(name, desc(tf_idf)) %>% 
+  group_by(name) %>% 
+  mutate(rank = row_number()) %>% 
+  filter(rank < 11) %>% 
+  ungroup()
+```
+
+## Bigrams for C3
+
+Pairs of words, bigrams, were analyzed. Bigrams containing stopwords or digits were dropped, and bigrams were ranked by how unique they were to each cast member, using tf-idf.
+
+#### Ashley
+
+![Ashley](../plots/bigramClouds/C3/C3ASHLEY.png)
+
+`r castBigrams3 %>% filter(name == 'ASHLEY') %>% select(rank, bigram) %>% kable()`
+
+#### Laura
+
+![Laura](../plots/bigramClouds/C3/C3LAURA.png)
+
+`r castBigrams3 %>% filter(name == 'LAURA') %>% select(rank, bigram) %>% kable()`
+
+#### Liam
+
+![Liam](../plots/bigramClouds/C3/C3LIAM.png)
+
+`r castBigrams3 %>% filter(name == 'LIAM') %>% select(rank, bigram) %>% kable()`
+
+#### Marisha
+
+![Marisha](../plots/bigramClouds/C3/C3MARISHA.png)
+
+`r castBigrams3 %>% filter(name == 'MARISHA') %>% select(rank, bigram) %>% kable()`
+
+#### Matt
+
+![Matt](../plots/bigramClouds/C3/C3MATT.png)
+
+`r castBigrams3 %>% filter(name == 'MATT') %>% select(rank, bigram) %>% kable()`
+
+#### Robbie
+
+![Robbie](../plots/bigramClouds/C3/C3MROBBIE.png)
+
+`r castBigrams3 %>% filter(name == 'ROBBIE') %>% select(rank, bigram) %>% kable()`
+
+#### Sam
+
+![Sam](../plots/bigramClouds/C3/C3SAM.png)
+
+`r castBigrams3 %>% filter(name == 'SAM') %>% select(rank, bigram) %>% kable()`
+
+#### Taliesin
+
+![Taliesin](../plots/bigramClouds/C3/C3TALIESIN.png)
+
+`r castBigrams3 %>% filter(name == 'TALIESIN') %>% select(rank, bigram) %>% kable()`
+
+#### Travis
+
+![Travis](../plots/bigramClouds/C3/C3TRAVIS.png)
+
+`r castBigrams3 %>% filter(name == 'TRAVIS') %>% select(rank, bigram) %>% kable()`

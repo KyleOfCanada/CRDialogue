@@ -17,7 +17,8 @@ An exploration of the dialogue from Critical Role
     3](docs/wordCloudsC3.md)
 
 -   Bigram Analysis for [Campaign 1](docs/bigramsC1.md), [Campaign
-    2](docs/bigramsC2.md), and [Exandria Unlimited](docs/bigramsExU1.md)
+    2](docs/bigramsC2.md), [Exandria Unlimited](docs/bigramsExU1.md),
+    and [Campaign 3](docs/bigramsC3.md)
 
 -   [“Okay, Okay, Okay”: Who said it and when?”](docs/okay_okay_okay.md)
 
