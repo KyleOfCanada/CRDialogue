@@ -13,6 +13,8 @@ episode <- episodeCount[nrow(episodeCount), 2]
 moreEpisodes <- TRUE
 
 # progress through downloading episodes until file not found
+counter <- 0 # DEBUG
+
 while (moreEpisodes) {
   oneshot <- episode + .01
   moreOneshots <- TRUE
@@ -27,7 +29,8 @@ while (moreEpisodes) {
       print("Successful Error!") # DEBUG
     } else {
       oneshot <- oneshot + .01
-      moreOneshots <- FALSE # DEBUG
+      counter <- counter + 1 # DEBUG
+      if (counter > 4) {moreOneshots <- FALSE} # DEBUG
     }
   }
 
@@ -41,7 +44,8 @@ while (moreEpisodes) {
     moreEpisodes <- FALSE
     print("Successful Error!") # DEBUG
   }
-  moreEpisodes <- FALSE # DEBUG
+  counter <- counter + 1 # DEBUG
+  if (counter > 4) {moreOneshots <- FALSE} # DEBUG
 }
 
 if (episode == (episodeCount[nrow(episodeCount), 2] + 1)) {
