@@ -30,7 +30,10 @@ while (moreEpisodes) {
     } else {
       oneshot <- oneshot + .01
       counter <- counter + 1 # DEBUG
-      if (counter > 4) {moreOneshots <- FALSE} # DEBUG
+      if (counter > 4) {
+        moreOneshots <- FALSE
+        cat("\nDownload limit reached!\n\n")
+      } # DEBUG
     }
   }
 
