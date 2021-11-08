@@ -11,40 +11,40 @@ frequency with which it is said changed over the campaigns?
 
 | name     | count | attended |     words | per episode | per word | one in every n words |
 |:---------|------:|---------:|----------:|------------:|---------:|---------------------:|
-| Ashley   |    86 |      142 |   141,367 |        0.61 | 0.001825 |                  548 |
-| Laura    |   248 |      247 |   704,248 |        1.00 | 0.001056 |                  947 |
-| Marisha  |   168 |      255 |   564,797 |        0.66 | 0.000892 |                1,121 |
-| Sam      |    51 |      248 |   556,814 |        0.21 | 0.000275 |                3,639 |
-| Travis   |    17 |      247 |   509,416 |        0.07 | 0.000100 |                9,989 |
-| Liam     |    16 |      253 |   577,868 |        0.06 | 0.000083 |               12,039 |
-| Taliesin |     2 |      252 |   524,907 |        0.01 | 0.000011 |               87,484 |
-| Matt     |     6 |      257 | 3,128,544 |        0.02 | 0.000006 |              173,808 |
+| Ashley   |    86 |      143 |   142,803 |        0.60 | 0.001807 |                  554 |
+| Laura    |   248 |      248 |   707,249 |        1.00 | 0.001052 |                  951 |
+| Marisha  |   168 |      256 |   567,336 |        0.66 | 0.000888 |                1,126 |
+| Sam      |    51 |      249 |   559,681 |        0.20 | 0.000273 |                3,658 |
+| Travis   |    17 |      248 |   511,540 |        0.07 | 0.000100 |               10,030 |
+| Liam     |    16 |      254 |   580,381 |        0.06 | 0.000083 |               12,091 |
+| Taliesin |     2 |      253 |   527,680 |        0.01 | 0.000011 |               87,947 |
+| Matt     |     6 |      258 | 3,142,245 |        0.02 | 0.000006 |              174,569 |
 
 It turns out that both Laura (248) and Marisha (168) have said “Okay,
 Okay, Okay” more times than Ashley (86). However, they both were present
 for more episodes, and have said many more words than Ashley. If we look
 at how many times they said it per episode they were in, Laura still
 comes out on top, averaging 1 “Okay, Okay, Okay”s per episode, with
-Marisha and Ashley averaging 0.659 and 0.606 respectively. But if we
+Marisha and Ashley averaging 0.656 and 0.601 respectively. But if we
 look at the total number of words they said, we see that Ashley
-(141,367) said fewer words than either Laura (704,248) or Marisha
-(564,797). Taking this into account, we find that 1 in every 548 words
+(142,803) said fewer words than either Laura (707,249) or Marisha
+(567,336). Taking this into account, we find that 1 in every 554 words
 that Ashley said was part of “Okay, Okay, Okay”, compared to 1 in every
-947 for Laura, and 1 in every 1121 for Marisha. So while Ashley may not
+951 for Laura, and 1 in every 1126 for Marisha. So while Ashley may not
 have said it the most, she did have the highest frequency of “Okay,
 Okay, Okay” in her dialogue.
 
 Another interesting point is that if we compare the number of times per
 episode “Okay, Okay, Okay” is said when Ashley is present versus when
-she is absent, we see that “Okay, Okay, Okay” is said an average of 3.1
+she is absent, we see that “Okay, Okay, Okay” is said an average of 3.08
 times per episode when Ashley is there, and only 1.37 times per episode
-when she is absent. This is an average increase of 1.73 times per
-episode when Ashley is present, but Ashley herself only averages 0.606
+when she is absent. This is an average increase of 1.71 times per
+episode when Ashley is present, but Ashley herself only averages 0.601
 “Okay, Okay, Okay”s per episode. This suggests that having Ashley at the
 table results in the other cast members saying “Okay, Okay, Okay” more
 often! And a Wilcoxon rank sum test confirms that “Okay, Okay, Okay” is
 said at a statistically significant higher rate when Ashley is present
-(*p* = 0.000216). However, as shown in the next section, it is difficult
+(*p* = 0.000277). However, as shown in the next section, it is difficult
 to untangle this from the change in the frequency of “Okay, Okay, Okay”
 over the two campaigns, and Ashley’s more frequent presence in the later
 episodes of campaign 2.
