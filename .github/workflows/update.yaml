@@ -1,7 +1,7 @@
 on:
   workflow_dispatch:
-  schedule:
-    - cron:  '0 15 * * MON'
+  # schedule:
+  #   - cron:  '0 15 * * MON'
 
 name: auto update
 
