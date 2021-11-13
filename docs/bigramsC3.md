@@ -9,52 +9,52 @@ each cast member, using tf-idf.
 
 ![Ashley](../plots/bigramClouds/C3/C3ASHLEY.png)
 
-| rank | bigram             |
-|-----:|:-------------------|
-|    1 | cast burning       |
-|    2 | cool cool          |
-|    3 | burning hands      |
-|    4 | playing cards      |
-|    5 | alaskan crab       |
-|    6 | allhammer laughter |
-|    7 | arms length        |
-|    8 | discount laughter  |
-|    9 | distracted candy   |
-|   10 | dorian’s hand      |
+| rank | bigram            |
+|-----:|:------------------|
+|    1 | ow ow             |
+|    2 | bite attack       |
+|    3 | cast burning      |
+|    4 | constrictor snake |
+|    5 | flip flops        |
+|    6 | flute whistling   |
+|    7 | real slow         |
+|    8 | start clomping    |
+|    9 | start slithering  |
+|   10 | cool cool         |
 
 #### Laura
 
 ![Laura](../plots/bigramClouds/C3/C3LAURA.png)
 
-| rank | bigram         |
-|-----:|:---------------|
-|    1 | ow ow          |
-|    2 | laura laura    |
-|    3 | 2nd level      |
-|    4 | madam zhudanna |
-|    5 | witch bolt     |
-|    6 | bright bright  |
-|    7 | cast witch     |
-|    8 | ha ha          |
-|    9 | miss imogen    |
-|   10 | orym’s inside  |
+| rank | bigram               |
+|-----:|:---------------------|
+|    1 | laura laura          |
+|    2 | ow ow                |
+|    3 | 2nd level            |
+|    4 | madam zhudanna       |
+|    5 | witch bolt           |
+|    6 | bright bright        |
+|    7 | cacophonous whispers |
+|    8 | cast witch           |
+|    9 | ha ha                |
+|   10 | lost focus           |
 
 #### Liam
 
 ![Liam](../plots/bigramClouds/C3/C3LIAM.png)
 
-| rank | bigram            |
-|-----:|:------------------|
-|    1 | gunk gunk         |
-|    2 | goading attack    |
-|    3 | strength save     |
-|    4 | action surge      |
-|    5 | air flipping      |
-|    6 | wisdom save       |
-|    7 | terrible terrible |
-|    8 | cool cool         |
-|    9 | 1d6 falling       |
-|   10 | abe lincoln       |
+| rank | bigram          |
+|-----:|:----------------|
+|    1 | gunk gunk       |
+|    2 | strength save   |
+|    3 | action surge    |
+|    4 | goading attack  |
+|    5 | air flipping    |
+|    6 | boogety boogety |
+|    7 | feinting attack |
+|    8 | ground level    |
+|    9 | lay low         |
+|   10 | running start   |
 
 #### Marisha
 
@@ -63,32 +63,32 @@ each cast member, using tf-idf.
 | rank | bigram          |
 |-----:|:----------------|
 |    1 | eldritch blast  |
-|    2 | atlantic accent |
-|    3 | black skirt     |
-|    4 | blood maroon    |
-|    5 | feeling pretty  |
-|    6 | imogen imogen   |
-|    7 | maroon blouse   |
-|    8 | mid atlantic    |
-|    9 | production team |
-|   10 | saving throw    |
+|    2 | wait wait       |
+|    3 | imogen imogen   |
+|    4 | saving throw    |
+|    5 | ooh ooh         |
+|    6 | shadow creepers |
+|    7 | door team       |
+|    8 | atlantic accent |
+|    9 | black skirt     |
+|   10 | blood maroon    |
 
 #### Matt
 
 ![Matt](../plots/bigramClouds/C3/C3MATT.png)
 
-| rank | bigram             |
-|-----:|:-------------------|
-|    1 | bludgeoning damage |
-|    2 | perception check   |
-|    3 | deception check    |
-|    4 | persuasion check   |
-|    5 | hand check         |
-|    6 | roll damage        |
-|    7 | stealth check      |
-|    8 | fresh cut          |
-|    9 | oderan wilds       |
-|   10 | lord eshteross     |
+| rank | bigram              |
+|-----:|:--------------------|
+|    1 | perception check    |
+|    2 | fire damage         |
+|    3 | roll damage         |
+|    4 | deception check     |
+|    5 | bludgeoning damage  |
+|    6 | persuasion check    |
+|    7 | piercing damage     |
+|    8 | investigation check |
+|    9 | dexterity saving    |
+|   10 | stealth check       |
 
 #### Robbie
 
@@ -96,64 +96,64 @@ each cast member, using tf-idf.
 
 | rank | bigram            |
 |-----:|:------------------|
-|    1 | food carts        |
-|    2 | oy oy             |
-|    3 | splash zone       |
-|    4 | strong boy        |
-|    5 | short rest        |
-|    6 | dorian storm      |
-|    7 | 1d6 hit           |
-|    8 | accidentally drop |
-|    9 | ah yeah           |
-|   10 | air genasi        |
+|    1 | cure wounds       |
+|    2 | cast cure         |
+|    3 | bertrand bertrand |
+|    4 | food carts        |
+|    5 | oy oy             |
+|    6 | poopy pants       |
+|    7 | princess carry    |
+|    8 | splash zone       |
+|    9 | strong boy        |
+|   10 | short rest        |
 
 #### Sam
 
 ![Sam](../plots/bigramClouds/C3/C3SAM.png)
 
-| rank | bigram                |
-|-----:|:----------------------|
-|    1 | fresh cut             |
-|    2 | human male            |
-|    3 | brings y’all          |
-|    4 | cast identify         |
-|    5 | chest plate           |
-|    6 | grappling cannon      |
-|    7 | perception perception |
-|    8 | robot voice           |
-|    9 | separate paths        |
-|   10 | surface level         |
+| rank | bigram           |
+|-----:|:-----------------|
+|    1 | human male       |
+|    2 | smiley day       |
+|    3 | brings y’all     |
+|    4 | cast bless       |
+|    5 | cast guidance    |
+|    6 | cast identify    |
+|    7 | chest plate      |
+|    8 | grappling cannon |
+|    9 | grappling hook   |
+|   10 | healing word     |
 
 #### Taliesin
 
 ![Taliesin](../plots/bigramClouds/C3/C3TALIESIN.png)
 
-| rank | bigram           |
-|-----:|:-----------------|
-|    1 | top shelf        |
-|    2 | chaos burst      |
-|    3 | card playing     |
-|    4 | couple months    |
-|    5 | earth genasi     |
-|    6 | force damage     |
-|    7 | funny feeling    |
-|    8 | melt metal       |
-|    9 | playing showdown |
-|   10 | shelf top        |
+| rank | bigram            |
+|-----:|:------------------|
+|    1 | chaos burst       |
+|    2 | force damage      |
+|    3 | fuck’s sake       |
+|    4 | top shelf         |
+|    5 | lightning damage  |
+|    6 | bad call          |
+|    7 | card playing      |
+|    8 | constitution save |
+|    9 | contact eye       |
+|   10 | couple months     |
 
 #### Travis
 
 ![Travis](../plots/bigramClouds/C3/C3TRAVIS.png)
 
-| rank | bigram          |
-|-----:|:----------------|
-|    1 | tight quarters  |
-|    2 | vox machina     |
-|    3 | gambler’s blade |
-|    4 | quarters tight  |
-|    5 | slashing damage |
-|    6 | lord eshteross  |
-|    7 | eshteross manor |
-|    8 | bertrand bell   |
-|    9 | de rolos        |
-|   10 | 00am naturally  |
+| rank | bigram           |
+|-----:|:-----------------|
+|    1 | bertrand’s bells |
+|    2 | gambler’s blade  |
+|    3 | sorcerous swords |
+|    4 | tight quarters   |
+|    5 | vox machina      |
+|    6 | lord eshteross   |
+|    7 | chanting level   |
+|    8 | ca caw           |
+|    9 | clears throat    |
+|   10 | hot hot          |
