@@ -8,7 +8,7 @@ name: auto update
 jobs:
   render:
     name: auto update
-    runs-on: ubuntu-latest
+    runs-on: macos-latest
     steps:
       - name: checkout repo
         uses: actions/checkout@v1
@@ -19,8 +19,8 @@ jobs:
         uses: r-lib/actions/setup-r@v1
       - name: setup pandoc
         uses: r-lib/actions/setup-pandoc@v1
-      - name: install libcurl
-        run: sudo apt-get install libcurl4-openssl-dev
+      # - name: install libcurl
+      #   run: sudo apt-get install libcurl4-openssl-dev
       - name: install r packages
         run: Rscript -e 'install.packages(c("knitr", "rmarkdown", "tidyverse", "here", "rvest", "lubridate", "googlesheets4", "tidytext", "textdata", "wordcloud", "httr", "effsize"))'
       - name: auto update and notification
