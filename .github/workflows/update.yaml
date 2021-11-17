@@ -22,7 +22,7 @@ jobs:
       # - name: install libcurl
       #   run: sudo apt-get install libcurl4-openssl-dev
       - name: install r packages
-        run: Rscript -e 'install.packages(c("knitr", "rmarkdown", "tidyverse", "here", "rvest", "lubridate", "googlesheets4", "tidytext", "textdata", "wordcloud", "httr", "effsize"))'
+        run: Rscript -e 'install.packages(c("knitr", "rmarkdown", "tidyverse", "here", "rvest", "lubridate", "googlesheets4", "tidytext", "textdata", "wordcloud", "httr", "effsize", "fmsb"))'
       - name: make directories
         run: mkdir data/html
       - name: auto update and notification
