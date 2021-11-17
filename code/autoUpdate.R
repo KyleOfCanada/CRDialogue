@@ -115,6 +115,7 @@ if (episode == (episodeCount[nrow(episodeCount), 2] + 1)) {
   }
 
   # read in html files and save as rds
+  cat("reading html files\n")
   list.files(here("data", "html"),
     pattern = "\\.html",
     full.names = TRUE
@@ -123,6 +124,7 @@ if (episode == (episodeCount[nrow(episodeCount), 2] + 1)) {
 
 
   # delete processed html files
+  cat("deleting html files\n")
   list.files(here("data", "html"),
     pattern = "\\.html",
     full.names = TRUE
@@ -130,12 +132,17 @@ if (episode == (episodeCount[nrow(episodeCount), 2] + 1)) {
     map(file.remove)
 
   # run R scripts with new episodes
+  cat("wrangling data\n")
   source(here("code", "wrangleDataC3.R"))
+  cat("Wordclouds\n")
   runC3Guests <- FALSE # set to TRUE to run code for guests in C3
   source(here("code", "wordCloudsC3.R"))
+  cat("Sentiments\n")
   source(here("code", "sentiments.R"))
-  source(here('code', 'bigramCloudsC3.R'))
-  source(here('code', 'okayAnalysis.R'))
+  cat("bigrams\n")
+  source(here("code", "bigramCloudsC3.R"))
+  cat("Okay\n")
+  source(here("code", "okayAnalysis.R"))
 
   # render updated markdown docs
   rmarkdown::render(here("code", "RmdFiles", "wordCloudsC3.Rmd"),
