@@ -119,8 +119,8 @@ posNeg2 <- datAfinn %>%
 
 plotPosNeg <- posNeg %>%
   mutate(name = factor(name,
-    levels = c("TRAVIS", "MARISHA", "LIAM", "TALIESIN", "SAM", "ASHLEY", "LAURA", "ROBBIE")
-  )) %>%
+    levels = posNeg$name),
+    name = fct_rev(name)) %>%
   ggplot(aes(
     x = name,
     y = ratio
@@ -194,8 +194,8 @@ joySad <- datNRC %>%
 
 plotJoySad <- joySad %>%
   mutate(name = factor(name,
-    levels = c("TALIESIN", "TRAVIS", "LIAM", "MARISHA", "SAM", "LAURA", "ASHLEY", "ROBBIE")
-  )) %>%
+    levels = joySad$name),
+    name = fct_rev(name)) %>%
   ggplot(aes(
     x = name,
     y = ratio
