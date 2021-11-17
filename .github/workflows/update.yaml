@@ -25,6 +25,15 @@ jobs:
         run: Rscript -e 'install.packages(c("knitr", "rmarkdown", "tidyverse", "here", "rvest", "lubridate", "googlesheets4", "tidytext", "textdata", "wordcloud", "httr", "effsize", "fmsb"))'
       - name: make directories
         run: mkdir data/html
+      - name: get lexicons
+        run: |
+          textdata::lexicon_nrc()
+          1
+          textdata::lexicon_bing()
+          1
+          textdata::lexicon_afinn()
+          1
+        shell: Rscript {0}
       - name: auto update and notification
         env:
           IFTTT_KEY: ${{ secrets.IFTTT_KEY }}
