@@ -10,24 +10,24 @@ each cast member, using tf-idf.
 ![Ashley](../plots/bigramClouds/C3/C3ASHLEY.png)
 
 | rank | bigram            |
-|-----:|:------------------|
-|    1 | ow ow             |
-|    2 | bite attack       |
-|    3 | cast burning      |
-|    4 | constrictor snake |
-|    5 | flip flops        |
-|    6 | flute whistling   |
-|    7 | real slow         |
-|    8 | start clomping    |
-|    9 | start slithering  |
-|   10 | cool cool         |
+| ---: | :---------------- |
+|    1 | whoa whoa         |
+|    2 | cool cool         |
+|    3 | ow ow             |
+|    4 | bite attack       |
+|    5 | cast burning      |
+|    6 | constrictor snake |
+|    7 | flip flops        |
+|    8 | flute whistling   |
+|    9 | real slow         |
+|   10 | start clomping    |
 
 #### Laura
 
 ![Laura](../plots/bigramClouds/C3/C3LAURA.png)
 
 | rank | bigram               |
-|-----:|:---------------------|
+| ---: | :------------------- |
 |    1 | laura laura          |
 |    2 | ow ow                |
 |    3 | 2nd level            |
@@ -43,32 +43,32 @@ each cast member, using tf-idf.
 
 ![Liam](../plots/bigramClouds/C3/C3LIAM.png)
 
-| rank | bigram          |
-|-----:|:----------------|
-|    1 | gunk gunk       |
-|    2 | strength save   |
-|    3 | action surge    |
-|    4 | goading attack  |
-|    5 | air flipping    |
-|    6 | boogety boogety |
-|    7 | feinting attack |
-|    8 | ground level    |
-|    9 | lay low         |
-|   10 | running start   |
+| rank | bigram         |
+| ---: | :------------- |
+|    1 | gunk gunk      |
+|    2 | strength save  |
+|    3 | action surge   |
+|    4 | goading attack |
+|    5 | jingle jingle  |
+|    6 | running start  |
+|    7 | bird shit      |
+|    8 | shit simurgh   |
+|    9 | simurgh shit   |
+|   10 | air flipping   |
 
 #### Marisha
 
 ![Marisha](../plots/bigramClouds/C3/C3MARISHA.png)
 
 | rank | bigram          |
-|-----:|:----------------|
+| ---: | :-------------- |
 |    1 | eldritch blast  |
-|    2 | wait wait       |
-|    3 | imogen imogen   |
-|    4 | saving throw    |
-|    5 | ooh ooh         |
-|    6 | shadow creepers |
-|    7 | door team       |
+|    2 | imogen imogen   |
+|    3 | ooh ooh         |
+|    4 | pâté de         |
+|    5 | shadow creepers |
+|    6 | door team       |
+|    7 | wait wait       |
 |    8 | atlantic accent |
 |    9 | black skirt     |
 |   10 | blood maroon    |
@@ -78,43 +78,43 @@ each cast member, using tf-idf.
 ![Matt](../plots/bigramClouds/C3/C3MATT.png)
 
 | rank | bigram              |
-|-----:|:--------------------|
+| ---: | :------------------ |
 |    1 | perception check    |
-|    2 | fire damage         |
-|    3 | roll damage         |
-|    4 | deception check     |
-|    5 | bludgeoning damage  |
-|    6 | persuasion check    |
-|    7 | piercing damage     |
-|    8 | investigation check |
+|    2 | roll damage         |
+|    3 | fire damage         |
+|    4 | persuasion check    |
+|    5 | deception check     |
+|    6 | bludgeoning damage  |
+|    7 | investigation check |
+|    8 | piercing damage     |
 |    9 | dexterity saving    |
-|   10 | stealth check       |
+|   10 | core spire          |
 
 #### Robbie
 
 ![Robbie](../plots/bigramClouds/C3/C3ROBBIE.png)
 
 | rank | bigram            |
-|-----:|:------------------|
+| ---: | :---------------- |
 |    1 | cure wounds       |
 |    2 | cast cure         |
-|    3 | bertrand bertrand |
-|    4 | food carts        |
-|    5 | oy oy             |
-|    6 | poopy pants       |
-|    7 | princess carry    |
-|    8 | splash zone       |
-|    9 | strong boy        |
-|   10 | short rest        |
+|    3 | food carts        |
+|    4 | oy oy             |
+|    5 | poopy pants       |
+|    6 | princess carry    |
+|    7 | splash zone       |
+|    8 | strong boy        |
+|    9 | short rest        |
+|   10 | bertrand bertrand |
 
 #### Sam
 
 ![Sam](../plots/bigramClouds/C3/C3SAM.png)
 
 | rank | bigram           |
-|-----:|:-----------------|
-|    1 | human male       |
-|    2 | smiley day       |
+| ---: | :--------------- |
+|    1 | smiley day       |
+|    2 | human male       |
 |    3 | brings y’all     |
 |    4 | cast bless       |
 |    5 | cast guidance    |
@@ -122,38 +122,38 @@ each cast member, using tf-idf.
 |    7 | chest plate      |
 |    8 | grappling cannon |
 |    9 | grappling hook   |
-|   10 | healing word     |
+|   10 | hardest word     |
 
 #### Taliesin
 
 ![Taliesin](../plots/bigramClouds/C3/C3TALIESIN.png)
 
-| rank | bigram            |
-|-----:|:------------------|
-|    1 | chaos burst       |
-|    2 | force damage      |
-|    3 | fuck’s sake       |
-|    4 | top shelf         |
-|    5 | lightning damage  |
-|    6 | bad call          |
-|    7 | card playing      |
-|    8 | constitution save |
-|    9 | contact eye       |
-|   10 | couple months     |
+| rank | bigram               |
+| ---: | :------------------- |
+|    1 | fuck’s sake          |
+|    2 | chaos burst          |
+|    3 | force damage         |
+|    4 | top shelf            |
+|    5 | fuck yeah            |
+|    6 | lightning damage     |
+|    7 | breakfast sandwiches |
+|    8 | pretty cool          |
+|    9 | bad call             |
+|   10 | card playing         |
 
 #### Travis
 
 ![Travis](../plots/bigramClouds/C3/C3TRAVIS.png)
 
 | rank | bigram           |
-|-----:|:-----------------|
+| ---: | :--------------- |
 |    1 | bertrand’s bells |
-|    2 | gambler’s blade  |
-|    3 | sorcerous swords |
-|    4 | tight quarters   |
-|    5 | vox machina      |
-|    6 | lord eshteross   |
-|    7 | chanting level   |
-|    8 | ca caw           |
-|    9 | clears throat    |
-|   10 | hot hot          |
+|    2 | sorcerous swords |
+|    3 | tight quarters   |
+|    4 | chanting level   |
+|    5 | gambler’s blade  |
+|    6 | ca caw           |
+|    7 | clears throat    |
+|    8 | hot hot          |
+|    9 | quarters tight   |
+|   10 | straight ahead   |
