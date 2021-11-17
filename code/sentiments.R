@@ -16,6 +16,10 @@ dat <- bind_rows(datC1, datC2, datC3) %>%
     gamePlay
   )
 
+dat_nrc <- lexicon_nrc(dir = here("cache", "tidytext"), manual_download = TRUE)
+dat_bing <- lexicon_bing(dir = here("cache", "tidytext"), manual_download = TRUE)
+dat_afinn <- lexicon_afinn(dir = here("cache", "tidytext"), manual_download = TRUE)
+
 #### tokenize text, get sentiments, calc sentiment frequencies ####
 
 negatorWords <- nma_words %>%
@@ -32,7 +36,7 @@ datNRC <- dat %>%
   unnest_tokens(word, sentence) %>%
   group_by(sentenceNumber) %>%
   mutate(negated = lag(word) %in% negatorWords$word) %>%
-  inner_join(get_sentiments("nrc"))
+  inner_join(dat_nrc)
 
 
 totalSentiments <- datNRC %>%
@@ -79,7 +83,7 @@ datBing <- dat %>%
   unnest_tokens(word, sentence) %>%
   group_by(sentenceNumber) %>%
   mutate(negated = lag(word) %in% negatorWords$word) %>%
-  inner_join(get_sentiments("bing")) %>%
+  inner_join(dat_bing) %>%
   mutate(sentiment = ifelse(negated,
     ifelse(sentiment == "positive",
       "negative",
@@ -106,7 +110,7 @@ datAfinn <- dat %>%
   filter(mainCast) %>%
   select(name, campaign, episode, text) %>%
   unnest_tokens(word, text) %>%
-  inner_join(get_sentiments("afinn"))
+  inner_join(dat_afinn)
 
 posNeg2 <- datAfinn %>%
   filter(name != "MATT") %>%

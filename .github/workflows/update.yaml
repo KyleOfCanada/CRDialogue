@@ -19,21 +19,28 @@ jobs:
         uses: r-lib/actions/setup-r@v1
       - name: setup pandoc
         uses: r-lib/actions/setup-pandoc@v1
-      # - name: install libcurl
-      #   run: sudo apt-get install libcurl4-openssl-dev
       - name: install r packages
         run: Rscript -e 'install.packages(c("knitr", "rmarkdown", "tidyverse", "here", "rvest", "lubridate", "googlesheets4", "tidytext", "textdata", "wordcloud", "httr", "effsize", "fmsb"))'
       - name: make directories
         run: mkdir data/html
       - name: get lexicons
         run: |
-          textdata::lexicon_nrc()
-          1
-          textdata::lexicon_bing()
-          1
-          textdata::lexicon_afinn()
-          1
-        shell: Rscript {0}
+          mkdir cache
+          mkdir cache/tidytext
+          mkdir cache/tidytext/nrc
+          cd cache/tidytext/nrc 
+          curl -O http://saifmohammad.com/WebDocs/NRC-Emotion-Lexicon.zip
+          unzip NRC-Emotion-Lexicon.zip
+          cd ..
+          mkdir bing
+          cd bing
+          curl -L -O http://ptrckprry.com/course/ssd/data/negative-words.txt
+          curl -L -O http://ptrckprry.com/course/ssd/data/positive-words.txt
+          cd ..
+          mkdir afinn
+          cd afinn
+          curl -L -O http://www2.imm.dtu.dk/pubdb/views/edoc_download.php/6010/zip/imm6010.zip
+          unzip imm6010.zip
       - name: auto update and notification
         env:
           IFTTT_KEY: ${{ secrets.IFTTT_KEY }}
