@@ -40,5 +40,7 @@ Again Liam is near the bottom, but Travis still has a lower score.
 ### References for lexicons
 
 Hu, M., & Liu, B. (2004). Mining and summarizing customer reviews. Proceedings of the 2004 ACM SIGKDD International Conference on Knowledge Discovery and Data Mining  - KDD ’04, 168. https://doi.org/10.1145/1014052.1014073
+
 Mohammad, S. M., & Turney, P. D. (2013). Crowdsourcing a Word–Emotion Association Lexicon. Computational Intelligence, 29(3), 436–465. https://doi.org/10.1111/j.1467-8640.2012.00460.x
+
 Nielsen, F. Å. (2011). A new ANEW: Evaluation of a word list for sentiment analysis in microblogs. ArXiv:1103.2903 [Cs]. http://arxiv.org/abs/1103.2903
