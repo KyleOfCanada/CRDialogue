@@ -20,7 +20,7 @@ jobs:
       - name: setup pandoc
         uses: r-lib/actions/setup-pandoc@v1
       - name: install r packages
-        run: Rscript -e 'install.packages(c("knitr", "rmarkdown", "tidyverse", "here", "rvest", "lubridate", "googlesheets4", "tidytext", "textdata", "wordcloud", "httr", "effsize", "fmsb"))'
+        run: Rscript -e 'install.packages(c("knitr", "rmarkdown", "tidyverse", "here", "rvest", "lubridate", "googlesheets4", "tidytext", "textdata", "wordcloud", "httr", "effsize", "fmsb", "Hmisc"))'
       - name: make directories
         run: mkdir data/html
       - name: get lexicons
