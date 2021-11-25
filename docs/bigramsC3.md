@@ -12,32 +12,32 @@ each cast member, using tf-idf.
 | rank | bigram            |
 | ---: | :---------------- |
 |    1 | whoa whoa         |
-|    2 | cool cool         |
-|    3 | ow ow             |
-|    4 | bite attack       |
-|    5 | cast burning      |
-|    6 | constrictor snake |
-|    7 | flip flops        |
-|    8 | flute whistling   |
-|    9 | real slow         |
-|   10 | start clomping    |
+|    2 | cast burning      |
+|    3 | burning hands     |
+|    4 | ow ow             |
+|    5 | wild shape        |
+|    6 | bite attack       |
+|    7 | constrictor snake |
+|    8 | feels weird       |
+|    9 | flip flops        |
+|   10 | flute whistling   |
 
 #### Laura
 
 ![Laura](../plots/bigramClouds/C3/C3LAURA.png)
 
-| rank | bigram               |
-| ---: | :------------------- |
-|    1 | laura laura          |
-|    2 | ow ow                |
-|    3 | 2nd level            |
-|    4 | madam zhudanna       |
-|    5 | witch bolt           |
-|    6 | bright bright        |
-|    7 | cacophonous whispers |
-|    8 | cast witch           |
-|    9 | ha ha                |
-|   10 | lost focus           |
+| rank | bigram            |
+| ---: | :---------------- |
+|    1 | laura laura       |
+|    2 | ow ow             |
+|    3 | witch bolt        |
+|    4 | cast witch        |
+|    5 | psychic damage    |
+|    6 | telekinetic shove |
+|    7 | dancing lights    |
+|    8 | madam zhudanna    |
+|    9 | multiple people   |
+|   10 | lightning damage  |
 
 #### Liam
 
@@ -45,9 +45,9 @@ each cast member, using tf-idf.
 
 | rank | bigram         |
 | ---: | :------------- |
-|    1 | gunk gunk      |
-|    2 | strength save  |
-|    3 | action surge   |
+|    1 | strength save  |
+|    2 | action surge   |
+|    3 | gunk gunk      |
 |    4 | goading attack |
 |    5 | jingle jingle  |
 |    6 | running start  |
@@ -64,14 +64,14 @@ each cast member, using tf-idf.
 | ---: | :-------------- |
 |    1 | eldritch blast  |
 |    2 | imogen imogen   |
-|    3 | ooh ooh         |
-|    4 | pâté de         |
-|    5 | shadow creepers |
-|    6 | door team       |
-|    7 | wait wait       |
-|    8 | atlantic accent |
-|    9 | black skirt     |
-|   10 | blood maroon    |
+|    3 | la la           |
+|    4 | wisdom saving   |
+|    5 | false life      |
+|    6 | ooh ooh         |
+|    7 | pâté de         |
+|    8 | shadow creepers |
+|    9 | saving throw    |
+|   10 | door team       |
 
 #### Matt
 
@@ -79,33 +79,33 @@ each cast member, using tf-idf.
 
 | rank | bigram              |
 | ---: | :------------------ |
-|    1 | perception check    |
+|    1 | fire damage         |
 |    2 | roll damage         |
-|    3 | fire damage         |
-|    4 | persuasion check    |
-|    5 | deception check     |
-|    6 | bludgeoning damage  |
+|    3 | persuasion check    |
+|    4 | perception check    |
+|    5 | dexterity saving    |
+|    6 | piercing damage     |
 |    7 | investigation check |
-|    8 | piercing damage     |
-|    9 | dexterity saving    |
-|   10 | core spire          |
+|    8 | deception check     |
+|    9 | bludgeoning damage  |
+|   10 | push past           |
 
 #### Robbie
 
 ![Robbie](../plots/bigramClouds/C3/C3ROBBIE.png)
 
-| rank | bigram            |
-| ---: | :---------------- |
-|    1 | cure wounds       |
-|    2 | cast cure         |
-|    3 | food carts        |
-|    4 | oy oy             |
-|    5 | poopy pants       |
-|    6 | princess carry    |
-|    7 | splash zone       |
-|    8 | strong boy        |
-|    9 | short rest        |
-|   10 | bertrand bertrand |
+| rank | bigram           |
+| ---: | :--------------- |
+|    1 | cure wounds      |
+|    2 | cast cure        |
+|    3 | beep boop        |
+|    4 | charm person     |
+|    5 | moon touched     |
+|    6 | touched scimitar |
+|    7 | ha ha            |
+|    8 | barely barely    |
+|    9 | bearing wall     |
+|   10 | boop beep        |
 
 #### Sam
 
@@ -113,33 +113,33 @@ each cast member, using tf-idf.
 
 | rank | bigram           |
 | ---: | :--------------- |
-|    1 | smiley day       |
-|    2 | human male       |
-|    3 | brings y’all     |
-|    4 | cast bless       |
-|    5 | cast guidance    |
-|    6 | cast identify    |
-|    7 | chest plate      |
-|    8 | grappling cannon |
-|    9 | grappling hook   |
-|   10 | hardest word     |
+|    1 | healing word     |
+|    2 | smiley day       |
+|    3 | grappling cannon |
+|    4 | human male       |
+|    5 | black light      |
+|    6 | brings y’all     |
+|    7 | cast bless       |
+|    8 | cast guidance    |
+|    9 | cast identify    |
+|   10 | chest plate      |
 
 #### Taliesin
 
 ![Taliesin](../plots/bigramClouds/C3/C3TALIESIN.png)
 
-| rank | bigram               |
-| ---: | :------------------- |
-|    1 | fuck’s sake          |
-|    2 | chaos burst          |
-|    3 | force damage         |
-|    4 | top shelf            |
-|    5 | fuck yeah            |
-|    6 | lightning damage     |
-|    7 | breakfast sandwiches |
-|    8 | pretty cool          |
-|    9 | bad call             |
-|   10 | card playing         |
+| rank | bigram           |
+| ---: | :--------------- |
+|    1 | chaos burst      |
+|    2 | lightning damage |
+|    3 | fuck’s sake      |
+|    4 | normal damage    |
+|    5 | reckless attack  |
+|    6 | earth genasi     |
+|    7 | force damage     |
+|    8 | shadowy bullshit |
+|    9 | top shelf        |
+|   10 | fuck yeah        |
 
 #### Travis
 
