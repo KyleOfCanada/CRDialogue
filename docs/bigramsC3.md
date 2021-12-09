@@ -18,9 +18,9 @@ each cast member, using tf-idf.
 |    5 | wild shape        |
 |    6 | bite attack       |
 |    7 | constrictor snake |
-|    8 | feels weird       |
-|    9 | flip flops        |
-|   10 | flute whistling   |
+|    8 | dr nesbitt        |
+|    9 | feels weird       |
+|   10 | flip flops        |
 
 #### Laura
 
@@ -43,18 +43,18 @@ each cast member, using tf-idf.
 
 ![Liam](../plots/bigramClouds/C3/C3LIAM.png)
 
-| rank | bigram         |
-| ---: | :------------- |
-|    1 | strength save  |
-|    2 | action surge   |
-|    3 | gunk gunk      |
-|    4 | goading attack |
-|    5 | jingle jingle  |
-|    6 | running start  |
-|    7 | bird shit      |
-|    8 | shit simurgh   |
-|    9 | simurgh shit   |
-|   10 | air flipping   |
+| rank | bigram             |
+| ---: | :----------------- |
+|    1 | strength save      |
+|    2 | action surge       |
+|    3 | gunk gunk          |
+|    4 | goading attack     |
+|    5 | deeply appreciated |
+|    6 | jingle jingle      |
+|    7 | running start      |
+|    8 | bird shit          |
+|    9 | shit simurgh       |
+|   10 | simurgh shit       |
 
 #### Marisha
 
@@ -67,11 +67,11 @@ each cast member, using tf-idf.
 |    3 | la la           |
 |    4 | wisdom saving   |
 |    5 | false life      |
-|    6 | ooh ooh         |
-|    7 | pâté de         |
-|    8 | shadow creepers |
-|    9 | saving throw    |
-|   10 | door team       |
+|    6 | pâté de         |
+|    7 | shadow creepers |
+|    8 | saving throw    |
+|    9 | door team       |
+|   10 | atlantic accent |
 
 #### Matt
 
@@ -80,15 +80,15 @@ each cast member, using tf-idf.
 | rank | bigram              |
 | ---: | :------------------ |
 |    1 | fire damage         |
-|    2 | roll damage         |
-|    3 | persuasion check    |
+|    2 | persuasion check    |
+|    3 | roll damage         |
 |    4 | perception check    |
 |    5 | dexterity saving    |
 |    6 | piercing damage     |
 |    7 | investigation check |
 |    8 | deception check     |
-|    9 | bludgeoning damage  |
-|   10 | push past           |
+|    9 | mahaan houses       |
+|   10 | bludgeoning damage  |
 
 #### Robbie
 
@@ -99,13 +99,13 @@ each cast member, using tf-idf.
 |    1 | cure wounds      |
 |    2 | cast cure        |
 |    3 | beep boop        |
-|    4 | charm person     |
-|    5 | moon touched     |
-|    6 | touched scimitar |
-|    7 | ha ha            |
-|    8 | barely barely    |
-|    9 | bearing wall     |
-|   10 | boop beep        |
+|    4 | boing boing      |
+|    5 | charm person     |
+|    6 | rhythm section   |
+|    7 | moon touched     |
+|    8 | touched scimitar |
+|    9 | ha ha            |
+|   10 | barely barely    |
 
 #### Sam
 
@@ -114,15 +114,15 @@ each cast member, using tf-idf.
 | rank | bigram           |
 | ---: | :--------------- |
 |    1 | healing word     |
-|    2 | smiley day       |
-|    3 | grappling cannon |
-|    4 | human male       |
-|    5 | black light      |
-|    6 | brings y’all     |
-|    7 | cast bless       |
-|    8 | cast guidance    |
-|    9 | cast identify    |
-|   10 | chest plate      |
+|    2 | hmm mm           |
+|    3 | smiley day       |
+|    4 | grappling cannon |
+|    5 | jam session      |
+|    6 | shiny day        |
+|    7 | human male       |
+|    8 | soul touched     |
+|    9 | black light      |
+|   10 | boy laughs       |
 
 #### Taliesin
 
@@ -134,12 +134,12 @@ each cast member, using tf-idf.
 |    2 | lightning damage |
 |    3 | fuck’s sake      |
 |    4 | normal damage    |
-|    5 | reckless attack  |
-|    6 | earth genasi     |
-|    7 | force damage     |
-|    8 | shadowy bullshit |
-|    9 | top shelf        |
-|   10 | fuck yeah        |
+|    5 | yep yep          |
+|    6 | fuck yeah        |
+|    7 | reckless attack  |
+|    8 | earth genasi     |
+|    9 | force damage     |
+|   10 | fucking crazy    |
 
 #### Travis
 
@@ -153,7 +153,7 @@ each cast member, using tf-idf.
 |    4 | chanting level   |
 |    5 | gambler’s blade  |
 |    6 | ca caw           |
-|    7 | clears throat    |
-|    8 | hot hot          |
-|    9 | quarters tight   |
-|   10 | straight ahead   |
+|    7 | hot hot          |
+|    8 | quarters tight   |
+|    9 | straight ahead   |
+|   10 | eshteross manor  |
