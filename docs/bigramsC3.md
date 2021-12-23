@@ -12,15 +12,15 @@ each cast member, using tf-idf.
 | rank | bigram            |
 | ---: | :---------------- |
 |    1 | whoa whoa         |
-|    2 | cast burning      |
-|    3 | burning hands     |
-|    4 | ow ow             |
-|    5 | wild shape        |
-|    6 | bite attack       |
-|    7 | constrictor snake |
-|    8 | dr nesbitt        |
-|    9 | feels weird       |
-|   10 | flip flops        |
+|    2 | wildfire spirit   |
+|    3 | wild shape        |
+|    4 | cast burning      |
+|    5 | flame seed        |
+|    6 | burning hands     |
+|    7 | bite attack       |
+|    8 | constrictor snake |
+|    9 | dink dink         |
+|   10 | dr nesbitt        |
 
 #### Laura
 
@@ -29,11 +29,11 @@ each cast member, using tf-idf.
 | rank | bigram            |
 | ---: | :---------------- |
 |    1 | laura laura       |
-|    2 | ow ow             |
-|    3 | witch bolt        |
-|    4 | cast witch        |
-|    5 | psychic damage    |
-|    6 | telekinetic shove |
+|    2 | cast witch        |
+|    3 | telekinetic shove |
+|    4 | psychic damage    |
+|    5 | witch bolt        |
+|    6 | ow ow             |
 |    7 | dancing lights    |
 |    8 | madam zhudanna    |
 |    9 | multiple people   |
@@ -45,33 +45,33 @@ each cast member, using tf-idf.
 
 | rank | bigram             |
 | ---: | :----------------- |
-|    1 | strength save      |
-|    2 | action surge       |
-|    3 | gunk gunk          |
-|    4 | goading attack     |
-|    5 | deeply appreciated |
-|    6 | jingle jingle      |
-|    7 | running start      |
-|    8 | bird shit          |
-|    9 | shit simurgh       |
-|   10 | simurgh shit       |
+|    1 | action surge       |
+|    2 | goading attack     |
+|    3 | strength save      |
+|    4 | gunk gunk          |
+|    5 | running start      |
+|    6 | superiority die    |
+|    7 | deeply appreciated |
+|    8 | jingle jingle      |
+|    9 | bird shit          |
+|   10 | low roll           |
 
 #### Marisha
 
 ![Marisha](../plots/bigramClouds/C3/C3MARISHA.png)
 
-| rank | bigram          |
-| ---: | :-------------- |
-|    1 | eldritch blast  |
-|    2 | imogen imogen   |
-|    3 | la la           |
-|    4 | wisdom saving   |
-|    5 | false life      |
-|    6 | pâté de         |
-|    7 | shadow creepers |
-|    8 | saving throw    |
-|    9 | door team       |
-|   10 | atlantic accent |
+| rank | bigram            |
+| ---: | :---------------- |
+|    1 | eldritch blast    |
+|    2 | creepy whispering |
+|    3 | imogen imogen     |
+|    4 | la la             |
+|    5 | temporary hit     |
+|    6 | wisdom saving     |
+|    7 | false life        |
+|    8 | pâté de           |
+|    9 | shadow creepers   |
+|   10 | door team         |
 
 #### Matt
 
@@ -79,14 +79,14 @@ each cast member, using tf-idf.
 
 | rank | bigram              |
 | ---: | :------------------ |
-|    1 | fire damage         |
-|    2 | persuasion check    |
-|    3 | roll damage         |
-|    4 | perception check    |
-|    5 | dexterity saving    |
-|    6 | piercing damage     |
-|    7 | investigation check |
-|    8 | deception check     |
+|    1 | persuasion check    |
+|    2 | roll damage         |
+|    3 | perception check    |
+|    4 | fire damage         |
+|    5 | investigation check |
+|    6 | dexterity saving    |
+|    7 | deception check     |
+|    8 | piercing damage     |
 |    9 | mahaan houses       |
 |   10 | bludgeoning damage  |
 
@@ -97,15 +97,15 @@ each cast member, using tf-idf.
 | rank | bigram           |
 | ---: | :--------------- |
 |    1 | cure wounds      |
-|    2 | cast cure        |
-|    3 | beep boop        |
-|    4 | boing boing      |
+|    2 | beep boop        |
+|    3 | boing boing      |
+|    4 | cast level       |
 |    5 | charm person     |
 |    6 | rhythm section   |
-|    7 | moon touched     |
-|    8 | touched scimitar |
-|    9 | ha ha            |
-|   10 | barely barely    |
+|    7 | cast cure        |
+|    8 | moon touched     |
+|    9 | touched scimitar |
+|   10 | ha ha            |
 
 #### Sam
 
@@ -116,13 +116,13 @@ each cast member, using tf-idf.
 |    1 | healing word     |
 |    2 | hmm mm           |
 |    3 | smiley day       |
-|    4 | grappling cannon |
-|    5 | jam session      |
-|    6 | shiny day        |
-|    7 | human male       |
-|    8 | soul touched     |
-|    9 | black light      |
-|   10 | boy laughs       |
+|    4 | cast enhance     |
+|    5 | enhance ability  |
+|    6 | grappling cannon |
+|    7 | jam session      |
+|    8 | shiny day        |
+|    9 | bolt thrower     |
+|   10 | temporary hit    |
 
 #### Taliesin
 
@@ -132,11 +132,11 @@ each cast member, using tf-idf.
 | ---: | :--------------- |
 |    1 | chaos burst      |
 |    2 | lightning damage |
-|    3 | fuck’s sake      |
-|    4 | normal damage    |
-|    5 | yep yep          |
-|    6 | fuck yeah        |
-|    7 | reckless attack  |
+|    3 | reckless attack  |
+|    4 | fuck’s sake      |
+|    5 | normal damage    |
+|    6 | yep yep          |
+|    7 | fuck yeah        |
 |    8 | earth genasi     |
 |    9 | force damage     |
 |   10 | fucking crazy    |
@@ -153,7 +153,7 @@ each cast member, using tf-idf.
 |    4 | chanting level   |
 |    5 | gambler’s blade  |
 |    6 | ca caw           |
-|    7 | hot hot          |
-|    8 | quarters tight   |
-|    9 | straight ahead   |
-|   10 | eshteross manor  |
+|    7 | hair shooting    |
+|    8 | hot hot          |
+|    9 | pulled tight     |
+|   10 | quarters tight   |
