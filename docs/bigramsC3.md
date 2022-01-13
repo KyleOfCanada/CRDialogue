@@ -11,12 +11,12 @@ each cast member, using tf-idf.
 
 | rank | bigram            |
 | ---: | :---------------- |
-|    1 | whoa whoa         |
-|    2 | wildfire spirit   |
-|    3 | wild shape        |
-|    4 | cast burning      |
-|    5 | flame seed        |
-|    6 | burning hands     |
+|    1 | wildfire spirit   |
+|    2 | wild shape        |
+|    3 | cast burning      |
+|    4 | flame seed        |
+|    5 | burning hands     |
+|    6 | wait wait         |
 |    7 | bite attack       |
 |    8 | constrictor snake |
 |    9 | dink dink         |
@@ -37,7 +37,7 @@ each cast member, using tf-idf.
 |    7 | dancing lights    |
 |    8 | madam zhudanna    |
 |    9 | multiple people   |
-|   10 | lightning damage  |
+|   10 | mage armor        |
 
 #### Liam
 
@@ -64,14 +64,14 @@ each cast member, using tf-idf.
 | ---: | :---------------- |
 |    1 | eldritch blast    |
 |    2 | creepy whispering |
-|    3 | imogen imogen     |
-|    4 | la la             |
-|    5 | temporary hit     |
-|    6 | wisdom saving     |
-|    7 | false life        |
-|    8 | pâté de           |
-|    9 | shadow creepers   |
-|   10 | door team         |
+|    3 | fuck fuck         |
+|    4 | rock chisel       |
+|    5 | la la             |
+|    6 | temporary hit     |
+|    7 | wisdom saving     |
+|    8 | false life        |
+|    9 | fast pass         |
+|   10 | imogen imogen     |
 
 #### Matt
 
@@ -81,14 +81,14 @@ each cast member, using tf-idf.
 | ---: | :------------------ |
 |    1 | persuasion check    |
 |    2 | roll damage         |
-|    3 | perception check    |
-|    4 | fire damage         |
-|    5 | investigation check |
+|    3 | investigation check |
+|    4 | perception check    |
+|    5 | fire damage         |
 |    6 | dexterity saving    |
-|    7 | deception check     |
-|    8 | piercing damage     |
-|    9 | mahaan houses       |
-|   10 | bludgeoning damage  |
+|    7 | mahaan houses       |
+|    8 | deception check     |
+|    9 | piercing damage     |
+|   10 | stealth check       |
 
 #### Robbie
 
@@ -100,11 +100,11 @@ each cast member, using tf-idf.
 |    2 | beep boop        |
 |    3 | boing boing      |
 |    4 | cast level       |
-|    5 | charm person     |
-|    6 | rhythm section   |
-|    7 | cast cure        |
-|    8 | moon touched     |
-|    9 | touched scimitar |
+|    5 | rhythm section   |
+|    6 | cast cure        |
+|    7 | moon touched     |
+|    8 | touched scimitar |
+|    9 | charm person     |
 |   10 | ha ha            |
 
 #### Sam
@@ -113,16 +113,16 @@ each cast member, using tf-idf.
 
 | rank | bigram           |
 | ---: | :--------------- |
-|    1 | healing word     |
-|    2 | hmm mm           |
+|    1 | robot voice      |
+|    2 | healing word     |
 |    3 | smiley day       |
-|    4 | cast enhance     |
-|    5 | enhance ability  |
-|    6 | grappling cannon |
-|    7 | jam session      |
-|    8 | shiny day        |
-|    9 | bolt thrower     |
-|   10 | temporary hit    |
+|    4 | shiny day        |
+|    5 | animal shit      |
+|    6 | cast enhance     |
+|    7 | cast guidance    |
+|    8 | enhance ability  |
+|    9 | grappling cannon |
+|   10 | jam session      |
 
 #### Taliesin
 
@@ -131,29 +131,29 @@ each cast member, using tf-idf.
 | rank | bigram           |
 | ---: | :--------------- |
 |    1 | chaos burst      |
-|    2 | lightning damage |
+|    2 | fuck’s sake      |
 |    3 | reckless attack  |
-|    4 | fuck’s sake      |
-|    5 | normal damage    |
+|    4 | normal damage    |
+|    5 | weird fucking    |
 |    6 | yep yep          |
-|    7 | fuck yeah        |
+|    7 | lightning damage |
 |    8 | earth genasi     |
 |    9 | force damage     |
-|   10 | fucking crazy    |
+|   10 | grandma house    |
 
 #### Travis
 
 ![Travis](../plots/bigramClouds/C3/C3TRAVIS.png)
 
-| rank | bigram           |
-| ---: | :--------------- |
-|    1 | bertrand’s bells |
-|    2 | sorcerous swords |
-|    3 | tight quarters   |
-|    4 | chanting level   |
-|    5 | gambler’s blade  |
-|    6 | ca caw           |
-|    7 | hair shooting    |
-|    8 | hot hot          |
-|    9 | pulled tight     |
-|   10 | quarters tight   |
+| rank | bigram            |
+| ---: | :---------------- |
+|    1 | bertrand’s bells  |
+|    2 | sorcerous swords  |
+|    3 | tight quarters    |
+|    4 | yesterday morning |
+|    5 | chanting level    |
+|    6 | gambler’s blade   |
+|    7 | ca caw            |
+|    8 | close calls       |
+|    9 | excited noise     |
+|   10 | hair shooting     |
