@@ -11,16 +11,16 @@ each cast member, using tf-idf.
 
 | rank | bigram            |
 | ---: | :---------------- |
-|    1 | wildfire spirit   |
-|    2 | wild shape        |
+|    1 | wild shape        |
+|    2 | wildfire spirit   |
 |    3 | cast burning      |
 |    4 | flame seed        |
 |    5 | burning hands     |
-|    6 | wait wait         |
-|    7 | bite attack       |
-|    8 | constrictor snake |
-|    9 | dink dink         |
-|   10 | dr nesbitt        |
+|    6 | bite attack       |
+|    7 | constrictor snake |
+|    8 | dink dink         |
+|    9 | dr nesbitt        |
+|   10 | feels weird       |
 
 #### Laura
 
@@ -31,13 +31,13 @@ each cast member, using tf-idf.
 |    1 | laura laura       |
 |    2 | cast witch        |
 |    3 | telekinetic shove |
-|    4 | psychic damage    |
-|    5 | witch bolt        |
-|    6 | ow ow             |
+|    4 | mage armor        |
+|    5 | psychic damage    |
+|    6 | witch bolt        |
 |    7 | dancing lights    |
 |    8 | madam zhudanna    |
 |    9 | multiple people   |
-|   10 | mage armor        |
+|   10 | taloned highlands |
 
 #### Liam
 
@@ -45,33 +45,33 @@ each cast member, using tf-idf.
 
 | rank | bigram             |
 | ---: | :----------------- |
-|    1 | action surge       |
-|    2 | goading attack     |
-|    3 | strength save      |
-|    4 | gunk gunk          |
-|    5 | running start      |
+|    1 | running start      |
+|    2 | action surge       |
+|    3 | goading attack     |
+|    4 | strength save      |
+|    5 | gunk gunk          |
 |    6 | superiority die    |
 |    7 | deeply appreciated |
 |    8 | jingle jingle      |
-|    9 | bird shit          |
-|   10 | low roll           |
+|    9 | keen mind          |
+|   10 | bird shit          |
 
 #### Marisha
 
 ![Marisha](../plots/bigramClouds/C3/C3MARISHA.png)
 
-| rank | bigram            |
-| ---: | :---------------- |
-|    1 | eldritch blast    |
-|    2 | creepy whispering |
-|    3 | fuck fuck         |
-|    4 | rock chisel       |
-|    5 | la la             |
-|    6 | temporary hit     |
-|    7 | wisdom saving     |
-|    8 | false life        |
-|    9 | fast pass         |
-|   10 | imogen imogen     |
+| rank | bigram              |
+| ---: | :------------------ |
+|    1 | creepy whispering   |
+|    2 | eldritch blast      |
+|    3 | fuck fuck           |
+|    4 | rock chisel         |
+|    5 | la la               |
+|    6 | unsettling presence |
+|    7 | temporary hit       |
+|    8 | uh huh              |
+|    9 | wisdom saving       |
+|   10 | false life          |
 
 #### Matt
 
@@ -85,10 +85,10 @@ each cast member, using tf-idf.
 |    4 | perception check    |
 |    5 | fire damage         |
 |    6 | dexterity saving    |
-|    7 | mahaan houses       |
+|    7 | stealth check       |
 |    8 | deception check     |
 |    9 | piercing damage     |
-|   10 | stealth check       |
+|   10 | hand check          |
 
 #### Robbie
 
@@ -105,7 +105,7 @@ each cast member, using tf-idf.
 |    7 | moon touched     |
 |    8 | touched scimitar |
 |    9 | charm person     |
-|   10 | ha ha            |
+|   10 | orchestra pit    |
 
 #### Sam
 
@@ -115,14 +115,14 @@ each cast member, using tf-idf.
 | ---: | :--------------- |
 |    1 | robot voice      |
 |    2 | healing word     |
-|    3 | smiley day       |
-|    4 | shiny day        |
-|    5 | animal shit      |
-|    6 | cast enhance     |
-|    7 | cast guidance    |
-|    8 | enhance ability  |
-|    9 | grappling cannon |
-|   10 | jam session      |
+|    3 | cast guidance    |
+|    4 | enhance ability  |
+|    5 | shiny day        |
+|    6 | smiley day       |
+|    7 | temporary hit    |
+|    8 | animal shit      |
+|    9 | cast enhance     |
+|   10 | grappling cannon |
 
 #### Taliesin
 
@@ -132,9 +132,9 @@ each cast member, using tf-idf.
 | ---: | :--------------- |
 |    1 | chaos burst      |
 |    2 | fuck’s sake      |
-|    3 | reckless attack  |
-|    4 | normal damage    |
-|    5 | weird fucking    |
+|    3 | weird fucking    |
+|    4 | reckless attack  |
+|    5 | normal damage    |
 |    6 | yep yep          |
 |    7 | lightning damage |
 |    8 | earth genasi     |
@@ -153,7 +153,7 @@ each cast member, using tf-idf.
 |    4 | yesterday morning |
 |    5 | chanting level    |
 |    6 | gambler’s blade   |
-|    7 | ca caw            |
-|    8 | close calls       |
-|    9 | excited noise     |
-|   10 | hair shooting     |
+|    7 | bookcase moves    |
+|    8 | ca caw            |
+|    9 | close calls       |
+|   10 | excited noise     |
