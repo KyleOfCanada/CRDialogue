@@ -12,15 +12,15 @@ cast member and plotted it.
 ![joyful vs sad](../plots/joySadPlot.png)
 
 | Name     |   Joy | Sadness | Ratio |
-| :------- | ----: | ------: | ----: |
-| Ashley   |  3527 |    1588 |  2.22 |
-| Robbie   |   389 |     187 |  2.08 |
-| Laura    | 15113 |    7435 |  2.03 |
-| Sam      | 12652 |    7017 |  1.80 |
-| Marisha  | 11142 |    6813 |  1.64 |
-| Travis   | 10591 |    6566 |  1.61 |
-| Liam     |  9610 |    6059 |  1.59 |
-| Taliesin | 10788 |    7374 |  1.46 |
+|:---------|------:|--------:|------:|
+| Ashley   |  3578 |    1611 |  2.22 |
+| Robbie   |   438 |     206 |  2.13 |
+| Laura    | 15177 |    7461 |  2.03 |
+| Sam      | 12727 |    7054 |  1.80 |
+| Marisha  | 11200 |    6835 |  1.64 |
+| Travis   | 10708 |    6613 |  1.62 |
+| Liam     |  9663 |    6090 |  1.59 |
+| Taliesin | 10846 |    7414 |  1.46 |
 
 We can see that while Liam is in the bottom half, both Travis and
 Taliesin have lower scores.
@@ -31,19 +31,19 @@ words with either a positive or negative sentiment.
 ![positive vs negative](../plots/positiveNegativePlot.png)
 
 | Name     | Negative | Positive | Ratio |
-| :------- | -------: | -------: | ----: |
-| Laura    |    19157 |    32688 |  1.71 |
-| Ashley   |     4193 |     6917 |  1.65 |
-| Robbie   |      545 |      868 |  1.59 |
-| Sam      |    16328 |    25219 |  1.54 |
-| Taliesin |    15928 |    23722 |  1.49 |
-| Liam     |    15663 |    21260 |  1.36 |
-| Marisha  |    19343 |    25298 |  1.31 |
-| Travis   |    18068 |    23429 |  1.30 |
+|:---------|---------:|---------:|------:|
+| Laura    |    19212 |    32840 |  1.71 |
+| Ashley   |     4249 |     6995 |  1.65 |
+| Robbie   |      595 |      955 |  1.61 |
+| Sam      |    16393 |    25349 |  1.55 |
+| Taliesin |    16024 |    23838 |  1.49 |
+| Liam     |    15750 |    21354 |  1.36 |
+| Marisha  |    19403 |    25400 |  1.31 |
+| Travis   |    18199 |    23555 |  1.29 |
 
 Again Liam is near the bottom, but Travis still has a lower score.
 
------
+------------------------------------------------------------------------
 
 ### References for lexicons
 
