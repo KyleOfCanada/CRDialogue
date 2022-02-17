@@ -9,18 +9,18 @@ each cast member, using tf-idf.
 
 ![Ashley](../plots/bigramClouds/C3/C3ASHLEY.png)
 
-| rank | bigram          |
-| ---: | :-------------- |
-|    1 | cast burning    |
-|    2 | wild shape      |
-|    3 | burning hands   |
-|    4 | wildfire spirit |
-|    5 | ah ha           |
-|    6 | cast charm      |
-|    7 | ice knife       |
-|    8 | jeez louise     |
-|    9 | uh uh           |
-|   10 | flame seed      |
+| rank | bigram            |
+| ---: | :---------------- |
+|    1 | cast burning      |
+|    2 | wild shape        |
+|    3 | burning hands     |
+|    4 | wildfire spirit   |
+|    5 | ah ha             |
+|    6 | cast charm        |
+|    7 | ice knife         |
+|    8 | jeez louise       |
+|    9 | flame seed        |
+|   10 | basically royalty |
 
 #### Laura
 
@@ -82,11 +82,11 @@ each cast member, using tf-idf.
 |    1 | persuasion check    |
 |    2 | roll damage         |
 |    3 | fire damage         |
-|    4 | investigation check |
-|    5 | perception check    |
-|    6 | dexterity saving    |
-|    7 | stealth check       |
-|    8 | deception check     |
+|    4 | perception check    |
+|    5 | investigation check |
+|    6 | deception check     |
+|    7 | dexterity saving    |
+|    8 | stealth check       |
 |    9 | piercing damage     |
 |   10 | leans forward       |
 
@@ -96,16 +96,16 @@ each cast member, using tf-idf.
 
 | rank | bigram           |
 | ---: | :--------------- |
-|    1 | cast level       |
-|    2 | beep boop        |
-|    3 | boing boing      |
-|    4 | broad term       |
-|    5 | rhythm section   |
+|    1 | beep boop        |
+|    2 | boing boing      |
+|    3 | broad term       |
+|    4 | rhythm section   |
+|    5 | tracking ring    |
 |    6 | cure wounds      |
-|    7 | moon touched     |
-|    8 | touched scimitar |
-|    9 | orchestra pit    |
-|   10 | cast cure        |
+|    7 | cast level       |
+|    8 | moon touched     |
+|    9 | touched scimitar |
+|   10 | orchestra pit    |
 
 #### Sam
 
@@ -116,13 +116,13 @@ each cast member, using tf-idf.
 |    1 | enhance ability |
 |    2 | robot voice     |
 |    3 | healing word    |
-|    4 | smiley day      |
-|    5 | cast guidance   |
-|    6 | shiny day       |
-|    7 | nice nice       |
+|    4 | nice nice       |
+|    5 | smiley day      |
+|    6 | cast guidance   |
+|    7 | shiny day       |
 |    8 | hmm mm          |
 |    9 | temporary hit   |
-|   10 | animal shit     |
+|   10 | cast detect     |
 
 #### Taliesin
 
@@ -148,12 +148,12 @@ each cast member, using tf-idf.
 | rank | bigram            |
 | ---: | :---------------- |
 |    1 | wood chisel       |
-|    2 | bertrand’s bells  |
-|    3 | tight quarters    |
-|    4 | yesterday morning |
-|    5 | chanting level    |
-|    6 | gambler’s blade   |
-|    7 | sorcerous swords  |
-|    8 | yeah baby         |
-|    9 | quick footsteps   |
-|   10 | bitch laughter    |
+|    2 | lady emoth        |
+|    3 | bertrand’s bells  |
+|    4 | tight quarters    |
+|    5 | yesterday morning |
+|    6 | quick footsteps   |
+|    7 | chanting level    |
+|    8 | gambler’s blade   |
+|    9 | lock pick         |
+|   10 | low profile       |
