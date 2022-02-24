@@ -9,35 +9,35 @@ each cast member, using tf-idf.
 
 ![Ashley](../plots/bigramClouds/C3/C3ASHLEY.png)
 
-| rank | bigram            |
-| ---: | :---------------- |
-|    1 | cast burning      |
-|    2 | wild shape        |
-|    3 | burning hands     |
-|    4 | wildfire spirit   |
-|    5 | ah ha             |
-|    6 | cast charm        |
-|    7 | ice knife         |
-|    8 | jeez louise       |
-|    9 | flame seed        |
-|   10 | basically royalty |
+| rank | bigram          |
+| ---: | :-------------- |
+|    1 | cast burning    |
+|    2 | burning hands   |
+|    3 | wild shape      |
+|    4 | wildfire spirit |
+|    5 | flame blade     |
+|    6 | flame seed      |
+|    7 | ah ha           |
+|    8 | cast charm      |
+|    9 | ice knife       |
+|   10 | jeez louise     |
 
 #### Laura
 
 ![Laura](../plots/bigramClouds/C3/C3LAURA.png)
 
-| rank | bigram            |
-| ---: | :---------------- |
-|    1 | laura laura       |
-|    2 | witch bolt        |
-|    3 | cast witch        |
-|    4 | telekinetic shove |
-|    5 | cast detect       |
-|    6 | mage armor        |
-|    7 | psychic damage    |
-|    8 | madam zhudanna    |
-|    9 | multiple people   |
-|   10 | neat trick        |
+| rank | bigram              |
+| ---: | :------------------ |
+|    1 | laura laura         |
+|    2 | witch bolt          |
+|    3 | cast witch          |
+|    4 | telekinetic shove   |
+|    5 | cast detect         |
+|    6 | mage armor          |
+|    7 | misty step          |
+|    8 | intelligence saving |
+|    9 | madam zhudanna      |
+|   10 | multiple people     |
 
 #### Liam
 
@@ -46,15 +46,15 @@ each cast member, using tf-idf.
 | rank | bigram             |
 | ---: | :----------------- |
 |    1 | action surge       |
-|    2 | doodle doodle      |
-|    3 | running start      |
-|    4 | strength save      |
-|    5 | goading attack     |
-|    6 | gunk gunk          |
-|    7 | superiority die    |
-|    8 | deeply appreciated |
-|    9 | jingle jingle      |
-|   10 | keen mind          |
+|    2 | superiority die    |
+|    3 | goading attack     |
+|    4 | doodle doodle      |
+|    5 | running start      |
+|    6 | strength save      |
+|    7 | gunk gunk          |
+|    8 | tug tug            |
+|    9 | deeply appreciated |
+|   10 | jingle jingle      |
 
 #### Marisha
 
@@ -64,14 +64,14 @@ each cast member, using tf-idf.
 | ---: | :------------------ |
 |    1 | eldritch blast      |
 |    2 | creepy whispering   |
-|    3 | dead woman          |
-|    4 | fuck fuck           |
+|    3 | unsettling presence |
+|    4 | dead woman          |
 |    5 | rock chisel         |
-|    6 | la la               |
-|    7 | unsettling presence |
+|    6 | fuck fuck           |
+|    7 | la la               |
 |    8 | temporary hit       |
 |    9 | wisdom saving       |
-|   10 | false life          |
+|   10 | uh huh              |
 
 #### Matt
 
@@ -81,31 +81,31 @@ each cast member, using tf-idf.
 | ---: | :------------------ |
 |    1 | persuasion check    |
 |    2 | roll damage         |
-|    3 | fire damage         |
-|    4 | perception check    |
+|    3 | perception check    |
+|    4 | dexterity saving    |
 |    5 | investigation check |
-|    6 | deception check     |
-|    7 | dexterity saving    |
-|    8 | stealth check       |
-|    9 | piercing damage     |
-|   10 | leans forward       |
+|    6 | stealth check       |
+|    7 | bludgeoning damage  |
+|    8 | deception check     |
+|    9 | fire damage         |
+|   10 | piercing damage     |
 
 #### Robbie
 
 ![Robbie](../plots/bigramClouds/C3/C3ROBBIE.png)
 
-| rank | bigram           |
-| ---: | :--------------- |
-|    1 | beep boop        |
-|    2 | boing boing      |
-|    3 | broad term       |
-|    4 | rhythm section   |
-|    5 | tracking ring    |
-|    6 | cure wounds      |
-|    7 | cast level       |
-|    8 | moon touched     |
-|    9 | touched scimitar |
-|   10 | orchestra pit    |
+| rank | bigram            |
+| ---: | :---------------- |
+|    1 | cure wounds       |
+|    2 | beep boop         |
+|    3 | boing boing       |
+|    4 | broad term        |
+|    5 | cast invisibility |
+|    6 | rhythm section    |
+|    7 | tracking ring     |
+|    8 | cast level        |
+|    9 | moon touched      |
+|   10 | touched scimitar  |
 
 #### Sam
 
@@ -113,16 +113,16 @@ each cast member, using tf-idf.
 
 | rank | bigram          |
 | ---: | :-------------- |
-|    1 | enhance ability |
-|    2 | robot voice     |
-|    3 | healing word    |
-|    4 | nice nice       |
-|    5 | smiley day      |
-|    6 | cast guidance   |
-|    7 | shiny day       |
-|    8 | hmm mm          |
-|    9 | temporary hit   |
-|   10 | cast detect     |
+|    1 | smiley day      |
+|    2 | enhance ability |
+|    3 | robot voice     |
+|    4 | healing word    |
+|    5 | nice nice       |
+|    6 | temporary hit   |
+|    7 | cast guidance   |
+|    8 | shiny day       |
+|    9 | cast detect     |
+|   10 | animal shit     |
 
 #### Taliesin
 
@@ -131,15 +131,15 @@ each cast member, using tf-idf.
 | rank | bigram           |
 | ---: | :--------------- |
 |    1 | chaos burst      |
-|    2 | fuck’s sake      |
-|    3 | reckless attack  |
+|    2 | reckless attack  |
+|    3 | fuck’s sake      |
 |    4 | yep yep          |
 |    5 | weird fucking    |
 |    6 | normal damage    |
 |    7 | lightning damage |
-|    8 | earth genasi     |
-|    9 | force damage     |
-|   10 | fuck’s sakes     |
+|    8 | ass kicked       |
+|    9 | could’ve hoped   |
+|   10 | earth genasi     |
 
 #### Travis
 
@@ -148,12 +148,12 @@ each cast member, using tf-idf.
 | rank | bigram            |
 | ---: | :---------------- |
 |    1 | wood chisel       |
-|    2 | lady emoth        |
-|    3 | bertrand’s bells  |
-|    4 | tight quarters    |
-|    5 | yesterday morning |
-|    6 | quick footsteps   |
-|    7 | chanting level    |
-|    8 | gambler’s blade   |
-|    9 | lock pick         |
-|   10 | low profile       |
+|    2 | bertrand’s bells  |
+|    3 | tight quarters    |
+|    4 | yesterday morning |
+|    5 | low profile       |
+|    6 | yeah baby         |
+|    7 | lady emoth        |
+|    8 | quick footsteps   |
+|    9 | emoth kade        |
+|   10 | chanting level    |
