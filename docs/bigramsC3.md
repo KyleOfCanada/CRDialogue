@@ -14,30 +14,30 @@ each cast member, using tf-idf.
 |    1 | cast burning    |
 |    2 | burning hands   |
 |    3 | wild shape      |
-|    4 | wildfire spirit |
-|    5 | flame blade     |
-|    6 | flame seed      |
-|    7 | ah ha           |
-|    8 | cast charm      |
-|    9 | ice knife       |
-|   10 | jeez louise     |
+|    4 | flame seed      |
+|    5 | wildfire spirit |
+|    6 | hey mister      |
+|    7 | scorching rays  |
+|    8 | flame blade     |
+|    9 | ah ha           |
+|   10 | cast charm      |
 
 #### Laura
 
 ![Laura](../plots/bigramClouds/C3/C3LAURA.png)
 
-| rank | bigram              |
-| ---: | :------------------ |
-|    1 | laura laura         |
-|    2 | witch bolt          |
-|    3 | cast witch          |
-|    4 | telekinetic shove   |
-|    5 | cast detect         |
-|    6 | mage armor          |
-|    7 | misty step          |
-|    8 | intelligence saving |
-|    9 | madam zhudanna      |
-|   10 | multiple people     |
+| rank | bigram            |
+| ---: | :---------------- |
+|    1 | laura laura       |
+|    2 | lightning damage  |
+|    3 | witch bolt        |
+|    4 | dancing lights    |
+|    5 | mage armor        |
+|    6 | cast witch        |
+|    7 | neat trick        |
+|    8 | telekinetic shove |
+|    9 | cast detect       |
+|   10 | misty step        |
 
 #### Liam
 
@@ -45,8 +45,8 @@ each cast member, using tf-idf.
 
 | rank | bigram             |
 | ---: | :----------------- |
-|    1 | action surge       |
-|    2 | superiority die    |
+|    1 | superiority die    |
+|    2 | action surge       |
 |    3 | goading attack     |
 |    4 | doodle doodle      |
 |    5 | running start      |
@@ -54,7 +54,7 @@ each cast member, using tf-idf.
 |    7 | gunk gunk          |
 |    8 | tug tug            |
 |    9 | deeply appreciated |
-|   10 | jingle jingle      |
+|   10 | feinting attack    |
 
 #### Marisha
 
@@ -79,16 +79,16 @@ each cast member, using tf-idf.
 
 | rank | bigram              |
 | ---: | :------------------ |
-|    1 | persuasion check    |
-|    2 | roll damage         |
-|    3 | perception check    |
-|    4 | dexterity saving    |
+|    1 | roll damage         |
+|    2 | persuasion check    |
+|    3 | dexterity saving    |
+|    4 | perception check    |
 |    5 | investigation check |
 |    6 | stealth check       |
-|    7 | bludgeoning damage  |
-|    8 | deception check     |
-|    9 | fire damage         |
-|   10 | piercing damage     |
+|    7 | deception check     |
+|    8 | bludgeoning damage  |
+|    9 | piercing damage     |
+|   10 | fire damage         |
 
 #### Robbie
 
@@ -114,15 +114,15 @@ each cast member, using tf-idf.
 | rank | bigram          |
 | ---: | :-------------- |
 |    1 | smiley day      |
-|    2 | enhance ability |
-|    3 | robot voice     |
-|    4 | healing word    |
-|    5 | nice nice       |
-|    6 | temporary hit   |
+|    2 | healing word    |
+|    3 | enhance ability |
+|    4 | robot voice     |
+|    5 | temporary hit   |
+|    6 | nice nice       |
 |    7 | cast guidance   |
 |    8 | shiny day       |
 |    9 | cast detect     |
-|   10 | animal shit     |
+|   10 | 3rd level       |
 
 #### Taliesin
 
@@ -131,15 +131,15 @@ each cast member, using tf-idf.
 | rank | bigram           |
 | ---: | :--------------- |
 |    1 | chaos burst      |
-|    2 | reckless attack  |
-|    3 | fuck’s sake      |
-|    4 | yep yep          |
+|    2 | fuck’s sake      |
+|    3 | reckless attack  |
+|    4 | fuck’s sakes     |
 |    5 | weird fucking    |
-|    6 | normal damage    |
-|    7 | lightning damage |
-|    8 | ass kicked       |
-|    9 | could’ve hoped   |
-|   10 | earth genasi     |
+|    6 | yep yep          |
+|    7 | normal damage    |
+|    8 | lightning damage |
+|    9 | ass kicked       |
+|   10 | could’ve hoped   |
 
 #### Travis
 
@@ -148,12 +148,12 @@ each cast member, using tf-idf.
 | rank | bigram            |
 | ---: | :---------------- |
 |    1 | wood chisel       |
-|    2 | bertrand’s bells  |
-|    3 | tight quarters    |
-|    4 | yesterday morning |
-|    5 | low profile       |
+|    2 | quick footsteps   |
+|    3 | bertrand’s bells  |
+|    4 | tight quarters    |
+|    5 | yesterday morning |
 |    6 | yeah baby         |
-|    7 | lady emoth        |
-|    8 | quick footsteps   |
-|    9 | emoth kade        |
-|   10 | chanting level    |
+|    7 | emoth kade        |
+|    8 | chanting level    |
+|    9 | fart sound        |
+|   10 | gambler’s blade   |
