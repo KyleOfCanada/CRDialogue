@@ -12,15 +12,15 @@ each cast member, using tf-idf.
 | rank | bigram          |
 | ---: | :-------------- |
 |    1 | cast burning    |
-|    2 | burning hands   |
-|    3 | wild shape      |
-|    4 | flame seed      |
+|    2 | flame seed      |
+|    3 | burning hands   |
+|    4 | wild shape      |
 |    5 | wildfire spirit |
 |    6 | hey mister      |
 |    7 | scorching rays  |
 |    8 | flame blade     |
-|    9 | ah ha           |
-|   10 | cast charm      |
+|    9 | ice knife       |
+|   10 | ah ha           |
 
 #### Laura
 
@@ -28,16 +28,16 @@ each cast member, using tf-idf.
 
 | rank | bigram            |
 | ---: | :---------------- |
-|    1 | laura laura       |
+|    1 | dancing lights    |
 |    2 | lightning damage  |
-|    3 | witch bolt        |
-|    4 | dancing lights    |
-|    5 | mage armor        |
-|    6 | cast witch        |
-|    7 | neat trick        |
-|    8 | telekinetic shove |
-|    9 | cast detect       |
-|   10 | misty step        |
+|    3 | telekinetic shove |
+|    4 | witch bolt        |
+|    5 | laura laura       |
+|    6 | mage armor        |
+|    7 | cast detect       |
+|    8 | neat trick        |
+|    9 | misty step        |
+|   10 | flash white       |
 
 #### Liam
 
@@ -52,9 +52,9 @@ each cast member, using tf-idf.
 |    5 | running start      |
 |    6 | strength save      |
 |    7 | gunk gunk          |
-|    8 | tug tug            |
-|    9 | deeply appreciated |
-|   10 | feinting attack    |
+|    8 | real low           |
+|    9 | tug tug            |
+|   10 | deeply appreciated |
 
 #### Marisha
 
@@ -62,16 +62,16 @@ each cast member, using tf-idf.
 
 | rank | bigram              |
 | ---: | :------------------ |
-|    1 | eldritch blast      |
-|    2 | creepy whispering   |
-|    3 | unsettling presence |
-|    4 | dead woman          |
-|    5 | rock chisel         |
-|    6 | fuck fuck           |
-|    7 | la la               |
+|    1 | creepy whispering   |
+|    2 | eldritch blast      |
+|    3 | yep yep             |
+|    4 | fuck fuck           |
+|    5 | unsettling presence |
+|    6 | rock chisel         |
+|    7 | uh huh              |
 |    8 | temporary hit       |
 |    9 | wisdom saving       |
-|   10 | uh huh              |
+|   10 | la la               |
 
 #### Matt
 
@@ -85,27 +85,27 @@ each cast member, using tf-idf.
 |    4 | perception check    |
 |    5 | investigation check |
 |    6 | stealth check       |
-|    7 | deception check     |
+|    7 | piercing damage     |
 |    8 | bludgeoning damage  |
-|    9 | piercing damage     |
+|    9 | deception check     |
 |   10 | fire damage         |
 
 #### Robbie
 
 ![Robbie](../plots/bigramClouds/C3/C3ROBBIE.png)
 
-| rank | bigram            |
-| ---: | :---------------- |
-|    1 | cure wounds       |
-|    2 | beep boop         |
-|    3 | boing boing       |
-|    4 | broad term        |
-|    5 | cast invisibility |
-|    6 | rhythm section    |
-|    7 | tracking ring     |
-|    8 | cast level        |
-|    9 | moon touched      |
-|   10 | touched scimitar  |
+| rank | bigram             |
+| ---: | :----------------- |
+|    1 | beep boop          |
+|    2 | boing boing        |
+|    3 | broad term         |
+|    4 | cast invisibility  |
+|    5 | rhythm section     |
+|    6 | tracking ring      |
+|    7 | cast level         |
+|    8 | moon touched       |
+|    9 | touched scimitar   |
+|   10 | bardic inspiration |
 
 #### Sam
 
@@ -113,16 +113,16 @@ each cast member, using tf-idf.
 
 | rank | bigram          |
 | ---: | :-------------- |
-|    1 | smiley day      |
-|    2 | healing word    |
+|    1 | healing word    |
+|    2 | smiley day      |
 |    3 | enhance ability |
 |    4 | robot voice     |
-|    5 | temporary hit   |
-|    6 | nice nice       |
-|    7 | cast guidance   |
-|    8 | shiny day       |
-|    9 | cast detect     |
-|   10 | 3rd level       |
+|    5 | nice nice       |
+|    6 | temporary hit   |
+|    7 | shiny day       |
+|    8 | tight tight     |
+|    9 | cast guidance   |
+|   10 | sacred flame    |
 
 #### Taliesin
 
@@ -135,11 +135,11 @@ each cast member, using tf-idf.
 |    3 | reckless attack  |
 |    4 | fuck’s sakes     |
 |    5 | weird fucking    |
-|    6 | yep yep          |
+|    6 | fucking hard     |
 |    7 | normal damage    |
-|    8 | lightning damage |
-|    9 | ass kicked       |
-|   10 | could’ve hoped   |
+|    8 | yep yep          |
+|    9 | lightning damage |
+|   10 | temporal morass  |
 
 #### Travis
 
@@ -152,8 +152,8 @@ each cast member, using tf-idf.
 |    3 | bertrand’s bells  |
 |    4 | tight quarters    |
 |    5 | yesterday morning |
-|    6 | yeah baby         |
-|    7 | emoth kade        |
-|    8 | chanting level    |
-|    9 | fart sound        |
+|    6 | fart sound        |
+|    7 | yeah baby         |
+|    8 | emoth kade        |
+|    9 | chanting level    |
 |   10 | gambler’s blade   |
