@@ -11,16 +11,16 @@ each cast member, using tf-idf.
 
 | rank | bigram          |
 | ---: | :-------------- |
-|    1 | cast burning    |
-|    2 | flame seed      |
-|    3 | burning hands   |
-|    4 | wild shape      |
-|    5 | scorching rays  |
-|    6 | wildfire spirit |
-|    7 | hey mister      |
-|    8 | ice knife       |
-|    9 | scorching ray   |
-|   10 | flame blade     |
+|    1 | wild shape      |
+|    2 | cast burning    |
+|    3 | scorching rays  |
+|    4 | flame seed      |
+|    5 | wildfire spirit |
+|    6 | hey mister      |
+|    7 | mirthful leap   |
+|    8 | wait imogen     |
+|    9 | ice knife       |
+|   10 | whoa whoa       |
 
 #### Laura
 
@@ -32,12 +32,12 @@ each cast member, using tf-idf.
 |    2 | lightning damage  |
 |    3 | witch bolt        |
 |    4 | laura laura       |
-|    5 | cast detect       |
-|    6 | mage armor        |
-|    7 | telekinetic shove |
-|    8 | flash white       |
-|    9 | lightning bolt    |
-|   10 | neat trick        |
+|    5 | lightning bolt    |
+|    6 | uh huh            |
+|    7 | mage armor        |
+|    8 | cast detect       |
+|    9 | misty step        |
+|   10 | telekinetic shove |
 
 #### Liam
 
@@ -48,10 +48,10 @@ each cast member, using tf-idf.
 |    1 | superiority die |
 |    2 | goading attack  |
 |    3 | action surge    |
-|    4 | doodle doodle   |
-|    5 | real low        |
+|    4 | strength save   |
+|    5 | doodle doodle   |
 |    6 | running start   |
-|    7 | strength save   |
+|    7 | real low        |
 |    8 | gunk gunk       |
 |    9 | tug tug         |
 |   10 | wisdom save     |
@@ -62,13 +62,13 @@ each cast member, using tf-idf.
 
 | rank | bigram              |
 | ---: | :------------------ |
-|    1 | creepy whispering   |
-|    2 | eldritch blast      |
-|    3 | temporary hit       |
-|    4 | unsettling presence |
+|    1 | eldritch blast      |
+|    2 | creepy whispering   |
+|    3 | rock chisel         |
+|    4 | temporary hit       |
 |    5 | uh huh              |
-|    6 | rock chisel         |
-|    7 | wisdom saving       |
+|    6 | unsettling presence |
+|    7 | dream journal       |
 |    8 | yep yep             |
 |    9 | holy fuck           |
 |   10 | la la               |
@@ -83,12 +83,12 @@ each cast member, using tf-idf.
 |    2 | persuasion check    |
 |    3 | dexterity saving    |
 |    4 | perception check    |
-|    5 | investigation check |
+|    5 | bludgeoning damage  |
 |    6 | stealth check       |
-|    7 | bludgeoning damage  |
-|    8 | piercing damage     |
-|    9 | fire damage         |
-|   10 | leans forward       |
+|    7 | piercing damage     |
+|    8 | investigation check |
+|    9 | acrobatics check    |
+|   10 | saving throw        |
 
 #### Robbie
 
@@ -103,26 +103,26 @@ each cast member, using tf-idf.
 |    5 | rhythm section     |
 |    6 | tracking ring      |
 |    7 | cast level         |
-|    8 | moon touched       |
-|    9 | touched scimitar   |
-|   10 | bardic inspiration |
+|    8 | touched scimitar   |
+|    9 | bardic inspiration |
+|   10 | cure wounds        |
 
 #### Sam
 
 ![Sam](../plots/bigramClouds/C3/C3SAM.png)
 
-| rank | bigram          |
-| ---: | :-------------- |
-|    1 | healing word    |
-|    2 | smiley day      |
-|    3 | enhance ability |
-|    4 | robot voice     |
-|    5 | shiny day       |
-|    6 | nice nice       |
-|    7 | temporary hit   |
-|    8 | cast enhance    |
-|    9 | cast identify   |
-|   10 | tight tight     |
+| rank | bigram              |
+| ---: | :------------------ |
+|    1 | healing word        |
+|    2 | temporary hit       |
+|    3 | enhance ability     |
+|    4 | robot voice         |
+|    5 | cast identify       |
+|    6 | shiny day           |
+|    7 | sympathetic binding |
+|    8 | smiley day          |
+|    9 | cast detect         |
+|   10 | cast guidance       |
 
 #### Taliesin
 
@@ -145,15 +145,15 @@ each cast member, using tf-idf.
 
 ![Travis](../plots/bigramClouds/C3/C3TRAVIS.png)
 
-| rank | bigram            |
-| ---: | :---------------- |
-|    1 | wood chisel       |
-|    2 | quick footsteps   |
-|    3 | bertrand’s bells  |
-|    4 | crimson rite      |
-|    5 | tight quarters    |
-|    6 | yesterday morning |
-|    7 | wood chips        |
-|    8 | yeah baby         |
-|    9 | emoth kade        |
-|   10 | slashing damage   |
+| rank | bigram             |
+| ---: | :----------------- |
+|    1 | wood chisel        |
+|    2 | climbing equipment |
+|    3 | smoking bottle     |
+|    4 | slashing damage    |
+|    5 | quick footsteps    |
+|    6 | fishing line       |
+|    7 | bertrand’s bells   |
+|    8 | bubbida bubbida    |
+|    9 | crimson rite       |
+|   10 | hunter’s bane      |
