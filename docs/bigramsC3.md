@@ -11,33 +11,33 @@ each cast member, using tf-idf.
 
 | rank | bigram          |
 | ---: | :-------------- |
-|    1 | wild shape      |
-|    2 | cast burning    |
-|    3 | scorching rays  |
-|    4 | flame seed      |
-|    5 | wildfire spirit |
-|    6 | hey mister      |
-|    7 | mirthful leap   |
-|    8 | wait imogen     |
-|    9 | ice knife       |
-|   10 | whoa whoa       |
+|    1 | scorching rays  |
+|    2 | flame seed      |
+|    3 | wild shape      |
+|    4 | cast burning    |
+|    5 | whoa whoa       |
+|    6 | wildfire spirit |
+|    7 | cast entangle   |
+|    8 | hey mister      |
+|    9 | mirthful leap   |
+|   10 | moon sickle     |
 
 #### Laura
 
 ![Laura](../plots/bigramClouds/C3/C3LAURA.png)
 
-| rank | bigram            |
-| ---: | :---------------- |
-|    1 | dancing lights    |
-|    2 | lightning damage  |
-|    3 | witch bolt        |
-|    4 | laura laura       |
-|    5 | lightning bolt    |
-|    6 | uh huh            |
-|    7 | mage armor        |
-|    8 | cast detect       |
-|    9 | misty step        |
-|   10 | telekinetic shove |
+| rank | bigram           |
+| ---: | :--------------- |
+|    1 | dancing lights   |
+|    2 | lightning damage |
+|    3 | witch bolt       |
+|    4 | uh huh           |
+|    5 | flash white      |
+|    6 | laura laura      |
+|    7 | mage armor       |
+|    8 | cast detect      |
+|    9 | misty step       |
+|   10 | lightning bolt   |
 
 #### Liam
 
@@ -48,12 +48,12 @@ each cast member, using tf-idf.
 |    1 | superiority die |
 |    2 | goading attack  |
 |    3 | action surge    |
-|    4 | strength save   |
-|    5 | doodle doodle   |
-|    6 | running start   |
-|    7 | real low        |
-|    8 | gunk gunk       |
-|    9 | tug tug         |
+|    4 | doodle doodle   |
+|    5 | running start   |
+|    6 | real low        |
+|    7 | gunk gunk       |
+|    8 | tug tug         |
+|    9 | strength save   |
 |   10 | wisdom save     |
 
 #### Marisha
@@ -65,13 +65,13 @@ each cast member, using tf-idf.
 |    1 | eldritch blast      |
 |    2 | creepy whispering   |
 |    3 | rock chisel         |
-|    4 | temporary hit       |
+|    4 | unsettling presence |
 |    5 | uh huh              |
-|    6 | unsettling presence |
-|    7 | dream journal       |
-|    8 | yep yep             |
-|    9 | holy fuck           |
-|   10 | la la               |
+|    6 | temporary hit       |
+|    7 | spell sniper        |
+|    8 | dream journal       |
+|    9 | roll ability        |
+|   10 | yep yep             |
 
 #### Matt
 
@@ -79,16 +79,16 @@ each cast member, using tf-idf.
 
 | rank | bigram              |
 | ---: | :------------------ |
-|    1 | roll damage         |
-|    2 | persuasion check    |
+|    1 | persuasion check    |
+|    2 | roll damage         |
 |    3 | dexterity saving    |
 |    4 | perception check    |
-|    5 | bludgeoning damage  |
-|    6 | stealth check       |
+|    5 | hellcatch valley    |
+|    6 | bludgeoning damage  |
 |    7 | piercing damage     |
-|    8 | investigation check |
-|    9 | acrobatics check    |
-|   10 | saving throw        |
+|    8 | stealth check       |
+|    9 | investigation check |
+|   10 | acrobatics check    |
 
 #### Robbie
 
@@ -99,30 +99,30 @@ each cast member, using tf-idf.
 |    1 | beep boop          |
 |    2 | boing boing        |
 |    3 | broad term         |
-|    4 | cast invisibility  |
-|    5 | rhythm section     |
-|    6 | tracking ring      |
-|    7 | cast level         |
-|    8 | touched scimitar   |
-|    9 | bardic inspiration |
-|   10 | cure wounds        |
+|    4 | rhythm section     |
+|    5 | tracking ring      |
+|    6 | cast level         |
+|    7 | touched scimitar   |
+|    8 | bardic inspiration |
+|    9 | cure wounds        |
+|   10 | cast charm         |
 
 #### Sam
 
 ![Sam](../plots/bigramClouds/C3/C3SAM.png)
 
-| rank | bigram              |
-| ---: | :------------------ |
-|    1 | healing word        |
-|    2 | temporary hit       |
-|    3 | enhance ability     |
-|    4 | robot voice         |
-|    5 | cast identify       |
-|    6 | shiny day           |
-|    7 | sympathetic binding |
-|    8 | smiley day          |
-|    9 | cast detect         |
-|   10 | cast guidance       |
+| rank | bigram        |
+| ---: | :------------ |
+|    1 | healing word  |
+|    2 | temporary hit |
+|    3 | robot voice   |
+|    4 | cast detect   |
+|    5 | cast enhance  |
+|    6 | cast identify |
+|    7 | shiny day     |
+|    8 | smiley day    |
+|    9 | bolt thrower  |
+|   10 | cast guidance |
 
 #### Taliesin
 
@@ -131,15 +131,15 @@ each cast member, using tf-idf.
 | rank | bigram          |
 | ---: | :-------------- |
 |    1 | chaos burst     |
-|    2 | fuck’s sake     |
-|    3 | reckless attack |
+|    2 | reckless attack |
+|    3 | fuck’s sake     |
 |    4 | fuck’s sakes    |
 |    5 | funny feeling   |
 |    6 | weird fucking   |
 |    7 | weird shit      |
-|    8 | fucking hard    |
-|    9 | normal damage   |
-|   10 | double digits   |
+|    8 | temporal morass |
+|    9 | fucking hard    |
+|   10 | fucking rage    |
 
 #### Travis
 
@@ -148,12 +148,12 @@ each cast member, using tf-idf.
 | rank | bigram             |
 | ---: | :----------------- |
 |    1 | wood chisel        |
-|    2 | climbing equipment |
-|    3 | smoking bottle     |
-|    4 | slashing damage    |
-|    5 | quick footsteps    |
-|    6 | fishing line       |
-|    7 | bertrand’s bells   |
-|    8 | bubbida bubbida    |
-|    9 | crimson rite       |
-|   10 | hunter’s bane      |
+|    2 | crimson rite       |
+|    3 | climbing equipment |
+|    4 | smoking bottle     |
+|    5 | wood chips         |
+|    6 | uh huh             |
+|    7 | quick footsteps    |
+|    8 | fishing line       |
+|    9 | bertrand’s bells   |
+|   10 | bitch laughter     |
