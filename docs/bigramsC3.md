@@ -15,12 +15,12 @@ each cast member, using tf-idf.
 |    2 | flame seed      |
 |    3 | wild shape      |
 |    4 | cast burning    |
-|    5 | whoa whoa       |
-|    6 | wildfire spirit |
-|    7 | cast entangle   |
-|    8 | hey mister      |
-|    9 | mirthful leap   |
-|   10 | moon sickle     |
+|    5 | um um           |
+|    6 | whoa whoa       |
+|    7 | wildfire spirit |
+|    8 | cast entangle   |
+|    9 | hey mister      |
+|   10 | mirthful leap   |
 
 #### Laura
 
@@ -30,8 +30,8 @@ each cast member, using tf-idf.
 | ---: | :--------------- |
 |    1 | dancing lights   |
 |    2 | lightning damage |
-|    3 | witch bolt       |
-|    4 | uh huh           |
+|    3 | dig dig          |
+|    4 | witch bolt       |
 |    5 | flash white      |
 |    6 | laura laura      |
 |    7 | mage armor       |
@@ -62,16 +62,16 @@ each cast member, using tf-idf.
 
 | rank | bigram              |
 | ---: | :------------------ |
-|    1 | eldritch blast      |
-|    2 | creepy whispering   |
+|    1 | creepy whispering   |
+|    2 | eldritch blast      |
 |    3 | rock chisel         |
 |    4 | unsettling presence |
-|    5 | uh huh              |
-|    6 | temporary hit       |
-|    7 | spell sniper        |
-|    8 | dream journal       |
+|    5 | temporary hit       |
+|    6 | spell sniper        |
+|    7 | dream journal       |
+|    8 | imogen coming       |
 |    9 | roll ability        |
-|   10 | yep yep             |
+|   10 | cast bane           |
 
 #### Matt
 
@@ -116,11 +116,11 @@ each cast member, using tf-idf.
 |    1 | healing word  |
 |    2 | temporary hit |
 |    3 | robot voice   |
-|    4 | cast detect   |
-|    5 | cast enhance  |
-|    6 | cast identify |
-|    7 | shiny day     |
-|    8 | smiley day    |
+|    4 | smiley day    |
+|    5 | cast detect   |
+|    6 | cast enhance  |
+|    7 | cast identify |
+|    8 | shiny day     |
 |    9 | bolt thrower  |
 |   10 | cast guidance |
 
@@ -131,15 +131,15 @@ each cast member, using tf-idf.
 | rank | bigram          |
 | ---: | :-------------- |
 |    1 | chaos burst     |
-|    2 | reckless attack |
-|    3 | fuck’s sake     |
+|    2 | fuck’s sake     |
+|    3 | reckless attack |
 |    4 | fuck’s sakes    |
 |    5 | funny feeling   |
 |    6 | weird fucking   |
 |    7 | weird shit      |
-|    8 | temporal morass |
-|    9 | fucking hard    |
-|   10 | fucking rage    |
+|    8 | double digits   |
+|    9 | temporal morass |
+|   10 | fucking hard    |
 
 #### Travis
 
@@ -152,7 +152,7 @@ each cast member, using tf-idf.
 |    3 | climbing equipment |
 |    4 | smoking bottle     |
 |    5 | wood chips         |
-|    6 | uh huh             |
+|    6 | hunter’s bane      |
 |    7 | quick footsteps    |
 |    8 | fishing line       |
 |    9 | bertrand’s bells   |
