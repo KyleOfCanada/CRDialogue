@@ -9,18 +9,18 @@ each cast member, using tf-idf.
 
 ![Ashley](../plots/bigramClouds/C3/C3ASHLEY.png)
 
-| rank | bigram          |
-| ---: | :-------------- |
-|    1 | scorching rays  |
-|    2 | flame seed      |
-|    3 | wild shape      |
-|    4 | cast burning    |
-|    5 | um um           |
-|    6 | whoa whoa       |
-|    7 | wildfire spirit |
-|    8 | cast entangle   |
-|    9 | hey mister      |
-|   10 | mirthful leap   |
+| rank | bigram           |
+| ---: | :--------------- |
+|    1 | scorching rays   |
+|    2 | flame seed       |
+|    3 | wild shape       |
+|    4 | cast burning     |
+|    5 | um um            |
+|    6 | whoa whoa        |
+|    7 | wildfire spirit  |
+|    8 | cast entangle    |
+|    9 | grandmother told |
+|   10 | hey mister       |
 
 #### Laura
 
@@ -34,10 +34,10 @@ each cast member, using tf-idf.
 |    4 | witch bolt       |
 |    5 | flash white      |
 |    6 | laura laura      |
-|    7 | mage armor       |
-|    8 | cast detect      |
-|    9 | misty step       |
-|   10 | lightning bolt   |
+|    7 | shit balls       |
+|    8 | mage armor       |
+|    9 | cast detect      |
+|   10 | misty step       |
 
 #### Liam
 
@@ -64,14 +64,14 @@ each cast member, using tf-idf.
 | ---: | :------------------ |
 |    1 | creepy whispering   |
 |    2 | eldritch blast      |
-|    3 | rock chisel         |
-|    4 | unsettling presence |
-|    5 | temporary hit       |
-|    6 | spell sniper        |
-|    7 | dream journal       |
-|    8 | imogen coming       |
-|    9 | roll ability        |
-|   10 | cast bane           |
+|    3 | unsettling presence |
+|    4 | dream journal       |
+|    5 | rock chisel         |
+|    6 | temporary hit       |
+|    7 | spell sniper        |
+|    8 | brilliant idea      |
+|    9 | imogen coming       |
+|   10 | roll ability        |
 
 #### Matt
 
@@ -81,14 +81,14 @@ each cast member, using tf-idf.
 | ---: | :------------------ |
 |    1 | persuasion check    |
 |    2 | roll damage         |
-|    3 | dexterity saving    |
-|    4 | perception check    |
+|    3 | perception check    |
+|    4 | dexterity saving    |
 |    5 | hellcatch valley    |
 |    6 | bludgeoning damage  |
 |    7 | piercing damage     |
-|    8 | stealth check       |
-|    9 | investigation check |
-|   10 | acrobatics check    |
+|    8 | investigation check |
+|    9 | acrobatics check    |
+|   10 | stealth check       |
 
 #### Robbie
 
@@ -115,11 +115,11 @@ each cast member, using tf-idf.
 | ---: | :------------ |
 |    1 | healing word  |
 |    2 | temporary hit |
-|    3 | robot voice   |
-|    4 | smiley day    |
-|    5 | cast detect   |
-|    6 | cast enhance  |
-|    7 | cast identify |
+|    3 | cast identify |
+|    4 | robot voice   |
+|    5 | smiley day    |
+|    6 | cast detect   |
+|    7 | cast enhance  |
 |    8 | shiny day     |
 |    9 | bolt thrower  |
 |   10 | cast guidance |
@@ -132,11 +132,11 @@ each cast member, using tf-idf.
 | ---: | :-------------- |
 |    1 | chaos burst     |
 |    2 | fuck’s sake     |
-|    3 | reckless attack |
-|    4 | fuck’s sakes    |
+|    3 | fuck’s sakes    |
+|    4 | reckless attack |
 |    5 | funny feeling   |
-|    6 | weird fucking   |
-|    7 | weird shit      |
+|    6 | weird shit      |
+|    7 | weird fucking   |
 |    8 | double digits   |
 |    9 | temporal morass |
 |   10 | fucking hard    |
