@@ -8,7 +8,7 @@ library(here)
 
 datC3 <- readRDS(here("data", "tidyDataC3.rds"))
 
-#### campaign 2 ####
+#### campaign 3 ####
 
 castWords3 <- datC3 %>%
   filter(
@@ -40,12 +40,12 @@ castWords3 %>%
   arrange(desc(tf_idf))
 
 colourScheme3 <- tibble(
-  name = c("MATT", "LAURA", "MARISHA", "TALIESIN", "LIAM", "SAM", "TRAVIS", "ASHLEY", "ROBBIE"),
-  bgColour = c("#1f9e0b", "#a888bd", "grey", "#507a5d", "#91886c", "#f5cf36", "#46157d", "#2d422c", "#06155c"),
-  textColour = c("#6c12a3", "#e8be27", "black", "#3f0b61", "#4bcf1d", "#376482", "#a63b11", "#d14913", "#46dde8")
+  name = c("MATT", "LAURA", "MARISHA", "TALIESIN", "LIAM", "SAM", "TRAVIS", "ASHLEY"),
+  bgColour = c("#1f9e0b", "#a888bd", "grey", "#507a5d", "#91886c", "#f5cf36", "#46157d", "#2d422c"),
+  textColour = c("#6c12a3", "#e8be27", "black", "#3f0b61", "#4bcf1d", "#376482", "#a63b11", "#d14913")
 )
 
-for (i in 1:9) {
+for (i in 1:8) {
   tmpDat <- castWords3 %>%
     filter(name == colourScheme3$name[i])
 
@@ -82,7 +82,7 @@ wordsPerCast <- datC3 %>%
   filter(
     campaign == "3",
     !oneShot,
-    name %in% c("MATT", "LAURA", "MARISHA", "TALIESIN", "LIAM", "SAM", "TRAVIS", "ASHLEY", "ROBBIE")
+    name %in% c("MATT", "LAURA", "MARISHA", "TALIESIN", "LIAM", "SAM", "TRAVIS", "ASHLEY")
   ) %>%
   select(name, text) %>%
   unnest_tokens(word, text) %>%

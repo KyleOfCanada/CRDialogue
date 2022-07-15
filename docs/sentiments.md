@@ -12,9 +12,8 @@ cast member and plotted it.
 ![joyful vs sad](../plots/joySadPlot.png)
 
 | Name     |   Joy | Sadness | Ratio |
-| :------- | ----: | ------: | ----: |
+|:---------|------:|--------:|------:|
 | Ashley   |  4278 |    1826 |  2.34 |
-| Robbie   |   628 |     282 |  2.23 |
 | Laura    | 16181 |    7905 |  2.05 |
 | Sam      | 13707 |    7473 |  1.83 |
 | Marisha  | 12057 |    7245 |  1.66 |
@@ -31,10 +30,9 @@ words with either a positive or negative sentiment.
 ![positive vs negative](../plots/positiveNegativePlot.png)
 
 | Name     | Negative | Positive | Ratio |
-| :------- | -------: | -------: | ----: |
+|:---------|---------:|---------:|------:|
 | Laura    |    20282 |    35022 |  1.73 |
 | Ashley   |     4767 |     8136 |  1.71 |
-| Robbie   |      798 |     1327 |  1.66 |
 | Sam      |    17366 |    27401 |  1.58 |
 | Taliesin |    17541 |    25747 |  1.47 |
 | Liam     |    16584 |    22482 |  1.36 |
@@ -43,7 +41,7 @@ words with either a positive or negative sentiment.
 
 Again Liam is near the bottom, but Travis still has a lower score.
 
------
+------------------------------------------------------------------------
 
 ### References for lexicons
 

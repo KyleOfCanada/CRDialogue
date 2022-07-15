@@ -10,7 +10,7 @@ fileList <- list.files(here("data", "rdsTranscripts"),
 )
 
 # create list of main cast members
-castList <- c("MATT", "TRAVIS", "MARISHA", "TALIESIN", "SAM", "LIAM", "LAURA", "ASHLEY", "ROBBIE")
+castList <- c("MATT", "TRAVIS", "MARISHA", "TALIESIN", "SAM", "LIAM", "LAURA", "ASHLEY")
 
 # get gamePlay times from critrolestats
 

@@ -51,11 +51,6 @@ Pairs of words, bigrams, were analyzed. Bigrams containing stopwords or digits w
 
 `r castBigrams3 %>% filter(name == 'MATT') %>% select(rank, bigram) %>% kable()`
 
-#### Robbie
-
-![Robbie](../plots/bigramClouds/C3/C3ROBBIE.png)
-
-`r castBigrams3 %>% filter(name == 'ROBBIE') %>% select(rank, bigram) %>% kable()`
 
 #### Sam
 

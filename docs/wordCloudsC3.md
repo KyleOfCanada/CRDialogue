@@ -28,10 +28,6 @@ included.
 
 ![Matt](../plots/wordClouds/C3/C3MATT.png)
 
-#### Robbie
-
-![Robbie](../plots/wordClouds/C3/C3ROBBIE.png)
-
 #### Sam
 
 ![Sam](../plots/wordClouds/C3/C3SAM.png)
@@ -46,4 +42,4 @@ included.
 
 #### Fun facts
 
-  - So far, over 0.94 million words have been spoken during Campaign 3
+-   So far, over 0.94 million words have been spoken during Campaign 3

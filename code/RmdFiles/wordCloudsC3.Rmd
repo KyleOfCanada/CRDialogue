@@ -28,10 +28,6 @@ This analysis compares the frequency words are used by each cast member and comp
 ![Matt](../plots/wordClouds/C3/C3MATT.png)
 
 
-#### Robbie
-![Robbie](../plots/wordClouds/C3/C3ROBBIE.png)
-
-
 #### Sam
 ![Sam](../plots/wordClouds/C3/C3SAM.png)
 
