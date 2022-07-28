@@ -9,127 +9,127 @@ each cast member, using tf-idf.
 
 ![Ashley](../plots/bigramClouds/C3/C3ASHLEY.png)
 
-| rank | bigram           |
-|-----:|:-----------------|
-|    1 | whoa whoa        |
-|    2 | scorching rays   |
-|    3 | wild shape       |
-|    4 | flame seed       |
-|    5 | cast burning     |
-|    6 | um um            |
-|    7 | cast charm       |
-|    8 | cast entangle    |
-|    9 | grandmother told |
-|   10 | hey mister       |
+| rank | bigram          |
+| ---: | :-------------- |
+|    1 | whoa whoa       |
+|    2 | scorching rays  |
+|    3 | flame seeds     |
+|    4 | wild shape      |
+|    5 | flame seed      |
+|    6 | cast burning    |
+|    7 | um um           |
+|    8 | cast charm      |
+|    9 | cast entangle   |
+|   10 | flying squirrel |
 
 #### Laura
 
 ![Laura](../plots/bigramClouds/C3/C3LAURA.png)
 
-| rank | bigram           |
-|-----:|:-----------------|
-|    1 | dancing lights   |
-|    2 | dig dig          |
-|    3 | lightning damage |
-|    4 | witch bolt       |
-|    5 | flash white      |
-|    6 | laura laura      |
-|    7 | shit balls       |
-|    8 | mage armor       |
-|    9 | cast detect      |
-|   10 | misty step       |
+| rank | bigram            |
+| ---: | :---------------- |
+|    1 | dancing lights    |
+|    2 | dig dig           |
+|    3 | witch bolt        |
+|    4 | lightning bolt    |
+|    5 | mage armor        |
+|    6 | flash white       |
+|    7 | telekinetic shove |
+|    8 | laura laura       |
+|    9 | shit balls        |
+|   10 | cast detect       |
 
 #### Liam
 
 ![Liam](../plots/bigramClouds/C3/C3LIAM.png)
 
-| rank | bigram             |
-|-----:|:-------------------|
-|    1 | superiority die    |
-|    2 | goading attack     |
-|    3 | action surge       |
-|    4 | doodle doodle      |
-|    5 | running start      |
-|    6 | real low           |
-|    7 | gunk gunk          |
-|    8 | tug tug            |
-|    9 | strength save      |
-|   10 | deeply appreciated |
+| rank | bigram          |
+| ---: | :-------------- |
+|    1 | superiority die |
+|    2 | goading attack  |
+|    3 | action surge    |
+|    4 | ay ay           |
+|    5 | doodle doodle   |
+|    6 | running start   |
+|    7 | toy sword       |
+|    8 | real low        |
+|    9 | gunk gunk       |
+|   10 | toy swords      |
 
 #### Marisha
 
 ![Marisha](../plots/bigramClouds/C3/C3MARISHA.png)
 
 | rank | bigram              |
-|-----:|:--------------------|
+| ---: | :------------------ |
 |    1 | creepy whispering   |
 |    2 | eldritch blast      |
 |    3 | unsettling presence |
 |    4 | dream journal       |
 |    5 | rock chisel         |
-|    6 | temporary hit       |
-|    7 | brilliant idea      |
-|    8 | imogen coming       |
-|    9 | roll ability        |
-|   10 | spell sniper        |
+|    6 | beam beam           |
+|    7 | roll ability        |
+|    8 | temporary hit       |
+|    9 | cast bane           |
+|   10 | quicken spell       |
 
 #### Matt
 
 ![Matt](../plots/bigramClouds/C3/C3MATT.png)
 
 | rank | bigram              |
-|-----:|:--------------------|
+| ---: | :------------------ |
 |    1 | persuasion check    |
-|    2 | roll damage         |
-|    3 | dexterity saving    |
-|    4 | hellcatch valley    |
-|    5 | perception check    |
-|    6 | bludgeoning damage  |
-|    7 | piercing damage     |
-|    8 | investigation check |
-|    9 | acrobatics check    |
+|    2 | hellcatch valley    |
+|    3 | roll damage         |
+|    4 | dexterity saving    |
+|    5 | acrobatics check    |
+|    6 | investigation check |
+|    7 | bludgeoning damage  |
+|    8 | piercing damage     |
+|    9 | stealth check       |
 |   10 | leans forward       |
 
 #### Sam
 
 ![Sam](../plots/bigramClouds/C3/C3SAM.png)
 
-| rank | bigram        |
-|-----:|:--------------|
-|    1 | healing word  |
-|    2 | smiley day    |
-|    3 | cast identify |
-|    4 | robot voice   |
-|    5 | temporary hit |
-|    6 | cure wounds   |
-|    7 | cast cure     |
-|    8 | cast enhance  |
-|    9 | shiny day     |
-|   10 | cast detect   |
+| rank | bigram              |
+| ---: | :------------------ |
+|    1 | healing word        |
+|    2 | smiley day          |
+|    3 | temporary hit       |
+|    4 | cure wounds         |
+|    5 | sympathetic binding |
+|    6 | cast identify       |
+|    7 | robot voice         |
+|    8 | cast cure           |
+|    9 | enhance ability     |
+|   10 | sacred flame        |
 
 #### Taliesin
 
 ![Taliesin](../plots/bigramClouds/C3/C3TALIESIN.png)
 
 | rank | bigram          |
-|-----:|:----------------|
+| ---: | :-------------- |
 |    1 | chaos burst     |
 |    2 | fuck’s sake     |
 |    3 | fuck’s sakes    |
 |    4 | reckless attack |
 |    5 | funny feeling   |
 |    6 | weird shit      |
-|    7 | weird fucking   |
-|    8 | fucking hard    |
-|    9 | fucking rage    |
-|   10 | normal damage   |
+|    7 | fucking hard    |
+|    8 | weird fucking   |
+|    9 | shit fuck       |
+|   10 | fucking people  |
 
 #### Travis
 
 ![Travis](../plots/bigramClouds/C3/C3TRAVIS.png)
 
 | rank | bigram             |
-|-----:|:-------------------|
+| ---: | :----------------- |
 |    1 | wood chisel        |
 |    2 | crimson rite       |
 |    3 | climbing equipment |
