@@ -26,7 +26,7 @@ An exploration of the dialogue from Critical Role
 
 The dialogue data come from the [Critical Role Linkable
 transcripts](https://kryogenix.org/crsearch/) and YouTube captions. Last
-updated with data from campaign 3 episode 28. Time stamps to delineate
+updated with data from campaign 3 episode 29. Time stamps to delineate
 game play time come from
 [CritRoleStats](https://www.critrolestats.com/).
 

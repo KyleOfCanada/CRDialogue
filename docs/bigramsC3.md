@@ -35,9 +35,9 @@ each cast member, using tf-idf.
 |    5 | mage armor        |
 |    6 | flash white       |
 |    7 | telekinetic shove |
-|    8 | laura laura       |
-|    9 | shit balls        |
-|   10 | cast detect       |
+|    8 | cast detect       |
+|    9 | laura laura       |
+|   10 | shit balls        |
 
 #### Liam
 
@@ -52,9 +52,9 @@ each cast member, using tf-idf.
 |    5 | doodle doodle   |
 |    6 | running start   |
 |    7 | toy sword       |
-|    8 | real low        |
-|    9 | gunk gunk       |
-|   10 | toy swords      |
+|    8 | gunk gunk       |
+|    9 | toy swords      |
+|   10 | trip attack     |
 
 #### Marisha
 
@@ -65,13 +65,13 @@ each cast member, using tf-idf.
 |    1 | creepy whispering   |
 |    2 | eldritch blast      |
 |    3 | unsettling presence |
-|    4 | dream journal       |
-|    5 | rock chisel         |
-|    6 | beam beam           |
-|    7 | roll ability        |
-|    8 | temporary hit       |
-|    9 | cast bane           |
-|   10 | quicken spell       |
+|    4 | demonic whispers    |
+|    5 | dream journal       |
+|    6 | rock chisel         |
+|    7 | cast bane           |
+|    8 | beam beam           |
+|    9 | roll ability        |
+|   10 | temporary hit       |
 
 #### Matt
 
@@ -80,15 +80,15 @@ each cast member, using tf-idf.
 | rank | bigram              |
 | ---: | :------------------ |
 |    1 | persuasion check    |
-|    2 | hellcatch valley    |
-|    3 | roll damage         |
-|    4 | dexterity saving    |
-|    5 | acrobatics check    |
+|    2 | roll damage         |
+|    3 | dexterity saving    |
+|    4 | acrobatics check    |
+|    5 | hellcatch valley    |
 |    6 | investigation check |
 |    7 | bludgeoning damage  |
 |    8 | piercing damage     |
 |    9 | stealth check       |
-|   10 | leans forward       |
+|   10 | push past           |
 
 #### Sam
 
@@ -118,8 +118,8 @@ each cast member, using tf-idf.
 |    3 | fuck’s sakes    |
 |    4 | reckless attack |
 |    5 | funny feeling   |
-|    6 | weird shit      |
-|    7 | fucking hard    |
+|    6 | fucking hard    |
+|    7 | fucking rage    |
 |    8 | weird fucking   |
 |    9 | shit fuck       |
 |   10 | fucking people  |
