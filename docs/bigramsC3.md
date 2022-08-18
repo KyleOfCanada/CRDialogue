@@ -9,18 +9,18 @@ each cast member, using tf-idf.
 
 ![Ashley](../plots/bigramClouds/C3/C3ASHLEY.png)
 
-| rank | bigram          |
-| ---: | :-------------- |
-|    1 | whoa whoa       |
-|    2 | scorching rays  |
-|    3 | flame seeds     |
-|    4 | wild shape      |
-|    5 | flame seed      |
-|    6 | cast burning    |
-|    7 | um um           |
-|    8 | cast charm      |
-|    9 | cast entangle   |
-|   10 | flying squirrel |
+| rank | bigram           |
+| ---: | :--------------- |
+|    1 | scorching rays   |
+|    2 | flame seeds      |
+|    3 | wild shape       |
+|    4 | flame seed       |
+|    5 | cast burning     |
+|    6 | um um            |
+|    7 | cast entangle    |
+|    8 | flying squirrel  |
+|    9 | grandmother told |
+|   10 | hey mister       |
 
 #### Laura
 
@@ -30,11 +30,11 @@ each cast member, using tf-idf.
 | ---: | :---------------- |
 |    1 | dancing lights    |
 |    2 | dig dig           |
-|    3 | witch bolt        |
+|    3 | telekinetic shove |
 |    4 | lightning bolt    |
 |    5 | mage armor        |
-|    6 | flash white       |
-|    7 | telekinetic shove |
+|    6 | witch bolt        |
+|    7 | flash white       |
 |    8 | cast detect       |
 |    9 | laura laura       |
 |   10 | shit balls        |
@@ -46,15 +46,15 @@ each cast member, using tf-idf.
 | rank | bigram          |
 | ---: | :-------------- |
 |    1 | superiority die |
-|    2 | goading attack  |
-|    3 | action surge    |
+|    2 | action surge    |
+|    3 | goading attack  |
 |    4 | ay ay           |
 |    5 | doodle doodle   |
 |    6 | running start   |
 |    7 | toy sword       |
 |    8 | gunk gunk       |
-|    9 | toy swords      |
-|   10 | trip attack     |
+|    9 | orym steps      |
+|   10 | toy swords      |
 
 #### Marisha
 
@@ -83,12 +83,12 @@ each cast member, using tf-idf.
 |    2 | roll damage         |
 |    3 | dexterity saving    |
 |    4 | acrobatics check    |
-|    5 | hellcatch valley    |
-|    6 | investigation check |
+|    5 | piercing damage     |
+|    6 | hellcatch valley    |
 |    7 | bludgeoning damage  |
-|    8 | piercing damage     |
-|    9 | stealth check       |
-|   10 | push past           |
+|    8 | investigation check |
+|    9 | leans forward       |
+|   10 | stealth check       |
 
 #### Sam
 
@@ -103,9 +103,9 @@ each cast member, using tf-idf.
 |    5 | sympathetic binding |
 |    6 | cast identify       |
 |    7 | robot voice         |
-|    8 | cast cure           |
-|    9 | enhance ability     |
-|   10 | sacred flame        |
+|    8 | bolt thrower        |
+|    9 | cast cure           |
+|   10 | enhance ability     |
 
 #### Taliesin
 
@@ -137,6 +137,6 @@ each cast member, using tf-idf.
 |    5 | wood chips         |
 |    6 | hunter’s bane      |
 |    7 | quick footsteps    |
-|    8 | bertrand’s bells   |
-|    9 | bitch laughter     |
-|   10 | bubbida bubbida    |
+|    8 | slashing damage    |
+|    9 | bertrand’s bells   |
+|   10 | bitch laughter     |
