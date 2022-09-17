@@ -29,7 +29,7 @@ jobs:
           mkdir cache/tidytext
           mkdir cache/tidytext/nrc
           cd cache/tidytext/nrc 
-          curl -O http://saifmohammad.com/WebDocs/NRC-Emotion-Lexicon.zip
+          curl -O http://saifmohammad.com/WebDocs/Lexicons/NRC-Emotion-Lexicon.zip
           unzip NRC-Emotion-Lexicon.zip
           cd ..
           mkdir bing
