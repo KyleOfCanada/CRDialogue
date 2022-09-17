@@ -9,33 +9,33 @@ each cast member, using tf-idf.
 
 ![Ashley](../plots/bigramClouds/C3/C3ASHLEY.png)
 
-| rank | bigram           |
-| ---: | :--------------- |
-|    1 | scorching rays   |
-|    2 | flame seeds      |
-|    3 | wild shape       |
-|    4 | flame seed       |
-|    5 | cast burning     |
-|    6 | um um            |
-|    7 | cast entangle    |
-|    8 | flying squirrel  |
-|    9 | grandmother told |
-|   10 | hey mister       |
+| rank | bigram          |
+|-----:|:----------------|
+|    1 | scorching rays  |
+|    2 | flame seeds     |
+|    3 | wild shape      |
+|    4 | flame seed      |
+|    5 | cast burning    |
+|    6 | um um           |
+|    7 | whoa whoa       |
+|    8 | cast entangle   |
+|    9 | flying squirrel |
+|   10 | grandma morri   |
 
 #### Laura
 
 ![Laura](../plots/bigramClouds/C3/C3LAURA.png)
 
 | rank | bigram            |
-| ---: | :---------------- |
-|    1 | dancing lights    |
-|    2 | dig dig           |
-|    3 | telekinetic shove |
+|-----:|:------------------|
+|    1 | telekinetic shove |
+|    2 | dancing lights    |
+|    3 | dig dig           |
 |    4 | lightning bolt    |
 |    5 | mage armor        |
-|    6 | witch bolt        |
-|    7 | flash white       |
-|    8 | cast detect       |
+|    6 | cast detect       |
+|    7 | witch bolt        |
+|    8 | flash white       |
 |    9 | laura laura       |
 |   10 | shit balls        |
 
@@ -44,7 +44,7 @@ each cast member, using tf-idf.
 ![Liam](../plots/bigramClouds/C3/C3LIAM.png)
 
 | rank | bigram          |
-| ---: | :-------------- |
+|-----:|:----------------|
 |    1 | superiority die |
 |    2 | action surge    |
 |    3 | goading attack  |
@@ -61,67 +61,67 @@ each cast member, using tf-idf.
 ![Marisha](../plots/bigramClouds/C3/C3MARISHA.png)
 
 | rank | bigram              |
-| ---: | :------------------ |
+|-----:|:--------------------|
 |    1 | creepy whispering   |
 |    2 | eldritch blast      |
 |    3 | unsettling presence |
 |    4 | demonic whispers    |
 |    5 | dream journal       |
 |    6 | rock chisel         |
-|    7 | cast bane           |
-|    8 | beam beam           |
-|    9 | roll ability        |
-|   10 | temporary hit       |
+|    7 | beam beam           |
+|    8 | roll ability        |
+|    9 | rune keeper         |
+|   10 | cast bane           |
 
 #### Matt
 
 ![Matt](../plots/bigramClouds/C3/C3MATT.png)
 
 | rank | bigram              |
-| ---: | :------------------ |
+|-----:|:--------------------|
 |    1 | persuasion check    |
 |    2 | roll damage         |
 |    3 | dexterity saving    |
 |    4 | acrobatics check    |
 |    5 | piercing damage     |
-|    6 | hellcatch valley    |
+|    6 | investigation check |
 |    7 | bludgeoning damage  |
-|    8 | investigation check |
+|    8 | push past           |
 |    9 | leans forward       |
-|   10 | stealth check       |
+|   10 | short time          |
 
 #### Sam
 
 ![Sam](../plots/bigramClouds/C3/C3SAM.png)
 
 | rank | bigram              |
-| ---: | :------------------ |
+|-----:|:--------------------|
 |    1 | healing word        |
-|    2 | smiley day          |
-|    3 | temporary hit       |
-|    4 | cure wounds         |
-|    5 | sympathetic binding |
-|    6 | cast identify       |
-|    7 | robot voice         |
-|    8 | bolt thrower        |
-|    9 | cast cure           |
-|   10 | enhance ability     |
+|    2 | temporary hit       |
+|    3 | cure wounds         |
+|    4 | bolt thrower        |
+|    5 | enhance ability     |
+|    6 | sacred flame        |
+|    7 | sympathetic binding |
+|    8 | cast identify       |
+|    9 | cast spiritual      |
+|   10 | robot voice         |
 
 #### Taliesin
 
 ![Taliesin](../plots/bigramClouds/C3/C3TALIESIN.png)
 
 | rank | bigram          |
-| ---: | :-------------- |
+|-----:|:----------------|
 |    1 | chaos burst     |
 |    2 | fuck’s sake     |
 |    3 | fuck’s sakes    |
 |    4 | reckless attack |
 |    5 | funny feeling   |
-|    6 | fucking hard    |
-|    7 | fucking rage    |
-|    8 | weird fucking   |
-|    9 | shit fuck       |
+|    6 | shit fuck       |
+|    7 | fucking hard    |
+|    8 | fucking rage    |
+|    9 | weird fucking   |
 |   10 | fucking people  |
 
 #### Travis
@@ -129,14 +129,14 @@ each cast member, using tf-idf.
 ![Travis](../plots/bigramClouds/C3/C3TRAVIS.png)
 
 | rank | bigram             |
-| ---: | :----------------- |
-|    1 | wood chisel        |
-|    2 | crimson rite       |
-|    3 | climbing equipment |
-|    4 | smoking bottle     |
-|    5 | wood chips         |
-|    6 | hunter’s bane      |
-|    7 | quick footsteps    |
-|    8 | slashing damage    |
-|    9 | bertrand’s bells   |
-|   10 | bitch laughter     |
+|-----:|:-------------------|
+|    1 | crimson rite       |
+|    2 | wood chisel        |
+|    3 | wood chips         |
+|    4 | climbing equipment |
+|    5 | hunter’s bane      |
+|    6 | smoking bottle     |
+|    7 | wooden mallet      |
+|    8 | quick footsteps    |
+|    9 | slashing damage    |
+|   10 | bertrand’s bells   |

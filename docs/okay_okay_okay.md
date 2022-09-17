@@ -3,49 +3,49 @@
 
 “Okay, Okay, Okay” has been said a lot over the two campaigns of
 Critical Role. Looking just at the main campaign episodes, and only
-during gameplay, it has been said 722 times to be exact\! It is most
+during gameplay, it has been said 724 times to be exact! It is most
 associated with Ashley, but does she say it the most? And has the
 frequency with which it is said changed over the campaigns?
 
 #### Who says “Okay, Okay, Okay” the most?
 
 | name     | count | attended |     words | per episode | per word | one in every n words |
-| :------- | ----: | -------: | --------: | ----------: | -------: | -------------------: |
-| Ashley   |   131 |      169 |   194,008 |        0.78 | 0.002026 |                  494 |
-| Laura    |   271 |      275 |   797,421 |        0.99 | 0.001020 |                  981 |
-| Marisha  |   195 |      283 |   629,635 |        0.69 | 0.000929 |                1,076 |
-| Sam      |    68 |      276 |   634,042 |        0.25 | 0.000322 |                3,108 |
-| Travis   |    23 |      272 |   581,128 |        0.08 | 0.000119 |                8,422 |
-| Liam     |    22 |      281 |   638,984 |        0.08 | 0.000103 |                9,682 |
-| Taliesin |     5 |      280 |   601,330 |        0.02 | 0.000025 |               40,089 |
-| Matt     |     7 |      285 | 3,566,340 |        0.02 | 0.000006 |              169,826 |
+|:---------|------:|---------:|----------:|------------:|---------:|---------------------:|
+| Ashley   |   132 |      173 |   197,908 |        0.76 | 0.002001 |                  500 |
+| Laura    |   271 |      279 |   804,662 |        0.97 | 0.001010 |                  990 |
+| Marisha  |   195 |      287 |   634,994 |        0.68 | 0.000921 |                1,085 |
+| Sam      |    68 |      280 |   641,016 |        0.24 | 0.000318 |                3,142 |
+| Travis   |    23 |      276 |   586,860 |        0.08 | 0.000118 |                8,505 |
+| Liam     |    23 |      285 |   644,156 |        0.08 | 0.000107 |                9,336 |
+| Taliesin |     5 |      284 |   606,878 |        0.02 | 0.000025 |               40,459 |
+| Matt     |     7 |      289 | 3,594,376 |        0.02 | 0.000006 |              171,161 |
 
 It turns out that both Laura (271) and Marisha (195) have said “Okay,
-Okay, Okay” more times than Ashley (131). However, they both were
+Okay, Okay” more times than Ashley (132). However, they both were
 present for more episodes, and have said many more words than Ashley. If
 we look at how many times they said it per episode they were in, Laura
-still comes out on top, averaging 0.985 “Okay, Okay, Okay”s per episode,
-with Marisha and Ashley averaging 0.689 and 0.775 respectively. But if
+still comes out on top, averaging 0.971 “Okay, Okay, Okay”s per episode,
+with Marisha and Ashley averaging 0.679 and 0.763 respectively. But if
 we look at the total number of words they said, we see that Ashley
-(194,008) said fewer words than either Laura (797,421) or Marisha
-(629,635). Taking this into account, we find that 1 in every 494 words
+(197,908) said fewer words than either Laura (804,662) or Marisha
+(634,994). Taking this into account, we find that 1 in every 500 words
 that Ashley said was part of “Okay, Okay, Okay”, compared to 1 in every
-981 for Laura, and 1 in every 1076 for Marisha. So while Ashley may not
+990 for Laura, and 1 in every 1085 for Marisha. So while Ashley may not
 have said it the most, she did have the highest frequency of “Okay,
 Okay, Okay” in her dialogue.
 
 Another interesting point is that if we compare the number of times per
 episode “Okay, Okay, Okay” is said when Ashley is present versus when
-she is absent, we see that “Okay, Okay, Okay” is said an average of 3.31
+she is absent, we see that “Okay, Okay, Okay” is said an average of 3.28
 times per episode when Ashley is there, and only 1.41 times per episode
-when she is absent. This is an average increase of 1.9 times per episode
-when Ashley is present, but Ashley herself only averages 0.775 “Okay,
-Okay, Okay”s per episode. This suggests that having Ashley at the table
-results in the other cast members saying “Okay, Okay, Okay” more often\!
-And a Wilcoxon rank sum test confirms that “Okay, Okay, Okay” is said at
-a statistically significant higher rate when Ashley is present (*p* =
-1.33e-05). However, as shown in the next section, it is difficult to
-untangle this from the change in the frequency of “Okay, Okay, Okay”
+when she is absent. This is an average increase of 1.88 times per
+episode when Ashley is present, but Ashley herself only averages 0.763
+“Okay, Okay, Okay”s per episode. This suggests that having Ashley at the
+table results in the other cast members saying “Okay, Okay, Okay” more
+often! And a Wilcoxon rank sum test confirms that “Okay, Okay, Okay” is
+said at a statistically significant higher rate when Ashley is present
+(*p* = 1.54e-05). However, as shown in the next section, it is difficult
+to untangle this from the change in the frequency of “Okay, Okay, Okay”
 over the two campaigns, and Ashley’s more frequent presence in the later
 episodes of campaign 2.
 
