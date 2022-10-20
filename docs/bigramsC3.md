@@ -9,18 +9,18 @@ each cast member, using tf-idf.
 
 ![Ashley](../plots/bigramClouds/C3/C3ASHLEY.png)
 
-| rank | bigram          |
-| ---: | :-------------- |
-|    1 | scorching rays  |
-|    2 | flame seeds     |
-|    3 | flame seed      |
-|    4 | wild shape      |
-|    5 | cast burning    |
-|    6 | um um           |
-|    7 | whoa whoa       |
-|    8 | cast entangle   |
-|    9 | flying squirrel |
-|   10 | grandma morri   |
+| rank | bigram         |
+| ---: | :------------- |
+|    1 | flame seeds    |
+|    2 | ice knife      |
+|    3 | scorching rays |
+|    4 | flame seed     |
+|    5 | moon sickle    |
+|    6 | wild shape     |
+|    7 | cast burning   |
+|    8 | mirthful leap  |
+|    9 | um um          |
+|   10 | whoa whoa      |
 
 #### Laura
 
@@ -29,15 +29,15 @@ each cast member, using tf-idf.
 | rank | bigram            |
 | ---: | :---------------- |
 |    1 | telekinetic shove |
-|    2 | dig dig           |
-|    3 | flash white       |
-|    4 | lightning bolt    |
-|    5 | mage armor        |
+|    2 | lightning bolt    |
+|    3 | mage armor        |
+|    4 | dancing lights    |
+|    5 | dig dig           |
 |    6 | cast detect       |
-|    7 | dancing lights    |
-|    8 | misty step        |
+|    7 | eep eep           |
+|    8 | flash white       |
 |    9 | cast fly          |
-|   10 | laura laura       |
+|   10 | misty step        |
 
 #### Liam
 
@@ -48,13 +48,13 @@ each cast member, using tf-idf.
 |    1 | superiority die  |
 |    2 | action surge     |
 |    3 | goading attack   |
-|    4 | ay ay            |
-|    5 | disarming attack |
-|    6 | doodle doodle    |
-|    7 | running start    |
-|    8 | toy sword        |
-|    9 | blade pressed    |
-|   10 | gunk gunk        |
+|    4 | running start    |
+|    5 | lord de          |
+|    6 | ay ay            |
+|    7 | disarming attack |
+|    8 | doodle doodle    |
+|    9 | orym steps       |
+|   10 | toy sword        |
 
 #### Marisha
 
@@ -68,10 +68,10 @@ each cast member, using tf-idf.
 |    4 | unsettling presence |
 |    5 | dream journal       |
 |    6 | rock chisel         |
-|    7 | fuck fuck           |
-|    8 | temporary hit       |
-|    9 | beam beam           |
-|   10 | hot table           |
+|    7 | beam beam           |
+|    8 | hot table           |
+|    9 | roll ability        |
+|   10 | rune keeper         |
 
 #### Matt
 
@@ -80,15 +80,15 @@ each cast member, using tf-idf.
 | rank | bigram             |
 | ---: | :----------------- |
 |    1 | persuasion check   |
-|    2 | dexterity saving   |
+|    2 | acrobatics check   |
 |    3 | roll damage        |
-|    4 | acrobatics check   |
-|    5 | piercing damage    |
+|    4 | piercing damage    |
+|    5 | push past          |
 |    6 | bludgeoning damage |
-|    7 | push past          |
-|    8 | leans forward      |
-|    9 | short time         |
-|   10 | hellcatch valley   |
+|    7 | dexterity saving   |
+|    8 | short time         |
+|    9 | leans forward      |
+|   10 | move past          |
 
 #### Sam
 
@@ -97,15 +97,15 @@ each cast member, using tf-idf.
 | rank | bigram              |
 | ---: | :------------------ |
 |    1 | healing word        |
-|    2 | temporary hit       |
-|    3 | cure wounds         |
-|    4 | bolt thrower        |
+|    2 | cure wounds         |
+|    3 | bow bow             |
+|    4 | spiritual weapon    |
 |    5 | sympathetic binding |
-|    6 | enhance ability     |
-|    7 | cast identify       |
-|    8 | cast spiritual      |
-|    9 | robot voice         |
-|   10 | smiley day          |
+|    6 | temporary hit       |
+|    7 | dun dun             |
+|    8 | bolt thrower        |
+|    9 | enhance ability     |
+|   10 | bonded blessing     |
 
 #### Taliesin
 
@@ -115,12 +115,12 @@ each cast member, using tf-idf.
 | ---: | :-------------- |
 |    1 | chaos burst     |
 |    2 | fuck’s sake     |
-|    3 | god fucking     |
-|    4 | fuck’s sakes    |
-|    5 | reckless attack |
-|    6 | shit fuck       |
+|    3 | fuck’s sakes    |
+|    4 | reckless attack |
+|    5 | god fucking     |
+|    6 | funny feeling   |
 |    7 | fucking damn    |
-|    8 | funny feeling   |
+|    8 | shit fuck       |
 |    9 | fucking hard    |
 |   10 | fucking rage    |
 
@@ -130,13 +130,13 @@ each cast member, using tf-idf.
 
 | rank | bigram             |
 | ---: | :----------------- |
-|    1 | crimson rite       |
-|    2 | wood chisel        |
-|    3 | wood chips         |
-|    4 | climbing equipment |
-|    5 | gold wire          |
-|    6 | hunter’s bane      |
+|    1 | wood chisel        |
+|    2 | crimson rite       |
+|    3 | hunter’s bane      |
+|    4 | wood chips         |
+|    5 | climbing equipment |
+|    6 | gold wire          |
 |    7 | sick sick          |
 |    8 | smoking bottle     |
-|    9 | wooden mallet      |
+|    9 | bloated agony      |
 |   10 | slashing damage    |
