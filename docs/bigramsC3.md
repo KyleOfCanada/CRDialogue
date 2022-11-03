@@ -31,13 +31,13 @@ each cast member, using tf-idf.
 |    1 | telekinetic shove |
 |    2 | lightning bolt    |
 |    3 | mage armor        |
-|    4 | dancing lights    |
-|    5 | dig dig           |
-|    6 | cast detect       |
+|    4 | cast detect       |
+|    5 | dancing lights    |
+|    6 | dig dig           |
 |    7 | eep eep           |
 |    8 | flash white       |
-|    9 | cast fly          |
-|   10 | misty step        |
+|    9 | misty step        |
+|   10 | cast fly          |
 
 #### Liam
 
@@ -49,12 +49,12 @@ each cast member, using tf-idf.
 |    2 | action surge     |
 |    3 | goading attack   |
 |    4 | running start    |
-|    5 | lord de          |
-|    6 | ay ay            |
-|    7 | disarming attack |
-|    8 | doodle doodle    |
-|    9 | orym steps       |
-|   10 | toy sword        |
+|    5 | ay ay            |
+|    6 | disarming attack |
+|    7 | doodle doodle    |
+|    8 | orym steps       |
+|    9 | toy sword        |
+|   10 | blade pressed    |
 
 #### Marisha
 
@@ -65,8 +65,8 @@ each cast member, using tf-idf.
 |    1 | creepy whispering   |
 |    2 | demonic whispers    |
 |    3 | eldritch blast      |
-|    4 | unsettling presence |
-|    5 | dream journal       |
+|    4 | dream journal       |
+|    5 | unsettling presence |
 |    6 | rock chisel         |
 |    7 | beam beam           |
 |    8 | hot table           |
@@ -83,11 +83,11 @@ each cast member, using tf-idf.
 |    2 | acrobatics check   |
 |    3 | roll damage        |
 |    4 | piercing damage    |
-|    5 | push past          |
-|    6 | bludgeoning damage |
-|    7 | dexterity saving   |
-|    8 | short time         |
-|    9 | leans forward      |
+|    5 | leans forward      |
+|    6 | push past          |
+|    7 | bludgeoning damage |
+|    8 | dexterity saving   |
+|    9 | short time         |
 |   10 | move past          |
 
 #### Sam
@@ -102,8 +102,8 @@ each cast member, using tf-idf.
 |    4 | spiritual weapon    |
 |    5 | sympathetic binding |
 |    6 | temporary hit       |
-|    7 | dun dun             |
-|    8 | bolt thrower        |
+|    7 | bolt thrower        |
+|    8 | smiley day          |
 |    9 | enhance ability     |
 |   10 | bonded blessing     |
 
