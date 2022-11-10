@@ -15,12 +15,12 @@ each cast member, using tf-idf.
 |    2 | ice knife      |
 |    3 | scorching rays |
 |    4 | flame seed     |
-|    5 | moon sickle    |
-|    6 | wild shape     |
-|    7 | cast burning   |
-|    8 | mirthful leap  |
-|    9 | um um          |
-|   10 | whoa whoa      |
+|    5 | cast entangle  |
+|    6 | moon sickle    |
+|    7 | wild shape     |
+|    8 | cast burning   |
+|    9 | mirthful leap  |
+|   10 | um um          |
 
 #### Laura
 
@@ -52,9 +52,9 @@ each cast member, using tf-idf.
 |    5 | ay ay            |
 |    6 | disarming attack |
 |    7 | doodle doodle    |
-|    8 | orym steps       |
-|    9 | toy sword        |
-|   10 | blade pressed    |
+|    8 | orym starts      |
+|    9 | orym steps       |
+|   10 | pushing attack   |
 
 #### Marisha
 
@@ -82,8 +82,8 @@ each cast member, using tf-idf.
 |    1 | persuasion check   |
 |    2 | acrobatics check   |
 |    3 | roll damage        |
-|    4 | piercing damage    |
-|    5 | leans forward      |
+|    4 | leans forward      |
+|    5 | piercing damage    |
 |    6 | push past          |
 |    7 | bludgeoning damage |
 |    8 | dexterity saving   |
@@ -131,12 +131,12 @@ each cast member, using tf-idf.
 | rank | bigram             |
 | ---: | :----------------- |
 |    1 | wood chisel        |
-|    2 | crimson rite       |
-|    3 | hunter’s bane      |
-|    4 | wood chips         |
+|    2 | hunter’s bane      |
+|    3 | crimson rite       |
+|    4 | slashing damage    |
 |    5 | climbing equipment |
 |    6 | gold wire          |
 |    7 | sick sick          |
 |    8 | smoking bottle     |
 |    9 | bloated agony      |
-|   10 | slashing damage    |
+|   10 | wood chips         |
