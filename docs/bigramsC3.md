@@ -9,18 +9,18 @@ each cast member, using tf-idf.
 
 ![Ashley](../plots/bigramClouds/C3/C3ASHLEY.png)
 
-| rank | bigram         |
-| ---: | :------------- |
-|    1 | flame seeds    |
-|    2 | ice knife      |
-|    3 | scorching rays |
-|    4 | flame seed     |
-|    5 | cast entangle  |
-|    6 | moon sickle    |
-|    7 | wild shape     |
-|    8 | cast burning   |
-|    9 | mirthful leap  |
-|   10 | um um          |
+| rank | bigram          |
+| ---: | :-------------- |
+|    1 | flame seeds     |
+|    2 | scorching rays  |
+|    3 | ice knife       |
+|    4 | flame seed      |
+|    5 | wildfire spirit |
+|    6 | cast entangle   |
+|    7 | moon sickle     |
+|    8 | wild shape      |
+|    9 | cast burning    |
+|   10 | mirthful leap   |
 
 #### Laura
 
@@ -29,8 +29,8 @@ each cast member, using tf-idf.
 | rank | bigram            |
 | ---: | :---------------- |
 |    1 | telekinetic shove |
-|    2 | lightning bolt    |
-|    3 | mage armor        |
+|    2 | mage armor        |
+|    3 | lightning bolt    |
 |    4 | cast detect       |
 |    5 | dancing lights    |
 |    6 | dig dig           |
@@ -48,13 +48,13 @@ each cast member, using tf-idf.
 |    1 | superiority die  |
 |    2 | action surge     |
 |    3 | goading attack   |
-|    4 | running start    |
-|    5 | ay ay            |
-|    6 | disarming attack |
-|    7 | doodle doodle    |
-|    8 | orym starts      |
-|    9 | orym steps       |
-|   10 | pushing attack   |
+|    4 | pushing attack   |
+|    5 | running start    |
+|    6 | ay ay            |
+|    7 | disarming attack |
+|    8 | doodle doodle    |
+|    9 | orym starts      |
+|   10 | orym steps       |
 
 #### Marisha
 
@@ -77,18 +77,18 @@ each cast member, using tf-idf.
 
 ![Matt](../plots/bigramClouds/C3/C3MATT.png)
 
-| rank | bigram             |
-| ---: | :----------------- |
-|    1 | persuasion check   |
-|    2 | acrobatics check   |
-|    3 | roll damage        |
-|    4 | leans forward      |
-|    5 | piercing damage    |
-|    6 | push past          |
-|    7 | bludgeoning damage |
-|    8 | dexterity saving   |
-|    9 | short time         |
-|   10 | move past          |
+| rank | bigram              |
+| ---: | :------------------ |
+|    1 | persuasion check    |
+|    2 | roll damage         |
+|    3 | acrobatics check    |
+|    4 | leans forward       |
+|    5 | piercing damage     |
+|    6 | bludgeoning damage  |
+|    7 | push past           |
+|    8 | short time          |
+|    9 | hellcatch valley    |
+|   10 | investigation check |
 
 #### Sam
 
@@ -99,13 +99,13 @@ each cast member, using tf-idf.
 |    1 | healing word        |
 |    2 | cure wounds         |
 |    3 | bow bow             |
-|    4 | spiritual weapon    |
+|    4 | temporary hit       |
 |    5 | sympathetic binding |
-|    6 | temporary hit       |
-|    7 | bolt thrower        |
-|    8 | smiley day          |
-|    9 | enhance ability     |
-|   10 | bonded blessing     |
+|    6 | bolt thrower        |
+|    7 | cast spiritual      |
+|    8 | enhance ability     |
+|    9 | smiley day          |
+|   10 | sacred flame        |
 
 #### Taliesin
 
@@ -122,7 +122,7 @@ each cast member, using tf-idf.
 |    7 | fucking damn    |
 |    8 | shit fuck       |
 |    9 | fucking hard    |
-|   10 | fucking rage    |
+|   10 | living fuck     |
 
 #### Travis
 
@@ -131,12 +131,12 @@ each cast member, using tf-idf.
 | rank | bigram             |
 | ---: | :----------------- |
 |    1 | wood chisel        |
-|    2 | hunter’s bane      |
-|    3 | crimson rite       |
-|    4 | slashing damage    |
-|    5 | climbing equipment |
-|    6 | gold wire          |
-|    7 | sick sick          |
-|    8 | smoking bottle     |
-|    9 | bloated agony      |
-|   10 | wood chips         |
+|    2 | crimson rite       |
+|    3 | slashing damage    |
+|    4 | hunter’s bane      |
+|    5 | bloated agony      |
+|    6 | blood curse        |
+|    7 | 1d8 necrotic       |
+|    8 | climbing equipment |
+|    9 | gold wire          |
+|   10 | sick sick          |
