@@ -14,12 +14,12 @@ each cast member, using tf-idf.
 |    1 | flame seeds     |
 |    2 | scorching rays  |
 |    3 | dee dee         |
-|    4 | ice knife       |
-|    5 | wild shape      |
-|    6 | flame seed      |
-|    7 | wildfire spirit |
-|    8 | cast entangle   |
-|    9 | moon sickle     |
+|    4 | wild shape      |
+|    5 | flame seed      |
+|    6 | wildfire spirit |
+|    7 | cast entangle   |
+|    8 | moon sickle     |
+|    9 | ice knife       |
 |   10 | cast burning    |
 
 #### Laura
@@ -31,8 +31,8 @@ each cast member, using tf-idf.
 |    1 | telekinetic shove |
 |    2 | mage armor        |
 |    3 | lightning bolt    |
-|    4 | cast detect       |
-|    5 | dancing lights    |
+|    4 | dancing lights    |
+|    5 | cast detect       |
 |    6 | dig dig           |
 |    7 | eep eep           |
 |    8 | flash white       |
@@ -65,13 +65,13 @@ each cast member, using tf-idf.
 |    1 | creepy whispering   |
 |    2 | demonic whispers    |
 |    3 | eldritch blast      |
-|    4 | dream journal       |
-|    5 | unsettling presence |
+|    4 | unsettling presence |
+|    5 | dream journal       |
 |    6 | rock chisel         |
 |    7 | roll ability        |
 |    8 | la la               |
-|    9 | beam beam           |
-|   10 | hot table           |
+|    9 | silvery barbs       |
+|   10 | quicken spell       |
 
 #### Matt
 
@@ -87,8 +87,8 @@ each cast member, using tf-idf.
 |    6 | push past           |
 |    7 | bludgeoning damage  |
 |    8 | short time          |
-|    9 | hellcatch valley    |
-|   10 | investigation check |
+|    9 | investigation check |
+|   10 | faint bit           |
 
 #### Sam
 
