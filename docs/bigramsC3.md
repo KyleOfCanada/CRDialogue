@@ -28,15 +28,15 @@ each cast member, using tf-idf.
 
 | rank | bigram            |
 | ---: | :---------------- |
-|    1 | telekinetic shove |
-|    2 | mage armor        |
+|    1 | mage armor        |
+|    2 | telekinetic shove |
 |    3 | lightning bolt    |
 |    4 | dancing lights    |
 |    5 | cast detect       |
 |    6 | dig dig           |
-|    7 | eep eep           |
-|    8 | flash white       |
-|    9 | misty step        |
+|    7 | misty step        |
+|    8 | eep eep           |
+|    9 | flash white       |
 |   10 | witch bolt        |
 
 #### Liam
@@ -46,15 +46,15 @@ each cast member, using tf-idf.
 | rank | bigram           |
 | ---: | :--------------- |
 |    1 | superiority die  |
-|    2 | action surge     |
-|    3 | goading attack   |
+|    2 | goading attack   |
+|    3 | action surge     |
 |    4 | orym starts      |
 |    5 | pushing attack   |
 |    6 | running start    |
 |    7 | ay ay            |
 |    8 | disarming attack |
 |    9 | doodle doodle    |
-|   10 | orym steps       |
+|   10 | grasping vine    |
 
 #### Marisha
 
@@ -67,11 +67,11 @@ each cast member, using tf-idf.
 |    3 | eldritch blast      |
 |    4 | unsettling presence |
 |    5 | dream journal       |
-|    6 | rock chisel         |
-|    7 | roll ability        |
-|    8 | la la               |
-|    9 | silvery barbs       |
-|   10 | quicken spell       |
+|    6 | roll ability        |
+|    7 | silvery barbs       |
+|    8 | mirror image        |
+|    9 | rock chisel         |
+|   10 | la la               |
 
 #### Matt
 
@@ -80,15 +80,15 @@ each cast member, using tf-idf.
 | rank | bigram              |
 | ---: | :------------------ |
 |    1 | persuasion check    |
-|    2 | roll damage         |
-|    3 | acrobatics check    |
-|    4 | leans forward       |
-|    5 | piercing damage     |
-|    6 | push past           |
+|    2 | acrobatics check    |
+|    3 | roll damage         |
+|    4 | push past           |
+|    5 | leans forward       |
+|    6 | piercing damage     |
 |    7 | bludgeoning damage  |
 |    8 | short time          |
 |    9 | investigation check |
-|   10 | faint bit           |
+|   10 | move past           |
 
 #### Sam
 
@@ -98,14 +98,14 @@ each cast member, using tf-idf.
 | ---: | :------------------ |
 |    1 | healing word        |
 |    2 | cure wounds         |
-|    3 | bolt thrower        |
-|    4 | sympathetic binding |
-|    5 | bow bow             |
-|    6 | temporary hit       |
-|    7 | enhance ability     |
-|    8 | game store          |
-|    9 | local game          |
-|   10 | cast spiritual      |
+|    3 | bonded blessing     |
+|    4 | bolt thrower        |
+|    5 | sympathetic binding |
+|    6 | bow bow             |
+|    7 | game store          |
+|    8 | local game          |
+|    9 | wizkids.io crminis  |
+|   10 | temporary hit       |
 
 #### Taliesin
 
@@ -132,8 +132,8 @@ each cast member, using tf-idf.
 | ---: | :----------------- |
 |    1 | wood chisel        |
 |    2 | crimson rite       |
-|    3 | hunter’s bane      |
-|    4 | slashing damage    |
+|    3 | slashing damage    |
+|    4 | hunter’s bane      |
 |    5 | bloated agony      |
 |    6 | blood curse        |
 |    7 | 1d8 necrotic       |
