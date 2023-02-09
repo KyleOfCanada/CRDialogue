@@ -13,14 +13,14 @@ each cast member, using tf-idf.
 | ---: | :-------------- |
 |    1 | flame seeds     |
 |    2 | scorching rays  |
-|    3 | dee dee         |
-|    4 | wild shape      |
+|    3 | wild shape      |
+|    4 | cast entangle   |
 |    5 | flame seed      |
-|    6 | wildfire spirit |
-|    7 | cast entangle   |
-|    8 | moon sickle     |
-|    9 | ice knife       |
-|   10 | cast burning    |
+|    6 | whoa whoa       |
+|    7 | wildfire spirit |
+|    8 | dee dee         |
+|    9 | moon sickle     |
+|   10 | ice knife       |
 
 #### Laura
 
@@ -33,11 +33,11 @@ each cast member, using tf-idf.
 |    3 | lightning bolt    |
 |    4 | dancing lights    |
 |    5 | cast detect       |
-|    6 | dig dig           |
-|    7 | misty step        |
+|    6 | misty step        |
+|    7 | dig dig           |
 |    8 | eep eep           |
 |    9 | flash white       |
-|   10 | witch bolt        |
+|   10 | cast fly          |
 
 #### Liam
 
@@ -48,13 +48,13 @@ each cast member, using tf-idf.
 |    1 | superiority die  |
 |    2 | goading attack   |
 |    3 | action surge     |
-|    4 | orym starts      |
+|    4 | grasping vine    |
 |    5 | pushing attack   |
-|    6 | running start    |
-|    7 | ay ay            |
-|    8 | disarming attack |
-|    9 | doodle doodle    |
-|   10 | grasping vine    |
+|    6 | orym starts      |
+|    7 | running start    |
+|    8 | ay ay            |
+|    9 | dead lady        |
+|   10 | disarming attack |
 
 #### Marisha
 
@@ -62,16 +62,16 @@ each cast member, using tf-idf.
 
 | rank | bigram              |
 | ---: | :------------------ |
-|    1 | creepy whispering   |
+|    1 | eldritch blast      |
 |    2 | demonic whispers    |
-|    3 | eldritch blast      |
+|    3 | dream journal       |
 |    4 | unsettling presence |
-|    5 | dream journal       |
-|    6 | roll ability        |
-|    7 | silvery barbs       |
-|    8 | mirror image        |
-|    9 | rock chisel         |
-|   10 | la la               |
+|    5 | silvery barbs       |
+|    6 | creepy whispering   |
+|    7 | roll ability        |
+|    8 | tickle tickle       |
+|    9 | mirror image        |
+|   10 | rock chisel         |
 
 #### Matt
 
@@ -79,16 +79,16 @@ each cast member, using tf-idf.
 
 | rank | bigram              |
 | ---: | :------------------ |
-|    1 | persuasion check    |
-|    2 | acrobatics check    |
-|    3 | roll damage         |
+|    1 | acrobatics check    |
+|    2 | roll damage         |
+|    3 | persuasion check    |
 |    4 | push past           |
-|    5 | leans forward       |
-|    6 | piercing damage     |
-|    7 | bludgeoning damage  |
-|    8 | short time          |
-|    9 | investigation check |
-|   10 | move past           |
+|    5 | piercing damage     |
+|    6 | leans forward       |
+|    7 | short time          |
+|    8 | bludgeoning damage  |
+|    9 | move past           |
+|   10 | investigation check |
 
 #### Sam
 
@@ -97,15 +97,15 @@ each cast member, using tf-idf.
 | rank | bigram              |
 | ---: | :------------------ |
 |    1 | healing word        |
-|    2 | cure wounds         |
-|    3 | bonded blessing     |
-|    4 | bolt thrower        |
-|    5 | sympathetic binding |
-|    6 | bow bow             |
-|    7 | game store          |
-|    8 | local game          |
-|    9 | wizkids.io crminis  |
-|   10 | temporary hit       |
+|    2 | game store          |
+|    3 | local game          |
+|    4 | wizkids.io crminis  |
+|    5 | cure wounds         |
+|    6 | bolt thrower        |
+|    7 | bonded blessing     |
+|    8 | sympathetic binding |
+|    9 | enhance ability     |
+|   10 | bow bow             |
 
 #### Taliesin
 
@@ -132,11 +132,11 @@ each cast member, using tf-idf.
 | ---: | :----------------- |
 |    1 | wood chisel        |
 |    2 | crimson rite       |
-|    3 | slashing damage    |
-|    4 | hunter’s bane      |
-|    5 | bloated agony      |
-|    6 | blood curse        |
-|    7 | 1d8 necrotic       |
-|    8 | climbing equipment |
-|    9 | gold wire          |
-|   10 | sick sick          |
+|    3 | hunter’s bane      |
+|    4 | slashing damage    |
+|    5 | blood curse        |
+|    6 | 1d8 necrotic       |
+|    7 | climbing equipment |
+|    8 | gold wire          |
+|    9 | sick sick          |
+|   10 | smoking bottle     |
