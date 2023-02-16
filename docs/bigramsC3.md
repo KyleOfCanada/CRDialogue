@@ -18,9 +18,9 @@ each cast member, using tf-idf.
 |    5 | flame seed      |
 |    6 | whoa whoa       |
 |    7 | wildfire spirit |
-|    8 | dee dee         |
-|    9 | moon sickle     |
-|   10 | ice knife       |
+|    8 | moon sickle     |
+|    9 | ice knife       |
+|   10 | pan flute       |
 
 #### Laura
 
@@ -29,14 +29,14 @@ each cast member, using tf-idf.
 | rank | bigram            |
 | ---: | :---------------- |
 |    1 | mage armor        |
-|    2 | telekinetic shove |
-|    3 | lightning bolt    |
+|    2 | lightning bolt    |
+|    3 | telekinetic shove |
 |    4 | dancing lights    |
 |    5 | cast detect       |
 |    6 | misty step        |
 |    7 | dig dig           |
-|    8 | eep eep           |
-|    9 | flash white       |
+|    8 | flash white       |
+|    9 | eep eep           |
 |   10 | cast fly          |
 
 #### Liam
@@ -64,14 +64,14 @@ each cast member, using tf-idf.
 | ---: | :------------------ |
 |    1 | eldritch blast      |
 |    2 | demonic whispers    |
-|    3 | dream journal       |
-|    4 | unsettling presence |
+|    3 | unsettling presence |
+|    4 | dream journal       |
 |    5 | silvery barbs       |
 |    6 | creepy whispering   |
-|    7 | roll ability        |
-|    8 | tickle tickle       |
-|    9 | mirror image        |
-|   10 | rock chisel         |
+|    7 | scry ball           |
+|    8 | roll ability        |
+|    9 | tickle tickle       |
+|   10 | mirror image        |
 
 #### Matt
 
@@ -86,8 +86,8 @@ each cast member, using tf-idf.
 |    5 | piercing damage     |
 |    6 | leans forward       |
 |    7 | short time          |
-|    8 | bludgeoning damage  |
-|    9 | move past           |
+|    8 | move past           |
+|    9 | bludgeoning damage  |
 |   10 | investigation check |
 
 #### Sam
@@ -104,8 +104,8 @@ each cast member, using tf-idf.
 |    6 | bolt thrower        |
 |    7 | bonded blessing     |
 |    8 | sympathetic binding |
-|    9 | enhance ability     |
-|   10 | bow bow             |
+|    9 | bow bow             |
+|   10 | spiritual weapon    |
 
 #### Taliesin
 
@@ -135,8 +135,8 @@ each cast member, using tf-idf.
 |    3 | hunter’s bane      |
 |    4 | slashing damage    |
 |    5 | blood curse        |
-|    6 | 1d8 necrotic       |
-|    7 | climbing equipment |
-|    8 | gold wire          |
-|    9 | sick sick          |
-|   10 | smoking bottle     |
+|    6 | fey fiend          |
+|    7 | 1d8 necrotic       |
+|    8 | climbing equipment |
+|    9 | gold wire          |
+|   10 | sick sick          |
