@@ -29,10 +29,10 @@ each cast member, using tf-idf.
 | rank | bigram            |
 | ---: | :---------------- |
 |    1 | mage armor        |
-|    2 | lightning bolt    |
-|    3 | telekinetic shove |
-|    4 | dancing lights    |
-|    5 | cast detect       |
+|    2 | telekinetic shove |
+|    3 | dancing lights    |
+|    4 | cast detect       |
+|    5 | lightning bolt    |
 |    6 | misty step        |
 |    7 | dig dig           |
 |    8 | flash white       |
@@ -66,9 +66,9 @@ each cast member, using tf-idf.
 |    2 | demonic whispers    |
 |    3 | unsettling presence |
 |    4 | dream journal       |
-|    5 | silvery barbs       |
-|    6 | creepy whispering   |
-|    7 | scry ball           |
+|    5 | scry ball           |
+|    6 | silvery barbs       |
+|    7 | creepy whispering   |
 |    8 | roll ability        |
 |    9 | tickle tickle       |
 |   10 | mirror image        |
@@ -104,8 +104,8 @@ each cast member, using tf-idf.
 |    6 | bolt thrower        |
 |    7 | bonded blessing     |
 |    8 | sympathetic binding |
-|    9 | bow bow             |
-|   10 | spiritual weapon    |
+|    9 | spiritual weapon    |
+|   10 | smiley day          |
 
 #### Taliesin
 
@@ -115,14 +115,14 @@ each cast member, using tf-idf.
 | ---: | :-------------- |
 |    1 | chaos burst     |
 |    2 | fuck’s sake     |
-|    3 | reckless attack |
-|    4 | god fucking     |
-|    5 | fuck’s sakes    |
-|    6 | fucking damn    |
+|    3 | god fucking     |
+|    4 | reckless attack |
+|    5 | fucking damn    |
+|    6 | fuck’s sakes    |
 |    7 | funny feeling   |
-|    8 | shit fuck       |
-|    9 | fucking hard    |
-|   10 | living fuck     |
+|    8 | rainbow sparks  |
+|    9 | shit fuck       |
+|   10 | fucking hard    |
 
 #### Travis
 
@@ -135,8 +135,8 @@ each cast member, using tf-idf.
 |    3 | hunter’s bane      |
 |    4 | slashing damage    |
 |    5 | blood curse        |
-|    6 | fey fiend          |
-|    7 | 1d8 necrotic       |
-|    8 | climbing equipment |
-|    9 | gold wire          |
-|   10 | sick sick          |
+|    6 | boop boop          |
+|    7 | fey fiend          |
+|    8 | 1d8 necrotic       |
+|    9 | climbing equipment |
+|   10 | gold wire          |
