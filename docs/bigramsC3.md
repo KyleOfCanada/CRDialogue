@@ -14,13 +14,13 @@ each cast member, using tf-idf.
 |    1 | flame seeds     |
 |    2 | scorching rays  |
 |    3 | wild shape      |
-|    4 | cast entangle   |
-|    5 | flame seed      |
-|    6 | whoa whoa       |
+|    4 | whoa whoa       |
+|    5 | cast entangle   |
+|    6 | flame seed      |
 |    7 | wildfire spirit |
 |    8 | moon sickle     |
-|    9 | ice knife       |
-|   10 | pan flute       |
+|    9 | totally fine    |
+|   10 | ice knife       |
 
 #### Laura
 
@@ -64,9 +64,9 @@ each cast member, using tf-idf.
 | ---: | :------------------ |
 |    1 | eldritch blast      |
 |    2 | demonic whispers    |
-|    3 | unsettling presence |
-|    4 | dream journal       |
-|    5 | scry ball           |
+|    3 | scry ball           |
+|    4 | unsettling presence |
+|    5 | dream journal       |
 |    6 | silvery barbs       |
 |    7 | creepy whispering   |
 |    8 | roll ability        |
@@ -86,8 +86,8 @@ each cast member, using tf-idf.
 |    5 | piercing damage     |
 |    6 | leans forward       |
 |    7 | short time          |
-|    8 | move past           |
-|    9 | bludgeoning damage  |
+|    8 | bludgeoning damage  |
+|    9 | move past           |
 |   10 | investigation check |
 
 #### Sam
@@ -97,15 +97,15 @@ each cast member, using tf-idf.
 | rank | bigram              |
 | ---: | :------------------ |
 |    1 | healing word        |
-|    2 | game store          |
-|    3 | local game          |
-|    4 | wizkids.io crminis  |
-|    5 | cure wounds         |
-|    6 | bolt thrower        |
+|    2 | wizkids.io crminis  |
+|    3 | cure wounds         |
+|    4 | bolt thrower        |
+|    5 | game store          |
+|    6 | local game          |
 |    7 | bonded blessing     |
 |    8 | sympathetic binding |
 |    9 | spiritual weapon    |
-|   10 | smiley day          |
+|   10 | enhance ability     |
 
 #### Taliesin
 
@@ -115,14 +115,14 @@ each cast member, using tf-idf.
 | ---: | :-------------- |
 |    1 | chaos burst     |
 |    2 | fuck’s sake     |
-|    3 | god fucking     |
-|    4 | reckless attack |
+|    3 | reckless attack |
+|    4 | god fucking     |
 |    5 | fucking damn    |
 |    6 | fuck’s sakes    |
 |    7 | funny feeling   |
 |    8 | rainbow sparks  |
 |    9 | shit fuck       |
-|   10 | fucking hard    |
+|   10 | crazy ass       |
 
 #### Travis
 
