@@ -11,8 +11,8 @@ each cast member, using tf-idf.
 
 | rank | bigram          |
 | ---: | :-------------- |
-|    1 | flame seeds     |
-|    2 | scorching rays  |
+|    1 | scorching rays  |
+|    2 | flame seeds     |
 |    3 | wild shape      |
 |    4 | whoa whoa       |
 |    5 | cast entangle   |
@@ -47,8 +47,8 @@ each cast member, using tf-idf.
 | ---: | :--------------- |
 |    1 | superiority die  |
 |    2 | goading attack   |
-|    3 | action surge     |
-|    4 | grasping vine    |
+|    3 | grasping vine    |
+|    4 | action surge     |
 |    5 | pushing attack   |
 |    6 | orym starts      |
 |    7 | running start    |
@@ -67,11 +67,11 @@ each cast member, using tf-idf.
 |    3 | scry ball           |
 |    4 | unsettling presence |
 |    5 | dream journal       |
-|    6 | silvery barbs       |
-|    7 | creepy whispering   |
-|    8 | roll ability        |
+|    6 | mirror image        |
+|    7 | silvery barbs       |
+|    8 | creepy whispering   |
 |    9 | tickle tickle       |
-|   10 | mirror image        |
+|   10 | treshi scry         |
 
 #### Matt
 
@@ -86,9 +86,9 @@ each cast member, using tf-idf.
 |    5 | piercing damage     |
 |    6 | leans forward       |
 |    7 | short time          |
-|    8 | bludgeoning damage  |
-|    9 | move past           |
-|   10 | investigation check |
+|    8 | move past           |
+|    9 | investigation check |
+|   10 | faint bit           |
 
 #### Sam
 
@@ -99,13 +99,13 @@ each cast member, using tf-idf.
 |    1 | healing word        |
 |    2 | wizkids.io crminis  |
 |    3 | cure wounds         |
-|    4 | bolt thrower        |
-|    5 | game store          |
-|    6 | local game          |
+|    4 | game store          |
+|    5 | local game          |
+|    6 | bolt thrower        |
 |    7 | bonded blessing     |
 |    8 | sympathetic binding |
-|    9 | spiritual weapon    |
-|   10 | enhance ability     |
+|    9 | enhance ability     |
+|   10 | spiritual weapon    |
 
 #### Taliesin
 
@@ -122,7 +122,7 @@ each cast member, using tf-idf.
 |    7 | funny feeling   |
 |    8 | rainbow sparks  |
 |    9 | shit fuck       |
-|   10 | crazy ass       |
+|   10 | fucking rage    |
 
 #### Travis
 
