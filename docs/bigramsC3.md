@@ -18,8 +18,8 @@ each cast member, using tf-idf.
 |    5 | cast entangle   |
 |    6 | flame seed      |
 |    7 | wildfire spirit |
-|    8 | moon sickle     |
-|    9 | totally fine    |
+|    8 | totally fine    |
+|    9 | moon sickle     |
 |   10 | ice knife       |
 
 #### Laura
@@ -30,14 +30,14 @@ each cast member, using tf-idf.
 | ---: | :---------------- |
 |    1 | mage armor        |
 |    2 | telekinetic shove |
-|    3 | dancing lights    |
-|    4 | cast detect       |
-|    5 | lightning bolt    |
+|    3 | lightning bolt    |
+|    4 | dancing lights    |
+|    5 | cast detect       |
 |    6 | misty step        |
 |    7 | dig dig           |
 |    8 | flash white       |
-|    9 | eep eep           |
-|   10 | cast fly          |
+|    9 | cast fly          |
+|   10 | eep eep           |
 
 #### Liam
 
@@ -98,14 +98,14 @@ each cast member, using tf-idf.
 | ---: | :------------------ |
 |    1 | healing word        |
 |    2 | wizkids.io crminis  |
-|    3 | cure wounds         |
-|    4 | game store          |
-|    5 | local game          |
+|    3 | game store          |
+|    4 | local game          |
+|    5 | cure wounds         |
 |    6 | bolt thrower        |
 |    7 | bonded blessing     |
 |    8 | sympathetic binding |
-|    9 | enhance ability     |
-|   10 | spiritual weapon    |
+|    9 | spiritual weapon    |
+|   10 | enhance ability     |
 
 #### Taliesin
 
