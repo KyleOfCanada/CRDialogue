@@ -18,9 +18,9 @@ each cast member, using tf-idf.
 |    5 | cast entangle   |
 |    6 | flame seed      |
 |    7 | wildfire spirit |
-|    8 | totally fine    |
-|    9 | moon sickle     |
-|   10 | ice knife       |
+|    8 | moon sickle     |
+|    9 | ice knife       |
+|   10 | pan flute       |
 
 #### Laura
 
@@ -30,8 +30,8 @@ each cast member, using tf-idf.
 | ---: | :---------------- |
 |    1 | mage armor        |
 |    2 | telekinetic shove |
-|    3 | lightning bolt    |
-|    4 | dancing lights    |
+|    3 | dancing lights    |
+|    4 | lightning bolt    |
 |    5 | cast detect       |
 |    6 | misty step        |
 |    7 | dig dig           |
@@ -81,14 +81,14 @@ each cast member, using tf-idf.
 | ---: | :------------------ |
 |    1 | acrobatics check    |
 |    2 | roll damage         |
-|    3 | persuasion check    |
-|    4 | push past           |
-|    5 | piercing damage     |
-|    6 | leans forward       |
-|    7 | short time          |
-|    8 | move past           |
+|    3 | push past           |
+|    4 | piercing damage     |
+|    5 | leans forward       |
+|    6 | short time          |
+|    7 | move past           |
+|    8 | quick glance        |
 |    9 | investigation check |
-|   10 | faint bit           |
+|   10 | persuasion check    |
 
 #### Sam
 
@@ -96,16 +96,16 @@ each cast member, using tf-idf.
 
 | rank | bigram              |
 | ---: | :------------------ |
-|    1 | healing word        |
-|    2 | wizkids.io crminis  |
+|    1 | wizkids.io crminis  |
+|    2 | healing word        |
 |    3 | game store          |
 |    4 | local game          |
 |    5 | cure wounds         |
 |    6 | bolt thrower        |
 |    7 | bonded blessing     |
 |    8 | sympathetic binding |
-|    9 | spiritual weapon    |
-|   10 | enhance ability     |
+|    9 | enhance ability     |
+|   10 | smiley day          |
 
 #### Taliesin
 
@@ -139,4 +139,4 @@ each cast member, using tf-idf.
 |    7 | fey fiend          |
 |    8 | 1d8 necrotic       |
 |    9 | climbing equipment |
-|   10 | gold wire          |
+|   10 | fey fiends         |
