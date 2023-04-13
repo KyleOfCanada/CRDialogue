@@ -18,9 +18,9 @@ each cast member, using tf-idf.
 |    5 | cast entangle   |
 |    6 | flame seed      |
 |    7 | wildfire spirit |
-|    8 | moon sickle     |
-|    9 | ice knife       |
-|   10 | pan flute       |
+|    8 | mirthful leap   |
+|    9 | moon sickle     |
+|   10 | ice knife       |
 
 #### Laura
 
@@ -77,18 +77,18 @@ each cast member, using tf-idf.
 
 ![Matt](../plots/bigramClouds/C3/C3MATT.png)
 
-| rank | bigram              |
-| ---: | :------------------ |
-|    1 | acrobatics check    |
-|    2 | roll damage         |
-|    3 | push past           |
-|    4 | piercing damage     |
-|    5 | leans forward       |
-|    6 | short time          |
-|    7 | move past           |
-|    8 | quick glance        |
-|    9 | investigation check |
-|   10 | persuasion check    |
+| rank | bigram           |
+| ---: | :--------------- |
+|    1 | acrobatics check |
+|    2 | roll damage      |
+|    3 | push past        |
+|    4 | piercing damage  |
+|    5 | leans forward    |
+|    6 | short time       |
+|    7 | move past        |
+|    8 | persuasion check |
+|    9 | quick glance     |
+|   10 | left hand        |
 
 #### Sam
 
@@ -101,8 +101,8 @@ each cast member, using tf-idf.
 |    3 | game store          |
 |    4 | local game          |
 |    5 | cure wounds         |
-|    6 | bolt thrower        |
-|    7 | bonded blessing     |
+|    6 | bonded blessing     |
+|    7 | bolt thrower        |
 |    8 | sympathetic binding |
 |    9 | enhance ability     |
 |   10 | smiley day          |
@@ -130,13 +130,13 @@ each cast member, using tf-idf.
 
 | rank | bigram             |
 | ---: | :----------------- |
-|    1 | wood chisel        |
-|    2 | crimson rite       |
-|    3 | hunter’s bane      |
-|    4 | slashing damage    |
+|    1 | crimson rite       |
+|    2 | wood chisel        |
+|    3 | slashing damage    |
+|    4 | hunter’s bane      |
 |    5 | blood curse        |
 |    6 | boop boop          |
 |    7 | fey fiend          |
-|    8 | 1d8 necrotic       |
-|    9 | climbing equipment |
-|   10 | fey fiends         |
+|    8 | thunder damage     |
+|    9 | 1d8 necrotic       |
+|   10 | climbing equipment |
