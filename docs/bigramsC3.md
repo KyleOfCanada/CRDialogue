@@ -96,16 +96,16 @@ each cast member, using tf-idf.
 
 | rank | bigram              |
 | ---: | :------------------ |
-|    1 | wizkids.io crminis  |
-|    2 | healing word        |
-|    3 | game store          |
-|    4 | local game          |
-|    5 | cure wounds         |
-|    6 | bonded blessing     |
-|    7 | bolt thrower        |
-|    8 | sympathetic binding |
-|    9 | enhance ability     |
-|   10 | smiley day          |
+|    1 | healing word        |
+|    2 | wizkids.io crminis  |
+|    3 | cure wounds         |
+|    4 | bonded blessing     |
+|    5 | bolt thrower        |
+|    6 | sympathetic binding |
+|    7 | smiley day          |
+|    8 | enhance ability     |
+|    9 | game store          |
+|   10 | local game          |
 
 #### Taliesin
 
@@ -128,15 +128,15 @@ each cast member, using tf-idf.
 
 ![Travis](../plots/bigramClouds/C3/C3TRAVIS.png)
 
-| rank | bigram             |
-| ---: | :----------------- |
-|    1 | crimson rite       |
-|    2 | wood chisel        |
-|    3 | slashing damage    |
-|    4 | hunter’s bane      |
-|    5 | blood curse        |
-|    6 | boop boop          |
-|    7 | fey fiend          |
-|    8 | thunder damage     |
-|    9 | 1d8 necrotic       |
-|   10 | climbing equipment |
+| rank | bigram          |
+| ---: | :-------------- |
+|    1 | crimson rite    |
+|    2 | wood chisel     |
+|    3 | slashing damage |
+|    4 | hunter’s bane   |
+|    5 | blood curse     |
+|    6 | boop boop       |
+|    7 | fey fiend       |
+|    8 | thunder damage  |
+|    9 | quick footsteps |
+|   10 | 1d8 necrotic    |
