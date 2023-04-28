@@ -13,14 +13,14 @@ each cast member, using tf-idf.
 | ---: | :-------------- |
 |    1 | scorching rays  |
 |    2 | flame seeds     |
-|    3 | wild shape      |
+|    3 | donnie boy      |
 |    4 | whoa whoa       |
 |    5 | cast entangle   |
-|    6 | flame seed      |
-|    7 | wildfire spirit |
-|    8 | mirthful leap   |
-|    9 | moon sickle     |
-|   10 | ice knife       |
+|    6 | wild shape      |
+|    7 | flame seed      |
+|    8 | wildfire spirit |
+|    9 | magical effects |
+|   10 | mirthful leap   |
 
 #### Laura
 
@@ -29,14 +29,14 @@ each cast member, using tf-idf.
 | rank | bigram            |
 | ---: | :---------------- |
 |    1 | mage armor        |
-|    2 | telekinetic shove |
-|    3 | dancing lights    |
-|    4 | lightning bolt    |
+|    2 | dancing lights    |
+|    3 | lightning bolt    |
+|    4 | cast fly          |
 |    5 | cast detect       |
 |    6 | misty step        |
-|    7 | dig dig           |
-|    8 | flash white       |
-|    9 | cast fly          |
+|    7 | telekinetic shove |
+|    8 | dig dig           |
+|    9 | flash white       |
 |   10 | eep eep           |
 
 #### Liam
@@ -88,7 +88,7 @@ each cast member, using tf-idf.
 |    7 | move past        |
 |    8 | persuasion check |
 |    9 | quick glance     |
-|   10 | left hand        |
+|   10 | faint bit        |
 
 #### Sam
 
@@ -96,16 +96,16 @@ each cast member, using tf-idf.
 
 | rank | bigram              |
 | ---: | :------------------ |
-|    1 | healing word        |
-|    2 | wizkids.io crminis  |
+|    1 | wizkids.io crminis  |
+|    2 | healing word        |
 |    3 | cure wounds         |
 |    4 | bonded blessing     |
 |    5 | bolt thrower        |
-|    6 | sympathetic binding |
-|    7 | smiley day          |
-|    8 | enhance ability     |
-|    9 | game store          |
-|   10 | local game          |
+|    6 | game store          |
+|    7 | local game          |
+|    8 | sympathetic binding |
+|    9 | smiley day          |
+|   10 | enhance ability     |
 
 #### Taliesin
 
@@ -132,11 +132,11 @@ each cast member, using tf-idf.
 | ---: | :-------------- |
 |    1 | crimson rite    |
 |    2 | wood chisel     |
-|    3 | slashing damage |
-|    4 | hunter’s bane   |
-|    5 | blood curse     |
-|    6 | boop boop       |
+|    3 | hunter’s bane   |
+|    4 | slashing damage |
+|    5 | boop boop       |
+|    6 | thunder damage  |
 |    7 | fey fiend       |
-|    8 | thunder damage  |
+|    8 | blood curse     |
 |    9 | quick footsteps |
 |   10 | 1d8 necrotic    |
