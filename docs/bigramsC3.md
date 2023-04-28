@@ -10,133 +10,133 @@ each cast member, using tf-idf.
 ![Ashley](../plots/bigramClouds/C3/C3ASHLEY.png)
 
 | rank | bigram          |
-|-----:|:----------------|
+| ---: | :-------------- |
 |    1 | scorching rays  |
 |    2 | flame seeds     |
 |    3 | wild shape      |
-|    4 | flame seed      |
-|    5 | cast burning    |
-|    6 | um um           |
-|    7 | whoa whoa       |
-|    8 | cast entangle   |
-|    9 | flying squirrel |
-|   10 | grandma morri   |
+|    4 | whoa whoa       |
+|    5 | cast entangle   |
+|    6 | flame seed      |
+|    7 | wildfire spirit |
+|    8 | mirthful leap   |
+|    9 | moon sickle     |
+|   10 | ice knife       |
 
 #### Laura
 
 ![Laura](../plots/bigramClouds/C3/C3LAURA.png)
 
 | rank | bigram            |
-|-----:|:------------------|
-|    1 | telekinetic shove |
-|    2 | dancing lights    |
-|    3 | dig dig           |
+| ---: | :---------------- |
+|    1 | mage armor        |
+|    2 | telekinetic shove |
+|    3 | dancing lights    |
 |    4 | lightning bolt    |
-|    5 | mage armor        |
-|    6 | cast detect       |
-|    7 | witch bolt        |
+|    5 | cast detect       |
+|    6 | misty step        |
+|    7 | dig dig           |
 |    8 | flash white       |
-|    9 | laura laura       |
-|   10 | shit balls        |
+|    9 | cast fly          |
+|   10 | eep eep           |
 
 #### Liam
 
 ![Liam](../plots/bigramClouds/C3/C3LIAM.png)
 
-| rank | bigram          |
-|-----:|:----------------|
-|    1 | superiority die |
-|    2 | action surge    |
-|    3 | goading attack  |
-|    4 | ay ay           |
-|    5 | doodle doodle   |
-|    6 | running start   |
-|    7 | toy sword       |
-|    8 | gunk gunk       |
-|    9 | orym steps      |
-|   10 | toy swords      |
+| rank | bigram           |
+| ---: | :--------------- |
+|    1 | superiority die  |
+|    2 | goading attack   |
+|    3 | grasping vine    |
+|    4 | action surge     |
+|    5 | pushing attack   |
+|    6 | orym starts      |
+|    7 | running start    |
+|    8 | ay ay            |
+|    9 | dead lady        |
+|   10 | disarming attack |
 
 #### Marisha
 
 ![Marisha](../plots/bigramClouds/C3/C3MARISHA.png)
 
 | rank | bigram              |
-|-----:|:--------------------|
-|    1 | creepy whispering   |
-|    2 | eldritch blast      |
-|    3 | unsettling presence |
-|    4 | demonic whispers    |
+| ---: | :------------------ |
+|    1 | eldritch blast      |
+|    2 | demonic whispers    |
+|    3 | scry ball           |
+|    4 | unsettling presence |
 |    5 | dream journal       |
-|    6 | rock chisel         |
-|    7 | beam beam           |
-|    8 | roll ability        |
-|    9 | rune keeper         |
-|   10 | cast bane           |
+|    6 | mirror image        |
+|    7 | silvery barbs       |
+|    8 | creepy whispering   |
+|    9 | tickle tickle       |
+|   10 | treshi scry         |
 
 #### Matt
 
 ![Matt](../plots/bigramClouds/C3/C3MATT.png)
 
-| rank | bigram              |
-|-----:|:--------------------|
-|    1 | persuasion check    |
-|    2 | roll damage         |
-|    3 | dexterity saving    |
-|    4 | acrobatics check    |
-|    5 | piercing damage     |
-|    6 | investigation check |
-|    7 | bludgeoning damage  |
-|    8 | push past           |
-|    9 | leans forward       |
-|   10 | short time          |
+| rank | bigram           |
+| ---: | :--------------- |
+|    1 | acrobatics check |
+|    2 | roll damage      |
+|    3 | push past        |
+|    4 | piercing damage  |
+|    5 | leans forward    |
+|    6 | short time       |
+|    7 | move past        |
+|    8 | persuasion check |
+|    9 | quick glance     |
+|   10 | left hand        |
 
 #### Sam
 
 ![Sam](../plots/bigramClouds/C3/C3SAM.png)
 
 | rank | bigram              |
-|-----:|:--------------------|
+| ---: | :------------------ |
 |    1 | healing word        |
-|    2 | temporary hit       |
+|    2 | wizkids.io crminis  |
 |    3 | cure wounds         |
-|    4 | bolt thrower        |
-|    5 | enhance ability     |
-|    6 | sacred flame        |
-|    7 | sympathetic binding |
-|    8 | cast identify       |
-|    9 | cast spiritual      |
-|   10 | robot voice         |
+|    4 | bonded blessing     |
+|    5 | bolt thrower        |
+|    6 | sympathetic binding |
+|    7 | smiley day          |
+|    8 | enhance ability     |
+|    9 | game store          |
+|   10 | local game          |
 
 #### Taliesin
 
 ![Taliesin](../plots/bigramClouds/C3/C3TALIESIN.png)
 
 | rank | bigram          |
-|-----:|:----------------|
+| ---: | :-------------- |
 |    1 | chaos burst     |
 |    2 | fuck’s sake     |
-|    3 | fuck’s sakes    |
-|    4 | reckless attack |
-|    5 | funny feeling   |
-|    6 | shit fuck       |
-|    7 | fucking hard    |
-|    8 | fucking rage    |
-|    9 | weird fucking   |
-|   10 | fucking people  |
+|    3 | reckless attack |
+|    4 | god fucking     |
+|    5 | fucking damn    |
+|    6 | fuck’s sakes    |
+|    7 | funny feeling   |
+|    8 | rainbow sparks  |
+|    9 | shit fuck       |
+|   10 | fucking rage    |
 
 #### Travis
 
 ![Travis](../plots/bigramClouds/C3/C3TRAVIS.png)
 
-| rank | bigram             |
-|-----:|:-------------------|
-|    1 | crimson rite       |
-|    2 | wood chisel        |
-|    3 | wood chips         |
-|    4 | climbing equipment |
-|    5 | hunter’s bane      |
-|    6 | smoking bottle     |
-|    7 | wooden mallet      |
-|    8 | quick footsteps    |
-|    9 | slashing damage    |
-|   10 | bertrand’s bells   |
+| rank | bigram          |
+| ---: | :-------------- |
+|    1 | crimson rite    |
+|    2 | wood chisel     |
+|    3 | slashing damage |
+|    4 | hunter’s bane   |
+|    5 | blood curse     |
+|    6 | boop boop       |
+|    7 | fey fiend       |
+|    8 | thunder damage  |
+|    9 | quick footsteps |
+|   10 | 1d8 necrotic    |
