@@ -17,10 +17,10 @@ each cast member, using tf-idf.
 |    4 | whoa whoa       |
 |    5 | cast entangle   |
 |    6 | wild shape      |
-|    7 | flame seed      |
-|    8 | wildfire spirit |
-|    9 | magical effects |
-|   10 | mirthful leap   |
+|    7 | mirthful leap   |
+|    8 | flame seed      |
+|    9 | ice knife       |
+|   10 | wildfire spirit |
 
 #### Laura
 
@@ -33,8 +33,8 @@ each cast member, using tf-idf.
 |    3 | lightning bolt    |
 |    4 | cast fly          |
 |    5 | cast detect       |
-|    6 | misty step        |
-|    7 | telekinetic shove |
+|    6 | telekinetic shove |
+|    7 | misty step        |
 |    8 | dig dig           |
 |    9 | flash white       |
 |   10 | eep eep           |
@@ -79,16 +79,16 @@ each cast member, using tf-idf.
 
 | rank | bigram           |
 | ---: | :--------------- |
-|    1 | acrobatics check |
-|    2 | roll damage      |
+|    1 | roll damage      |
+|    2 | acrobatics check |
 |    3 | push past        |
-|    4 | piercing damage  |
-|    5 | leans forward    |
-|    6 | short time       |
-|    7 | move past        |
-|    8 | persuasion check |
-|    9 | quick glance     |
-|   10 | faint bit        |
+|    4 | leans forward    |
+|    5 | short time       |
+|    6 | quick glance     |
+|    7 | persuasion check |
+|    8 | faint bit        |
+|    9 | piercing damage  |
+|   10 | mountain range   |
 
 #### Sam
 
@@ -99,13 +99,13 @@ each cast member, using tf-idf.
 |    1 | wizkids.io crminis  |
 |    2 | healing word        |
 |    3 | cure wounds         |
-|    4 | bonded blessing     |
-|    5 | bolt thrower        |
-|    6 | game store          |
-|    7 | local game          |
-|    8 | sympathetic binding |
-|    9 | smiley day          |
-|   10 | enhance ability     |
+|    4 | bolt thrower        |
+|    5 | game store          |
+|    6 | local game          |
+|    7 | sympathetic binding |
+|    8 | smiley day          |
+|    9 | enhance ability     |
+|   10 | cast spiritual      |
 
 #### Taliesin
 
@@ -135,8 +135,8 @@ each cast member, using tf-idf.
 |    3 | hunter’s bane   |
 |    4 | slashing damage |
 |    5 | boop boop       |
-|    6 | thunder damage  |
-|    7 | fey fiend       |
-|    8 | blood curse     |
-|    9 | quick footsteps |
-|   10 | 1d8 necrotic    |
+|    6 | fey fiend       |
+|    7 | fey fiends      |
+|    8 | pop industries  |
+|    9 | blood curse     |
+|   10 | quick footsteps |
