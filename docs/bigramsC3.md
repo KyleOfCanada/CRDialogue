@@ -14,9 +14,9 @@ each cast member, using tf-idf.
 |    1 | scorching rays  |
 |    2 | flame seeds     |
 |    3 | donnie boy      |
-|    4 | whoa whoa       |
-|    5 | cast entangle   |
-|    6 | wild shape      |
+|    4 | cast entangle   |
+|    5 | wild shape      |
+|    6 | magical effects |
 |    7 | mirthful leap   |
 |    8 | flame seed      |
 |    9 | ice knife       |
@@ -29,9 +29,9 @@ each cast member, using tf-idf.
 | rank | bigram            |
 | ---: | :---------------- |
 |    1 | mage armor        |
-|    2 | dancing lights    |
+|    2 | cast fly          |
 |    3 | lightning bolt    |
-|    4 | cast fly          |
+|    4 | dancing lights    |
 |    5 | cast detect       |
 |    6 | telekinetic shove |
 |    7 | misty step        |
@@ -77,18 +77,18 @@ each cast member, using tf-idf.
 
 ![Matt](../plots/bigramClouds/C3/C3MATT.png)
 
-| rank | bigram           |
-| ---: | :--------------- |
-|    1 | roll damage      |
-|    2 | acrobatics check |
-|    3 | push past        |
-|    4 | leans forward    |
-|    5 | short time       |
-|    6 | quick glance     |
-|    7 | persuasion check |
-|    8 | faint bit        |
-|    9 | piercing damage  |
-|   10 | mountain range   |
+| rank | bigram             |
+| ---: | :----------------- |
+|    1 | roll damage        |
+|    2 | acrobatics check   |
+|    3 | push past          |
+|    4 | leans forward      |
+|    5 | short time         |
+|    6 | quick glance       |
+|    7 | faint bit          |
+|    8 | persuasion check   |
+|    9 | piercing damage    |
+|   10 | bludgeoning damage |
 
 #### Sam
 
@@ -98,14 +98,14 @@ each cast member, using tf-idf.
 | ---: | :------------------ |
 |    1 | wizkids.io crminis  |
 |    2 | healing word        |
-|    3 | cure wounds         |
-|    4 | bolt thrower        |
+|    3 | bolt thrower        |
+|    4 | cure wounds         |
 |    5 | game store          |
 |    6 | local game          |
-|    7 | sympathetic binding |
-|    8 | smiley day          |
-|    9 | enhance ability     |
-|   10 | cast spiritual      |
+|    7 | enhance ability     |
+|    8 | cast spiritual      |
+|    9 | sympathetic binding |
+|   10 | smiley day          |
 
 #### Taliesin
 
@@ -136,7 +136,7 @@ each cast member, using tf-idf.
 |    4 | slashing damage |
 |    5 | boop boop       |
 |    6 | fey fiend       |
-|    7 | fey fiends      |
-|    8 | pop industries  |
-|    9 | blood curse     |
-|   10 | quick footsteps |
+|    7 | 1d8 necrotic    |
+|    8 | cast shatter    |
+|    9 | fey fiends      |
+|   10 | pop industries  |
