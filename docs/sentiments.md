@@ -16,10 +16,10 @@ cast member and plotted it.
 | Ashley   |  5858 |    2307 |  2.54 |
 | Laura    | 18158 |    8869 |  2.05 |
 | Sam      | 16048 |    8459 |  1.90 |
-| Marisha  | 13300 |    7871 |  1.69 |
+| Marisha  | 13404 |    7923 |  1.69 |
 | Travis   | 14131 |    8375 |  1.69 |
-| Liam     | 11215 |    6971 |  1.61 |
-| Taliesin | 12905 |    8608 |  1.50 |
+| Liam     | 11295 |    7033 |  1.61 |
+| Taliesin | 12967 |    8640 |  1.50 |
 
 We can see that while Liam is in the bottom half, both Travis and
 Taliesin have lower scores.
@@ -34,9 +34,9 @@ words with either a positive or negative sentiment.
 | Ashley   |     6077 |    11432 |  1.88 |
 | Laura    |    22824 |    39230 |  1.72 |
 | Sam      |    19771 |    32080 |  1.62 |
-| Taliesin |    20205 |    28725 |  1.42 |
-| Liam     |    18125 |    24353 |  1.34 |
-| Marisha  |    22582 |    29411 |  1.30 |
+| Taliesin |    20340 |    28884 |  1.42 |
+| Liam     |    18261 |    24503 |  1.34 |
+| Marisha  |    22728 |    29608 |  1.30 |
 | Travis   |    23450 |    29551 |  1.26 |
 
 Again Liam is near the bottom, but Travis still has a lower score.

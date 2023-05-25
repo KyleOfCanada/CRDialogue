@@ -43,18 +43,18 @@ each cast member, using tf-idf.
 
 ![Liam](../plots/bigramClouds/C3/C3LIAM.png)
 
-| rank | bigram           |
-| ---: | :--------------- |
-|    1 | superiority die  |
-|    2 | goading attack   |
-|    3 | grasping vine    |
-|    4 | action surge     |
-|    5 | pushing attack   |
-|    6 | orym starts      |
-|    7 | running start    |
-|    8 | ay ay            |
-|    9 | dead lady        |
-|   10 | disarming attack |
+| rank | bigram          |
+| ---: | :-------------- |
+|    1 | superiority die |
+|    2 | goading attack  |
+|    3 | grasping vine   |
+|    4 | action surge    |
+|    5 | orym starts     |
+|    6 | pushing attack  |
+|    7 | running start   |
+|    8 | trip attack     |
+|    9 | ay ay           |
+|   10 | dead lady       |
 
 #### Marisha
 
@@ -68,8 +68,8 @@ each cast member, using tf-idf.
 |    4 | unsettling presence |
 |    5 | dream journal       |
 |    6 | mirror image        |
-|    7 | silvery barbs       |
-|    8 | creepy whispering   |
+|    7 | creepy whispering   |
+|    8 | rock chisel         |
 |    9 | tickle tickle       |
 |   10 | treshi scry         |
 
@@ -79,8 +79,8 @@ each cast member, using tf-idf.
 
 | rank | bigram             |
 | ---: | :----------------- |
-|    1 | roll damage        |
-|    2 | acrobatics check   |
+|    1 | acrobatics check   |
+|    2 | roll damage        |
 |    3 | push past          |
 |    4 | leans forward      |
 |    5 | short time         |
@@ -96,16 +96,16 @@ each cast member, using tf-idf.
 
 | rank | bigram              |
 | ---: | :------------------ |
-|    1 | wizkids.io crminis  |
-|    2 | healing word        |
-|    3 | bolt thrower        |
-|    4 | cure wounds         |
-|    5 | game store          |
-|    6 | local game          |
-|    7 | enhance ability     |
-|    8 | cast spiritual      |
-|    9 | sympathetic binding |
-|   10 | smiley day          |
+|    1 | healing word        |
+|    2 | bolt thrower        |
+|    3 | cure wounds         |
+|    4 | wizkids.io crminis  |
+|    5 | enhance ability     |
+|    6 | cast spiritual      |
+|    7 | sympathetic binding |
+|    8 | smiley day          |
+|    9 | cast enhance        |
+|   10 | grapple cannon      |
 
 #### Taliesin
 
@@ -114,15 +114,15 @@ each cast member, using tf-idf.
 | rank | bigram          |
 | ---: | :-------------- |
 |    1 | chaos burst     |
-|    2 | fuck’s sake     |
-|    3 | reckless attack |
-|    4 | god fucking     |
+|    2 | god fucking     |
+|    3 | fuck’s sake     |
+|    4 | reckless attack |
 |    5 | fucking damn    |
 |    6 | fuck’s sakes    |
 |    7 | funny feeling   |
-|    8 | rainbow sparks  |
-|    9 | shit fuck       |
-|   10 | fucking rage    |
+|    8 | living fuck     |
+|    9 | rainbow sparks  |
+|   10 | shit fuck       |
 
 #### Travis
 
