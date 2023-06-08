@@ -66,8 +66,8 @@ each cast member, using tf-idf.
 |    2 | demonic whispers    |
 |    3 | scry ball           |
 |    4 | unsettling presence |
-|    5 | dream journal       |
-|    6 | mirror image        |
+|    5 | mirror image        |
+|    6 | dream journal       |
 |    7 | creepy whispering   |
 |    8 | rock chisel         |
 |    9 | tickle tickle       |
@@ -100,12 +100,12 @@ each cast member, using tf-idf.
 |    2 | bolt thrower        |
 |    3 | cure wounds         |
 |    4 | wizkids.io crminis  |
-|    5 | enhance ability     |
-|    6 | cast spiritual      |
-|    7 | sympathetic binding |
-|    8 | smiley day          |
-|    9 | cast enhance        |
-|   10 | grapple cannon      |
+|    5 | cast spiritual      |
+|    6 | sympathetic binding |
+|    7 | smiley day          |
+|    8 | cast enhance        |
+|    9 | grapple cannon      |
+|   10 | vroom vroom         |
 
 #### Taliesin
 
