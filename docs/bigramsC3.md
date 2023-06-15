@@ -43,18 +43,18 @@ each cast member, using tf-idf.
 
 ![Liam](../plots/bigramClouds/C3/C3LIAM.png)
 
-| rank | bigram          |
-| ---: | :-------------- |
-|    1 | superiority die |
-|    2 | goading attack  |
-|    3 | grasping vine   |
-|    4 | action surge    |
-|    5 | orym starts     |
-|    6 | pushing attack  |
-|    7 | running start   |
-|    8 | trip attack     |
-|    9 | ay ay           |
-|   10 | dead lady       |
+| rank | bigram           |
+| ---: | :--------------- |
+|    1 | superiority die  |
+|    2 | goading attack   |
+|    3 | grasping vine    |
+|    4 | action surge     |
+|    5 | orym starts      |
+|    6 | pushing attack   |
+|    7 | trip attack      |
+|    8 | ay ay            |
+|    9 | dead lady        |
+|   10 | disarming attack |
 
 #### Marisha
 
@@ -63,15 +63,15 @@ each cast member, using tf-idf.
 | rank | bigram              |
 | ---: | :------------------ |
 |    1 | eldritch blast      |
-|    2 | demonic whispers    |
-|    3 | scry ball           |
-|    4 | unsettling presence |
-|    5 | mirror image        |
+|    2 | mirror image        |
+|    3 | demonic whispers    |
+|    4 | scry ball           |
+|    5 | unsettling presence |
 |    6 | dream journal       |
 |    7 | creepy whispering   |
-|    8 | rock chisel         |
-|    9 | tickle tickle       |
-|   10 | treshi scry         |
+|    8 | silvery barbs       |
+|    9 | cast spider         |
+|   10 | rock chisel         |
 
 #### Matt
 
@@ -82,12 +82,12 @@ each cast member, using tf-idf.
 |    1 | acrobatics check   |
 |    2 | roll damage        |
 |    3 | push past          |
-|    4 | leans forward      |
+|    4 | damage reduced     |
 |    5 | short time         |
-|    6 | quick glance       |
-|    7 | faint bit          |
-|    8 | persuasion check   |
-|    9 | piercing damage    |
+|    6 | leans forward      |
+|    7 | quick glance       |
+|    8 | faint bit          |
+|    9 | persuasion check   |
 |   10 | bludgeoning damage |
 
 #### Sam
@@ -114,15 +114,15 @@ each cast member, using tf-idf.
 | rank | bigram          |
 | ---: | :-------------- |
 |    1 | chaos burst     |
-|    2 | god fucking     |
-|    3 | fuck’s sake     |
-|    4 | reckless attack |
+|    2 | fuck’s sake     |
+|    3 | reckless attack |
+|    4 | fuck’s sakes    |
 |    5 | fucking damn    |
-|    6 | fuck’s sakes    |
+|    6 | god fucking     |
 |    7 | funny feeling   |
-|    8 | living fuck     |
-|    9 | rainbow sparks  |
-|   10 | shit fuck       |
+|    8 | shit fuck       |
+|    9 | living fuck     |
+|   10 | rainbow sparks  |
 
 #### Travis
 
