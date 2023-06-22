@@ -51,9 +51,9 @@ each cast member, using tf-idf.
 |    4 | action surge     |
 |    5 | orym starts      |
 |    6 | pushing attack   |
-|    7 | trip attack      |
-|    8 | ay ay            |
-|    9 | dead lady        |
+|    7 | dead lady        |
+|    8 | trip attack      |
+|    9 | ay ay            |
 |   10 | disarming attack |
 
 #### Marisha
@@ -70,8 +70,8 @@ each cast member, using tf-idf.
 |    6 | dream journal       |
 |    7 | creepy whispering   |
 |    8 | silvery barbs       |
-|    9 | cast spider         |
-|   10 | rock chisel         |
+|    9 | send pâté           |
+|   10 | cast spider         |
 
 #### Matt
 
