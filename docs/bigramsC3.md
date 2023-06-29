@@ -43,18 +43,18 @@ each cast member, using tf-idf.
 
 ![Liam](../plots/bigramClouds/C3/C3LIAM.png)
 
-| rank | bigram           |
-| ---: | :--------------- |
-|    1 | superiority die  |
-|    2 | goading attack   |
-|    3 | grasping vine    |
-|    4 | action surge     |
-|    5 | orym starts      |
-|    6 | pushing attack   |
-|    7 | dead lady        |
-|    8 | trip attack      |
-|    9 | ay ay            |
-|   10 | disarming attack |
+| rank | bigram          |
+| ---: | :-------------- |
+|    1 | superiority die |
+|    2 | goading attack  |
+|    3 | grasping vine   |
+|    4 | action surge    |
+|    5 | orym starts     |
+|    6 | pushing attack  |
+|    7 | dead lady       |
+|    8 | trip attack     |
+|    9 | ay ay           |
+|   10 | bing bing       |
 
 #### Marisha
 
@@ -68,10 +68,10 @@ each cast member, using tf-idf.
 |    4 | scry ball           |
 |    5 | unsettling presence |
 |    6 | dream journal       |
-|    7 | creepy whispering   |
-|    8 | silvery barbs       |
-|    9 | send pâté           |
-|   10 | cast spider         |
+|    7 | silvery barbs       |
+|    8 | creepy whispering   |
+|    9 | eldritch blasts     |
+|   10 | send pâté           |
 
 #### Matt
 
@@ -98,12 +98,12 @@ each cast member, using tf-idf.
 | ---: | :------------------ |
 |    1 | healing word        |
 |    2 | bolt thrower        |
-|    3 | cure wounds         |
-|    4 | wizkids.io crminis  |
-|    5 | cast spiritual      |
-|    6 | sympathetic binding |
-|    7 | smiley day          |
-|    8 | cast enhance        |
+|    3 | wizkids.io crminis  |
+|    4 | cast spiritual      |
+|    5 | sympathetic binding |
+|    6 | smiley day          |
+|    7 | cast enhance        |
+|    8 | cure wounds         |
 |    9 | grapple cannon      |
 |   10 | vroom vroom         |
 
@@ -114,15 +114,15 @@ each cast member, using tf-idf.
 | rank | bigram          |
 | ---: | :-------------- |
 |    1 | chaos burst     |
-|    2 | fuck’s sake     |
-|    3 | reckless attack |
-|    4 | fuck’s sakes    |
-|    5 | fucking damn    |
-|    6 | god fucking     |
-|    7 | funny feeling   |
-|    8 | shit fuck       |
-|    9 | living fuck     |
-|   10 | rainbow sparks  |
+|    2 | fuck’s sakes    |
+|    3 | fucking damn    |
+|    4 | fuck’s sake     |
+|    5 | reckless attack |
+|    6 | living fuck     |
+|    7 | god fucking     |
+|    8 | funny feeling   |
+|    9 | shit fuck       |
+|   10 | fucking hard    |
 
 #### Travis
 
