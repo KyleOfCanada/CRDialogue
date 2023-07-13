@@ -43,18 +43,18 @@ each cast member, using tf-idf.
 
 ![Liam](../plots/bigramClouds/C3/C3LIAM.png)
 
-| rank | bigram          |
-| ---: | :-------------- |
-|    1 | superiority die |
-|    2 | goading attack  |
-|    3 | grasping vine   |
-|    4 | action surge    |
-|    5 | orym starts     |
-|    6 | pushing attack  |
-|    7 | dead lady       |
-|    8 | trip attack     |
-|    9 | ay ay           |
-|   10 | bing bing       |
+| rank | bigram           |
+| ---: | :--------------- |
+|    1 | superiority die  |
+|    2 | goading attack   |
+|    3 | grasping vine    |
+|    4 | action surge     |
+|    5 | orym starts      |
+|    6 | pushing attack   |
+|    7 | dead lady        |
+|    8 | trip attack      |
+|    9 | ay ay            |
+|   10 | disarming attack |
 
 #### Marisha
 
@@ -82,13 +82,13 @@ each cast member, using tf-idf.
 |    1 | acrobatics check   |
 |    2 | roll damage        |
 |    3 | push past          |
-|    4 | damage reduced     |
-|    5 | short time         |
+|    4 | short time         |
+|    5 | damage reduced     |
 |    6 | leans forward      |
-|    7 | quick glance       |
-|    8 | faint bit          |
-|    9 | persuasion check   |
-|   10 | bludgeoning damage |
+|    7 | faint bit          |
+|    8 | persuasion check   |
+|    9 | bludgeoning damage |
+|   10 | hits roll          |
 
 #### Sam
 
@@ -118,8 +118,8 @@ each cast member, using tf-idf.
 |    3 | fucking damn    |
 |    4 | fuck’s sake     |
 |    5 | reckless attack |
-|    6 | living fuck     |
-|    7 | god fucking     |
+|    6 | god fucking     |
+|    7 | living fuck     |
 |    8 | funny feeling   |
 |    9 | shit fuck       |
 |   10 | fucking hard    |
