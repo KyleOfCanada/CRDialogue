@@ -11,16 +11,16 @@ each cast member, using tf-idf.
 
 | rank | bigram          |
 | ---: | :-------------- |
-|    1 | scorching rays  |
-|    2 | flame seeds     |
-|    3 | donnie boy      |
-|    4 | cast entangle   |
-|    5 | wild shape      |
-|    6 | magical effects |
-|    7 | mirthful leap   |
-|    8 | flame seed      |
-|    9 | ice knife       |
-|   10 | wildfire spirit |
+|    1 | clop clop       |
+|    2 | scorching rays  |
+|    3 | flame seeds     |
+|    4 | donnie boy      |
+|    5 | cast entangle   |
+|    6 | wild shape      |
+|    7 | magical effects |
+|    8 | mirthful leap   |
+|    9 | whoa whoa       |
+|   10 | flame seed      |
 
 #### Laura
 
@@ -33,8 +33,8 @@ each cast member, using tf-idf.
 |    3 | lightning bolt    |
 |    4 | dancing lights    |
 |    5 | cast detect       |
-|    6 | telekinetic shove |
-|    7 | misty step        |
+|    6 | misty step        |
+|    7 | telekinetic shove |
 |    8 | dig dig           |
 |    9 | flash white       |
 |   10 | eep eep           |
@@ -52,7 +52,7 @@ each cast member, using tf-idf.
 |    5 | orym starts      |
 |    6 | pushing attack   |
 |    7 | dead lady        |
-|    8 | trip attack      |
+|    8 | tripping attack  |
 |    9 | ay ay            |
 |   10 | disarming attack |
 
@@ -64,14 +64,14 @@ each cast member, using tf-idf.
 | ---: | :------------------ |
 |    1 | eldritch blast      |
 |    2 | mirror image        |
-|    3 | demonic whispers    |
-|    4 | scry ball           |
+|    3 | scry ball           |
+|    4 | demonic whispers    |
 |    5 | unsettling presence |
 |    6 | dream journal       |
-|    7 | silvery barbs       |
-|    8 | creepy whispering   |
-|    9 | eldritch blasts     |
-|   10 | send pâté           |
+|    7 | treshi scry         |
+|    8 | silvery barbs       |
+|    9 | creepy whispering   |
+|   10 | eldritch blasts     |
 
 #### Matt
 
@@ -99,13 +99,13 @@ each cast member, using tf-idf.
 |    1 | healing word        |
 |    2 | bolt thrower        |
 |    3 | wizkids.io crminis  |
-|    4 | cast spiritual      |
-|    5 | sympathetic binding |
-|    6 | smiley day          |
+|    4 | smiley day          |
+|    5 | cast spiritual      |
+|    6 | sympathetic binding |
 |    7 | cast enhance        |
-|    8 | cure wounds         |
-|    9 | grapple cannon      |
-|   10 | vroom vroom         |
+|    8 | game store          |
+|    9 | local game          |
+|   10 | cure wounds         |
 
 #### Taliesin
 
@@ -135,8 +135,8 @@ each cast member, using tf-idf.
 |    3 | hunter’s bane   |
 |    4 | slashing damage |
 |    5 | boop boop       |
-|    6 | fey fiend       |
-|    7 | 1d8 necrotic    |
-|    8 | cast shatter    |
-|    9 | fey fiends      |
-|   10 | pop industries  |
+|    6 | blood curse     |
+|    7 | fey fiend       |
+|    8 | 1d8 necrotic    |
+|    9 | cast shatter    |
+|   10 | fey fiends      |
