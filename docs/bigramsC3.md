@@ -30,11 +30,11 @@ each cast member, using tf-idf.
 | ---: | :---------------- |
 |    1 | mage armor        |
 |    2 | cast fly          |
-|    3 | lightning bolt    |
-|    4 | dancing lights    |
+|    3 | dancing lights    |
+|    4 | telekinetic shove |
 |    5 | cast detect       |
 |    6 | misty step        |
-|    7 | telekinetic shove |
+|    7 | lightning bolt    |
 |    8 | dig dig           |
 |    9 | flash white       |
 |   10 | eep eep           |
@@ -52,9 +52,9 @@ each cast member, using tf-idf.
 |    5 | orym starts      |
 |    6 | pushing attack   |
 |    7 | dead lady        |
-|    8 | tripping attack  |
-|    9 | ay ay            |
-|   10 | disarming attack |
+|    8 | disarming attack |
+|    9 | tripping attack  |
+|   10 | ay ay            |
 
 #### Marisha
 
@@ -69,9 +69,9 @@ each cast member, using tf-idf.
 |    5 | unsettling presence |
 |    6 | dream journal       |
 |    7 | treshi scry         |
-|    8 | silvery barbs       |
-|    9 | creepy whispering   |
-|   10 | eldritch blasts     |
+|    8 | send pâté           |
+|    9 | yeah laughs         |
+|   10 | creepy whispering   |
 
 #### Matt
 
@@ -88,7 +88,7 @@ each cast member, using tf-idf.
 |    7 | faint bit          |
 |    8 | persuasion check   |
 |    9 | bludgeoning damage |
-|   10 | hits roll          |
+|   10 | mountain range     |
 
 #### Sam
 
@@ -97,15 +97,15 @@ each cast member, using tf-idf.
 | rank | bigram              |
 | ---: | :------------------ |
 |    1 | healing word        |
-|    2 | bolt thrower        |
-|    3 | wizkids.io crminis  |
-|    4 | smiley day          |
-|    5 | cast spiritual      |
+|    2 | wizkids.io crminis  |
+|    3 | bolt thrower        |
+|    4 | cast spiritual      |
+|    5 | smiley day          |
 |    6 | sympathetic binding |
-|    7 | cast enhance        |
-|    8 | game store          |
-|    9 | local game          |
-|   10 | cure wounds         |
+|    7 | game store          |
+|    8 | local game          |
+|    9 | cast enhance        |
+|   10 | cast shield         |
 
 #### Taliesin
 
@@ -119,8 +119,8 @@ each cast member, using tf-idf.
 |    4 | fuck’s sake     |
 |    5 | reckless attack |
 |    6 | god fucking     |
-|    7 | living fuck     |
-|    8 | funny feeling   |
+|    7 | funny feeling   |
+|    8 | living fuck     |
 |    9 | shit fuck       |
 |   10 | fucking hard    |
 
@@ -131,8 +131,8 @@ each cast member, using tf-idf.
 | rank | bigram          |
 | ---: | :-------------- |
 |    1 | crimson rite    |
-|    2 | wood chisel     |
-|    3 | hunter’s bane   |
+|    2 | hunter’s bane   |
+|    3 | wood chisel     |
 |    4 | slashing damage |
 |    5 | boop boop       |
 |    6 | blood curse     |
