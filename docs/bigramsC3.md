@@ -12,15 +12,15 @@ each cast member, using tf-idf.
 | rank | bigram          |
 | ---: | :-------------- |
 |    1 | clop clop       |
-|    2 | scorching rays  |
-|    3 | flame seeds     |
+|    2 | flame seeds     |
+|    3 | scorching rays  |
 |    4 | donnie boy      |
 |    5 | cast entangle   |
 |    6 | wild shape      |
-|    7 | magical effects |
-|    8 | mirthful leap   |
-|    9 | whoa whoa       |
-|   10 | flame seed      |
+|    7 | flame seed      |
+|    8 | magical effects |
+|    9 | mirthful leap   |
+|   10 | whoa whoa       |
 
 #### Laura
 
@@ -33,10 +33,10 @@ each cast member, using tf-idf.
 |    3 | dancing lights    |
 |    4 | telekinetic shove |
 |    5 | cast detect       |
-|    6 | misty step        |
-|    7 | lightning bolt    |
-|    8 | dig dig           |
-|    9 | flash white       |
+|    6 | lightning bolt    |
+|    7 | dig dig           |
+|    8 | flash white       |
+|    9 | cast mage         |
 |   10 | eep eep           |
 
 #### Liam
@@ -63,15 +63,15 @@ each cast member, using tf-idf.
 | rank | bigram              |
 | ---: | :------------------ |
 |    1 | eldritch blast      |
-|    2 | mirror image        |
-|    3 | scry ball           |
-|    4 | demonic whispers    |
-|    5 | unsettling presence |
-|    6 | dream journal       |
-|    7 | treshi scry         |
-|    8 | send pâté           |
-|    9 | yeah laughs         |
-|   10 | creepy whispering   |
+|    2 | scry ball           |
+|    3 | demonic whispers    |
+|    4 | mirror image        |
+|    5 | send pâté           |
+|    6 | unsettling presence |
+|    7 | yeah laughs         |
+|    8 | dream journal       |
+|    9 | treshi scry         |
+|   10 | eldritch blasts     |
 
 #### Matt
 
@@ -79,16 +79,16 @@ each cast member, using tf-idf.
 
 | rank | bigram             |
 | ---: | :----------------- |
-|    1 | acrobatics check   |
-|    2 | roll damage        |
-|    3 | push past          |
-|    4 | short time         |
-|    5 | damage reduced     |
-|    6 | leans forward      |
-|    7 | faint bit          |
-|    8 | persuasion check   |
-|    9 | bludgeoning damage |
-|   10 | mountain range     |
+|    1 | push past          |
+|    2 | damage reduced     |
+|    3 | short time         |
+|    4 | leans forward      |
+|    5 | acrobatics check   |
+|    6 | faint bit          |
+|    7 | persuasion check   |
+|    8 | bludgeoning damage |
+|    9 | hits roll          |
+|   10 | slashing damage    |
 
 #### Sam
 
@@ -96,16 +96,16 @@ each cast member, using tf-idf.
 
 | rank | bigram              |
 | ---: | :------------------ |
-|    1 | healing word        |
-|    2 | wizkids.io crminis  |
-|    3 | bolt thrower        |
+|    1 | wizkids.io crminis  |
+|    2 | bolt thrower        |
+|    3 | healing word        |
 |    4 | cast spiritual      |
 |    5 | smiley day          |
-|    6 | sympathetic binding |
-|    7 | game store          |
-|    8 | local game          |
-|    9 | cast enhance        |
-|   10 | cast shield         |
+|    6 | game store          |
+|    7 | local game          |
+|    8 | sympathetic binding |
+|    9 | bonded blessing     |
+|   10 | cast enhance        |
 
 #### Taliesin
 
@@ -118,9 +118,9 @@ each cast member, using tf-idf.
 |    3 | fucking damn    |
 |    4 | fuck’s sake     |
 |    5 | reckless attack |
-|    6 | god fucking     |
-|    7 | funny feeling   |
-|    8 | living fuck     |
+|    6 | living fuck     |
+|    7 | god fucking     |
+|    8 | funny feeling   |
 |    9 | shit fuck       |
 |   10 | fucking hard    |
 
@@ -134,9 +134,9 @@ each cast member, using tf-idf.
 |    2 | hunter’s bane   |
 |    3 | wood chisel     |
 |    4 | slashing damage |
-|    5 | boop boop       |
-|    6 | blood curse     |
-|    7 | fey fiend       |
-|    8 | 1d8 necrotic    |
-|    9 | cast shatter    |
-|   10 | fey fiends      |
+|    5 | blood curse     |
+|    6 | 1d8 necrotic    |
+|    7 | cast shatter    |
+|    8 | thunder damage  |
+|    9 | boop boop       |
+|   10 | fey fiend       |
