@@ -34,10 +34,10 @@ each cast member, using tf-idf.
 |    4 | telekinetic shove |
 |    5 | cast detect       |
 |    6 | lightning bolt    |
-|    7 | dig dig           |
-|    8 | flash white       |
-|    9 | cast mage         |
-|   10 | eep eep           |
+|    7 | cast mage         |
+|    8 | dig dig           |
+|    9 | flash white       |
+|   10 | la la             |
 
 #### Liam
 
@@ -68,10 +68,10 @@ each cast member, using tf-idf.
 |    4 | mirror image        |
 |    5 | send pâté           |
 |    6 | unsettling presence |
-|    7 | yeah laughs         |
-|    8 | dream journal       |
-|    9 | treshi scry         |
-|   10 | eldritch blasts     |
+|    7 | dream journal       |
+|    8 | treshi scry         |
+|    9 | eldritch blasts     |
+|   10 | creepy whispering   |
 
 #### Matt
 
@@ -80,8 +80,8 @@ each cast member, using tf-idf.
 | rank | bigram             |
 | ---: | :----------------- |
 |    1 | push past          |
-|    2 | damage reduced     |
-|    3 | short time         |
+|    2 | short time         |
+|    3 | damage reduced     |
 |    4 | leans forward      |
 |    5 | acrobatics check   |
 |    6 | faint bit          |
