@@ -65,9 +65,9 @@ each cast member, using tf-idf.
 |    1 | eldritch blast      |
 |    2 | scry ball           |
 |    3 | demonic whispers    |
-|    4 | mirror image        |
-|    5 | send pâté           |
-|    6 | unsettling presence |
+|    4 | unsettling presence |
+|    5 | mirror image        |
+|    6 | send pâté           |
 |    7 | dream journal       |
 |    8 | treshi scry         |
 |    9 | eldritch blasts     |
@@ -80,15 +80,15 @@ each cast member, using tf-idf.
 | rank | bigram             |
 | ---: | :----------------- |
 |    1 | push past          |
-|    2 | short time         |
-|    3 | damage reduced     |
-|    4 | leans forward      |
-|    5 | acrobatics check   |
-|    6 | faint bit          |
-|    7 | persuasion check   |
-|    8 | bludgeoning damage |
+|    2 | damage reduced     |
+|    3 | leans forward      |
+|    4 | acrobatics check   |
+|    5 | faint bit          |
+|    6 | persuasion check   |
+|    7 | bludgeoning damage |
+|    8 | mountain range     |
 |    9 | hits roll          |
-|   10 | slashing damage    |
+|   10 | short time         |
 
 #### Sam
 
