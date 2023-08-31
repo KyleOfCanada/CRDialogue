@@ -9,18 +9,18 @@ each cast member, using tf-idf.
 
 ![Ashley](../plots/bigramClouds/C3/C3ASHLEY.png)
 
-| rank | bigram          |
-| ---: | :-------------- |
-|    1 | clop clop       |
-|    2 | flame seeds     |
-|    3 | scorching rays  |
-|    4 | donnie boy      |
-|    5 | cast entangle   |
-|    6 | wild shape      |
-|    7 | flame seed      |
-|    8 | magical effects |
-|    9 | mirthful leap   |
-|   10 | whoa whoa       |
+| rank | bigram         |
+| ---: | :------------- |
+|    1 | clop clop      |
+|    2 | flame seeds    |
+|    3 | scorching rays |
+|    4 | mirthful leap  |
+|    5 | donnie boy     |
+|    6 | cast entangle  |
+|    7 | wild shape     |
+|    8 | flame seed     |
+|    9 | whoa whoa      |
+|   10 | flaming shit   |
 
 #### Laura
 
@@ -32,8 +32,8 @@ each cast member, using tf-idf.
 |    2 | cast fly          |
 |    3 | dancing lights    |
 |    4 | telekinetic shove |
-|    5 | cast detect       |
-|    6 | lightning bolt    |
+|    5 | lightning bolt    |
+|    6 | cast detect       |
 |    7 | cast mage         |
 |    8 | dig dig           |
 |    9 | flash white       |
@@ -46,14 +46,14 @@ each cast member, using tf-idf.
 | rank | bigram           |
 | ---: | :--------------- |
 |    1 | superiority die  |
-|    2 | goading attack   |
-|    3 | grasping vine    |
+|    2 | grasping vine    |
+|    3 | goading attack   |
 |    4 | action surge     |
 |    5 | orym starts      |
 |    6 | pushing attack   |
-|    7 | dead lady        |
-|    8 | disarming attack |
-|    9 | tripping attack  |
+|    7 | tripping attack  |
+|    8 | dead lady        |
+|    9 | disarming attack |
 |   10 | ay ay            |
 
 #### Marisha
@@ -63,15 +63,15 @@ each cast member, using tf-idf.
 | rank | bigram              |
 | ---: | :------------------ |
 |    1 | eldritch blast      |
-|    2 | scry ball           |
-|    3 | demonic whispers    |
+|    2 | demonic whispers    |
+|    3 | send pâté           |
 |    4 | unsettling presence |
 |    5 | mirror image        |
-|    6 | send pâté           |
-|    7 | dream journal       |
-|    8 | treshi scry         |
-|    9 | eldritch blasts     |
-|   10 | creepy whispering   |
+|    6 | dream journal       |
+|    7 | eldritch blasts     |
+|    8 | scry ball           |
+|    9 | creepy whispering   |
+|   10 | quicken spell       |
 
 #### Matt
 
@@ -81,14 +81,14 @@ each cast member, using tf-idf.
 | ---: | :----------------- |
 |    1 | push past          |
 |    2 | damage reduced     |
-|    3 | leans forward      |
-|    4 | acrobatics check   |
-|    5 | faint bit          |
+|    3 | acrobatics check   |
+|    4 | leans forward      |
+|    5 | bludgeoning damage |
 |    6 | persuasion check   |
-|    7 | bludgeoning damage |
-|    8 | mountain range     |
-|    9 | hits roll          |
-|   10 | short time         |
+|    7 | faint bit          |
+|    8 | slashing damage    |
+|    9 | short time         |
+|   10 | mountain range     |
 
 #### Sam
 
@@ -135,8 +135,8 @@ each cast member, using tf-idf.
 |    3 | wood chisel     |
 |    4 | slashing damage |
 |    5 | blood curse     |
-|    6 | 1d8 necrotic    |
-|    7 | cast shatter    |
-|    8 | thunder damage  |
-|    9 | boop boop       |
-|   10 | fey fiend       |
+|    6 | bloated agony   |
+|    7 | 1d8 necrotic    |
+|    8 | cast shatter    |
+|    9 | thunder damage  |
+|   10 | boop boop       |
