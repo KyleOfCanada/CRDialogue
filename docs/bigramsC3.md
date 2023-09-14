@@ -19,8 +19,8 @@ each cast member, using tf-idf.
 |    6 | cast entangle  |
 |    7 | wild shape     |
 |    8 | flame seed     |
-|    9 | whoa whoa      |
-|   10 | flaming shit   |
+|    9 | flaming shit   |
+|   10 | whoa whoa      |
 
 #### Laura
 
@@ -30,10 +30,10 @@ each cast member, using tf-idf.
 | ---: | :---------------- |
 |    1 | mage armor        |
 |    2 | cast fly          |
-|    3 | dancing lights    |
+|    3 | lightning bolt    |
 |    4 | telekinetic shove |
-|    5 | lightning bolt    |
-|    6 | cast detect       |
+|    5 | cast detect       |
+|    6 | dancing lights    |
 |    7 | cast mage         |
 |    8 | dig dig           |
 |    9 | flash white       |
@@ -46,8 +46,8 @@ each cast member, using tf-idf.
 | rank | bigram           |
 | ---: | :--------------- |
 |    1 | superiority die  |
-|    2 | grasping vine    |
-|    3 | goading attack   |
+|    2 | goading attack   |
+|    3 | grasping vine    |
 |    4 | action surge     |
 |    5 | orym starts      |
 |    6 | pushing attack   |
@@ -63,15 +63,15 @@ each cast member, using tf-idf.
 | rank | bigram              |
 | ---: | :------------------ |
 |    1 | eldritch blast      |
-|    2 | demonic whispers    |
-|    3 | send pâté           |
+|    2 | send pâté           |
+|    3 | demonic whispers    |
 |    4 | unsettling presence |
 |    5 | mirror image        |
-|    6 | dream journal       |
-|    7 | eldritch blasts     |
+|    6 | eldritch blasts     |
+|    7 | dream journal       |
 |    8 | scry ball           |
 |    9 | creepy whispering   |
-|   10 | quicken spell       |
+|   10 | cast spider         |
 
 #### Matt
 
@@ -81,11 +81,11 @@ each cast member, using tf-idf.
 | ---: | :----------------- |
 |    1 | push past          |
 |    2 | damage reduced     |
-|    3 | acrobatics check   |
-|    4 | leans forward      |
-|    5 | bludgeoning damage |
-|    6 | persuasion check   |
-|    7 | faint bit          |
+|    3 | leans forward      |
+|    4 | acrobatics check   |
+|    5 | faint bit          |
+|    6 | bludgeoning damage |
+|    7 | persuasion check   |
 |    8 | slashing damage    |
 |    9 | short time         |
 |   10 | mountain range     |
@@ -96,8 +96,8 @@ each cast member, using tf-idf.
 
 | rank | bigram              |
 | ---: | :------------------ |
-|    1 | wizkids.io crminis  |
-|    2 | bolt thrower        |
+|    1 | bolt thrower        |
+|    2 | wizkids.io crminis  |
 |    3 | healing word        |
 |    4 | cast spiritual      |
 |    5 | smiley day          |
@@ -121,8 +121,8 @@ each cast member, using tf-idf.
 |    6 | living fuck     |
 |    7 | god fucking     |
 |    8 | funny feeling   |
-|    9 | shit fuck       |
-|   10 | fucking hard    |
+|    9 | rainbow sparks  |
+|   10 | shit fuck       |
 
 #### Travis
 
@@ -136,7 +136,7 @@ each cast member, using tf-idf.
 |    4 | slashing damage |
 |    5 | blood curse     |
 |    6 | bloated agony   |
-|    7 | 1d8 necrotic    |
-|    8 | cast shatter    |
-|    9 | thunder damage  |
-|   10 | boop boop       |
+|    7 | cast shatter    |
+|    8 | thunder damage  |
+|    9 | boop boop       |
+|   10 | fey fiend       |
