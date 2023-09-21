@@ -11,16 +11,16 @@ each cast member, using tf-idf.
 
 | rank | bigram         |
 | ---: | :------------- |
-|    1 | clop clop      |
-|    2 | flame seeds    |
+|    1 | flame seeds    |
+|    2 | clop clop      |
 |    3 | scorching rays |
 |    4 | mirthful leap  |
 |    5 | donnie boy     |
 |    6 | cast entangle  |
-|    7 | wild shape     |
-|    8 | flame seed     |
+|    7 | flame seed     |
+|    8 | wild shape     |
 |    9 | flaming shit   |
-|   10 | whoa whoa      |
+|   10 | brain fart     |
 
 #### Laura
 
@@ -33,8 +33,8 @@ each cast member, using tf-idf.
 |    3 | lightning bolt    |
 |    4 | telekinetic shove |
 |    5 | cast detect       |
-|    6 | dancing lights    |
-|    7 | cast mage         |
+|    6 | cast mage         |
+|    7 | dancing lights    |
 |    8 | dig dig           |
 |    9 | flash white       |
 |   10 | la la             |
@@ -79,8 +79,8 @@ each cast member, using tf-idf.
 
 | rank | bigram             |
 | ---: | :----------------- |
-|    1 | push past          |
-|    2 | damage reduced     |
+|    1 | damage reduced     |
+|    2 | push past          |
 |    3 | leans forward      |
 |    4 | acrobatics check   |
 |    5 | faint bit          |
@@ -88,7 +88,7 @@ each cast member, using tf-idf.
 |    7 | persuasion check   |
 |    8 | slashing damage    |
 |    9 | short time         |
-|   10 | mountain range     |
+|   10 | hits roll          |
 
 #### Sam
 
@@ -96,16 +96,16 @@ each cast member, using tf-idf.
 
 | rank | bigram              |
 | ---: | :------------------ |
-|    1 | bolt thrower        |
-|    2 | wizkids.io crminis  |
+|    1 | wizkids.io crminis  |
+|    2 | bolt thrower        |
 |    3 | healing word        |
-|    4 | cast spiritual      |
-|    5 | smiley day          |
-|    6 | game store          |
-|    7 | local game          |
-|    8 | sympathetic binding |
-|    9 | bonded blessing     |
-|   10 | cast enhance        |
+|    4 | game store          |
+|    5 | local game          |
+|    6 | cast enhance        |
+|    7 | cast spiritual      |
+|    8 | smiley day          |
+|    9 | sympathetic binding |
+|   10 | bonded blessing     |
 
 #### Taliesin
 
@@ -114,15 +114,15 @@ each cast member, using tf-idf.
 | rank | bigram          |
 | ---: | :-------------- |
 |    1 | chaos burst     |
-|    2 | fuck’s sakes    |
-|    3 | fucking damn    |
+|    2 | fucking damn    |
+|    3 | fuck’s sakes    |
 |    4 | fuck’s sake     |
 |    5 | reckless attack |
-|    6 | living fuck     |
-|    7 | god fucking     |
-|    8 | funny feeling   |
+|    6 | god fucking     |
+|    7 | funny feeling   |
+|    8 | living fuck     |
 |    9 | rainbow sparks  |
-|   10 | shit fuck       |
+|   10 | fucking hard    |
 
 #### Travis
 
