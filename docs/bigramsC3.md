@@ -82,8 +82,8 @@ each cast member, using tf-idf.
 |    1 | push past          |
 |    2 | damage reduced     |
 |    3 | leans forward      |
-|    4 | acrobatics check   |
-|    5 | faint bit          |
+|    4 | faint bit          |
+|    5 | acrobatics check   |
 |    6 | persuasion check   |
 |    7 | bludgeoning damage |
 |    8 | short time         |
@@ -103,9 +103,9 @@ each cast member, using tf-idf.
 |    5 | local game          |
 |    6 | cast enhance        |
 |    7 | cast spiritual      |
-|    8 | bonded blessing     |
-|    9 | sympathetic binding |
-|   10 | smiley day          |
+|    8 | smiley day          |
+|    9 | bonded blessing     |
+|   10 | sympathetic binding |
 
 #### Taliesin
 
@@ -118,8 +118,8 @@ each cast member, using tf-idf.
 |    3 | fuck’s sakes    |
 |    4 | fuck’s sake     |
 |    5 | reckless attack |
-|    6 | god fucking     |
-|    7 | funny feeling   |
+|    6 | funny feeling   |
+|    7 | god fucking     |
 |    8 | living fuck     |
 |    9 | rainbow sparks  |
 |   10 | wormhole strike |
