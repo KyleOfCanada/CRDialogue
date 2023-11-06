@@ -23,7 +23,7 @@ jobs:
           bash ./code/getNewEpisodes.sh
           echo "new_episode=$NEW_EP" >> "$GITHUB_OUTPUT"
           echo "new_episode=$NEW_EP" >> "$GITHUB_ENV"
-          echo "$NEW_EP"
+          echo "${{ env.new_episode }}"
       - name: notification
         if: ${{ env.new_episode }} == 'false'
         env:
