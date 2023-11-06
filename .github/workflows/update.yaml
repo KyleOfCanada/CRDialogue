@@ -21,8 +21,8 @@ jobs:
         id: new_files
         run: |
           bash ./code/getNewEpisodes.sh
-          echo "new_episode=$NEW_EP" >> "$GITHUB_OUTPUT"
-          echo "new_episode=$NEW_EP" >> "$GITHUB_ENV"
+          # echo "new_episode=$NEW_EP" >> "$GITHUB_OUTPUT"
+          # echo "new_episode=$NEW_EP" >> "$GITHUB_ENV"
           printenv
       - name: debug
         run: echo "${{ env.new_episode }}"
