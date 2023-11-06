@@ -43,10 +43,12 @@ download_episode() {
 # Main loop to download episodes
 more_episodes=true
 
-while more_episodes; do
+while more_episodes
+  do
     oneshot=$((episode + .01))
     more_oneshots=true
-    while more_oneshots; do
+    while more_oneshots
+      do
         download_episode "$oneshot"
         if [ $? -ne 0 ]; then
             counter=$((counter - 1))
