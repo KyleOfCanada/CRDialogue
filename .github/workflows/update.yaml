@@ -9,6 +9,8 @@ jobs:
   check_eps:
     name: check for new episodes
     runs-on: ubuntu-latest
+    outputs:
+      new_ep: ${{ steps.files.outputs.NEW_EP }}
     steps:
       - name: checkout repo
         uses: actions/checkout@v1
@@ -16,14 +18,18 @@ jobs:
             ref: improve-actions        # update
             token: ${{ secrets.GITHUB_TOKEN }}
       - name: check for and download new episodes
+        id: files
         run: ./code/getNewEpisodes.sh
+        run: echo "NEW_EP=NEW_EP" >> "$GITHUB_OUTPUT"
       - name: commit changes
+        if: NEW_EP == 'true'
         run: |
           git config --local user.name "$GITHUB_ACTOR"
           git config --local user.email "$GITHUB_ACTOR@users.noreply.github.com"
           git add .
-          git commit -m 'auto update' || echo "No changes to commit"
+          git commit -m 'add episode' || echo "No changes to commit"
       - name: push changes
+        if: NEW_EP == 'true'
         uses: ad-m/github-push-action@master
         with:
             github_token: ${{ secrets.GITHUB_TOKEN }}
@@ -32,8 +38,7 @@ jobs:
   render:
     name: auto update
     needs: check_eps
-    with:
-    if:
+    if: {needs.check_eps.outputs.new_ep == 'true'
     runs-on: macos-latest
     steps:
       - name: checkout repo
