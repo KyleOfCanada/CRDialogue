@@ -2,9 +2,10 @@
 
 # Set the initial episode and campaign values
 episode=1
-campaign=1  # Replace with your campaign name
+campaign=1
 
 # Check if the episodeCount.txt file exists
+# Assumes episodeCount.txt contains the campaign and episode values on the first line.
 if [ -f "./data/episodeCount.txt" ]; then
     # Read the campaign and episode variables from the file
     read -r campaign episode < "./data/episodeCount.txt"
@@ -14,11 +15,7 @@ else
 fi
 
 # Now you can use the campaign and episode variables in your script
-echo "Campaign: $campaign"
-echo "Episode: $episode"
-
-# This script assumes that the episodeCount.txt file 
-  # contains the campaign and episode values on the first line.
+echo "Starting from Campaign $campaign Episode $episode"
 
 # Set a counter for limiting downloads (debugging purposes)
 counter=5
@@ -57,25 +54,23 @@ download_episode() {
 }
 
 # Main loop to download episodes
-more_episodes=true
 downloaded_episodes=false
 
-while $more_episodes
-  do
+while true; do
     # Check for oneshot episodes
     oneshot=$(echo "$episode + 0.01" | bc)
-    more_oneshots=true
-    while $more_oneshots
-      do
+    while true; do
         download_episode "$campaign" "$oneshot"
+        # If oneshot downloaded advance oneshot
         if [ $? == 0 ]; then
             counter=$((counter - 1))
             oneshot=$(echo "$oneshot + 0.01" | bc)
             downloaded_episodes=true
         else
-            more_oneshots=false
+            break
         fi
 
+        # Check download limit
         if [ "$counter" -lt 1 ]; then
             echo "Download limit reached!"
             break
@@ -85,14 +80,16 @@ while $more_episodes
     # Check for main episodes
     episode=$((episode + 1))
     download_episode "$campaign" "$episode"
+    # If episode downloaded advance episode
     if [ $? == 0 ]; then
         counter=$((counter - 1))
         episode=$((episode + 1))
         downloaded_episodes=true
     else
-        more_oneshots=false
+        break
     fi
     
+    # Check download limit
     if [ "$counter" -lt 1 ]; then
         echo "Download limit reached!"
         break
@@ -100,18 +97,10 @@ while $more_episodes
   done
 
 # Check if new episodes were downloaded
-if [ "$downloaded_episodes" ]; then
+if [ $downloaded_episodes == true ]; then
     echo "New episodes downloaded"
     export NEW_EP="TRUE"
 else
     echo "No new episodes available"
     export NEW_EP="FALSE"
 fi
-
-
-#if [ "$episode" -le $(tail -n 1 episodeCount.txt | cut -f 2) ]; then
-#    echo "No new episodes available"
-#    export NEW_EP="FALSE"
-#else
-#    export NEW_EP="TRUE"
-#fi
