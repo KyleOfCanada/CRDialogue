@@ -71,15 +71,15 @@ saveRDS(
 )
 
 # save episode count
-episodeCount <- datC3 %>%
-  mutate(campaign = campaign %>%
-    as.numeric()) %>%
-  group_by(campaign) %>%
-  summarise(episode = episode %>%
-    as.numeric() %>%
-    max())
+# episodeCount <- datC3 %>%
+#   mutate(campaign = campaign %>%
+#     as.numeric()) %>%
+#   group_by(campaign) %>%
+#   summarise(episode = episode %>%
+#     as.numeric() %>%
+#     max())
 
-saveRDS(
-  episodeCount,
-  here("data", "episodeCount.rds")
-)
+writeLines(c(campaign, episode),
+           here("data", "episodeCount.txt"),
+           sep = "\t")
+
