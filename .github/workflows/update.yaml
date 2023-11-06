@@ -23,7 +23,7 @@ jobs:
           ./code/getNewEpisodes.sh
           echo "new_episode=$NEW_EP" >> "$GITHUB_OUTPUT"
       - name: notification
-        if: $NEW_EP == 'false'
+        if: NEW_EP == 'false'
         env:
           IFTTT_KEY: ${{ secrets.IFTTT_KEY }}
         run: |
