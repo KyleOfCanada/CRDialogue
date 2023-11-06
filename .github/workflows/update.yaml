@@ -23,13 +23,13 @@ jobs:
           bash ./code/getNewEpisodes.sh
           echo "new_episode=$NEW_EP" >> "$GITHUB_OUTPUT"
           echo "new_episode=$NEW_EP" >> "$GITHUB_ENV"
-          echo "${{ env.new_episode }}"
       - name: notification
         if: ${{ env.new_episode }} == 'false'
         env:
           IFTTT_KEY: ${{ secrets.IFTTT_KEY }}
         run: |
-          data='{"value1": "Error", "value2": "No+new+episode"}'
+          echo ${{ env.new_episode }}
+          data='{"value1": "Error", "value2": "No new episode"}'
           webhook_url="https://maker.ifttt.com/trigger/CRDiaglogue+update/with/key/${IFTTT_KEY}"
           curl -X POST -H "Content-Type: application/json" -d "$data" "$webhook_url"
       - name: commit changes
