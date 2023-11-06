@@ -99,8 +99,8 @@ while true; do
 # Check if new episodes were downloaded
 if [ $downloaded_episodes == true ]; then
     echo "New episodes downloaded"
-    export NEW_EP="true"
+    export NEW_EP=$downloaded_episodes
 else
     echo "No new episodes available"
-    export NEW_EP="false"
+    export NEW_EP=$downloaded_episodes
 fi
