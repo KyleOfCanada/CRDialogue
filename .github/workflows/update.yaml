@@ -12,6 +12,8 @@ jobs:
     outputs:
       new_ep: ${{ steps.new_files.outputs.new_episode }}
     steps:
+      - name: list
+        run: ls
       - name: checkout repo
         uses: actions/checkout@v1
         with:
@@ -21,9 +23,7 @@ jobs:
         id: new_files
         run: |
           bash ./code/getNewEpisodes.sh
-          # echo "new_episode=$NEW_EP" >> "$GITHUB_OUTPUT"
-          # echo "new_episode=$NEW_EP" >> "$GITHUB_ENV"
-          printenv
+          ls
       - name: debug
         run: echo "${{ env.new_episode }}"
       - name: notification
@@ -51,7 +51,7 @@ jobs:
   render:
     name: auto update
     needs: check_eps
-    if: 1 > 2 # ${{ needs.check_eps.outputs.new_ep == 'true' }}
+    if: ${{ needs.check_eps.outputs.new_ep == 'true' }}
     runs-on: macos-latest
     steps:
       - name: checkout repo

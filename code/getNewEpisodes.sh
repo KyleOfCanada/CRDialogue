@@ -99,14 +99,10 @@ while true; do
 # Check if new episodes were downloaded
 if [ $downloaded_episodes == true ]; then
     echo "New episodes downloaded"
-    export NEW_EP="TRUE"
-    echo "$NEW_EP"  # debug
     echo "new_episode=TRUE" >> "$GITHUB_OUTPUT"
     echo "new_episode=TRUE" >> "$GITHUB_ENV"
 else
     echo "No new episodes available"
-    export NEW_EP="FALSE"
-    echo "$NEW_EP"  # debug
     echo "new_episode=FALSE" >> "$GITHUB_OUTPUT"
     echo "new_episode=FALSE" >> "$GITHUB_ENV"
 fi
