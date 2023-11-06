@@ -57,7 +57,7 @@ while more_episodes; do
             echo "Download limit reached!"
             break
         fi
-    done
+      done
     episode=$((episode + 1))
     download_episode "episode"
     if [ $? -ne 0 ]; then
@@ -69,7 +69,7 @@ while more_episodes; do
         echo "Download limit reached!"
         break
     fi
-done
+  done
 
 # Check if there are new episodes
 if [ "$episode" -le $(tail -n 1 episodeCount.txt | cut -f 2) ]; then
