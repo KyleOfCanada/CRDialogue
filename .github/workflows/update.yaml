@@ -23,8 +23,9 @@ jobs:
           bash ./code/getNewEpisodes.sh
           echo "new_episode=$NEW_EP" >> "$GITHUB_OUTPUT"
           echo "new_episode=$NEW_EP" >> "$GITHUB_ENV"
+          echo "$NEW_EP"
       - name: notification
-        if: env.new_episode == 'false'
+        if: ${{ env.new_episode }} == 'false'
         env:
           IFTTT_KEY: ${{ secrets.IFTTT_KEY }}
         run: |
@@ -32,14 +33,14 @@ jobs:
           webhook_url="https://maker.ifttt.com/trigger/CRDiaglogue+update/with/key/${IFTTT_KEY}"
           curl -X POST -H "Content-Type: application/json" -d "$data" "$webhook_url"
       - name: commit changes
-        if: env.new_episode == 'true'
+        if: ${{ env.new_episode }} == 'true'
         run: |
           git config --local user.name "$GITHUB_ACTOR"
           git config --local user.email "$GITHUB_ACTOR@users.noreply.github.com"
           git add .
           git commit -m 'add episode' || echo "No changes to commit"
       - name: push changes
-        if: env.new_episode == 'true'
+        if: ${{ env.new_episode }} == 'true'
         uses: ad-m/github-push-action@master
         with:
             github_token: ${{ secrets.GITHUB_TOKEN }}
@@ -48,7 +49,7 @@ jobs:
   render:
     name: auto update
     needs: check_eps
-    if: ${{ needs.check_eps.outputs.new_ep == 'true' }}
+    if: ${{ needs.check_eps.outputs.new_ep }} == 'true'
     runs-on: macos-latest
     steps:
       - name: checkout repo
