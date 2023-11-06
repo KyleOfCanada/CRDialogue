@@ -20,7 +20,7 @@ jobs:
       - name: check for and download new episodes
         id: new_files
         run: |
-          ./code/getNewEpisodes.sh
+          bash ./code/getNewEpisodes.sh
           echo "new_episode=$NEW_EP" >> "$GITHUB_OUTPUT"
           echo "new_episode=$NEW_EP" >> "$GITHUB_ENV"
       - name: notification
