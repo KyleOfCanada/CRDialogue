@@ -5,9 +5,9 @@ episode=1
 campaign=1  # Replace with your campaign name
 
 # Check if the episodeCount.txt file exists
-if [ -f "episodeCount.txt" ]; then
+if [ -f "./data/episodeCount.txt" ]; then
     # Read the campaign and episode variables from the file
-    read -r campaign episode < "episodeCount.txt"
+    read -r campaign episode < "./data/episodeCount.txt"
 else
     echo "Error: episodeCount.txt not found."
     exit 1
