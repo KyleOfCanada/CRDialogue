@@ -84,3 +84,7 @@ writeLines(str_c(episodeCount %>% pull(campaign),
            here("data", "episodeCount.txt"),
            sep = "\t")
 
+saveRDS(
+  episodeCount,
+  here("data", "episodeCount.rds")
+)
