@@ -16,6 +16,7 @@ jobs:
         run: |
           mkdir tmp
           mkdir tmp/html
+          curl -o "./tmp/episodeCount.txt" "https://raw.githubusercontent.com/KyleOfCanada/CRDialogue/improve-actions/data/episodeCount.txt"
           curl -o "./tmp/getNewEpisodes.sh" "https://raw.githubusercontent.com/KyleOfCanada/CRDialogue/improve-actions/code/getNewEpisodes.sh"
       - name: check for and download new episodes
         id: new_files
