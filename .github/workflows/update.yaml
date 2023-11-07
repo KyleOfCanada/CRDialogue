@@ -115,6 +115,7 @@ jobs:
       - name: auto update and notification
         env:
           IFTTT_KEY: ${{ secrets.IFTTT_KEY }}
+          NEW_EP: ${{ needs.check_eps.outputs.new_ep }}
         run: |
           source("./code/autoUpdate.R")
           source("./code/notification.R")
