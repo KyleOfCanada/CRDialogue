@@ -12,20 +12,15 @@ jobs:
     outputs:
       new_ep: ${{ steps.new_files.outputs.new_episode }}
     steps:
-      - name: list
-        run: ls
-      - name: checkout repo
-        uses: actions/checkout@v1
-        with:
-            ref: improve-actions        # update
-            token: ${{ secrets.GITHUB_TOKEN }}
+      - name: prep workspace
+        run: |
+          mkdir tmp
+          mkdir tmp/html
+          curl -o "./tmp/getNewEpisodes.sh" "https://raw.githubusercontent.com/KyleOfCanada/CRDialogue/improve-actions/code/getNewEpisodes.sh"
       - name: check for and download new episodes
         id: new_files
         run: |
-          bash ./code/getNewEpisodes.sh
-          ls
-      - name: debug
-        run: echo "${{ env.new_episode }}"
+          bash ./tmp/getNewEpisodes.sh
       - name: notification
         if: ${{ env.new_episode == 'false' }}
         env:
@@ -34,6 +29,19 @@ jobs:
           data='{"value1": "Error", "value2": "No new episode"}'
           webhook_url="https://maker.ifttt.com/trigger/CRDiaglogue+update/with/key/${IFTTT_KEY}"
           curl -X POST -H "Content-Type: application/json" -d "$data" "$webhook_url"
+      - name: checkout repo
+        if: ${{ env.new_episode == 'true' }}
+        uses: actions/checkout@v1
+        with:
+            ref: improve-actions        # update
+            token: ${{ secrets.GITHUB_TOKEN }}
+      - name: move html
+        if: ${{ env.new_episode == 'true' }}
+        run: |
+          mv ./tmp/html/*.html ./data/html/
+      - name: remove tmp
+        if: ${{ env.new_episode == 'true' }}
+        run: rm -rf ./tmp 
       - name: commit changes
         if: ${{ env.new_episode == 'true' }}
         run: |

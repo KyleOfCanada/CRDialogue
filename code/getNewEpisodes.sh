@@ -39,7 +39,7 @@ download_episode() {
         return 1
     elif [ "$http_status_code" = "200" ]; then
         # Download the episode using curl
-        if curl -o "data/html/${download_name}" "$url"; then
+        if curl -o "tmp/html/${download_name}" "$url"; then
             echo "Downloaded $download_name"
             return 0
         else
