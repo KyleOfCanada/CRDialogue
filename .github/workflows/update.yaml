@@ -13,7 +13,7 @@ jobs:
       new_ep: ${{ steps.new_files.outputs.new_episode }}
     steps:
       - name: prep workspace
-        run: |
+        run: |  # update branch in downloads
           mkdir tmp
           mkdir tmp/html
           curl -o "./tmp/episodeCount.txt" "https://raw.githubusercontent.com/KyleOfCanada/CRDialogue/improve-actions/data/episodeCount.txt"
@@ -40,33 +40,6 @@ jobs:
           name: html-files
           path: html.tar.gz
           retention-days: 1
-
- #     - name: checkout repo
- #       if: ${{ env.new_episode == 'true' }}
-#        uses: actions/checkout@v1
-#        with:
-#            ref: improve-actions        # update
-#            token: ${{ secrets.GITHUB_TOKEN }}
-#      - name: move html
-#        if: ${{ env.new_episode == 'true' }}
-#        run: |
-#          mv ./tmp/html/*.html ./data/html/
-#      - name: remove tmp
-#        if: ${{ env.new_episode == 'true' }}
-#        run: rm -rf ./tmp 
-#      - name: commit changes
-#        if: ${{ env.new_episode == 'true' }}
-#        run: |
-#          git config --local user.name "$GITHUB_ACTOR"
-#          git config --local user.email "$GITHUB_ACTOR@users.noreply.github.com"
-#          git add .
-#          git commit -m 'add episode' || echo "No changes to commit"
-#      - name: push changes
-#        if: ${{ env.new_episode == 'true' }}
-#        uses: ad-m/github-push-action@master
-#        with:
-#            github_token: ${{ secrets.GITHUB_TOKEN }}
-#            branch: improve-actions       # update
   
   render:
     name: auto update
@@ -93,7 +66,9 @@ jobs:
           name: html-files
           path: data/html
       - name: decompress html files
-        run: tar xf data/html/html.tar.gz
+        run: |
+          tar xf data/html/html.tar.gz
+          ls data/html/
       - name: get lexicons
         run: |
           mkdir cache

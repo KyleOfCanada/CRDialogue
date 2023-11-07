@@ -3,67 +3,7 @@ library(here)
 library(rvest)
 library(lubridate)
 
-# # get latest episode numbers
-# episodeCount <- readRDS(here("data", "episodeCount.rds"))
-# 
-# # get the next episode
-# campaign <- episodeCount[nrow(episodeCount), 1]
-# episode <- episodeCount[nrow(episodeCount), 2]
-# 
-# moreEpisodes <- TRUE
-# 
-# # progress through downloading episodes until file not found
-# counter <- 5 # DEBUG
-# 
-# while (moreEpisodes) {
-#   oneshot <- episode + .01
-#   moreOneshots <- TRUE
-#   while (moreOneshots) {
-#     oneshotURL <- str_c("https://kryogenix.org/crsearch/html/cr", campaign, "-", oneshot, ".html")
-#     downloadName <- str_c("cr", campaign, "-", oneshot, ".html")
-#     oneshotDownloaded <- try(download.file(oneshotURL,
-#       destfile = here("data", "html", downloadName)
-#     ))
-#     if ("try-error" %in% class(oneshotDownloaded) | oneshotDownloaded == 1) {
-#       moreOneshots <- FALSE
-#       print("Successful Error!") # DEBUG
-#     } else {
-#       oneshot <- oneshot + .01
-#       counter <- counter - 1 # DEBUG
-#       if (counter < 1) {
-#         moreOneshots <- FALSE
-#         cat("\nDownload limit reached!\n\n")
-#       } # DEBUG
-#     }
-#   }
-# 
-#   episode <- floor(episode) + 1
-#   nextURL <- str_c("https://kryogenix.org/crsearch/html/cr", campaign, "-", episode, ".html")
-#   downloadName <- str_c("cr", campaign, "-", episode, ".html")
-#   fileDownloaded <- try(download.file(nextURL,
-#     destfile = here("data", "html", downloadName)
-#   ))
-#   if ("try-error" %in% class(fileDownloaded) | fileDownloaded == 1) {
-#     moreEpisodes <- FALSE
-#     print("Successful Error!") # DEBUG
-#   }
-#   counter <- counter - 1 # DEBUG
-#   if (counter < 1) {
-#     moreEpisodes <- FALSE
-#     cat("\nDownload limit reached!\n\n")
-#     } # DEBUG
-# }
-# 
-# if (episode == (episodeCount[nrow(episodeCount), 2] + 1)) {
-#   warning("No new episodes available",
-#     call. = FALSE
-#   )
-#   Sys.setenv(NEW_EP = FALSE)
-# } else {
-  # function to read html files and save as rds
-
-  # Sys.setenv(NEW_EP = TRUE)
-
+# Function to convert html to tidy, save as RDS
 htmlHarvest <- function(htmlFile) {
   html <- read_html(htmlFile)
   
@@ -161,4 +101,4 @@ rmarkdown::render(here("code", "RmdFiles", "okay_okay_okay.Rmd"),
 rmarkdown::render(here("code", "RmdFiles", "README.Rmd"),
                   output_dir = here()
 )
-# }
+

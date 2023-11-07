@@ -14,7 +14,6 @@ else
     exit 1
 fi
 
-# Now you can use the campaign and episode variables in your script
 echo "Starting from Campaign $campaign Episode $episode"
 
 # Set a counter for limiting downloads (debugging purposes)
