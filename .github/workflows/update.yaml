@@ -32,7 +32,7 @@ jobs:
           curl -X POST -H "Content-Type: application/json" -d "$data" "$webhook_url"
       - name: compress html
         if: ${{ env.new_episode == 'true' }}
-        run: tar cfz html.tar.gz .tmp/html/*
+        run: tar cfz html.tar.gz ./tmp/html/*
       - name: upload html
         if: ${{ env.new_episode == 'true' }}
         uses: actions/upload-artifact@v3
