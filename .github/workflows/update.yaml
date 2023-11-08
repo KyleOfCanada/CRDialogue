@@ -45,7 +45,7 @@ jobs:
     name: auto update
     needs: check_eps
     if: ${{ needs.check_eps.outputs.new_ep == 'true' }}
-    runs-on: macos-latest
+    runs-on: ubuntu-latest # macos-latest
     steps:
       - name: checkout repo
         uses: actions/checkout@v1
