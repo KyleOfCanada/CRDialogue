@@ -55,7 +55,14 @@ jobs:
       - name: install libcurl
         if: runner.os == 'Linux'
         run: sudo apt install libcurl4-openssl-dev
+      - name: install libharfbuzz-dev
+        if: runner.os == 'Linux'
+        run: sudo apt install libharfbuzz-dev
+      - name: install libfribidi-dev
+        if: runner.os == 'Linux'
+        run: sudo apt install libfribidi-dev
       - name: setup r
+        if: runner.os == 'Linux'
         uses: r-lib/actions/setup-r@v2
       - name: setup pandoc
         uses: r-lib/actions/setup-pandoc@v2
