@@ -1,7 +1,7 @@
 on:
   workflow_dispatch:
-  #schedule:
-   # - cron:  '0 15 * * THU'
+  schedule:
+   - cron:  '0 15 * * THU'
 
 name: auto update
 
@@ -14,11 +14,11 @@ jobs:
       new_ep: ${{ steps.new_files.outputs.new_episode }}
     steps:
       - name: prep workspace
-        run: |  # update branch in downloads
+        run: |
           mkdir tmp
           mkdir tmp/html
-          curl -o "./tmp/episodeCount.txt" "https://raw.githubusercontent.com/KyleOfCanada/CRDialogue/improve-actions/data/episodeCount.txt"
-          curl -o "./tmp/getNewEpisodes.sh" "https://raw.githubusercontent.com/KyleOfCanada/CRDialogue/improve-actions/code/getNewEpisodes.sh"
+          curl -o "./tmp/episodeCount.txt" "https://raw.githubusercontent.com/KyleOfCanada/CRDialogue/main/data/episodeCount.txt"
+          curl -o "./tmp/getNewEpisodes.sh" "https://raw.githubusercontent.com/KyleOfCanada/CRDialogue/main/code/getNewEpisodes.sh"
       - name: check for and download new episodes
         id: new_files
         run: |
@@ -46,36 +46,19 @@ jobs:
     name: auto update
     needs: check_eps
     if: ${{ needs.check_eps.outputs.new_ep == 'true' }}
-    runs-on: ubuntu-latest # macos-latest
+    runs-on: ubuntu-latest
     timeout-minutes: 45
     steps:
       - name: checkout repo
         uses: actions/checkout@v1
         with:
-            ref: improve-actions       # update
+            ref: main
             token: ${{ secrets.GITHUB_TOKEN }}
-      # - name: install libcurl
-      #   if: runner.os == 'Linux'
-      #   run: sudo apt-get install libcurl4-openssl-dev
-#      - name: install libharfbuzz
-#        if: runner.os == 'Linux'
-#        run: sudo apt-get install libharfbuzz-dev
-#      - name: install libfribidi
-#        if: runner.os == 'Linux'
-#        run: sudo apt-get install libfribidi-dev
       - name: setup r
         if: runner.os == 'Linux'
         uses: r-lib/actions/setup-r@v2
-      # - name: setup pandoc
-      #   uses: r-lib/actions/setup-pandoc@v2
       - name: install dependencies
         uses: r-lib/actions/setup-r-dependencies@v2
-#       - name: install r packages
-# #        run: Rscript -e 'install.packages(c("knitr", "rmarkdown", "tidyverse", "here", "rvest", "lubridate", "googlesheets4", "tidytext", "textdata", "wordcloud", "httr", "effsize", "fmsb", "Hmisc"))'
-#         run: |
-#           install.packages(c("pak", "pkgdepends"))
-#           pak::pkg_install(c("knitr", "rmarkdown", "tidyverse", "here", "rvest", "lubridate", "googlesheets4", "tidytext", "textdata", "wordcloud", "httr", "effsize", "fmsb", "Hmisc"))
-#         shell: Rscript {0}
       - name: make directories
         run: mkdir data/html
       - name: download html
@@ -119,8 +102,8 @@ jobs:
           git config --local user.email "$GITHUB_ACTOR@users.noreply.github.com"
           git add .
           git commit -m 'auto update' || echo "No changes to commit"
-#      - name: push changes
-#        uses: ad-m/github-push-action@master
-#        with:
-#            github_token: ${{ secrets.GITHUB_TOKEN }}
-#            branch: improve-actions        # update
+     - name: push changes
+       uses: ad-m/github-push-action@master
+       with:
+           github_token: ${{ secrets.GITHUB_TOKEN }}
+           branch: main
