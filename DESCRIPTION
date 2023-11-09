@@ -1,0 +1,24 @@
+Package: CRDialogue
+Title: Critical Role Dialogue Analysis.
+Version: 0.1
+Authors@R: person("Roddick", "Kyle", "kyle.roddick@gmail.com", role = c("aut", "cre"))
+URL: https://github.com/KyleOfCanada/CRDialogue
+Depends: 
+    R (>= 3.1.0)
+Imports:
+    knitr,
+    rmarkdown,
+    tidyverse,
+    here,
+    rvest,
+    lubridate,
+    googlesheets4,
+    tidytext,
+    textdata,
+    wordcloud,
+    httr,
+    effsize,
+    fmsb,
+    Hmisc
+Encoding: UTF-8
+License: GPL-3.0

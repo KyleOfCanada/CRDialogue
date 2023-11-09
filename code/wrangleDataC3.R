@@ -79,6 +79,13 @@ episodeCount <- datC3 %>%
     as.numeric() %>%
     max())
 
+  # save txt file
+writeLines(str_c(episodeCount %>% pull(campaign),
+                 episodeCount %>% pull(episode)),
+           here("data", "episodeCount.txt"),
+           sep = "\t")
+
+  # save RDS file
 saveRDS(
   episodeCount,
   here("data", "episodeCount.rds")
