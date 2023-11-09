@@ -6,20 +6,19 @@ URL: https://github.com/KyleOfCanada/CRDialogue
 Depends: 
     R (>= 3.1.0)
 Imports:
-    effsize,
-    fmsb,
-    googlesheets4,
-    here,
-    httr,
     knitr,
-    lubridate,
     rmarkdown,
+    tidyverse,
+    here,
     rvest,
-    tidiverse,
+    lubridate,
+    googlesheets4,
     tidytext,
     textdata,
-    tidyverse,
     wordcloud,
+    httr,
+    effsize,
+    fmsb,
     Hmisc
 Encoding: UTF-8
 License: GPL-3.0
