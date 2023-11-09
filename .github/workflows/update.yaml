@@ -54,9 +54,9 @@ jobs:
         with:
             ref: improve-actions       # update
             token: ${{ secrets.GITHUB_TOKEN }}
-#      - name: install libcurl
-#        if: runner.os == 'Linux'
-#        run: sudo apt-get install libcurl4-openssl-dev
+      - name: install libcurl
+        if: runner.os == 'Linux'
+        run: sudo apt-get install libcurl4-openssl-dev
 #      - name: install libharfbuzz
 #        if: runner.os == 'Linux'
 #        run: sudo apt-get install libharfbuzz-dev
