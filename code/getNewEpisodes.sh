@@ -59,7 +59,14 @@ while true; do
     # Check for oneshot episodes
     oneshot=$(echo "$episode + 0.01" | bc)
     while true; do
+        # Check download limit
+        if [ "$counter" -lt 1 ]; then
+            echo "Download limit reached!"
+            break
+        fi
+        
         download_episode "$campaign" "$oneshot"
+
         # If oneshot downloaded advance oneshot
         if [ $? == 0 ]; then
             counter=$((counter - 1))
@@ -68,29 +75,24 @@ while true; do
         else
             break
         fi
-
-        # Check download limit
-        if [ "$counter" -lt 1 ]; then
-            echo "Download limit reached!"
-            break
-        fi
       done
-
+      
+    # Check download limit
+    if [ "$counter" -lt 1 ]; then
+        echo "Download limit reached!"
+        break
+    fi
+    
     # Check for main episodes
     episode=$((episode + 1))
     download_episode "$campaign" "$episode"
+    
     # If episode downloaded advance episode
     if [ $? == 0 ]; then
         counter=$((counter - 1))
         episode=$((episode + 1))
         downloaded_episodes=true
     else
-        break
-    fi
-    
-    # Check download limit
-    if [ "$counter" -lt 1 ]; then
-        echo "Download limit reached!"
         break
     fi
   done
