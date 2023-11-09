@@ -55,10 +55,10 @@ jobs:
       - name: install libcurl
         if: runner.os == 'Linux'
         run: sudo apt install libcurl4-openssl-dev
-      - name: install libharfbuzz-dev
+      - name: install libharfbuzz
         if: runner.os == 'Linux'
         run: sudo apt install libharfbuzz-dev
-      - name: install libfribidi-dev
+      - name: install libfribidi
         if: runner.os == 'Linux'
         run: sudo apt install libfribidi-dev
       - name: setup r
@@ -67,7 +67,11 @@ jobs:
       - name: setup pandoc
         uses: r-lib/actions/setup-pandoc@v2
       - name: install r packages
-        run: Rscript -e 'install.packages(c("knitr", "rmarkdown", "tidyverse", "here", "rvest", "lubridate", "googlesheets4", "tidytext", "textdata", "wordcloud", "httr", "effsize", "fmsb", "Hmisc"))'
+#        run: Rscript -e 'install.packages(c("knitr", "rmarkdown", "tidyverse", "here", "rvest", "lubridate", "googlesheets4", "tidytext", "textdata", "wordcloud", "httr", "effsize", "fmsb", "Hmisc"))'
+        run: |
+          install.packages("pak")
+          pkg_install(c("knitr", "rmarkdown", "tidyverse", "here", "rvest", "lubridate", "googlesheets4", "tidytext", "textdata", "wordcloud", "httr", "effsize", "fmsb", "Hmisc"))
+        shell: Rscript {0}
       - name: make directories
         run: mkdir data/html
       - name: download html
