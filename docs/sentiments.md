@@ -9,10 +9,13 @@ associated with a sad sentiment, and words associated with joy as a
 control. I then calculated the ratio of joyful to sad words for each
 cast member and plotted it.
 
-![joyful vs sad](../plots/joySadPlot.png)
+<figure>
+<img src="../plots/joySadPlot.png" alt="joyful vs sad" />
+<figcaption aria-hidden="true">joyful vs sad</figcaption>
+</figure>
 
 | Name     |   Joy | Sadness | Ratio |
-| :------- | ----: | ------: | ----: |
+|:---------|------:|--------:|------:|
 | Ashley   |  6462 |    2531 |  2.55 |
 | Laura    | 19112 |    9269 |  2.06 |
 | Sam      | 17112 |    8904 |  1.92 |
@@ -21,16 +24,20 @@ cast member and plotted it.
 | Liam     | 12232 |    7507 |  1.63 |
 | Taliesin | 13905 |    9260 |  1.50 |
 
-We can see that while Liam is in the bottom half, both Travis and
-Taliesin have lower scores.
+We can see that while Liam is in the bottom half of the table, Taliesin
+has a lower score.
 
 I also wanted to take a slightly different approach and look at for
 words with either a positive or negative sentiment.
 
-![positive vs negative](../plots/positiveNegativePlot.png)
+<figure>
+<img src="../plots/positiveNegativePlot.png"
+alt="positive vs negative" />
+<figcaption aria-hidden="true">positive vs negative</figcaption>
+</figure>
 
 | Name     | Negative | Positive | Ratio |
-| :------- | -------: | -------: | ----: |
+|:---------|---------:|---------:|------:|
 | Ashley   |     6705 |    12870 |  1.92 |
 | Laura    |    23947 |    41136 |  1.72 |
 | Sam      |    20885 |    34081 |  1.63 |
@@ -39,9 +46,10 @@ words with either a positive or negative sentiment.
 | Marisha  |    24353 |    31731 |  1.30 |
 | Travis   |    24950 |    31192 |  1.25 |
 
-Again Liam is near the bottom, but Travis still has a lower score.
+We can see that while Liam is again in the bottom half of the table,
+both Marisha and Travis have lower scores.
 
------
+------------------------------------------------------------------------
 
 ### References for lexicons
 
