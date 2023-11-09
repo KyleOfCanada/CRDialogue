@@ -70,7 +70,7 @@ jobs:
 #        run: Rscript -e 'install.packages(c("knitr", "rmarkdown", "tidyverse", "here", "rvest", "lubridate", "googlesheets4", "tidytext", "textdata", "wordcloud", "httr", "effsize", "fmsb", "Hmisc"))'
         run: |
           install.packages("pak")
-          pkg_install(c("knitr", "rmarkdown", "tidyverse", "here", "rvest", "lubridate", "googlesheets4", "tidytext", "textdata", "wordcloud", "httr", "effsize", "fmsb", "Hmisc"))
+          pak::pkg_install(c("knitr", "rmarkdown", "tidyverse", "here", "rvest", "lubridate", "googlesheets4", "tidytext", "textdata", "wordcloud", "httr", "effsize", "fmsb", "Hmisc"))
         shell: Rscript {0}
       - name: make directories
         run: mkdir data/html
