@@ -16,9 +16,12 @@ dat <- bind_rows(datC1, datC2, datC3) %>%
     gamePlay
   )
 
-dat_nrc <- lexicon_nrc(dir = here("cache", "tidytext"), manual_download = TRUE)
-dat_bing <- lexicon_bing(dir = here("cache", "tidytext"), manual_download = TRUE)
-dat_afinn <- lexicon_afinn(dir = here("cache", "tidytext"), manual_download = TRUE)
+dat_nrc <- lexicon_nrc(dir = here("cache", "tidytext"),
+                       manual_download = TRUE)
+dat_bing <- lexicon_bing(dir = here("cache", "tidytext"),
+                         manual_download = TRUE)
+dat_afinn <- lexicon_afinn(dir = here("cache", "tidytext"),
+                           manual_download = TRUE)
 
 #### tokenize text, get sentiments, calc sentiment frequencies ####
 
@@ -169,10 +172,6 @@ sentimentPosNegTable <- posNeg %>%
     Negative = negative,
     Positive = positive,
     Ratio = ratio
-  ) %>%
-  kable(
-    format = "pipe",
-    digits = 2
   )
 
 #### joy vs  sadness ####
@@ -244,10 +243,6 @@ sentimentJoySadTable <- joySad %>%
     Joy = joy,
     Sadness = sadness,
     Ratio = ratio
-  ) %>%
-  kable(
-    format = "pipe",
-    digits = 2
   )
 
 save(sentimentPosNegTable, sentimentJoySadTable,

@@ -7,7 +7,10 @@ output:
 ```{r setup, echo=FALSE, message=FALSE}
 library(knitr)
 library(here)
+library(tidyverse)
 load(here('data', 'sentimentTables.RData'))
+
+knitr::opts_chunk$set(echo = FALSE)
 ```
 
 ### Does Liam play the saddest bois? A word sentiment analysis of cast dialogue
@@ -18,22 +21,106 @@ To answer this I searched the dialogue from the show for words associated with a
 
 ![joyful vs sad](../plots/joySadPlot.png)
 
-`r sentimentJoySadTable`
+`r sentimentJoySadTable %>% kable(format = "pipe", digits = 2)`
 
+```{r}
+liam_rank <- which(sentimentJoySadTable$Name == "Liam")
 
+bottom_half <- liam_rank > (nrow(sentimentJoySadTable) / 2)
 
-We can see that while Liam is in the bottom half, both Travis and Taliesin have lower scores.
+liam_last <- liam_rank == nrow(sentimentJoySadTable)
+
+lower_than_liam <- sentimentJoySadTable$Name[(liam_rank + 1):nrow(sentimentJoySadTable)]
+
+if(liam_last) {
+  joySadText <- "We can see that Liam has the lowest score and is at the bottom of the table."
+} else if(bottom_half) {
+  joySadText <- "We can see that while Liam is in the bottom half of the table, "
+  
+  if(length(lower_than_liam) == 1) {
+    joySadText <- str_c(joySadText,
+                        lower_than_liam,
+                        " has a lower score.")
+  } else if(length(lower_than_liam) == 2) {
+    joySadText <- str_c(joySadText,
+                        "both ",
+                        lower_than_liam[1],
+                        " and ",
+                        lower_than_liam[2],
+                        " have lower scores.")
+  } else {
+    lower_names <- str_c(str_c(lower_than_liam[1:(length(lower_than_liam) - 3)],
+                               sep = ", "),
+                         str_flatten(lower_than_liam[(length(lower_than_liam) - 1):length(lower_than_liam)],
+                               collapse = " and "),
+                         sep = ", ")
+    
+    joySadText <- str_c(joySadText,
+                        lower_names,
+                        " have lower scores.")
+  }
+}
+
+```
+
+`r joySadText`
 
 I also wanted to take a slightly different approach and look at for words with either a positive or negative sentiment.
 
 ![positive vs negative](../plots/positiveNegativePlot.png)
 
 
-`r sentimentPosNegTable`
+`r sentimentPosNegTable %>% kable(format = "pipe", digits = 2)`
 
+```{r}
+liam_rank_n <- which(sentimentPosNegTable$Name == "Liam")
 
+bottom_half_n <- liam_rank_n > (nrow(sentimentPosNegTable) / 2)
 
-Again Liam is near the bottom, but Travis still has a lower score.
+liam_last_n <- liam_rank_n == nrow(sentimentPosNegTable)
+
+lower_than_liam_n <- sentimentPosNegTable$Name[(liam_rank_n + 1):nrow(sentimentPosNegTable)]
+
+if(liam_last_n) {
+  if(liam_last) {
+    posNegText <- "Liam once again has the lowest score and is at the bottom of the table."
+  } else {
+    posNegText <- "Liam has the lowest score and is at the bottom of the table."
+  }
+} else if(bottom_half_n) {
+  if(bottom_half) {
+    posNegText <- "We can see that while Liam is again in the bottom half of the table, "
+  } else {
+    posNegText <- "We can see that while Liam is in the bottom half of the table, "
+  }
+  
+  if(length(lower_than_liam_n) == 1) {
+    posNegText <- str_c(posNegText,
+                        lower_than_liam_n,
+                        " has a lower score.")
+  } else if(length(lower_than_liam_n) == 2) {
+    posNegText <- str_c(posNegText,
+                        "both ",
+                        lower_than_liam_n[1],
+                        " and ",
+                        lower_than_liam_n[2],
+                        " have lower scores.")
+  } else {
+    lower_names <- str_c(str_c(lower_than_liam_n[1:(length(lower_than_liam_n) - 3)],
+                               sep = ", "),
+                        str_flatten(lower_than_liam_n[(length(lower_than_liam_n) - 1):length(lower_than_liam_n)],
+                                     collapse = " and "),
+                         sep = ", ")
+    
+    posNegText <- str_c(posNegText,
+                        lower_names,
+                        " have lower scores.")
+  }
+}
+
+```
+
+`r posNegText`
 
 ***
 
