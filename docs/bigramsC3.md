@@ -94,18 +94,18 @@ each cast member, using tf-idf.
 
 ![Sam](../plots/bigramClouds/C3/C3SAM.png)
 
-| rank | bigram              |
-| ---: | :------------------ |
-|    1 | wizkids.io crminis  |
-|    2 | bolt thrower        |
-|    3 | healing word        |
-|    4 | game store          |
-|    5 | local game          |
-|    6 | cast enhance        |
-|    7 | cast spiritual      |
-|    8 | smiley day          |
-|    9 | bonded blessing     |
-|   10 | sympathetic binding |
+| rank | bigram         |
+| ---: | :------------- |
+|    1 | io crminis     |
+|    2 | dndbeyond link |
+|    3 | wizkids io     |
+|    4 | bolt thrower   |
+|    5 | healing word   |
+|    6 | game store     |
+|    7 | local game     |
+|    8 | cast enhance   |
+|    9 | cast spiritual |
+|   10 | smiley day     |
 
 #### Taliesin
 
