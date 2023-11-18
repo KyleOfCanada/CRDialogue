@@ -5,6 +5,8 @@ library(lubridate)
 
 # Function to convert html to tidy, save as RDS
 htmlHarvest <- function(htmlFile) {
+  print(str_c("Harvesting ", htmlFile))
+  
   html <- read_html(htmlFile)
   
   title <- html %>%
