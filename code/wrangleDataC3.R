@@ -81,9 +81,9 @@ episodeCount <- datC3 %>%
 
   # save txt file
 writeLines(str_c(episodeCount %>% pull(campaign),
-                 episodeCount %>% pull(episode)),
-           here("data", "episodeCount.txt"),
-           sep = "\t")
+                 episodeCount %>% pull(episode),
+                 sep = "\t"),
+           here("data", "episodeCount.txt"))
 
   # save RDS file
 saveRDS(
