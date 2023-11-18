@@ -62,6 +62,7 @@ list.files(here("data", "html"),
            pattern = "\\.html",
            full.names = TRUE
 ) %>%
+  walk(print(.)) %>%
   map(htmlHarvest)
 
 
