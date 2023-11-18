@@ -90,7 +90,7 @@ while true; do
     # If episode downloaded advance episode
     if [ $? == 0 ]; then
         counter=$((counter - 1))
-        episode=$((episode + 1))
+       # episode=$((episode + 1))
         downloaded_episodes=true
     else
         break
