@@ -68,7 +68,7 @@ jobs:
           path: data/html
       - name: decompress html files
         run: |
-          tar xf data/html/html.tar.gz
+          tar -xvf data/html/html.tar.gz
           ls data/html/
       - name: get lexicons
         run: |
