@@ -11,16 +11,16 @@ each cast member, using tf-idf.
 
 | rank | bigram          |
 | ---: | :-------------- |
-|    1 | flame seeds     |
-|    2 | clop clop       |
+|    1 | clop clop       |
+|    2 | flame seeds     |
 |    3 | scorching rays  |
-|    4 | mirthful leap   |
-|    5 | donnie boy      |
-|    6 | wild shape      |
+|    4 | donnie boy      |
+|    5 | wild shape      |
+|    6 | cast daylight   |
 |    7 | cast entangle   |
 |    8 | flame seed      |
-|    9 | flaming shit    |
-|   10 | magical effects |
+|    9 | magical effects |
+|   10 | mirthful leap   |
 
 #### Laura
 
@@ -33,10 +33,10 @@ each cast member, using tf-idf.
 |    3 | lightning bolt    |
 |    4 | cast detect       |
 |    5 | telekinetic shove |
-|    6 | dancing lights    |
-|    7 | cast mage         |
-|    8 | lightning damage  |
-|    9 | la la             |
+|    6 | lightning damage  |
+|    7 | dancing lights    |
+|    8 | la la             |
+|    9 | cast mage         |
 |   10 | dig dig           |
 
 #### Liam
@@ -46,8 +46,8 @@ each cast member, using tf-idf.
 | rank | bigram           |
 | ---: | :--------------- |
 |    1 | superiority die  |
-|    2 | goading attack   |
-|    3 | grasping vine    |
+|    2 | grasping vine    |
+|    3 | goading attack   |
 |    4 | pushing attack   |
 |    5 | action surge     |
 |    6 | orym starts      |
@@ -65,10 +65,10 @@ each cast member, using tf-idf.
 |    1 | mirror image        |
 |    2 | demonic whispers    |
 |    3 | unsettling presence |
-|    4 | send pâté           |
-|    5 | eldritch blasts     |
-|    6 | dream journal       |
-|    7 | eldritch blast      |
+|    4 | eldritch blasts     |
+|    5 | send pâté           |
+|    6 | eldritch blast      |
+|    7 | dream journal       |
 |    8 | scry ball           |
 |    9 | chill touch         |
 |   10 | creepy whispering   |
