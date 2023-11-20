@@ -9,7 +9,7 @@ library(knitr)
 library(here)
 library(tidyverse)
 
-warn_ok <- FALSE
+warn_ok <- NULL
 
 ok_cast <- readRDS(here("data", "ok_cast.rds"))
 dat_ok <- readRDS(here("data", "ok_dat.rds"))
@@ -108,18 +108,20 @@ if(ashley_count_rank == 1) {
 } else if(sum(ok_cast$attended[ok_cast$name %in% higher_count_rank] >
               ok_cast$attended[ok_cast$name == "Ashley"]) == 
           length(higher_count_rank)) {
-  episodes_text <- str_c("However, they were present for more episodes than Ashley, ",
-                         )
+  episodes_text <- str_c("However, they were present for more episodes than Ashley")
   
   if(sum(ok_cast$words[ok_cast$name %in% higher_count_rank] >
               ok_cast$words[ok_cast$name == "Ashley"]) == 
      length(higher_count_rank)) {
     episodes_text <- str_c(episodes_text,
-                           "and have said many more words than Ashley. ")
+                           ", and have said many more words than Ashley. ")
+  } else {
+    episodes_text <- str_c(episodes_text,
+                           ". ")
   }
 } else {
   episodes_text <- ""
-  warn_ok <- TRUE
+  warn_ok <- "episodes_text"
 }
 
 per_ep_text <- "If we look at how many times they said it per episode they were in, "
@@ -166,13 +168,67 @@ if(ok_cast$per_episode[ok_cast$name == "Ashley"] == max(ok_cast$per_episode)) {
   }
 }
 
+per_word_text <- "But if we look at the total number of words they said, "
+
+if(ok_cast$per_word[ok_cast$name == "Ashley"] == max(ok_cast$per_word)) {
+  per_word_text <- str_c(per_word_text,
+                         "we see that Ashley (",
+                         ok_cast$words[ok_cast$name == "Ashley"] %>% 
+                           format(big.mark = ","),
+                         ") said fewer words than ")
+  if(length(higher_count_rank) > 1) {
+    higher_names <- higher_count_rank
+    
+    word_scores <- ok_cast$words[ok_cast$name %in% higher_count_rank]  %>% 
+      format(big.mark = ",") %>% 
+      str_c(sep = ", ")
+    
+    # per_ep_text <- str_c(per_ep_text,
+    #                      str_c(per_ep_names, 
+    #                            " and Ashley averaging "),
+    #                      str_c(per_ep_scores,
+    #                            ok_cast$per_episode[ok_cast$name == "Ashley"][ok_cast$name == "Ashley"] %>% 
+    #                      format(digits = 3),
+    #                            sep = " and "),
+    #                      " respectively. ")
+    
+    word_name_scores <- ""
+    for(i in seq_along(higher_names)) {
+      word_name_scores[i] <- str_c(higher_names[i],
+                                   " (",
+                                   word_scores[i],
+                                   ")")     
+    }
+    
+    if(length(higher_names) < 2) {
+      per_word_text <- str_c(per_word_text,
+                           word_name_scores,
+                           ". ")
+    } else {
+      per_word_text <- str_c(per_word_text,
+                           str_c(word_name_scores[1:(length(word_name_scores) - 1)],
+                                 sep = ", "),
+                           " or ",
+                           word_name_scores[length(word_name_scores)],
+                           ". ")
+    }
+
+  }
+} else {
+  warn_ok <- "per_word_text"
+  per_word_text <- ""
+}
+
 ```
 
 <!-- It turns out that both Laura (`r ok_cast$count[ok_cast$name == "Laura"]`) and Marisha (`r ok_cast$count[ok_cast$name == "Marisha"]`) have said "Okay, Okay, Okay" more times than Ashley (`r ok_cast$count[ok_cast$name == "Ashley"]`). -->
 <!-- However, they both were present for more episodes, and have said many more words than Ashley.  -->
 <!-- If we look at how many times they said it per episode they were in, Laura still comes out on top, averaging `r ok_cast$per_episode[ok_cast$name == "Laura"] %>% format(digits = 3)` "Okay, Okay, Okay"s per episode, with Marisha and Ashley averaging `r ok_cast$per_episode[ok_cast$name == "Marisha"] %>% format(digits = 3)` and `r ok_cast$per_episode[ok_cast$name == "Ashley"] %>% format(digits = 3)` respectively.  -->
-`r rank_text` `r episodes_text` `r per_ep_text`
-But if we look at the total number of words they said, we see that Ashley (`r ok_cast$words[ok_cast$name == "Ashley"] %>% format(big.mark = ",")`) said fewer words than either Laura (`r ok_cast$words[ok_cast$name == "Laura"] %>% format(big.mark = ",")`) or Marisha (`r ok_cast$words[ok_cast$name == "Marisha"] %>% format(big.mark = ",")`). Taking this into account, we find that 1 in every `r ok_cast$one_in_every[ok_cast$name == "Ashley"] %>% round()` words that Ashley said was part of "Okay, Okay, Okay", compared to 1 in every `r ok_cast$one_in_every[ok_cast$name == "Laura"] %>% round()` for Laura, and 1 in every `r ok_cast$one_in_every[ok_cast$name == "Marisha"] %>% round()` for Marisha. So while Ashley may not have said it the most, she did have the highest frequency of "Okay, Okay, Okay" in her dialogue.
+<!-- But if we look at the total number of words they said, we see that Ashley (`r ok_cast$words[ok_cast$name == "Ashley"] %>% format(big.mark = ",")`) said fewer words than either Laura (`r ok_cast$words[ok_cast$name == "Laura"] %>% format(big.mark = ",")`) or Marisha (`r ok_cast$words[ok_cast$name == "Marisha"] %>% format(big.mark = ",")`).  -->
+
+`r rank_text` `r episodes_text` `r per_ep_text` `r per_word_text`
+
+Taking this into account, we find that 1 in every `r ok_cast$one_in_every[ok_cast$name == "Ashley"] %>% round()` words that Ashley said was part of "Okay, Okay, Okay", compared to 1 in every `r ok_cast$one_in_every[ok_cast$name == "Laura"] %>% round()` for Laura, and 1 in every `r ok_cast$one_in_every[ok_cast$name == "Marisha"] %>% round()` for Marisha. So while Ashley may not have said it the most, she did have the highest frequency of "Okay, Okay, Okay" in her dialogue.
 
 Another interesting point is that if we compare the number of times per episode "Okay, Okay, Okay" is said when Ashley is present versus when she is absent, we see that "Okay, Okay, Okay" is said an average of `r dat_Ashley$n$y[dat_Ashley$Ashley == TRUE] %>% format(digits = 3)` times per episode when Ashley is there, and only `r dat_Ashley$n$y[dat_Ashley$Ashley == FALSE] %>% format(digits = 3)` times per episode when she is absent. This is an average increase of `r abs(dat_Ashley$n$y[dat_Ashley$Ashley == FALSE] - dat_Ashley$n$y[dat_Ashley$Ashley == TRUE]) %>% format(digits = 3)` times per episode when Ashley is present, but Ashley herself only averages `r ok_cast$per_episode[ok_cast$name == "Ashley"] %>% format(digits = 3)` "Okay, Okay, Okay"s per episode. This suggests that having Ashley at the table results in the other cast members saying "Okay, Okay, Okay" more often! And a Wilcoxon rank sum test confirms that "Okay, Okay, Okay" is said at a statistically significant higher rate when Ashley is present (*p* = `r wc_Ashley$p.value %>% format(digits = 3)`). However, as shown in the next section, it is difficult to untangle this from the change in the frequency of "Okay, Okay, Okay" over the two campaigns, and Ashley's more frequent presence in the later episodes of campaign 2.
 
