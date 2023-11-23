@@ -63,15 +63,15 @@ each cast member, using tf-idf.
 | rank | bigram              |
 | ---: | :------------------ |
 |    1 | mirror image        |
-|    2 | demonic whispers    |
-|    3 | unsettling presence |
-|    4 | eldritch blasts     |
-|    5 | send pâté           |
-|    6 | eldritch blast      |
-|    7 | dream journal       |
-|    8 | scry ball           |
-|    9 | chill touch         |
-|   10 | creepy whispering   |
+|    2 | unsettling presence |
+|    3 | eldritch blasts     |
+|    4 | send pâté           |
+|    5 | eldritch blast      |
+|    6 | dream journal       |
+|    7 | scry ball           |
+|    8 | chill touch         |
+|    9 | creepy whispering   |
+|   10 | cast spider         |
 
 #### Matt
 
@@ -120,23 +120,23 @@ each cast member, using tf-idf.
 |    5 | reckless attack |
 |    6 | funny feeling   |
 |    7 | god fucking     |
-|    8 | living fuck     |
-|    9 | rainbow sparks  |
-|   10 | wormhole strike |
+|    8 | rainbow sparks  |
+|    9 | wormhole strike |
+|   10 | living fuck     |
 
 #### Travis
 
 ![Travis](../plots/bigramClouds/C3/C3TRAVIS.png)
 
-| rank | bigram        |
-| ---: | :------------ |
-|    1 | crimson rite  |
-|    2 | hunter’s bane |
-|    3 | wood chisel   |
-|    4 | blood curse   |
-|    5 | bloated agony |
-|    6 | fey fiend     |
-|    7 | cast shatter  |
-|    8 | boop boop     |
-|    9 | 1d8 necrotic  |
-|   10 | fey fiends    |
+| rank | bigram                |
+| ---: | :-------------------- |
+|    1 | crimson rite          |
+|    2 | hunter’s bane         |
+|    3 | wood chisel           |
+|    4 | blood curse           |
+|    5 | bloated agony         |
+|    6 | fey fiend             |
+|    7 | cast shatter          |
+|    8 | fey fiends            |
+|    9 | hybrid transformation |
+|   10 | boop boop             |
