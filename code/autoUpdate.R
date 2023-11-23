@@ -62,7 +62,7 @@ list.files(here("data", "html"),
            pattern = "\\.html",
            full.names = TRUE
 ) %>%
-  walk(cat(str_c("\tFile: ", ., "\n"))) %>%
+  # walk(cat(str_c("\tFile: ", ., "\n"))) %>%
   map(htmlHarvest)
 
 
