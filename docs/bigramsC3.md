@@ -28,10 +28,10 @@ each cast member, using tf-idf.
 
 | rank | bigram            |
 | ---: | :---------------- |
-|    1 | mage armor        |
-|    2 | cast fly          |
-|    3 | lightning bolt    |
-|    4 | cast detect       |
+|    1 | cast fly          |
+|    2 | mage armor        |
+|    3 | cast detect       |
+|    4 | lightning bolt    |
 |    5 | telekinetic shove |
 |    6 | cast mage         |
 |    7 | dancing lights    |
@@ -52,9 +52,9 @@ each cast member, using tf-idf.
 |    5 | action surge     |
 |    6 | orym starts      |
 |    7 | tripping attack  |
-|    8 | dead lady        |
-|    9 | disarming attack |
-|   10 | pull ups         |
+|    8 | flea jump        |
+|    9 | dead lady        |
+|   10 | disarming attack |
 
 #### Marisha
 
@@ -63,15 +63,15 @@ each cast member, using tf-idf.
 | rank | bigram              |
 | ---: | :------------------ |
 |    1 | mirror image        |
-|    2 | unsettling presence |
-|    3 | eldritch blasts     |
-|    4 | send pâté           |
+|    2 | send pâté           |
+|    3 | unsettling presence |
+|    4 | eldritch blasts     |
 |    5 | eldritch blast      |
-|    6 | dream journal       |
-|    7 | scry ball           |
-|    8 | chill touch         |
-|    9 | creepy whispering   |
-|   10 | cast spider         |
+|    6 | cast spider         |
+|    7 | dream journal       |
+|    8 | scry ball           |
+|    9 | chill touch         |
+|   10 | la la               |
 
 #### Matt
 
@@ -82,8 +82,8 @@ each cast member, using tf-idf.
 |    1 | damage reduced     |
 |    2 | push past          |
 |    3 | leans forward      |
-|    4 | faint bit          |
-|    5 | acrobatics check   |
+|    4 | acrobatics check   |
+|    5 | faint bit          |
 |    6 | persuasion check   |
 |    7 | bludgeoning damage |
 |    8 | short time         |
@@ -96,16 +96,16 @@ each cast member, using tf-idf.
 
 | rank | bigram         |
 | ---: | :------------- |
-|    1 | io crminis     |
-|    2 | wizkids io     |
+|    1 | wizkids io     |
+|    2 | io crminis     |
 |    3 | dndbeyond link |
 |    4 | bolt thrower   |
 |    5 | healing word   |
 |    6 | game store     |
 |    7 | local game     |
 |    8 | cast enhance   |
-|    9 | cast spiritual |
-|   10 | smiley day     |
+|    9 | smiley day     |
+|   10 | cast spiritual |
 
 #### Taliesin
 
@@ -114,9 +114,9 @@ each cast member, using tf-idf.
 | rank | bigram          |
 | ---: | :-------------- |
 |    1 | chaos burst     |
-|    2 | fucking damn    |
-|    3 | fuck’s sake     |
-|    4 | fuck’s sakes    |
+|    2 | fuck’s sakes    |
+|    3 | fucking damn    |
+|    4 | fuck’s sake     |
 |    5 | reckless attack |
 |    6 | funny feeling   |
 |    7 | god fucking     |
@@ -132,8 +132,8 @@ each cast member, using tf-idf.
 | ---: | :-------------------- |
 |    1 | crimson rite          |
 |    2 | hunter’s bane         |
-|    3 | wood chisel           |
-|    4 | blood curse           |
+|    3 | blood curse           |
+|    4 | wood chisel           |
 |    5 | bloated agony         |
 |    6 | hybrid transformation |
 |    7 | fey fiend             |

@@ -42,4 +42,4 @@ included.
 
 #### Fun facts
 
-  - So far, over 2.9 million words have been spoken during Campaign 3
+  - So far, over 2.94 million words have been spoken during Campaign 3
