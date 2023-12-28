@@ -85,8 +85,8 @@ each cast member, using tf-idf.
 |    4 | acrobatics check   |
 |    5 | faint bit          |
 |    6 | persuasion check   |
-|    7 | bludgeoning damage |
-|    8 | short time         |
+|    7 | short time         |
+|    8 | bludgeoning damage |
 |    9 | hits roll          |
 |   10 | mountain range     |
 
@@ -94,18 +94,18 @@ each cast member, using tf-idf.
 
 ![Sam](../plots/bigramClouds/C3/C3SAM.png)
 
-| rank | bigram         |
-| ---: | :------------- |
-|    1 | wizkids io     |
-|    2 | io crminis     |
-|    3 | dndbeyond link |
-|    4 | bolt thrower   |
-|    5 | healing word   |
-|    6 | game store     |
-|    7 | local game     |
-|    8 | cast enhance   |
-|    9 | smiley day     |
-|   10 | cast spiritual |
+| rank | bigram              |
+| ---: | :------------------ |
+|    1 | wizkids io          |
+|    2 | io crminis          |
+|    3 | dndbeyond link      |
+|    4 | bolt thrower        |
+|    5 | healing word        |
+|    6 | game store          |
+|    7 | local game          |
+|    8 | cast enhance        |
+|    9 | cast spiritual      |
+|   10 | sympathetic binding |
 
 #### Taliesin
 
