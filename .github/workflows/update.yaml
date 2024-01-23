@@ -23,14 +23,22 @@ jobs:
         id: new_files
         run: |
           bash ./tmp/getNewEpisodes.sh
+      # - name: notification
+      #   if: ${{ env.new_episode == 'false' }}
+      #   env:
+      #     IFTTT_KEY: ${{ secrets.IFTTT_KEY }}
+      #   run: |
+      #     data='{"value1": "Error", "value2": "No new episode"}'
+      #     webhook_url="https://maker.ifttt.com/trigger/CRDiaglogue+update/with/key/${IFTTT_KEY}"
+      #     curl -X POST -H "Content-Type: application/json" -d "$data" "$webhook_url"
       - name: notification
-        if: ${{ env.new_episode == 'false' }}
-        env:
-          IFTTT_KEY: ${{ secrets.IFTTT_KEY }}
-        run: |
-          data='{"value1": "Error", "value2": "No new episode"}'
-          webhook_url="https://maker.ifttt.com/trigger/CRDiaglogue+update/with/key/${IFTTT_KEY}"
-          curl -X POST -H "Content-Type: application/json" -d "$data" "$webhook_url"
+        uses: notify-events/github-action@main
+        with:
+          token: ${{ secrets.NE_TOKEN }}
+          title: CR Dialogue
+          text: No new episode
+          priority: info
+          level: normal 
       - name: compress html
         if: ${{ env.new_episode == 'true' }}
         run: |
@@ -90,22 +98,35 @@ jobs:
           cd afinn
           curl -L -O http://www2.imm.dtu.dk/pubdb/views/edoc_download.php/6010/zip/imm6010.zip
           unzip imm6010.zip
-      - name: auto update and notification
+      - name: auto update
         env:
-          IFTTT_KEY: ${{ secrets.IFTTT_KEY }}
+          # IFTTT_KEY: ${{ secrets.IFTTT_KEY }}
           NEW_EP: ${{ needs.check_eps.outputs.new_ep }}
         run: |
           source("./code/autoUpdate.R")
-          source("./code/notification.R")
+          # source("./code/notification.R")
         shell: Rscript {0}
+      - name: episode number
+        id: ep
+        run: |
+          ep=`cat read_file.txt`  
+          echo "EP=$ep" >> $GITHUB_OUTPUT
+      - name: notification
+        uses: notify-events/github-action@main
+        with:
+          token: ${{ secrets.NE_TOKEN }}
+          title: CR Dialogue
+          text: New episode ${{ steps.ep.outputs.EP }}
+          priority: info
+          level: normal 
       - name: commit changes
         run: |
           git config --local user.name "$GITHUB_ACTOR"
           git config --local user.email "$GITHUB_ACTOR@users.noreply.github.com"
           git add .
           git commit -m 'auto update' || echo "No changes to commit"
-      - name: push changes
-        uses: ad-m/github-push-action@master
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: main
+      # - name: push changes
+      #   uses: ad-m/github-push-action@master
+      #   with:
+      #     github_token: ${{ secrets.GITHUB_TOKEN }}
+      #     branch: main
