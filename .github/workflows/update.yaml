@@ -109,7 +109,7 @@ jobs:
       - name: episode number
         id: ep
         run: |
-          ep=`cat read_file.txt`  
+          ep=`cat data/episodeCount.txt`  
           echo "EP=$ep" >> $GITHUB_OUTPUT
       - name: notification
         uses: notify-events/github-action@main
