@@ -35,7 +35,7 @@ jobs:
         uses: notify-events/github-action@main
         with:
           token: ${{ secrets.NE_TOKEN }}
-          title: CR Dialogue
+          title: CR Dialogue No new episode
           text: No new episode
           level: info
           priority: normal 
@@ -115,7 +115,7 @@ jobs:
         uses: notify-events/github-action@main
         with:
           token: ${{ secrets.NE_TOKEN }}
-          title: CR Dialogue
+          title: CR Dialogue New episode
           text: New episode ${{ steps.ep.outputs.EP }}
           level: info
           priotiry: normal 
