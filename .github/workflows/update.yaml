@@ -37,8 +37,8 @@ jobs:
           token: ${{ secrets.NE_TOKEN }}
           title: CR Dialogue
           text: No new episode
-          priority: info
-          level: normal 
+          level: info
+          priority: normal 
       - name: compress html
         if: ${{ env.new_episode == 'true' }}
         run: |
@@ -117,8 +117,8 @@ jobs:
           token: ${{ secrets.NE_TOKEN }}
           title: CR Dialogue
           text: New episode ${{ steps.ep.outputs.EP }}
-          priority: info
-          level: normal 
+          level: info
+          priotiry: normal 
       - name: commit changes
         run: |
           git config --local user.name "$GITHUB_ACTOR"
