@@ -19,7 +19,7 @@ each cast member, using tf-idf.
 |    6 | cast daylight  |
 |    7 | cast entangle  |
 |    8 | flame seed     |
-|    9 | mirthful leap  |
+|    9 | scorching ray  |
 |   10 | brain fart     |
 
 #### Laura
@@ -28,10 +28,10 @@ each cast member, using tf-idf.
 
 | rank | bigram            |
 | ---: | :---------------- |
-|    1 | cast fly          |
-|    2 | mage armor        |
-|    3 | cast detect       |
-|    4 | lightning bolt    |
+|    1 | mage armor        |
+|    2 | cast fly          |
+|    3 | lightning bolt    |
+|    4 | cast detect       |
 |    5 | telekinetic shove |
 |    6 | cast mage         |
 |    7 | dancing lights    |
@@ -46,13 +46,13 @@ each cast member, using tf-idf.
 | rank | bigram           |
 | ---: | :--------------- |
 |    1 | superiority die  |
-|    2 | grasping vine    |
-|    3 | goading attack   |
-|    4 | pushing attack   |
+|    2 | pushing attack   |
+|    3 | grasping vine    |
+|    4 | goading attack   |
 |    5 | action surge     |
-|    6 | orym starts      |
-|    7 | tripping attack  |
-|    8 | flea jump        |
+|    6 | flea jump        |
+|    7 | orym starts      |
+|    8 | tripping attack  |
 |    9 | dead lady        |
 |   10 | disarming attack |
 
@@ -64,12 +64,12 @@ each cast member, using tf-idf.
 | ---: | :------------------ |
 |    1 | mirror image        |
 |    2 | send pâté           |
-|    3 | unsettling presence |
-|    4 | eldritch blasts     |
-|    5 | eldritch blast      |
-|    6 | cast spider         |
-|    7 | dream journal       |
-|    8 | scry ball           |
+|    3 | eldritch blasts     |
+|    4 | unsettling presence |
+|    5 | scry ball           |
+|    6 | eldritch blast      |
+|    7 | cast spider         |
+|    8 | dream journal       |
 |    9 | chill touch         |
 |   10 | la la               |
 
@@ -84,9 +84,9 @@ each cast member, using tf-idf.
 |    3 | leans forward      |
 |    4 | acrobatics check   |
 |    5 | faint bit          |
-|    6 | persuasion check   |
+|    6 | bludgeoning damage |
 |    7 | short time         |
-|    8 | bludgeoning damage |
+|    8 | persuasion check   |
 |    9 | hits roll          |
 |   10 | mountain range     |
 
@@ -94,18 +94,18 @@ each cast member, using tf-idf.
 
 ![Sam](../plots/bigramClouds/C3/C3SAM.png)
 
-| rank | bigram              |
-| ---: | :------------------ |
-|    1 | wizkids io          |
-|    2 | io crminis          |
-|    3 | dndbeyond link      |
-|    4 | bolt thrower        |
-|    5 | healing word        |
-|    6 | game store          |
-|    7 | local game          |
-|    8 | cast enhance        |
-|    9 | cast spiritual      |
-|   10 | sympathetic binding |
+| rank | bigram          |
+| ---: | :-------------- |
+|    1 | wizkids io      |
+|    2 | io crminis      |
+|    3 | dndbeyond link  |
+|    4 | healing word    |
+|    5 | wizkids minis   |
+|    6 | game store      |
+|    7 | local game      |
+|    8 | cast enhance    |
+|    9 | bonded blessing |
+|   10 | cast spiritual  |
 
 #### Taliesin
 
