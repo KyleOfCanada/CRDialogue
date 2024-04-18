@@ -14,8 +14,8 @@ each cast member, using tf-idf.
 |    1 | flame seeds    |
 |    2 | scorching rays |
 |    3 | clop clop      |
-|    4 | donnie boy     |
-|    5 | wild shape     |
+|    4 | wild shape     |
+|    5 | donnie boy     |
 |    6 | cast daylight  |
 |    7 | cast entangle  |
 |    8 | extra d8       |
@@ -33,9 +33,9 @@ each cast member, using tf-idf.
 |    3 | lightning bolt    |
 |    4 | cast detect       |
 |    5 | cast mage         |
-|    6 | telekinetic shove |
+|    6 | la la             |
 |    7 | dancing lights    |
-|    8 | la la             |
+|    8 | telekinetic shove |
 |    9 | dig dig           |
 |   10 | flash white       |
 
@@ -62,16 +62,16 @@ each cast member, using tf-idf.
 
 | rank | bigram              |
 | ---: | :------------------ |
-|    1 | mirror image        |
-|    2 | eldritch blasts     |
-|    3 | unsettling presence |
+|    1 | unsettling presence |
+|    2 | mirror image        |
+|    3 | eldritch blasts     |
 |    4 | scry ball           |
-|    5 | send pâté           |
-|    6 | cast spider         |
-|    7 | eldritch blast      |
-|    8 | dream journal       |
-|    9 | chill touch         |
-|   10 | la la               |
+|    5 | eldritch blast      |
+|    6 | dream journal       |
+|    7 | send pâté           |
+|    8 | chill touch         |
+|    9 | la la               |
+|   10 | creepy whispering   |
 
 #### Matt
 
@@ -80,14 +80,14 @@ each cast member, using tf-idf.
 | rank | bigram             |
 | ---: | :----------------- |
 |    1 | damage reduced     |
-|    2 | push past          |
-|    3 | leans forward      |
-|    4 | acrobatics check   |
-|    5 | faint bit          |
-|    6 | bludgeoning damage |
-|    7 | mountain range     |
-|    8 | persuasion check   |
-|    9 | hits roll          |
+|    2 | leans forward      |
+|    3 | push past          |
+|    4 | faint bit          |
+|    5 | bludgeoning damage |
+|    6 | persuasion check   |
+|    7 | hits roll          |
+|    8 | mountain range     |
+|    9 | acrobatics check   |
 |   10 | quick glance       |
 
 #### Sam
@@ -104,8 +104,8 @@ each cast member, using tf-idf.
 |    6 | game store          |
 |    7 | local game          |
 |    8 | cast enhance        |
-|    9 | cast spiritual      |
-|   10 | sympathetic binding |
+|    9 | sympathetic binding |
+|   10 | cast spiritual      |
 
 #### Taliesin
 
@@ -113,16 +113,16 @@ each cast member, using tf-idf.
 
 | rank | bigram           |
 | ---: | :--------------- |
-|    1 | chaos burst      |
-|    2 | candela obscura  |
-|    3 | fuck’s sakes     |
-|    4 | fucking damn     |
-|    5 | fuck’s sake      |
-|    6 | mysterious music |
-|    7 | tense mysterious |
-|    8 | reckless attack  |
-|    9 | funny feeling    |
-|   10 | god fucking      |
+|    1 | candela obscura  |
+|    2 | tense mysterious |
+|    3 | core rulebook    |
+|    4 | obscura core     |
+|    5 | chaos burst      |
+|    6 | fuck’s sakes     |
+|    7 | fucking damn     |
+|    8 | mysterious music |
+|    9 | role shop        |
+|   10 | music tense      |
 
 #### Travis
 
@@ -131,12 +131,12 @@ each cast member, using tf-idf.
 | rank | bigram                |
 | ---: | :-------------------- |
 |    1 | crimson rite          |
-|    2 | hunter’s bane         |
-|    3 | blood curse           |
+|    2 | blood curse           |
+|    3 | hunter’s bane         |
 |    4 | wood chisel           |
 |    5 | bloated agony         |
 |    6 | cast shatter          |
 |    7 | hybrid transformation |
-|    8 | fey fiend             |
-|    9 | grim psychometry      |
-|   10 | fey fiends            |
+|    8 | fey fiends            |
+|    9 | fey fiend             |
+|   10 | grim psychometry      |
