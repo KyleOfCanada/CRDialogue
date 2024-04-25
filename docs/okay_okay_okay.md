@@ -36,18 +36,18 @@ Okay, Okay” in her dialogue.
 
 Another interesting point is that if we compare the number of times per
 episode “Okay, Okay, Okay” is said when Ashley is present versus when
-she is absent, we see that “Okay, Okay, Okay” is said an average of 3.67
-times per episode when Ashley is there, and only 1.37 times per episode
-when she is absent. This is an average increase of 2.3 times per episode
-when Ashley is present, but Ashley herself only averages 0.907 “Okay,
-Okay, Okay”s per episode. This suggests that having Ashley at the table
-results in the other cast members saying “Okay, Okay, Okay” more often\!
-And a Wilcoxon rank sum test confirms that “Okay, Okay, Okay” is said at
-a statistically significant higher rate when Ashley is present (*p* =
-6.21e-08). However, as shown in the next section, it is difficult to
-untangle this from the change in the frequency of “Okay, Okay, Okay”
-over the two campaigns, and Ashley’s more frequent presence in the later
-episodes of campaign 2.
+she is absent, we see that “Okay, Okay, Okay” is said an average of
+3.67, NA times per episode when Ashley is there, and only 1.37, NA times
+per episode when she is absent. This is an average increase of 2.3, NA
+times per episode when Ashley is present, but Ashley herself only
+averages 0.907 “Okay, Okay, Okay”s per episode. This suggests that
+having Ashley at the table results in the other cast members saying
+“Okay, Okay, Okay” more often\! And a Wilcoxon rank sum test confirms
+that “Okay, Okay, Okay” is said at a statistically significant higher
+rate when Ashley is present (*p* = 6.21e-08). However, as shown in the
+next section, it is difficult to untangle this from the change in the
+frequency of “Okay, Okay, Okay” over the two campaigns, and Ashley’s
+more frequent presence in the later episodes of campaign 2.
 
 #### Has the use of “Okay, Okay, Okay” changed over time?
 
