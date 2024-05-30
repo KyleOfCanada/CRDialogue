@@ -13,14 +13,14 @@ each cast member, using tf-idf.
 | ---: | :------------- |
 |    1 | flame seeds    |
 |    2 | scorching rays |
-|    3 | clop clop      |
-|    4 | wild shape     |
+|    3 | wild shape     |
+|    4 | clop clop      |
 |    5 | donnie boy     |
 |    6 | cast daylight  |
 |    7 | cast entangle  |
 |    8 | extra d8       |
-|    9 | scorching ray  |
-|   10 | flame seed     |
+|    9 | mad goofin     |
+|   10 | scorching ray  |
 
 #### Laura
 
@@ -30,31 +30,31 @@ each cast member, using tf-idf.
 | ---: | :---------------- |
 |    1 | mage armor        |
 |    2 | cast fly          |
-|    3 | lightning bolt    |
-|    4 | cast detect       |
+|    3 | cast detect       |
+|    4 | lightning bolt    |
 |    5 | cast mage         |
-|    6 | la la             |
-|    7 | dancing lights    |
-|    8 | telekinetic shove |
-|    9 | dig dig           |
-|   10 | flash white       |
+|    6 | dancing lights    |
+|    7 | telekinetic shove |
+|    8 | flash white       |
+|    9 | 3rd level         |
+|   10 | cast sending      |
 
 #### Liam
 
 ![Liam](../plots/bigramClouds/C3/C3LIAM.png)
 
-| rank | bigram          |
-| ---: | :-------------- |
-|    1 | superiority die |
-|    2 | pushing attack  |
-|    3 | grasping vine   |
-|    4 | goading attack  |
-|    5 | action surge    |
-|    6 | tripping attack |
-|    7 | toy sword       |
-|    8 | flea jump       |
-|    9 | orym starts     |
-|   10 | dead lady       |
+| rank | bigram           |
+| ---: | :--------------- |
+|    1 | superiority die  |
+|    2 | pushing attack   |
+|    3 | goading attack   |
+|    4 | grasping vine    |
+|    5 | action surge     |
+|    6 | tripping attack  |
+|    7 | disarming attack |
+|    8 | toy sword        |
+|    9 | flea jump        |
+|   10 | orym starts      |
 
 #### Marisha
 
@@ -62,15 +62,15 @@ each cast member, using tf-idf.
 
 | rank | bigram              |
 | ---: | :------------------ |
-|    1 | unsettling presence |
-|    2 | mirror image        |
+|    1 | mirror image        |
+|    2 | unsettling presence |
 |    3 | eldritch blasts     |
 |    4 | scry ball           |
 |    5 | eldritch blast      |
 |    6 | dream journal       |
-|    7 | send pâté           |
-|    8 | chill touch         |
-|    9 | la la               |
+|    7 | yeah laughs         |
+|    8 | send pâté           |
+|    9 | chill touch         |
 |   10 | creepy whispering   |
 
 #### Matt
@@ -83,8 +83,8 @@ each cast member, using tf-idf.
 |    2 | leans forward      |
 |    3 | push past          |
 |    4 | faint bit          |
-|    5 | bludgeoning damage |
-|    6 | persuasion check   |
+|    5 | persuasion check   |
+|    6 | bludgeoning damage |
 |    7 | hits roll          |
 |    8 | mountain range     |
 |    9 | acrobatics check   |
@@ -94,35 +94,35 @@ each cast member, using tf-idf.
 
 ![Sam](../plots/bigramClouds/C3/C3SAM.png)
 
-| rank | bigram              |
-| ---: | :------------------ |
-|    1 | wizkids io          |
-|    2 | io crminis          |
-|    3 | dndbeyond link      |
-|    4 | wizkids minis       |
-|    5 | bonded blessing     |
-|    6 | game store          |
-|    7 | local game          |
-|    8 | cast enhance        |
-|    9 | sympathetic binding |
-|   10 | cast spiritual      |
+| rank | bigram               |
+| ---: | :------------------- |
+|    1 | dndbeyond link       |
+|    2 | bonded blessing      |
+|    3 | io crminis           |
+|    4 | sympathetic binding  |
+|    5 | game store           |
+|    6 | local game           |
+|    7 | cast enhance         |
+|    8 | wizkids io           |
+|    9 | cast spiritual       |
+|   10 | sympathetically bind |
 
 #### Taliesin
 
 ![Taliesin](../plots/bigramClouds/C3/C3TALIESIN.png)
 
-| rank | bigram           |
-| ---: | :--------------- |
-|    1 | candela obscura  |
-|    2 | tense mysterious |
-|    3 | core rulebook    |
-|    4 | obscura core     |
-|    5 | chaos burst      |
-|    6 | fuck’s sakes     |
-|    7 | fucking damn     |
-|    8 | mysterious music |
-|    9 | role shop        |
-|   10 | music tense      |
+| rank | bigram            |
+| ---: | :---------------- |
+|    1 | candela obscura   |
+|    2 | tense mysterious  |
+|    3 | core rulebook     |
+|    4 | obscura core      |
+|    5 | mysterious music  |
+|    6 | music tense       |
+|    7 | chaos burst       |
+|    8 | fucking damn      |
+|    9 | fuck’s sakes      |
+|   10 | clacking peaceful |
 
 #### Travis
 
@@ -134,9 +134,9 @@ each cast member, using tf-idf.
 |    2 | blood curse           |
 |    3 | hunter’s bane         |
 |    4 | wood chisel           |
-|    5 | bloated agony         |
-|    6 | cast shatter          |
+|    5 | cast shatter          |
+|    6 | bloated agony         |
 |    7 | hybrid transformation |
-|    8 | fey fiends            |
-|    9 | fey fiend             |
-|   10 | grim psychometry      |
+|    8 | grim psychometry      |
+|    9 | fey fiends            |
+|   10 | fey fiend             |

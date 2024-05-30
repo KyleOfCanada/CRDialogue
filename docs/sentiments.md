@@ -13,13 +13,13 @@ cast member and plotted it.
 
 | Name     |   Joy | Sadness | Ratio |
 | :------- | ----: | ------: | ----: |
-| Ashley   |  7150 |    2770 |  2.58 |
-| Laura    | 19923 |    9671 |  2.06 |
-| Sam      | 17927 |    9311 |  1.93 |
-| Travis   | 16001 |    9358 |  1.71 |
-| Marisha  | 15370 |    9019 |  1.70 |
-| Liam     | 12753 |    7849 |  1.62 |
-| Taliesin | 14715 |    9862 |  1.49 |
+| Ashley   |  7392 |    2876 |  2.57 |
+| Laura    | 20117 |    9785 |  2.06 |
+| Sam      | 18017 |    9344 |  1.93 |
+| Travis   | 16220 |    9462 |  1.71 |
+| Marisha  | 15598 |    9169 |  1.70 |
+| Liam     | 12905 |    7989 |  1.62 |
+| Taliesin | 14991 |   10035 |  1.49 |
 
 We can see that while Liam is in the bottom half of the table, Taliesin
 has a lower score.
@@ -31,13 +31,13 @@ words with either a positive or negative sentiment.
 
 | Name     | Negative | Positive | Ratio |
 | :------- | -------: | -------: | ----: |
-| Ashley   |     7429 |    14464 |  1.95 |
-| Laura    |    25158 |    42950 |  1.71 |
-| Sam      |    21858 |    35708 |  1.63 |
-| Taliesin |    24094 |    32834 |  1.36 |
-| Liam     |    20359 |    27170 |  1.33 |
-| Marisha  |    25466 |    33188 |  1.30 |
-| Travis   |    26191 |    32611 |  1.25 |
+| Ashley   |     7766 |    14868 |  1.91 |
+| Laura    |    25500 |    43356 |  1.70 |
+| Sam      |    21955 |    35841 |  1.63 |
+| Taliesin |    24645 |    33372 |  1.35 |
+| Liam     |    20660 |    27459 |  1.33 |
+| Marisha  |    25897 |    33620 |  1.30 |
+| Travis   |    26517 |    32970 |  1.24 |
 
 We can see that while Liam is again in the bottom half of the table,
 both Marisha and Travis have lower scores.
